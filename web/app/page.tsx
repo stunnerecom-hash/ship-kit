@@ -64,6 +64,8 @@ export default function Home() {
         © {new Date().getFullYear()} {APP}. Built with ShipKit.
         {" · "}
         <a href="/suppliers" className="hover:text-gray-400 underline underline-offset-2">Become a supplier</a>
+        {" · "}
+        <a href="/installers" className="hover:text-gray-400 underline underline-offset-2">Become an installer</a>
       </footer>
     </main>
   );

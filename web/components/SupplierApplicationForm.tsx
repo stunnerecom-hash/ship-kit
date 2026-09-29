@@ -1,20 +1,14 @@
 "use client";
 import { useState } from "react";
 import { SUPPLIER_CATEGORIES, SupplierCategory } from "@/lib/suppliers";
-
-type Status = "idle" | "loading" | "success" | "error";
-
-const INPUT =
-  "w-full px-4 py-3 rounded-xl bg-gray-900 border border-gray-700 text-white placeholder-gray-500 focus:outline-none focus:border-blue-500 transition-colors";
+import {
+  ChipGroup, FormStatus, INPUT, SubmitRow, SuccessBanner, formReader, submitApplication, toggle,
+} from "@/components/ApplicationForm";
 
 export default function SupplierApplicationForm() {
-  const [status,  setStatus]  = useState<Status>("idle");
+  const [status,  setStatus]  = useState<FormStatus>("idle");
   const [message, setMessage] = useState("");
   const [categories, setCategories] = useState<SupplierCategory[]>([]);
-
-  function toggleCategory(id: SupplierCategory) {
-    setCategories((prev) => (prev.includes(id) ? prev.filter((c) => c !== id) : [...prev, id]));
-  }
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -23,53 +17,28 @@ export default function SupplierApplicationForm() {
       setMessage("Pick at least one product category.");
       return;
     }
-    const form = new FormData(e.currentTarget);
-    const text = (k: string) => String(form.get(k) ?? "").trim();
-    const int  = (k: string) => (text(k) ? Number(text(k)) : undefined);
+    const { text, int, checked } = formReader(e.currentTarget);
 
     setStatus("loading");
-    try {
-      const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL ?? "";
-      const res = await fetch(`${backendUrl}/api/v1/suppliers/apply`, {
-        method:  "POST",
-        headers: { "Content-Type": "application/json" },
-        body:    JSON.stringify({
-          companyName:    text("companyName"),
-          contactName:    text("contactName"),
-          email:          text("email"),
-          phone:          text("phone"),
-          website:        text("website"),
-          country:        text("country"),
-          categories,
-          offersDropship: form.get("offersDropship") === "on",
-          shipsToUS:      form.get("shipsToUS") === "on",
-          moq:            int("moq"),
-          leadTimeDays:   int("leadTimeDays"),
-          message:        text("message"),
-        }),
-      });
-      if (res.ok) {
-        setStatus("success");
-        setMessage("Application received. Our sourcing team will review it and get back to you.");
-      } else {
-        const body = (await res.json()) as { error?: string };
-        setStatus("error");
-        setMessage(body.error ?? "Something went wrong. Try again.");
-      }
-    } catch {
-      setStatus("error");
-      setMessage("Could not connect. Check your internet and try again.");
-    }
+    const error = await submitApplication("/api/v1/suppliers/apply", {
+      companyName:    text("companyName"),
+      contactName:    text("contactName"),
+      email:          text("email"),
+      phone:          text("phone"),
+      website:        text("website"),
+      country:        text("country"),
+      categories,
+      offersDropship: checked("offersDropship"),
+      shipsToUS:      checked("shipsToUS"),
+      moq:            int("moq"),
+      leadTimeDays:   int("leadTimeDays"),
+      message:        text("message"),
+    });
+    setStatus(error ? "error" : "success");
+    setMessage(error ?? "Application received. Our sourcing team will review it and get back to you.");
   }
 
-  if (status === "success") {
-    return (
-      <div className="flex items-center gap-2 px-6 py-4 rounded-xl bg-green-500/10 border border-green-500/30 text-green-400">
-        <span>✓</span>
-        <span>{message}</span>
-      </div>
-    );
-  }
+  if (status === "success") return <SuccessBanner message={message} />;
 
   return (
     <form onSubmit={handleSubmit} className="grid gap-5">
@@ -82,29 +51,12 @@ export default function SupplierApplicationForm() {
         <input name="country" required minLength={2} maxLength={100} placeholder="Country *" className={INPUT} />
       </div>
 
-      <fieldset>
-        <legend className="text-sm text-gray-400 mb-3">What do you supply? *</legend>
-        <div className="flex flex-wrap gap-2">
-          {SUPPLIER_CATEGORIES.map((c) => {
-            const on = categories.includes(c.id);
-            return (
-              <button
-                key={c.id}
-                type="button"
-                aria-pressed={on}
-                onClick={() => toggleCategory(c.id)}
-                className={`px-3 py-1.5 rounded-full border text-sm transition-colors ${
-                  on
-                    ? "border-blue-500 bg-blue-500/15 text-blue-300"
-                    : "border-gray-700 text-gray-400 hover:border-gray-500"
-                }`}
-              >
-                {c.label}
-              </button>
-            );
-          })}
-        </div>
-      </fieldset>
+      <ChipGroup
+        legend="What do you supply? *"
+        options={SUPPLIER_CATEGORIES}
+        selected={categories}
+        onToggle={(id) => setCategories((prev) => toggle(prev, id))}
+      />
 
       <div className="grid sm:grid-cols-2 gap-4">
         <input name="moq" type="number" min={1} step={1} placeholder="Minimum order quantity (units)" className={INPUT} />
@@ -128,14 +80,7 @@ export default function SupplierApplicationForm() {
         className={INPUT}
       />
 
-      <button
-        type="submit"
-        disabled={status === "loading"}
-        className="px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500 disabled:opacity-50 font-semibold transition-colors"
-      >
-        {status === "loading" ? "Submitting..." : "Apply as a supplier"}
-      </button>
-      {status === "error" && <p className="text-red-400 text-sm">{message}</p>}
+      <SubmitRow status={status} message={message} idle="Apply as a supplier" busy="Submitting..." />
     </form>
   );
 }

@@ -28,7 +28,8 @@ model WaitlistEntry {
   @@map("waitlist")
 }
 
-enum SupplierStatus {
+// Shared review workflow for supplier and installer applications.
+enum ApplicationStatus {
   APPLIED
   REVIEWING
   APPROVED
@@ -36,27 +37,56 @@ enum SupplierStatus {
 }
 
 model SupplierApplication {
-  id             String         @id @default(uuid())
-  companyName    String         @map("company_name")
-  contactName    String         @map("contact_name")
+  id             String            @id @default(uuid())
+  companyName    String            @map("company_name")
+  contactName    String            @map("contact_name")
   email          String
   phone          String?
   website        String?
   country        String
   categories     String[]
-  offersDropship Boolean        @default(false) @map("offers_dropship")
-  shipsToUS      Boolean        @default(false) @map("ships_to_us")
+  offersDropship Boolean           @default(false) @map("offers_dropship")
+  shipsToUS      Boolean           @default(false) @map("ships_to_us")
   moq            Int?
-  leadTimeDays   Int?           @map("lead_time_days")
+  leadTimeDays   Int?              @map("lead_time_days")
   message        String?
-  status         SupplierStatus @default(APPLIED)
-  reviewNotes    String?        @map("review_notes")
-  reviewedBy     String?        @map("reviewed_by")
-  reviewedAt     DateTime?      @map("reviewed_at")
-  createdAt      DateTime       @default(now()) @map("created_at")
-  updatedAt      DateTime       @updatedAt @map("updated_at")
+  status         ApplicationStatus @default(APPLIED)
+  reviewNotes    String?           @map("review_notes")
+  reviewedBy     String?           @map("reviewed_by")
+  reviewedAt     DateTime?         @map("reviewed_at")
+  createdAt      DateTime          @default(now()) @map("created_at")
+  updatedAt      DateTime          @updatedAt @map("updated_at")
 
   @@index([email])
   @@index([status])
   @@map("supplier_applications")
+}
+
+model InstallerApplication {
+  id                 String            @id @default(uuid())
+  businessName       String            @map("business_name")
+  contactName        String            @map("contact_name")
+  email              String
+  phone              String
+  website            String?
+  baseZip            String            @map("base_zip")
+  serviceStates      String[]          @map("service_states")
+  serviceRadiusMiles Int?              @map("service_radius_miles")
+  services           String[]
+  licensed           Boolean           @default(false)
+  licenseNumber      String?           @map("license_number")
+  insured            Boolean           @default(false)
+  yearsInBusiness    Int?              @map("years_in_business")
+  crewSize           Int?              @map("crew_size")
+  message            String?
+  status             ApplicationStatus @default(APPLIED)
+  reviewNotes        String?           @map("review_notes")
+  reviewedBy         String?           @map("reviewed_by")
+  reviewedAt         DateTime?         @map("reviewed_at")
+  createdAt          DateTime          @default(now()) @map("created_at")
+  updatedAt          DateTime          @updatedAt @map("updated_at")
+
+  @@index([email])
+  @@index([status])
+  @@map("installer_applications")
 }

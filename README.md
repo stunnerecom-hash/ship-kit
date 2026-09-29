@@ -130,8 +130,25 @@ Admin routes require a JWT whose email is listed in `ADMIN_EMAILS` (comma-separa
 | GET    | `/api/v1/suppliers/:id`             | Admin  | One application                                              |
 | PATCH  | `/api/v1/suppliers/:id/status`      | Admin  | `{ status, reviewNotes? }`                                   |
 
-Status flow: `APPLIED → REVIEWING → APPROVED`, with `REJECTED` reachable from any state and
-reopenable to `REVIEWING`. Invalid transitions return 409.
+### Installers
+
+Installer network onboarding: a public application form at `/installers` (web). Same review
+workflow and `ADMIN_EMAILS` gate as suppliers.
+
+| Method | Path                               | Auth?  | Notes                                                        |
+|--------|------------------------------------|--------|--------------------------------------------------------------|
+| GET    | `/api/v1/installers/services`       | —      | Accepted service ids                                         |
+| POST   | `/api/v1/installers/apply`          | —      | `{ businessName, contactName, email, phone, baseZip, serviceStates[], services[], ... }` → 409 unless every earlier application for the email was rejected |
+| GET    | `/api/v1/installers`                | Admin  | `?status=APPLIED&service=robotic-mower-setup&state=TX`       |
+| GET    | `/api/v1/installers/stats`          | Admin  | Count per status                                             |
+| GET    | `/api/v1/installers/:id`            | Admin  | One application                                              |
+| PATCH  | `/api/v1/installers/:id/status`     | Admin  | `{ status, reviewNotes? }`                                   |
+
+### Application review flow
+
+Supplier and installer applications share one status flow: `APPLIED → REVIEWING → APPROVED`,
+with `REJECTED` reachable from any state and reopenable to `REVIEWING`. Invalid transitions
+return 409.
 
 ### Health
 
