@@ -116,6 +116,23 @@ All responses: `{ success: boolean, data?: T, error?: string }`
 | POST   | `/api/v1/waitlist`        | `{ email }` — upsert      |
 | GET    | `/api/v1/waitlist/count`  | Returns `{ count }`        |
 
+### Suppliers
+
+Supplier onboarding: a public application form at `/suppliers` (web) feeds a review queue.
+Admin routes require a JWT whose email is listed in `ADMIN_EMAILS` (comma-separated).
+
+| Method | Path                               | Auth?  | Notes                                                        |
+|--------|------------------------------------|--------|--------------------------------------------------------------|
+| GET    | `/api/v1/suppliers/categories`      | —      | Accepted product category ids                                |
+| POST   | `/api/v1/suppliers/apply`           | —      | `{ companyName, contactName, email, country, categories[], ... }` → 409 unless every earlier application for the email was rejected |
+| GET    | `/api/v1/suppliers`                 | Admin  | `?status=APPLIED&category=robotic-mowers`                    |
+| GET    | `/api/v1/suppliers/stats`           | Admin  | Count per status                                             |
+| GET    | `/api/v1/suppliers/:id`             | Admin  | One application                                              |
+| PATCH  | `/api/v1/suppliers/:id/status`      | Admin  | `{ status, reviewNotes? }`                                   |
+
+Status flow: `APPLIED → REVIEWING → APPROVED`, with `REJECTED` reachable from any state and
+reopenable to `REVIEWING`. Invalid transitions return 409.
+
 ### Health
 
 | Method | Path               | Notes                  |
