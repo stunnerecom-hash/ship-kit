@@ -116,6 +116,42 @@ All responses: `{ success: boolean, data?: T, error?: string }`
 | POST   | `/api/v1/waitlist`        | `{ email }` — upsert      |
 | GET    | `/api/v1/waitlist/count`  | Returns `{ count }`        |
 
+### Suppliers
+
+Supplier onboarding: `/suppliers` (web) is a partner page (why partner, what we look for, how it
+works) ending in the application form, which feeds a review queue.
+Admin routes require a JWT whose email is listed in `ADMIN_EMAILS` (comma-separated).
+
+| Method | Path                               | Auth?  | Notes                                                        |
+|--------|------------------------------------|--------|--------------------------------------------------------------|
+| GET    | `/api/v1/suppliers/categories`      | —      | Accepted product category ids                                |
+| POST   | `/api/v1/suppliers/apply`           | —      | `{ companyName, contactName, email, country, categories[], ... }` → 409 unless every earlier application for the email was rejected |
+| GET    | `/api/v1/suppliers`                 | Admin  | `?status=APPLIED&category=robotic-mowers`                    |
+| GET    | `/api/v1/suppliers/stats`           | Admin  | Count per status                                             |
+| GET    | `/api/v1/suppliers/:id`             | Admin  | One application                                              |
+| PATCH  | `/api/v1/suppliers/:id/status`      | Admin  | `{ status, reviewNotes? }`                                   |
+
+### Installers
+
+Installer network onboarding: `/installers` (web) is its own partner page and form, cross-linked
+with `/suppliers`. Same review workflow and `ADMIN_EMAILS` gate as suppliers. Page copy lives in
+`web/app/{suppliers,installers}/page.tsx`; the shared layout is `web/components/PartnerPage.tsx`.
+
+| Method | Path                               | Auth?  | Notes                                                        |
+|--------|------------------------------------|--------|--------------------------------------------------------------|
+| GET    | `/api/v1/installers/services`       | —      | Accepted service ids                                         |
+| POST   | `/api/v1/installers/apply`          | —      | `{ businessName, contactName, email, phone, baseZip, serviceStates[], services[], ... }` → 409 unless every earlier application for the email was rejected |
+| GET    | `/api/v1/installers`                | Admin  | `?status=APPLIED&service=robotic-mower-setup&state=TX`       |
+| GET    | `/api/v1/installers/stats`          | Admin  | Count per status                                             |
+| GET    | `/api/v1/installers/:id`            | Admin  | One application                                              |
+| PATCH  | `/api/v1/installers/:id/status`     | Admin  | `{ status, reviewNotes? }`                                   |
+
+### Application review flow
+
+Supplier and installer applications share one status flow: `APPLIED → REVIEWING → APPROVED`,
+with `REJECTED` reachable from any state and reopenable to `REVIEWING`. Invalid transitions
+return 409.
+
 ### Health
 
 | Method | Path               | Notes                  |

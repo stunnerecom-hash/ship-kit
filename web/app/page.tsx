@@ -62,6 +62,10 @@ export default function Home() {
       {/* ── Footer ── */}
       <footer className="py-10 border-t border-gray-800 text-center text-gray-600 text-sm">
         © {new Date().getFullYear()} {APP}. Built with ShipKit.
+        {" · "}
+        <a href="/suppliers" className="hover:text-gray-400 underline underline-offset-2">Become a supplier</a>
+        {" · "}
+        <a href="/installers" className="hover:text-gray-400 underline underline-offset-2">Become an installer</a>
       </footer>
     </main>
   );

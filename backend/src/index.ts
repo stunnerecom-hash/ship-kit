@@ -19,11 +19,15 @@ import healthRouter   from "./routes/health";
 import authRouter     from "./routes/auth";
 import paymentsRouter from "./routes/payments";
 import waitlistRouter from "./routes/waitlist";
+import suppliersRouter from "./routes/suppliers";
+import installersRouter from "./routes/installers";
 
 app.use("/api/v1/health",   healthRouter);
 app.use("/api/v1/auth",     authRouter);
 app.use("/api/v1/payments", paymentsRouter);
 app.use("/api/v1/waitlist", waitlistRouter);
+app.use("/api/v1/suppliers", suppliersRouter);
+app.use("/api/v1/installers", installersRouter);
 
 app.listen(PORT, () => console.log(`ship-kit backend running on :${PORT}`));
 
