@@ -118,7 +118,8 @@ All responses: `{ success: boolean, data?: T, error?: string }`
 
 ### Suppliers
 
-Supplier onboarding: a public application form at `/suppliers` (web) feeds a review queue.
+Supplier onboarding: `/suppliers` (web) is a partner page (why partner, what we look for, how it
+works) ending in the application form, which feeds a review queue.
 Admin routes require a JWT whose email is listed in `ADMIN_EMAILS` (comma-separated).
 
 | Method | Path                               | Auth?  | Notes                                                        |
@@ -132,8 +133,9 @@ Admin routes require a JWT whose email is listed in `ADMIN_EMAILS` (comma-separa
 
 ### Installers
 
-Installer network onboarding: a public application form at `/installers` (web). Same review
-workflow and `ADMIN_EMAILS` gate as suppliers.
+Installer network onboarding: `/installers` (web) is its own partner page and form, cross-linked
+with `/suppliers`. Same review workflow and `ADMIN_EMAILS` gate as suppliers. Page copy lives in
+`web/app/{suppliers,installers}/page.tsx`; the shared layout is `web/components/PartnerPage.tsx`.
 
 | Method | Path                               | Auth?  | Notes                                                        |
 |--------|------------------------------------|--------|--------------------------------------------------------------|
