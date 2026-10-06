@@ -1,0 +1,423 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor_aA8jQd": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "2e128dd1-7dbd-45da-966d-745faa090a0f": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_WDrzrJ": {
+          "type": "text",
+          "name": "Unique Selling Points",
+          "settings": {
+            "text": "<p><a href=\"tel:4239273776\" title=\"tel:4239273776\"><em><strong>Buy Online Or Call Now To Order!</strong></em></a></p><p>✓ <strong>Free Shipping </strong>- within the contiguous US<br/>✓ <strong>Delivery </strong>- WYBOT quotes 3 to 7 business days after processing (up to 2 business days)<br/>✓ <strong>Warranty </strong>- WYBOT manufacturer warranty, 1 or 2 years by model<br/>✓ <strong>Flexible Financing </strong>- Shop Pay Installments, rates from 0 to 36% APR, subject to an eligibility check<br/>✓ <strong>Questions? </strong>- Call <a href=\"tel:4239273776\" title=\"tel:4239273776\">(423)-927-3776</a></p>"
+          }
+        },
+        "12214949-0a99-47d0-875d-57cf008e67f8": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_display": "low_stock_threshold",
+            "inventory_transfer_notice": true
+          }
+        },
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": false,
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "judge_me_reviews_preview_badge_4NycBz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "yap_consult": {
+          "type": "custom-liquid",
+          "name": "YAP consultation CTA",
+          "settings": {
+            "custom_liquid": "<div style=\"margin:14px 0 0;padding:16px 18px;border-radius:12px;background:#fff;box-shadow:0 1px 2px rgba(35,39,57,.08);font-family:Roboto,sans-serif;\">\n  <p style=\"margin:0 0 6px;font-weight:700;color:#232739;font-size:16px;\">Not sure which WYBOT fits your pool?</p>\n  <p style=\"margin:0 0 10px;color:#393939;font-size:15px;line-height:1.5;\">Tell us your pool size, shape and surface, and whether you want a solar dock or a skimmer too. A Yard Automation Pro will point you to the right robot.</p>\n  <a href=\"/pages/schedule-your-professional-consultation\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:8px;background:#233923;color:#fff;font-weight:700;font-size:14px;text-decoration:none;\">Ask a Yard Automation Pro</a>\n  <a href=\"tel:+14239273776\" style=\"margin-left:12px;color:#233923;font-weight:700;font-size:14px;\">+1 423-927-3776</a>\n</div>"
+          }
+        },
+        "yap_tabs": {
+          "type": "custom-liquid",
+          "name": "YAP product tabs (WYBOT copy)",
+          "settings": {
+            "custom_liquid": "{%- capture wy_d -%}{% render 'wy-copy', f: 'desc' %}{%- endcapture -%}{%- capture wy_s -%}{% render 'wy-copy', f: 'spec' %}{%- endcapture -%}{%- capture wy_f -%}{% render 'wy-copy', f: 'feat' %}{%- endcapture -%}{%- capture wy_w -%}{% render 'wy-copy', f: 'war' %}{%- endcapture -%}{%- capture wy_h -%}{% render 'wy-copy', f: 'ship' %}{%- endcapture -%}{% render 'yap-product-tabs', o_desc: wy_d, o_spec: wy_s, o_feat: wy_f, o_war: wy_w, o_ship: wy_h, o_ship_label: 'Free shipping, contiguous US except RI' %}"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor_aA8jQd",
+        "2e128dd1-7dbd-45da-966d-745faa090a0f",
+        "price",
+        "text_WDrzrJ",
+        "12214949-0a99-47d0-875d-57cf008e67f8",
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956",
+        "yap_consult",
+        "yap_tabs",
+        "judge_me_reviews_preview_badge_4NycBz"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": true,
+        "gallery_thumbnail_position": "below",
+        "gallery_thumbnail_layout": "carousel",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "wy_hero": {
+      "type": "wy-hero",
+      "settings": {
+        "tone": "paper",
+        "kicker": "WYBOT robotic pool cleaner",
+        "compare_label": "Compare the lineup"
+      }
+    },
+    "wy_zones": {
+      "type": "wy-zones",
+      "settings": {
+        "tone": "light",
+        "kicker": "Where it cleans",
+        "heading": "Every zone this robot covers.",
+        "text": "<p>Pools get dirty in five places. Here is which of them this WYBOT cleans, from WYBOT's own specifications.</p>",
+        "note": "Zones from WYBOT's product pages. The F1 is a surface skimmer; floor robots do not clean floating debris."
+      },
+      "blocks": {
+        "b1": {
+          "type": "zone",
+          "settings": {
+            "zone": "surface",
+            "title": "Surface",
+            "text": "Floating leaves, bugs and pollen (the F1 skimmer)"
+          }
+        },
+        "b2": {
+          "type": "zone",
+          "settings": {
+            "zone": "waterline",
+            "title": "Waterline",
+            "text": "The scum line where water meets tile"
+          }
+        },
+        "b3": {
+          "type": "zone",
+          "settings": {
+            "zone": "walls",
+            "title": "Walls",
+            "text": "Vertical walls, climbed and scrubbed"
+          }
+        },
+        "b4": {
+          "type": "zone",
+          "settings": {
+            "zone": "floor",
+            "title": "Floor",
+            "text": "Dirt, sand and leaves on the bottom"
+          }
+        },
+        "b5": {
+          "type": "zone",
+          "settings": {
+            "zone": "steps",
+            "title": "Steps and slopes",
+            "text": "Stairs, benches and sloped floors"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5"
+      ]
+    },
+    "wy_ladder": {
+      "type": "wy-ladder",
+      "settings": {
+        "tone": "paper",
+        "kicker": "The WYBOT lineup",
+        "heading": "Match the robot to your pool size.",
+        "text": "<p>Drag to your pool's surface area. Robots rated for smaller pools fade out; tap any row to see that model.</p>",
+        "note": "Pool size, run time and warranty from WYBOT. Run times are WYBOT's maximums; the C2 and C2 Vision figure is in Eco mode."
+      },
+      "blocks": {
+        "b1": {
+          "type": "model",
+          "settings": {
+            "product": "2026-upgrade-wybot-a1-cordless-robotic-pool-cleaner",
+            "sub": "Floor-only cleaner for flat pools",
+            "tags": "Floor, Cycle timer"
+          }
+        },
+        "b2": {
+          "type": "model",
+          "settings": {
+            "product": "wybot-b1-cordless-robotic-pool-cleaner",
+            "sub": "Whole-pool cleaning for small pools",
+            "tags": "Walls, Waterline, App"
+          }
+        },
+        "b3": {
+          "type": "model",
+          "settings": {
+            "product": "2026-upgrade-wybot-c1-cordless-robotic-pool-cleaner",
+            "sub": "Whole pool, weekly schedule",
+            "tags": "Walls, Waterline, App"
+          }
+        },
+        "b4": {
+          "type": "model",
+          "settings": {
+            "product": "2026-upgrade-wybot-c2-cordless-robotic-pool-cleaner",
+            "sub": "Brushless motors, two filter layers",
+            "tags": "App, 10 micron filter, Eco mode"
+          }
+        },
+        "b5": {
+          "type": "model",
+          "settings": {
+            "product": "2026-new-wybot-c2-vision-cordless-robotic-pool-cleaner",
+            "sub": "The C2 plus a camera and AI Vision mode",
+            "tags": "AI Vision, App"
+          }
+        },
+        "b6": {
+          "type": "model",
+          "settings": {
+            "product": "wybot-s2-high-end-cordless-robotic-pool-cleaner",
+            "sub": "Large pools, longest runtime",
+            "tags": "210 min, App, Manual modes"
+          }
+        },
+        "b7": {
+          "type": "model",
+          "settings": {
+            "product": "wybot-s2-solar-with-solar-powered-charging-dock-robotic-pool-cleaner",
+            "sub": "Solar charging dock, returns by itself",
+            "tags": "Solar dock, Weekly schedule"
+          }
+        },
+        "b8": {
+          "type": "model",
+          "settings": {
+            "product": "wybot-s2-solar-vision-robotic-pool-cleaner",
+            "sub": "Solar dock plus AI Vision",
+            "tags": "Solar dock, AI Vision, Spot clean"
+          }
+        },
+        "b9": {
+          "type": "model",
+          "settings": {
+            "product": "wybot-s3-robotic-pool-cleaner",
+            "sub": "3D mapping and a self-emptying dock",
+            "tags": "Self-emptying, 3D map, AI Vision",
+            "alt_size": "Pools up to about 49 ft long"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9"
+      ]
+    },
+    "wy_pair": {
+      "type": "wy-pair",
+      "settings": {
+        "tone": "green",
+        "kicker": "Floor and surface",
+        "heading": "Add the F1 for the surface.",
+        "text": "Floor robots clean below the water. The WYBOT F1 is a solar skimmer that stays on top and catches leaves, bugs and pollen before they sink.",
+        "all_url": "shopify://collections/wybot"
+      }
+    },
+    "wy_features": {
+      "type": "wy-features",
+      "settings": {
+        "tone": "paper",
+        "kicker": "What you get",
+        "heading": "The details that matter.",
+        "note": "From WYBOT's product pages."
+      }
+    },
+    "wy_gallery": {
+      "type": "wy-gallery",
+      "settings": {
+        "tone": "light",
+        "kicker": "Up close",
+        "heading": "Every angle.",
+        "max": 24,
+        "note": "Images from WYBOT."
+      }
+    },
+    "wy_videos": {
+      "type": "wy-videos",
+      "settings": {
+        "tone": "paper",
+        "kicker": "Watch it work",
+        "heading": "Reviews and setup guides.",
+        "text": "<p>Independent reviews and WYBOT's own guides. Videos load when you tap play.</p>",
+        "note": "Videos are hosted on YouTube and reflect each creator's own opinion. Some creators may have received their robot from WYBOT."
+      }
+    },
+    "wy_specs": {
+      "type": "wy-specs",
+      "settings": {
+        "tone": "light",
+        "kicker": "Specifications",
+        "text": "<p>From WYBOT's product pages and published policies.</p>"
+      }
+    },
+    "wy_faq": {
+      "type": "wy-faq",
+      "settings": {
+        "tone": "paper",
+        "kicker": "Questions",
+        "heading": "Before you buy a WYBOT.",
+        "text": "<p>Still deciding? Call <a href=\"tel:+14239273776\">+1 423-927-3776</a>, 9am to 5pm EST.</p>"
+      },
+      "blocks": {
+        "b1": {
+          "type": "qa",
+          "settings": {
+            "q": "How long does delivery take?",
+            "a": "<p>Shipping is free within the contiguous US, except Rhode Island. WYBOT processes orders within 2 business days and quotes 3 to 7 business days for delivery, by FedEx or Amazon Logistics.</p>"
+          }
+        },
+        "b2": {
+          "type": "qa",
+          "settings": {
+            "q": "Where can WYBOT not ship?",
+            "a": "<p>WYBOT does not ship to Alaska, Hawaii, Rhode Island, US territories or PO boxes.</p>"
+          }
+        },
+        "b3": {
+          "type": "qa",
+          "settings": {
+            "q": "What warranty do WYBOT robots have?",
+            "a": "<p>WYBOT lists 1 year for the A1, B1 and F1, and 2 years for the C1, C2, C2 Vision, S2, S2 Solar, S2 Solar Vision and S3. We help you file and follow up on claims.</p>"
+          }
+        },
+        "b4": {
+          "type": "qa",
+          "settings": {
+            "q": "Which WYBOT robots clean walls and the waterline?",
+            "a": "<p>Every model except the A1, which cleans the floor of flat-bottom pools. The S2 Solar lists floors and walls; the S3 lists floor, walls and stairs.</p>"
+          }
+        },
+        "b5": {
+          "type": "qa",
+          "settings": {
+            "q": "What does AI Vision mode do?",
+            "a": "<p>On the C2 Vision, S2 Solar Vision and S3, a camera finds the dirtiest areas of the pool floor and the robot cleans those first. It works on the floor only. WYBOT rates Vision mode up to 20 times faster for floor cleaning.</p>"
+          }
+        },
+        "b6": {
+          "type": "qa",
+          "settings": {
+            "q": "How do the solar models charge?",
+            "a": "<p>The S2 Solar and S2 Solar Vision charge from a solar-powered dock, with DC charging as a backup, and return to it by themselves below 20% battery. If the dock gets little sun, WYBOT suggests scheduling cleanings every two days or less. The S3 dock charges by solar or DC; WYBOT says three full days of sun give about 2.5 hours of runtime.</p>"
+          }
+        },
+        "b7": {
+          "type": "qa",
+          "settings": {
+            "q": "Do I need a skimmer as well?",
+            "a": "<p>Floor robots do not collect floating debris. The WYBOT F1 is a solar skimmer for the surface, and WYBOT sells it bundled with each floor robot as a Full Pool Solution.</p>"
+          }
+        },
+        "b8": {
+          "type": "qa",
+          "settings": {
+            "q": "Does a robot replace my pool filter and chemicals?",
+            "a": "<p>No. WYBOT says its robots clean debris; they do not manage water quality. Keep running your pump, filter and chemical treatment. If the water is very cloudy, WYBOT suggests running the filtration first.</p>"
+          }
+        },
+        "b9": {
+          "type": "qa",
+          "settings": {
+            "q": "Can you help me choose?",
+            "a": "<p>Yes. Tell us your pool size, shape and surface, and how hands-off you want to be. Call <a href=\"tel:+14239273776\">+1 423-927-3776</a> or <a href=\"/pages/schedule-your-professional-consultation\">ask a Yard Automation Pro</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9"
+      ]
+    },
+    "wy_closer": {
+      "type": "wy-closer",
+      "settings": {
+        "tone": "navy",
+        "kicker": "Free advice",
+        "heading": "Not sure which WYBOT?",
+        "text": "Tell us your pool size, shape and surface, and whether you want a solar dock or a skimmer too. A Yard Automation Pro will point you to the right robot.",
+        "button_label": "Ask a Yard Automation Pro",
+        "button_url": "shopify://pages/schedule-your-professional-consultation",
+        "note": "Free shipping within the contiguous US, except Rhode Island."
+      }
+    },
+    "wy_sticky": {
+      "type": "wy-sticky",
+      "settings": {
+        "ask_label": "Not sure? Ask us",
+        "ask_url": "shopify://pages/schedule-your-professional-consultation"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "wy_hero",
+    "wy_zones",
+    "wy_ladder",
+    "wy_pair",
+    "wy_features",
+    "wy_gallery",
+    "wy_videos",
+    "wy_specs",
+    "wy_faq",
+    "wy_closer",
+    "wy_sticky"
+  ]
+}

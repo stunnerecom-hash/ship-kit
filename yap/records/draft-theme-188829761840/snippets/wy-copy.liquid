@@ -1,0 +1,370 @@
+{%- comment -%}
+  WYBOT copy per model, kept in the theme (WYBOT products sync from WYBOT through Shopify Collective, so page copy lives here).
+  Usage: {% capture x %}{% render 'wy-copy', f: 'spec' %}{% endcapture %}   optional h: a handle (defaults to product.handle)
+  Bundle handles resolve to their floor robot; f: 'bundle' returns "yes" on bundle pages, f: 'robot_handle' / 'bundle_handle' give the pair.
+  Sources: wybotpool.com product pages, comparison tables, FAQs, shipping and refund policies (checked 2026-09-24).
+  Marketing superlatives on WYBOT pages ("world's first", "industry-first") are deliberately not repeated.
+{%- endcomment -%}
+{%- liquid
+  assign k = h | default: product.handle
+  assign isb = false
+  if k contains 'bundle'
+    assign isb = true
+  endif
+  if k contains 'solar-vis'
+    assign m = 's2sv'
+  elsif k contains 's2-solar'
+    assign m = 's2s'
+  elsif k contains 'c2-vision' or k contains 'c2v'
+    assign m = 'c2v'
+  elsif k contains 'wybot-c2' or k contains 'bundle-c2'
+    assign m = 'c2'
+  elsif k contains 'wybot-c1' or k contains 'bundle-c1'
+    assign m = 'c1'
+  elsif k contains 'wybot-b1' or k contains 'bundle-b1'
+    assign m = 'b1'
+  elsif k contains 'wybot-a1' or k contains 'bundle-a1'
+    assign m = 'a1'
+  elsif k contains 'wybot-s3'
+    assign m = 's3'
+  elsif k contains 'wybot-f1'
+    assign m = 'f1'
+  else
+    assign m = 's2'
+  endif
+  case m
+    when 'a1'
+      assign name = 'WYBOT A1'
+      assign rh = '2026-upgrade-wybot-a1-cordless-robotic-pool-cleaner'
+      assign bh = 'wybot-full-pool-solution-bundle-a1-f1'
+      assign zones = 'floor'
+      assign cover = '1,076'
+      assign run = '120'
+      assign warr = '1'
+      assign yt = ''
+    when 'b1'
+      assign name = 'WYBOT B1'
+      assign rh = 'wybot-b1-cordless-robotic-pool-cleaner'
+      assign bh = 'wybot-full-pool-solution-bundle-b1-f1'
+      assign zones = 'floor,walls,waterline,steps'
+      assign cover = '1,150'
+      assign run = '120'
+      assign warr = '1'
+      assign yt = 'R9w1ppwSMS0|Chase Brogan|The WYBOT B1 Might Be the Smartest Pool Cleaner Yet;QA3zum9AAPQ|Jimmy Hawkins|Affordable pool cleaning robot: WYBOT B1;SeaUzxkLu9g|WYBOT (official)|B1 floating parts installation guide'
+    when 'c1'
+      assign name = 'WYBOT C1'
+      assign rh = '2026-upgrade-wybot-c1-cordless-robotic-pool-cleaner'
+      assign bh = 'wybot-full-pool-solution-bundle-c1-f1'
+      assign zones = 'floor,walls,waterline,steps'
+      assign cover = '1,615'
+      assign run = '150'
+      assign warr = '2'
+      assign yt = 'i91cNAduFVo|Elizabeth Swims|WYBOT C1 revealed;RYPxoa3QHrU|WYBOT (official)|C1 floating blocks installation guide'
+    when 'c2'
+      assign name = 'WYBOT C2'
+      assign rh = '2026-upgrade-wybot-c2-cordless-robotic-pool-cleaner'
+      assign bh = 'wybot-full-pool-solution-bundle-c2-f1'
+      assign zones = 'floor,walls,waterline,steps'
+      assign cover = '2,152'
+      assign run = '180'
+      assign warr = '2'
+      assign yt = 'luFxhKwOYJ4|livefootagetube|WYBOT C2 pool robot cleaner review;oQou_-BvQTI|Deanin It Yourself|Pool cleaning with the WYBOT C2'
+    when 'c2v'
+      assign name = 'WYBOT C2 Vision'
+      assign rh = '2026-new-wybot-c2-vision-cordless-robotic-pool-cleaner'
+      assign bh = 'wybot-full-pool-solution-bundle-c2-vision-f1'
+      assign zones = 'floor,walls,waterline'
+      assign cover = '2,152'
+      assign run = '180'
+      assign warr = '2'
+      assign yt = 'rxR2bepWfwA|Rebecca Brand|WYBOT C2 Vision goes dirt hunting;T0I48RGGzXo|Momentum Productions|Hands-free pool cleaning: WYBOT C2 Vision;iHR7AYlULkQ|DansTube.TV|WYBOT C2 Vision and F1 skimmer review'
+    when 's2'
+      assign name = 'WYBOT S2'
+      assign rh = 'wybot-s2-high-end-cordless-robotic-pool-cleaner'
+      assign bh = 'wybot-full-pool-solution-bundle-s2-f1'
+      assign zones = 'floor,walls,waterline,steps'
+      assign cover = '3,230'
+      assign run = '210'
+      assign warr = '2'
+      assign yt = 'giU2minid4s|WYBOT (official)|S2 floating blocks installation guide'
+    when 's2s'
+      assign name = 'WYBOT S2 Solar'
+      assign rh = 'wybot-s2-solar-with-solar-powered-charging-dock-robotic-pool-cleaner'
+      assign bh = 'wybot-full-pool-solution-bundle-s2-solar-f1'
+      assign zones = 'floor,walls'
+      assign cover = '3,229'
+      assign run = '150+'
+      assign warr = '2'
+      assign yt = 'FhnRcFrJ0W0|Shane Starnes|WYBOT S2 Solar: solar-powered self-docking pool robot;7E5HuuZe_xE|Steve DOES|WYBOT S2 Solar in action;VyuyAw6BJnI|Family First Reviews|WYBOT S2 Solar full review'
+    when 's2sv'
+      assign name = 'WYBOT S2 Solar Vision'
+      assign rh = 'wybot-s2-solar-vision-robotic-pool-cleaner'
+      assign bh = 'wybot-full-pool-solution-bundle-s2-solar-vison-f1'
+      assign zones = 'floor,walls,waterline,steps'
+      assign cover = '3,229'
+      assign run = '150+'
+      assign warr = '2'
+      assign yt = 'FhnRcFrJ0W0|Shane Starnes|The S2 Solar dock and charging in action'
+    when 's3'
+      assign name = 'WYBOT S3'
+      assign rh = 'wybot-s3-robotic-pool-cleaner'
+      assign bh = ''
+      assign zones = 'floor,walls,steps'
+      assign cover = ''
+      assign run = ''
+      assign warr = '2'
+      assign yt = ''
+    when 'f1'
+      assign name = 'WYBOT F1'
+      assign rh = 'wybot-f1-pool-skimmer-solar-powered-robotic-cleaner'
+      assign bh = ''
+      assign zones = 'surface'
+      assign cover = ''
+      assign run = ''
+      assign warr = '1'
+      assign yt = 'tr_8JEHnDjc|Phandroid|WYBOT F1 solar-powered robotic pool skimmer;iHR7AYlULkQ|DansTube.TV|WYBOT C2 Vision and F1 skimmer review'
+  endcase
+-%}
+{%- case f -%}
+{%- when 'key' -%}{{ m }}
+{%- when 'name' -%}{{ name }}
+{%- when 'bundle' -%}{% if isb %}yes{% endif %}
+{%- when 'robot_handle' -%}{{ rh }}
+{%- when 'bundle_handle' -%}{{ bh }}
+{%- when 'zones' -%}{% if isb %}surface,{% endif %}{{ zones }}
+{%- when 'cover' -%}{{ cover }}
+{%- when 'run' -%}{{ run }}
+{%- when 'warr' -%}{{ warr }}
+{%- when 'yt' -%}{{ yt }}{% if isb and m != 'c2v' %};tr_8JEHnDjc|Phandroid|WYBOT F1 solar-powered robotic pool skimmer{% endif %}
+{%- when 'heading' -%}
+  {%- if isb -%}{% if m == 'a1' %}The floor and the surface, covered.{% else %}The floor, the walls and the surface, covered.{% endif %}
+  {%- else -%}
+    {%- case m -%}
+    {%- when 'a1' -%}A simple floor cleaner for flat pools.
+    {%- when 'b1' -%}Small pool, full clean, app control.
+    {%- when 'c1' -%}Floors, walls and waterline, on a schedule.
+    {%- when 'c2' -%}Two filters, bigger pools, longer runs.
+    {%- when 'c2v' -%}A camera that hunts the dirt first.
+    {%- when 's2' -%}Built for big pools, up to 3,230 sq ft.
+    {%- when 's2s' -%}It lives in the pool and charges from the sun.
+    {%- when 's2sv' -%}Solar dock, camera and a full-pool clean.
+    {%- when 's3' -%}It maps the pool, then empties itself.
+    {%- when 'f1' -%}Solar skimming for the surface.
+    {%- endcase -%}
+  {%- endif -%}
+{%- when 'hero' -%}
+  {%- if isb -%}This bundle pairs the {{ name }} for the floor{% if m == 's2s' %} and walls{% elsif m != 'a1' %}, walls and waterline{% endif %} with the WYBOT F1, a solar skimmer that clears leaves and bugs from the surface before they sink. Two robots, one clean pool.
+  {%- else -%}
+    {%- case m -%}
+    {%- when 'a1' -%}The A1 is WYBOT's compact floor cleaner for flat-bottom pools up to 1,076 sq ft. Dual motors and a 180 micron fine foam filter, up to 120 minutes of cordless cleaning, a cycle timer and self-parking for easy pickup.
+    {%- when 'b1' -%}The B1 cleans floors, walls, the waterline and steps in pools up to 1,150 sq ft. Three motors, a four-roller brush and side brushes for edges, with cleaning modes and routes set in the WYBOT app.
+    {%- when 'c1' -%}The C1 cleans floors, walls, waterline, steps and slopes in pools up to 1,615 sq ft, for up to 150 minutes per charge. Five cleaning modes, weekly scheduling in the WYBOT app and self-parking at the wall.
+    {%- when 'c2' -%}The C2 pairs a brushless triple-motor system with two filters, 180 micron and 10 micron, to catch everything from leaves to fine dust. It covers pools up to 2,152 sq ft with up to 180 minutes in Eco mode.
+    {%- when 'c2v' -%}The C2 Vision adds a camera and AI mode to the C2. In Vision mode it looks for the dirtiest areas of the floor and cleans them first; WYBOT rates that mode up to 20 times faster for floor cleaning.
+    {%- when 's2' -%}The S2 is WYBOT's large-pool cordless cleaner: floors, walls, steps and waterline in pools up to 3,230 sq ft, with up to 210 minutes of runtime and a 3-hour charge.
+    {%- when 's2s' -%}The S2 Solar works from a solar-powered charging dock. When its battery drops below 20% it returns to the dock and recharges, then starts again on your weekly schedule, with no daily lifting or plugging in.
+    {%- when 's2sv' -%}The S2 Solar Vision combines the solar charging dock with WYBOT's camera and AI Vision mode, plus spot cleaning around a chosen area from the app, for pools up to 3,229 sq ft.
+    {%- when 's3' -%}The S3 scans your pool on its first run and plans its path from the map. After each cycle it docks, recharges and empties its debris into a 10 L bin on the deck, so WYBOT says you empty it about once a month.
+    {%- when 'f1' -%}The F1 floats on the surface and runs on a 33 W solar panel. Smart mode works around the clock in 10-minute cycles; Standard mode runs for 8 hours straight. A 7 L basket holds leaves, bugs and pollen.
+    {%- endcase -%}
+  {%- endif -%}
+{%- when 'desc' -%}
+  {%- if isb -%}<p>The {{ name }} and F1 Full Pool Solution bundle splits the job between two WYBOT robots. The {{ name }} cleans the {% if m == 'a1' %}pool floor{% elsif m == 's2s' %}floor and walls{% else %}floor, walls and waterline{% endif %}, and the F1 solar skimmer stays on the surface, catching leaves, bugs and pollen before they sink.</p><p>Both come in one order. Each robot keeps its own WYBOT warranty: {{ warr }} year{% if warr != '1' %}s{% endif %} for the {{ name }} and 1 year for the F1.</p>
+  {%- else -%}
+    {%- case m -%}
+    {%- when 'a1' -%}<p>The WYBOT A1 is a compact cordless cleaner for the pool floor. It suits flat-bottom pools with slopes under 15 degrees, up to 1,076 sq ft, and above-ground pools in particular.</p><p>Dual motors pull debris into a 180 micron fine foam filter for up to 120 minutes per charge. A cycle timer repeats cleaning up to 4 times over 7 days, and the self-parking system brings it to the wall for pickup. Covered by a 1-year WYBOT warranty.</p>
+    {%- when 'b1' -%}<p>The WYBOT B1 is a small, light cordless cleaner that covers the whole pool: floor, walls, waterline, steps and slopes, in pools up to 1,150 sq ft, for up to 120 minutes.</p><p>Three motors drive a four-roller brush, side brushes clean along walls and corners, and a 180 micron foam filter holds fine debris. Pick Full, Floor, Wall, Waterline or Wall then Floor in the WYBOT app, which also delivers updates. Covered by a 1-year WYBOT warranty.</p>
+    {%- when 'c1' -%}<p>The WYBOT C1 cleans floors, walls, waterline, steps and slopes in pools up to 1,615 sq ft, with up to 150 minutes of runtime and 3,038 GPH of suction.</p><p>Choose from five modes (full, floor, wall, wall then floor, and Eco floor) with S or N paths, schedule weekly cleanings in the WYBOT app, and let self-parking bring it to the wall when it is done. A 180 micron filter and dual PVC brushes handle leaves, sand and fine dirt. Covered by a 2-year WYBOT warranty.</p>
+    {%- when 'c2' -%}<p>The WYBOT C2 covers floors, walls and waterline in pools up to 2,152 sq ft, with up to 180 minutes in Eco mode. A brushless triple-motor system moves 3,592 GPH.</p><p>Two filter layers, a 180 micron cartridge and a 10 micron fine filter with 3 L capacity, catch everything from leaves to fine dust. Seven cleaning modes and six paths, up to four scheduled cleanings a week and auto-parking at the pool edge. Works on tile, concrete, vinyl and fiberglass. Covered by a 2-year WYBOT warranty.</p>
+    {%- when 'c2v' -%}<p>The WYBOT C2 Vision is the C2 with a camera. In AI Vision mode (floor only) it spots where debris is and cleans those areas first; WYBOT rates that mode up to 20 times faster for floor cleaning.</p><p>It covers floors, walls and waterline in pools up to 2,152 sq ft with up to 180 minutes in Eco mode, brushless triple motors and 180 micron plus 10 micron filtration. Eight modes and seven paths in the WYBOT app, weekly scheduling and self-parking. Covered by a 2-year WYBOT warranty.</p>
+    {%- when 's2' -%}<p>The WYBOT S2 is built for large pools: floors, walls including tile, steps and waterline in pools up to 3,230 sq ft, with up to 210 minutes of runtime and a 3-hour charge.</p><p>Triple motors with a brushless drive and dual-layer filtration handle heavy debris. Run 7 modes and 6 paths from the WYBOT app or 3 modes from the unit itself, set a cycle timer, and let self-parking bring it to the wall. Covered by a 2-year WYBOT warranty.</p>
+    {%- when 's2s' -%}<p>The WYBOT S2 Solar charges from a solar-powered dock, with DC charging as a backup. When the battery drops below 20% it returns to the dock by itself, and it starts again on the weekly schedule you set in the app, with a time and mode for each day.</p><p>It covers pools up to 3,229 sq ft, with 2.5+ hours of runtime. A 180 micron filter box and ultra-fine sponge catch fine debris. If the dock gets limited sun, WYBOT suggests scheduling cleanings every two days or less. Covered by a 2-year WYBOT warranty.</p>
+    {%- when 's2sv' -%}<p>The WYBOT S2 Solar Vision pairs the solar charging dock with WYBOT's camera and AI Vision mode for the floor. It cleans floors, walls, waterline, slopes and steps in pools up to 3,229 sq ft.</p><p>The robot returns to its dock below 20% battery, charges from the sun or DC, and runs on your weekly schedule. From the app you can also spot-clean a 6.6 ft radius around the robot. A 180 micron filter box and ultra-fine sponge catch fine debris. Covered by a 2-year WYBOT warranty.</p>
+    {%- when 's3' -%}<p>The WYBOT S3 builds a 3D map of your pool on its first run and plans an efficient path every time after that. Its camera and AI Vision mode target the floor, and the app shows where it is in real time so you can send it to a spot.</p><p>After each cycle, or when the battery runs low, it returns to its dock, recharges and empties debris into a 10 L bin on the deck. WYBOT says that means emptying about once a month in typical conditions. The dock charges by solar or DC. WYBOT recommends it for pools up to about 49 ft (15 m) long. Covered by a 2-year WYBOT warranty.</p>
+    {%- when 'f1' -%}<p>The WYBOT F1 is a solar robotic skimmer for the pool surface. A 33 W solar panel powers it, Smart mode runs 24 hours in 10-minute work and rest cycles, and Standard mode runs continuously for 8 hours.</p><p>Leaves, bugs and pollen go into a 7 L basket with a fine filter and a no-backflow design. Edge cleaning, obstacle avoidance and an anti-stuck design keep it moving, and you can steer it from the WYBOT app. Covered by a 1-year WYBOT warranty.</p>
+    {%- endcase -%}
+  {%- endif -%}
+{%- when 'feat' -%}
+  {%- case m -%}
+  {%- when 'a1' -%}Floor cleaning for flat pools. Flat-bottom pools with slopes under 15 degrees.
+Up to 1,076 sq ft. Up to 120 minutes per charge.
+Dual motors. With a 180 micron fine foam filter.
+Cycle timer. Up to 4 cleanings over 7 days.
+Edge-enhanced cleaning. Pauses at the wall to clean the edge.
+Self-parking. Comes to the wall for pickup.
+  {%- when 'b1' -%}Whole-pool cleaning. Floor, walls, waterline, steps and slopes.
+Up to 1,150 sq ft. Up to 120 minutes per charge.
+Three motors, four rollers. Plus side brushes for edges and corners.
+WYBOT app. Full, Floor, Wall, Waterline and Wall then Floor modes, custom routes, updates.
+180 micron foam filter. Holds fine debris.
+Modular parts. Quick-release core parts and LED status lights.
+  {%- when 'c1' -%}Whole-pool cleaning. Floor, walls, waterline, steps and slopes.
+Up to 1,615 sq ft. Up to 150 minutes per charge.
+3,038 GPH suction. Triple motor system with dual PVC brushes.
+Five modes, S and N paths. Including Eco floor mode.
+Weekly scheduling. Up to 4 cleanings a week in the app.
+Self-parking. Waits at the wall when done.
+  {%- when 'c2' -%}Floors, walls and waterline. Tile, concrete, vinyl and fiberglass.
+Up to 2,152 sq ft. Up to 180 minutes in Eco mode.
+Brushless triple motors. 3,592 GPH.
+Two filter layers. 180 micron cartridge plus 10 micron fine filter, 3 L.
+Seven modes, six paths. Including Turbo and Eco.
+Scheduling and auto-parking. Up to 4 cleanings a week.
+  {%- when 'c2v' -%}AI Vision mode. The camera finds dirty areas of the floor and cleans them first.
+Up to 20x faster floor cleaning. WYBOT's rating for Vision mode.
+Up to 2,152 sq ft. Up to 180 minutes in Eco mode.
+Two filter layers. 180 micron plus 10 micron.
+Eight modes, seven paths. Vision, Full, Floor, Wall, Waterline, Wall then Floor, Turbo, Eco.
+Scheduling and self-parking. Up to 4 cleanings a week.
+  {%- when 's2' -%}Large pools. Up to 3,230 sq ft.
+Up to 210 minutes. With a 3-hour charge.
+Floors, walls, steps, waterline. Including tiled walls.
+Triple motors. Brushless drive with dual-layer filtration.
+App or manual control. 7 modes and 6 paths in the app, 3 modes on the unit.
+Cycle timer and self-parking. Up to 4 cleanings over 7 days.
+  {%- when 's2s' -%}Solar charging dock. With DC charging as a backup.
+Returns to the dock. Automatically, below 20% battery.
+Weekly schedule. A start time and mode for each day.
+Up to 3,229 sq ft. 2.5+ hours of runtime.
+One-tap start and return. From the WYBOT app.
+Fine filtration. 180 micron filter box plus ultra-fine sponge.
+  {%- when 's2sv' -%}Solar charging dock. With DC backup and automatic return below 20% battery.
+AI Vision mode. Finds and cleans the dirtiest floor areas first.
+Spot cleaning. A 6.6 ft radius around the robot, from the app.
+Whole-pool cleaning. Floors, walls, waterline, slopes and steps.
+Up to 3,229 sq ft. 2.5+ hours of runtime.
+Fine filtration. 180 micron filter box plus ultra-fine sponge.
+  {%- when 's3' -%}3D mapping. Scans the pool on the first run and plans its path.
+Self-emptying dock. Empties debris into a 10 L bin on the deck.
+About once a month. WYBOT's estimate for emptying in typical conditions.
+AI Vision mode. Targets debris on the floor.
+Real-time position. See it in the app and send it to a spot.
+Solar and DC charging. At the dock.
+  {%- when 'f1' -%}33 W solar panel. Charges while it floats.
+Two modes. Smart runs 24 h in 10-minute cycles; Standard runs 8 h straight.
+7 L basket. Fine filter with no backflow.
+Edge cleaning and obstacle avoidance. Plus an anti-stuck design.
+App control. Steer it to debris from the WYBOT app.
+Built for outdoors. Sun, rain and chlorine resistant.
+  {%- endcase -%}
+{%- when 'spec' -%}
+  {%- case m -%}
+  {%- when 'a1' -%}Cleaning
+Surfaces: Floor only (flat bottom, slope under 15°)
+Pool size: Up to 1,076 sq ft
+Run time: Up to 120 minutes
+Filter: 180 μm fine cotton foam
+Motors: Dual
+Controls
+Scheduling: Cycle timer, up to 4 times in 7 days
+Parking: Self-parking
+  {%- when 'b1' -%}Cleaning
+Surfaces: Floor, walls, waterline, steps, slopes
+Pool size: Up to 1,150 sq ft
+Run time: Up to 120 minutes
+Filter: 180 μm fine cotton foam
+Motors: Triple, with quad-roller brush and side brushes
+Controls
+App: WYBOT app (Full, Floor, Wall, Waterline, Wall then Floor), OTA updates
+  {%- when 'c1' -%}Cleaning
+Surfaces: Floor, walls, waterline, steps, slopes
+Pool size: Up to 1,615 sq ft
+Run time: Up to 150 minutes
+Suction: 3,038 GPH
+Filter: 180 μm cartridge
+Motors: Triple motor system, dual PVC brushes
+Controls
+Modes: 5 (full, floor, wall, wall then floor, Eco floor)
+Paths: 6
+Scheduling: Up to 4 cleanings a week (app)
+Charging time: 3 hours
+Parking: Self-parking
+  {%- when 'c2' -%}Cleaning
+Surfaces: Floor, walls, waterline, steps, slopes
+Pool size: Up to 2,152 sq ft
+Run time: Up to 180 minutes (Eco mode)
+Suction: 3,592 GPH
+Filter: 180 μm cartridge plus 10 μm fine filter, 3 L
+Motors: Brushless triple motor system
+Pool finishes: Tile, concrete, vinyl, fiberglass
+Controls
+Modes: 7 (Full, Floor, Wall, Waterline, Wall then Floor, Turbo, Eco)
+Paths: 6
+Scheduling: Up to 4 cleanings a week (app)
+Charging time: 3 hours
+Parking: Auto-parking
+  {%- when 'c2v' -%}Cleaning
+Surfaces: Floor, walls, waterline
+Pool size: Up to 2,152 sq ft
+Run time: Up to 180 minutes (Eco mode)
+Filter: 180 μm cartridge plus 10 μm fine filter
+Motors: Brushless triple motor system
+Camera: AI Vision mode (floor only)
+Pool finishes: Tile, concrete, vinyl, fiberglass
+Controls
+Modes: 8 (Vision, Full, Floor, Wall, Waterline, Wall then Floor, Turbo, Eco)
+Paths: 7
+Scheduling: Up to 4 cleanings a week (app)
+Charging time: 3 hours
+Parking: Self-parking
+  {%- when 's2' -%}Cleaning
+Surfaces: Floor, walls (including tile), steps, waterline
+Pool size: Up to 3,230 sq ft
+Run time: Up to 210 minutes
+Filter: Dual-layer filtration
+Motors: Triple, with brushless motor
+Controls
+App: 7 modes and 6 paths
+On the unit: 3 modes
+Scheduling: Cycle timer, up to 4 times in 7 days
+Charging time: 3 hours
+Parking: Self-parking
+  {%- when 's2s' -%}Cleaning
+Surfaces: Floor and walls (Full Pool mode)
+Pool size: Up to 3,229 sq ft
+Run time: 2.5+ hours
+Filter: 180 μm filter box plus 40 ppi ultra-fine sponge
+Power
+Charging: Solar charging dock, DC backup
+Docking: Returns automatically below 20% battery
+Controls
+App: One-tap start and return, remote control
+Scheduling: Weekly, with a time and mode for each day
+  {%- when 's2sv' -%}Cleaning
+Surfaces: Floor, walls, waterline, slopes, steps
+Pool size: Up to 3,229 sq ft
+Run time: 2.5+ hours
+Filter: 180 μm filter box plus 40 ppi ultra-fine sponge
+Camera: AI Vision mode (floor only)
+Spot cleaning: 6.6 ft radius (app remote mode)
+Power
+Charging: Solar charging dock, DC backup
+Docking: Returns automatically below 20% battery
+Controls
+Scheduling: Weekly, Vision mode can be scheduled
+  {%- when 's3' -%}Cleaning
+Surfaces: Floor, walls, stairs
+Recommended pool: Up to about 49 ft (15 m) long
+Navigation: 3D pool mapping, real-time positioning
+Camera: AI Vision mode (floor only)
+Filter: 180 μm filter box plus fine secondary filter
+Dock
+Self-emptying: Into a 10 L debris bin on the deck
+Emptying: About once a month in typical conditions (WYBOT)
+Charging: Solar and DC
+Solar only: About 2.5 hours of runtime from three full days of sun (WYBOT)
+Controls
+App: iOS 17 or later, Android 8 or later
+  {%- when 'f1' -%}Cleaning
+Surface: Floating skimmer
+Basket: 7 L with fine filter, no backflow
+Modes: Smart (24 h, 10 min on and 10 min off), Standard (8 h continuous)
+Navigation: Edge cleaning, obstacle avoidance, anti-stuck design
+Power
+Solar panel: 33 W
+Controls
+App: WYBOT app remote control
+  {%- endcase -%}
+{%- when 'war' -%}{%- if isb -%}Each robot in this bundle keeps its WYBOT warranty: {{ warr }} year{% if warr != '1' %}s{% endif %} for the {{ name }} and 1 year for the F1. Warranty claims go through WYBOT support, and Yard Automation Pros helps you file and follow up.{%- else -%}WYBOT covers the {{ name }} with a {{ warr }}-year manufacturer warranty. Warranty claims go through WYBOT support, and Yard Automation Pros helps you file and follow up.{%- endif -%}
+{%- when 'ship' -%}Free shipping within the contiguous US. WYBOT processes orders within 2 business days and quotes 3 to 7 business days for delivery, by FedEx or Amazon Logistics. WYBOT does not ship to Alaska, Hawaii, Rhode Island, US territories or PO boxes.
+{%- endcase -%}

@@ -1,0 +1,145 @@
+{%- comment -%}
+  Collection hero: breadcrumbs, kicker, H1 (collection title), the collection description (SEO copy) and a trust row on the left,
+  a real product photo on the right. Photos are manufacturer images from Shopify Files (not AI scenes), per collection;
+  collections without a mapped photo use the collection image, then the first product's image.
+  Trust items are true per brand (shipping, warranty, financing, support hours). Never "24/7" or free returns.
+{%- endcomment -%}
+{%- liquid
+  assign k = collection.handle
+  assign img_name = ''
+  assign kicker = 'Shop robots'
+  assign trust = 'ship:Free shipping on most robots|shield:Manufacturer warranty on every product|card:Pay over time with Shop Pay Installments|phone:US support, 9am to 5pm EST'
+  case k
+    when 'robot-mowers'
+      assign img_name = 'yap-yarbo-estate-lawn.png'
+      assign kicker = 'Robot and remote-control mowers'
+      assign trust = 'ship:Free freight shipping on Yarbo|shield:2-year Yarbo warranty|card:Pay over time with Shop Pay|phone:US support, 9am to 5pm EST'
+    when 'robot-snow-blowers'
+      assign img_name = 'yap-time-driveway.png'
+      assign kicker = 'Robotic snow blowers'
+      assign trust = 'ship:Free freight shipping|shield:2-year Yarbo warranty|card:Pay over time with Shop Pay|phone:US support, 9am to 5pm EST'
+    when 'robot-pool-cleaners'
+      assign img_name = 'yap-wybot-pool-play.jpg'
+      assign kicker = 'Pool cleaners and solar skimmers'
+      assign trust = 'ship:Free shipping on most pool robots|shield:1 or 2 year manufacturer warranty|card:Pay over time with Shop Pay|phone:US support, 9am to 5pm EST'
+    when 'yarbo', 'bundle-deals'
+      assign img_name = 'yap-brand-yarbo-seasons.png'
+      assign kicker = 'Yarbo modular yard robots'
+      assign trust = 'ship:Free freight shipping|shield:2-year Yarbo warranty|card:Pay over time with Shop Pay|phone:US support, 9am to 5pm EST'
+    when 'mowrator-mowers'
+      assign img_name = 'yap-brand-mowrator-estate.jpg'
+      assign kicker = 'Mowrator S1 remote-control mowers'
+      assign trust = 'ship:Free shipping on most Mowrator|clock:Usually 7 to 10 business days|card:Pay over time with Shop Pay|phone:US support, 9am to 5pm EST'
+    when 'mowrator-accessories'
+      assign img_name = 'mw-autodump.png'
+      assign kicker = 'Mowrator S1 parts and accessories'
+      assign trust = 'ship:Free shipping on most Mowrator|clock:Usually 7 to 10 business days|check:Fit listed on every part|phone:US support, 9am to 5pm EST'
+    when 'accessories'
+      assign img_name = 'mw-autodump.png'
+      assign kicker = 'Parts and accessories by brand'
+      assign trust = 'check:Fit listed on every part|ship:Free shipping on most Mowrator and Aiper parts|card:Pay over time with Shop Pay|phone:US support, 9am to 5pm EST'
+    when 'yarbo-accessories'
+      assign kicker = 'Yarbo parts and accessories'
+      assign trust = 'check:Fit listed on every part|shield:Yarbo warranty policy|card:Pay over time with Shop Pay|phone:US support, 9am to 5pm EST'
+    when 'aiper-accessories'
+      assign kicker = 'Aiper pool robot parts'
+      assign trust = 'check:Model named on every part|ship:Free shipping on most Aiper|clock:Usually 10 to 14 business days|phone:US support, 9am to 5pm EST'
+    when 'wybot'
+      assign img_name = 'yap-brand-wybot-pool.jpg'
+      assign kicker = 'WYBOT robotic pool cleaners'
+      assign trust = 'ship:Free shipping, contiguous US except RI|shield:1 or 2 year WYBOT warranty|card:Pay over time with Shop Pay|phone:US support, 9am to 5pm EST'
+    when 'aiper'
+      assign img_name = 'yap-brand-aiper-deck.webp'
+      assign kicker = 'Aiper robotic pool cleaners'
+      assign trust = 'ship:Free shipping on most Aiper|clock:Usually 10 to 14 business days|card:Pay over time with Shop Pay|phone:US support, 9am to 5pm EST'
+    when 'betta'
+      assign img_name = 'yap-brand-betta-skimmer.jpg'
+      assign kicker = 'Betta solar pool skimmers'
+      assign trust = 'check:Authorized Betta reseller|ship:Free ground shipping, contiguous US|shield:1-year Betta warranty|phone:US support, 9am to 5pm EST'
+    when 'robot-vacuum-mops'
+      assign kicker = 'Floor and leaf cleaning robots'
+      assign trust = 'check:Authorized HOBOT dealer|shield:Manufacturer warranty on every product|card:Pay over time with Shop Pay|phone:US support, 9am to 5pm EST'
+    when 'robot-window-cleaner'
+      assign kicker = 'HOBOT window cleaning robots'
+      assign trust = 'check:Authorized HOBOT dealer|shield:1-year HOBOT warranty|card:Pay over time with Shop Pay|phone:US support, 9am to 5pm EST'
+    when 'hobot'
+      assign kicker = 'HOBOT window and floor robots'
+      assign trust = 'check:Authorized HOBOT dealer|shield:1-year HOBOT warranty|card:Pay over time with Shop Pay|phone:US support, 9am to 5pm EST'
+    when 'best-sellers'
+      assign img_name = 'yap-yarbo-lineup-dusk.png'
+      assign kicker = 'Featured robots'
+    when 'new-arrivals', 'new-arrivals-curated'
+      assign img_name = 'yap-time-lawn.png'
+      assign kicker = 'New in our range'
+    when 'shop-all'
+      assign img_name = 'yap-yarbo-four-seasons.jpg'
+      assign kicker = 'Every robot we sell'
+  endcase
+  assign hero_img = blank
+  if img_name != ''
+    assign hero_img = images[img_name]
+  endif
+  if hero_img == blank and k != 'robot-vacuum-mops' and k != 'robot-window-cleaner' and k != 'hobot'
+    assign hero_img = collection.image
+  endif
+  if hero_img == blank
+    assign hero_img = collection.products.first.featured_image
+  endif
+  assign hero_desc = collection.description
+  if hero_desc == blank
+    capture hero_desc
+      render 'yc-copy', f: 'intro'
+    endcapture
+    assign hero_desc = hero_desc | strip
+  endif
+  assign trust_items = trust | split: '|'
+-%}
+<div class="ych">
+  <div class="ych__text">
+    {% render 'breadcrumbs' %}
+    <p class="ych__kicker">{{ kicker | escape }}</p>
+    <h1 class="ych__h1 collection--title">{{ collection.title | escape }}</h1>
+    {%- if hero_desc != blank -%}<div class="ych__desc rte" data-collection-description>{% if hero_desc contains '<p' %}{{ hero_desc }}{% else %}<p>{{ hero_desc | escape }}</p>{% endif %}</div>{%- endif -%}
+    <ul class="ych__trust" role="list">
+      {%- for t in trust_items -%}
+        {%- assign ic = t | split: ':' | first -%}{%- assign tx = t | remove_first: ic | remove_first: ':' -%}
+        <li>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            {%- case ic -%}
+            {%- when 'ship' -%}<path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/>
+            {%- when 'shield' -%}<path d="M12 3 19 6v5c0 4.8-2.9 8.2-7 10-4.1-1.8-7-5.2-7-10V6l7-3z"/><path d="m9 12 2 2 4-4"/>
+            {%- when 'card' -%}<rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18M7 15h4"/>
+            {%- when 'clock' -%}<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/>
+            {%- when 'check' -%}<circle cx="12" cy="12" r="8.5"/><path d="m8.5 12 2.5 2.5 4.5-5"/>
+            {%- else -%}<path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/>
+            {%- endcase -%}
+          </svg>{{ tx | escape }}
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+  <figure class="ych__media">
+    {%- if hero_img != blank -%}
+      {%- assign hero_alt = hero_img.alt | default: collection.title -%}
+      {{ hero_img | image_url: width: 1600 | image_tag: loading: 'eager', fetchpriority: 'high', alt: hero_alt, sizes: '(min-width: 990px) 50vw, 100vw', widths: '600, 900, 1200, 1600' }}
+    {%- endif -%}
+  </figure>
+</div>
+<style>
+  .ych { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); min-height: clamp(380px, 38vw, 560px); background: #f2f4f1; margin: 0 0 clamp(24px, 3vw, 40px); }
+  .ych__text { display: flex; flex-direction: column; justify-content: center; padding: clamp(20px, 3vw, 44px) clamp(16px, 4vw, 56px) clamp(24px, 3vw, 40px); min-width: 0; }
+  .ych__text .breadcrumbs-container { padding: 0; margin: 0 0 clamp(18px, 3vw, 40px); }
+  .ych__kicker { margin: 0 0 10px; font: 700 13px/1.2 Roboto, sans-serif; letter-spacing: 0.16em; text-transform: uppercase; color: #233923; }
+  .ych__h1.collection--title { margin: 0; font: 400 clamp(32px, 4.2vw, 58px)/1.02 "Archivo Black", Roboto, sans-serif; letter-spacing: -0.01em; color: #232739; text-align: left; }
+  .ych__desc { margin-top: 16px; max-width: 620px; font-size: clamp(16px, 1.3vw, 18px); line-height: 1.6; color: #4a4e47; text-align: left; }
+  .ych__desc p { margin: 0 0 10px; }
+  .ych__trust { list-style: none; margin: clamp(18px, 2.5vw, 30px) 0 0; padding: 18px 0 0; border-top: 1px solid #dcdfd8; display: flex; flex-wrap: wrap; gap: 10px 22px; }
+  .ych__trust li { display: flex; align-items: center; gap: 8px; font: 700 14px/1.3 Roboto, sans-serif; color: #232739; }
+  .ych__trust svg { width: 20px; height: 20px; flex: none; fill: none; stroke: #233923; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+  .ych__media { margin: 0; position: relative; overflow: hidden; background: #e7eae4; min-height: 260px; }
+  .ych__media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  @media (max-width: 989px) {
+    .ych { grid-template-columns: 1fr; min-height: 0; }
+    .ych__media { order: -1; aspect-ratio: 16 / 10; min-height: 0; }
+  }
+</style>

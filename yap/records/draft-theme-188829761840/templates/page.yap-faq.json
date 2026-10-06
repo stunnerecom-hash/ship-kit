@@ -1,0 +1,140 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "faq": {
+      "type": "yi-faq",
+      "blocks": {
+        "g1": {
+          "type": "group",
+          "settings": {
+            "key": "ordering",
+            "title": "Ordering and payment",
+            "icon": "cart",
+            "items": "How do I place an order?::Add the product to your cart and check out on this site. If you would rather order by phone, call <a href=\"tel:+14239273776\">+1 423-927-3776</a>, Monday to Friday, 9am to 5pm EST.\nCan I pay over time?::Yes. Shop Pay Installments is offered at checkout, with rates from 0 to 36% APR, subject to an eligibility check.\nWhen is my card charged?::When you order, your payment is pre-authorized. We confirm stock with the supplier, then process the charge and submit the order for shipment. If an item is on backorder or unavailable, we may void the pre-authorization and email you.\nDo you price match?::See our <a href=\"/pages/price-match-policy\">price match policy</a> for what qualifies. Some brands set minimum advertised prices, so not every product is eligible.\nAre you an authorized dealer?::Yard Automation Pros is an authorized Betta reseller and an authorized HOBOT and Aiper dealer. Every product we sell comes with its manufacturer's warranty.\nWho is Yard Automation Pros?::An online store for yard, pool and home robots. Yard Automation Pros is a trade name of Big Farmer LLC. We sell online and deliver across the US; there is no showroom or pickup."
+          }
+        },
+        "g2": {
+          "type": "group",
+          "settings": {
+            "key": "shipping",
+            "title": "Shipping and delivery",
+            "icon": "truck",
+            "items": "Where do you ship?::Within the United States. WYBOT robots do not ship to Alaska, Hawaii, Rhode Island, US territories or PO boxes.\nHow much does shipping cost?::Shipping is free on most robots: free freight shipping on Yarbo systems, free shipping on most Mowrator and Aiper products, free ground shipping on Betta within the contiguous US and free shipping on WYBOT within the contiguous US, except Rhode Island. HOBOT ships free within the contiguous US.\nHow long does delivery take?::Most orders ship within 1 to 3 business days and arrive 5 to 10 business days later, about 6 to 13 business days in total. By brand: Mowrator usually 7 to 10 business days; Aiper usually 10 to 14 business days; Betta ships in 1 to 2 business days with 1 to 6 days in transit; WYBOT is processed within 2 business days, then 3 to 7 business days. All times are estimates.\nHow will I know my order has shipped?::We email tracking within 24 to 48 hours of your order leaving the warehouse. If you have no tracking after 5 business days, email <a href=\"mailto:Support@yardautomationpros.com\">Support@yardautomationpros.com</a>.\nHow do large robots arrive?::Large robots such as Yarbo systems travel by freight. Curbside delivery is included for eligible items; threshold or white glove delivery may be offered at checkout, depending on the product and carrier.\nWhat should I check when it arrives?::Inspect the packaging before you sign, note any visible damage on the delivery receipt and take photos. Email photos of the item and packaging, your order number and a short description within 48 hours of delivery.\nCan I change my delivery address?::Contact us as soon as possible. We will do our best once an order has shipped, but address changes often cause delays, and any carrier fees for the change are the customer's responsibility."
+          }
+        },
+        "g3": {
+          "type": "group",
+          "settings": {
+            "key": "returns",
+            "title": "Returns, damage and cancellations",
+            "icon": "return",
+            "items": "Can I cancel my order?::Yes, before it ships, for a full refund. Call or email us as soon as possible. Custom or made-to-order products cannot be cancelled once production has started.\nHow long do I have to return something?::You have 30 days from the day you receive the item to start a return. Some manufacturers do not accept returns or have their own rules; the product page shows them, and we can confirm eligibility before you send anything.\nWho pays for return shipping?::If the item arrived defective, damaged or incorrect, the supplier covers the return shipping. For any other return, you pay the cost of shipping the item back to the supplier. Yard Automation Pros does not cover return shipping costs.\nIs there a restocking fee?::No. There is no restocking fee. If the item arrived defective, damaged or incorrect, the supplier covers all costs, including return shipping. For any other return, you pay the return shipping to the supplier.\nIs anything excluded from returns?::Used consumables and pre-orders that have already shipped can't be returned. Email us first so we can confirm eligibility and where it goes.\nMy order arrived damaged. What now?::Email photos of the damage and the packaging, your order number and a short description to <a href=\"mailto:Support@yardautomationpros.com\">Support@yardautomationpros.com</a> within 48 hours of delivery. We file the claim with the supplier, who covers the costs for a damaged or defective item.\nHow long does a refund take?::Approved refunds are processed within 5 to 8 working days after the return is received and inspected, to the original payment method. Your bank may take extra time to show it.\nWhere is the full policy?::Read the <a href=\"/policies/refund-policy\">refund policy</a> and the <a href=\"/policies/shipping-policy\">shipping policy</a>."
+          }
+        },
+        "g4": {
+          "type": "group",
+          "settings": {
+            "key": "warranty",
+            "title": "Warranty and support",
+            "icon": "shield",
+            "items": "What warranty comes with each brand?::<ul><li>Yarbo: 2-year limited warranty on the Core and modules.</li><li>Mowrator: 2 years or 2,000 hours of home use on the machine, remote and battery; 1 year on the charger.</li><li>WYBOT: 1 year on the A1, B1 and F1; 2 years on the C1, C2, C2 Vision, S2, S2 Solar, S2 Solar Vision and S3.</li><li>Aiper: 3 years on the Scuba X1 Pro Max; 2 years on the Scuba N3, N1 Plus and EcoSurfer M2; 1 year on the Scuba 800.</li><li>Betta: 1 year.</li><li>HOBOT: 1-year limited warranty.</li></ul>\nHow do I make a warranty claim?::Email <a href=\"mailto:Support@yardautomationpros.com\">Support@yardautomationpros.com</a> with your order number, the model, the serial number if you have it and a short video or photos of the fault. We prepare a claim-ready package and help you file and follow up the claim with the maker.\nWhen can I reach you?::By phone at <a href=\"tel:+14239273776\">+1 423-927-3776</a>, Monday to Friday, 9am to 5pm EST, by email at <a href=\"mailto:Support@yardautomationpros.com\">Support@yardautomationpros.com</a>, or through the chat button on any page, anytime.\nDo you visit or set up the robot?::No. Yard Automation Pros is an online store. Setup is done in each maker's app, and our team can talk you through it by phone or email.\nWhere can I find manuals and setup guides?::On each product page under Documents, and in our <a href=\"/pages/support\">Support Center</a> and <a href=\"/blogs/troubleshooting\">troubleshooting guides</a>."
+          }
+        },
+        "g5": {
+          "type": "group",
+          "settings": {
+            "key": "choosing",
+            "title": "Choosing a robot",
+            "icon": "compass",
+            "items": "Which robot mower fits my yard?::Size it for the grass you mow and your steepest slope. Yarbo rates the Y40 at up to 6 acres a week and the Y40P at up to 7 acres, on slopes up to 70% (35°), with no boundary wire. For steeper banks, the Mowrator S1 is a remote-control mower you drive from a safe spot.\nHow steep a slope can they handle?::Yarbo robots mow slopes up to 70% (35°) on their own. Mowrator rates the S1 4WD at 75% (37°) on standard wheels, 85% (40°) with Wide Wheels and 119% (50°) with Grip Tread tires.\nDo I need to bury a boundary wire?::No. Yarbo maps your property with RTK and stereo vision, so there is no wire to dig in. The Mowrator S1 is driven with a handheld remote and does not use a wire either.\nCan one robot work all year?::Yes, with Yarbo. The same Core takes a Lawn Mower Pro, Snow Blower or Leaf Blower module, and Yarbo lists an operating range of -13°F to 113°F.\nWhich pool robot fits my pool?::Match the robot to your pool size and surfaces. Aiper rates the Scuba X1 Pro Max for pools up to 3,230 sq ft, the Scuba N1 Plus up to 1,600 sq ft and the Scuba 800 up to 860 sq ft of flat floor; WYBOT rates the A1 up to 1,076 sq ft. Solar skimmers from Betta and the Aiper EcoSurfer M2 clean the surface instead.\nDoes a pool robot replace my filter and chemicals?::No. Robots remove debris; they do not manage water quality. Keep running your pump, filter and chemical treatment.\nI am still not sure. Can you help?::Yes. Book a <a href=\"/pages/schedule-your-professional-consultation\">free consultation</a>: tell us about your lawn, driveway, pool and slopes, and a Yard Automation Pro will recommend the setup that fits, or tell you honestly when none does."
+          }
+        },
+        "g6": {
+          "type": "group",
+          "settings": {
+            "key": "yarbo",
+            "title": "Yarbo",
+            "icon": "leaf",
+            "items": "What is Yarbo?::A modular yard robot: one tracked Core that takes a lawn mower, snow blower or leaf blower module. It maps your property with RTK and stereo vision and needs no boundary wire.\nWhat can the snow blower module clear?::The two-stage Snow Blower Module clears a 24 inch path, takes snow up to 12 inches deep and throws it 6 to 40 ft. Yarbo rates up to 6,000 sq ft per charge on the Y40 and 7,000 sq ft on the Y40P, at 1 inch of snow.\nHow strong is the leaf blower?::The Leaf Blower Module moves 607 CFM of air at 174 mph.\nCan I add modules later?::Yes. Buy a package now or add modules to your Core later.\nWhat about shipping and warranty?::Yarbo systems ship free by freight and carry Yarbo's 2-year limited warranty on the Core and modules."
+          }
+        },
+        "g7": {
+          "type": "group",
+          "settings": {
+            "key": "mowrator",
+            "title": "Mowrator",
+            "icon": "leaf",
+            "items": "Is the Mowrator S1 a robot mower?::No. The S1 is a remote-control mower: you drive it with a handheld remote from a safe spot. It is built for slopes and rough ground that robot mowers cannot handle.\nWhich S1 edition should I choose?::Pick by slope. Mowrator rates the S1 4WD at 75% (37°) on standard wheels, 85% (40°) with Wide Wheels and 119% (50°) with Grip Tread tires.\nDoes the warranty cover commercial use?::Mowrator's standard warranty (2 years or 2,000 hours) is for personal, home use. Commercial, agricultural, institutional or other income-generating use falls under a separate Mowrator contract, so call us before you order for that kind of work.\nHow long does Mowrator delivery take?::Shipping is free on most Mowrator products and usually takes 7 to 10 business days."
+          }
+        },
+        "g8": {
+          "type": "group",
+          "settings": {
+            "key": "wybot",
+            "title": "WYBOT",
+            "icon": "wave",
+            "items": "Where does WYBOT ship?::Free shipping within the contiguous US, processed within 2 business days, then 3 to 7 business days. WYBOT does not ship to Alaska, Hawaii, Rhode Island, US territories or PO boxes.\nHow long is the WYBOT warranty?::1 year on the A1, B1 and F1; 2 years on the C1, C2, C2 Vision, S2, S2 Solar, S2 Solar Vision and S3.\nHow do the solar models charge?::The S2 Solar and S2 Solar Vision charge from a solar-powered dock, with DC charging as a backup, and return to it by themselves below 20% battery."
+          }
+        },
+        "g9": {
+          "type": "group",
+          "settings": {
+            "key": "aiper",
+            "title": "Aiper",
+            "icon": "wave",
+            "items": "Are you an authorized Aiper dealer?::Yes. Yard Automation Pros is an authorized Aiper dealer.\nHow big a pool can an Aiper clean?::Aiper rates the Scuba X1 Pro Max for pools up to 3,230 sq ft, the Scuba N1 Plus up to 1,600 sq ft and the Scuba 800 up to 860 sq ft of flat floor. The EcoSurfer M2 skimmer runs 35+ hours, per Aiper.\nHow long is the Aiper warranty?::3 years on the Scuba X1 Pro Max; 2 years on the Scuba N3, Scuba N1 Plus and EcoSurfer M2; 1 year on the Scuba 800, from the date of purchase with proof of purchase.\nHow long does Aiper delivery take?::Shipping is free on most Aiper products and usually takes 10 to 14 business days."
+          }
+        },
+        "g10": {
+          "type": "group",
+          "settings": {
+            "key": "betta",
+            "title": "Betta",
+            "icon": "wave",
+            "items": "Are you an authorized Betta reseller?::Yes. Yard Automation Pros is an authorized Betta reseller.\nCan a Betta skimmer run at night?::Yes. It cannot charge in the dark, but a full charge runs it for up to 30+ hours, per Betta.\nDoes Betta work in saltwater pools?::Yes, up to 5,000 ppm salt, per Betta.\nWhich Betta suits an infinity edge pool?::The Betta Flex is the model rated for infinity edge pools.\nShipping and warranty?::Free ground shipping within the contiguous US; Betta usually ships within 1 to 2 business days, with 1 to 6 days in transit. Every Betta has a 1-year Betta warranty."
+          }
+        },
+        "g11": {
+          "type": "group",
+          "settings": {
+            "key": "hobot",
+            "title": "HOBOT",
+            "icon": "window",
+            "items": "Are you an authorized HOBOT dealer?::Yes. Yard Automation Pros is an authorized HOBOT dealer, and HOBOT's 1-year limited warranty applies.\nWhich HOBOT is best for frameless glass?::The HOBOT-2S. Its Edge-Leakage Sensors detect glass edges, including frameless panes, and HOBOT says it reaches about 80% of each corner.\nIs a window robot safe on an upstairs window?::Always tie the safety rope to a solid indoor fixture before you start. If the power fails, the backup battery keeps the robot on the glass for 20 minutes while it sounds an alert.\nHow long does the LEGEE-688 run?::HOBOT rates it at up to 90 minutes and up to 150 m² (about 1,600 sq ft) per charge in ECO mode. It vacuums, dry mops, sprays and wet mops in one pass."
+          }
+        }
+      },
+      "block_order": [
+        "g1",
+        "g2",
+        "g3",
+        "g4",
+        "g5",
+        "g6",
+        "g7",
+        "g8",
+        "g9",
+        "g10",
+        "g11"
+      ],
+      "settings": {
+        "kicker": "Help",
+        "heading": "Frequently asked questions",
+        "lede": "<p>Everything in one place: ordering, shipping, returns, warranty, choosing a robot and each brand we carry. Search it, or pick a topic.</p>",
+        "image_name": "yap-yarbo-four-seasons.jpg",
+        "image_alt": "Yarbo robot working through the four seasons"
+      }
+    }
+  },
+  "order": [
+    "faq"
+  ]
+}

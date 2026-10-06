@@ -1,0 +1,517 @@
+{% comment %}
+  Article structured data
+  https://developers.google.com/search/docs/data-types/articles
+{% endcomment %}
+
+{% if template contains 'article' %}
+  {%- capture article_description  -%}
+    {%- if article.excerpt != blank -%}
+      {{ article.excerpt | strip_html }}
+    {%- else -%}
+      {{ article.content | truncatewords: 100 | strip_html }}
+    {%- endif -%}
+  {%- endcapture -%}
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ shop.url }}{{ article.url }}"
+      },
+      "headline": {{ article.title | json }},
+      {% if article.image %}
+        "image": {
+          "@type": "ImageObject",
+          "url": {{ article.image | img_url: '800x800' | prepend: 'https:' | json }},
+          "height": 800,
+          "width": 800
+        },
+      {% endif %}
+      "datePublished": {{ article.published_at | date: '%Y-%m-%dT%H:%M:%S%z' | json}},
+      "dateModified": {{ article.published_at | date: '%Y-%m-%dT%H:%M:%S%z' | json}},
+      "author": {
+        "@type": "Person",
+        "name": {{ article.author | json }}
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": {{ shop.name | json }},
+        "logo": {
+          "@type": "ImageObject",
+          "url": {{ article.user.image | img_url: '200x200' | prepend: 'https:' | json }}
+        }
+      },
+      "description": {{ article_description | json }}
+    }
+  </script>
+{% endif %}
+
+{% comment %}
+  Breadcrumbs
+  https://developers.google.com/search/docs/data-types/breadcrumbs
+{% endcomment %}
+
+{%- if current_tags -%}
+  {%- assign tag_names = current_tags | join: ', ' %}
+  {% comment %}Converting an array to a handle converts it to a string{% endcomment %}
+  {%- capture tag_handles -%}
+    {%- for tag in current_tags -%}
+      {{- tag | handle | append: '|' -}}
+    {%- endfor -%}
+  {%- endcapture -%}
+{%- endif -%}
+
+{% if collection.url == blank %}
+  {% assign collection_url = '/collections/all' %}
+{% else %}
+  {% assign collection_url = collection.url %}
+{% endif %}
+
+{% if template.name == 'product'
+    or template.name == 'list-collections'
+    or template.name == 'collection'
+    or template.name == 'blog'
+    or template.name == 'article'
+    or template.name == 'search'
+    or template.name == 'cart'
+    or template.name == 'page'
+%}
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+      {% case template.name %}
+        {% when 'product' %}
+          {% if product.collections.size >= 1 %}
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@id": "{{ shop.url }}/collections",
+                "name": {{ 'structured_data.breadcrumbs.collections' | t | json }}
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@id": "{{ shop.url }}/collections/{{ product.collections.first.handle }}",
+                "name": {{ product.collections.first.title | json }}
+              }
+            },
+          {% else %}
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@id": "{{ shop.url }}/products",
+                "name": {{ 'structured_data.breadcrumbs.products' | t | json }}
+              }
+            },
+          {% endif %}
+          {
+            "@type": "ListItem",
+            "position": {% if product.collections.size >= 1 %}3{% else %}2{% endif %},
+            "item": {
+              "@id": "{{ shop.url }}{{ product.url | within: collection }}",
+              "name": {{ product.title | json }}
+            }
+          }
+        {% when 'list-collections' %}
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "{{ shop.url }}/collections",
+              "name": {{ 'structured_data.breadcrumbs.collections' | t | json }}
+            }
+          }
+          {% if current_page != 1 %}
+            ,
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@id": "{{ shop.url }}/collections",
+                "name": {{ 'structured_data.breadcrumbs.page' | t: page: current_page | json }}
+              }
+            }
+          {% endif %}
+        {% when 'collection' %}
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "{{ shop.url }}/collections",
+              "name": {{ 'structured_data.breadcrumbs.collections' | t | json }}
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@id": "{{ shop.url }}{{ collection_url }}",
+              "name": {{ collection.title | json }}
+            }
+          }
+          {% if current_tags %}
+            ,
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@id": "{{ shop.url }}{{ collection_url }}/{{- tag_handles | split: '|' | join: '+' -}}",
+                "name": {{ 'structured_data.breadcrumbs.tags_html' | t: tags: tag_names | json }}
+              }
+            }
+          {% endif %}
+          {% if current_page != 1 %}
+            {% if current_tags %}
+              {% assign position = 4 %}
+            {% else %}
+              {% assign position = 3 %}
+            {% endif %}
+            ,
+            {
+              "@type": "ListItem",
+              "position": {{ position }},
+              "item": {
+                "@id": "{{ shop.url }}/collections?page={{ current_page }}",
+                "name": {{ 'structured_data.breadcrumbs.page' | t: page: current_page | json }}
+              }
+            }
+          {% endif %}
+        {% when 'blog' or 'article' %}
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "{{ shop.url }}{{ blog.url }}",
+              "name": {{ blog.title | json }}
+            }
+          }
+          {% if template.name == 'article' %}
+            ,
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@id": "{{ shop.url }}{{ article.url }}",
+                "name": {{ article.title | json }}
+              }
+            }
+          {% elsif current_tags %}
+            ,
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@id": "{{ shop.url }}{{ blog.url }}/tagged/{{- tag_handles | split: '|' | join: '+' -}}",
+                "name": {{ 'structured_data.breadcrumbs.tags_html' | t: tags: tag_names | json }}
+              }
+            }
+          {% endif %}
+          {% if current_page != 1 %}
+            {% if current_tags %}
+              {% assign position = 3 %}
+              {%- capture url -%}
+                {{ shop.url }}{{ blog.url }}/tagged/{{ tag_handles | split: '|' | join: '+' }}?page={{ current_page }}
+              {%- endcapture -%}
+            {% else %}
+              {% assign position = 2 %}
+                {%- capture url -%}
+                {{ shop.url }}{{ blog.url }}?page={{ current_page }}
+              {%- endcapture -%}
+            {% endif %}
+            ,
+            {
+              "@type": "ListItem",
+              "position": {{ position }},
+              "item": {
+                "@id": "{{ url }}",
+                "name": {{ 'structured_data.breadcrumbs.page' | t: page: current_page | json }}
+              }
+            }
+          {% endif %}
+        {% when 'search' %}
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "{{ shop.url }}/search",
+              "name": {{ 'structured_data.breadcrumbs.search' | t | json }}
+            }
+          }
+          {% if search.performed %}
+          ,
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@id": "{{ shop.url }}/search?q={{ search.terms }}",
+                "name": {{ search.terms | json }}
+              }
+            }
+            {% if current_page != 1 %}
+            ,
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                  "@id": "{{ shop.url }}/search?page={{ current_page }}&q={{ search.terms }}",
+                  "name": {{ 'structured_data.breadcrumbs.page' | t: page: current_page | json }}
+                }
+              }
+            {% endif %}
+          {% endif %}
+        {% when 'cart' %}
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "{{ shop.url }}/cart",
+              "name": {{ 'structured_data.breadcrumbs.cart' | t | json }}
+            }
+          }
+        {% when 'page' %}
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@id": "{{ page.url }}",
+              "name": {{ page.title | json }}
+            }
+          }
+        {% else %}
+        {% endcase %}
+      ]
+    }
+  </script>
+{% endif %}
+
+{% comment %}
+  Product structured data
+  https://developers.google.com/search/docs/appearance/structured-data/merchant-listing
+  S2-02 rebuild (2026-09-25). Rules: only true, per-brand terms.
+  - Returns (owner rule 2026-09-25): damaged or defective = free return (supplier covers all costs); any other return =
+    customer pays shipping back to the supplier. Window 30 days for every brand (each brand's own US policy, checked
+    2026-09-25), including Yarbo accessories and merchandise (owner rule 2026-10-06).
+    No restocking fee (owner rule 2026-10-06). Sources: seo-log/supplier-return-policies-2026-09-25.md
+  - Shipping: declared only where written terms exist (Yarbo free freight; Betta free ground to the contiguous US,
+    ships in 1 to 2 business days, 1 to 6 days transit; WYBOT free to the contiguous US except RI, processed within
+    2 business days, 3 to 7 business days transit). Mowrator and Aiper ("free on most") and HOBOT: omitted.
+  - mpn: only from metafield custom.mpn (a real manufacturer part number). Never the SKU.
+  - gtin: only a numeric barcode of 8, 12, 13 or 14 digits.
+  - Product and each variant Offer have their own @id.
+{% endcomment %}
+{% if template contains 'product' %}
+  {% assign selected_variant = product.selected_or_first_available_variant | default: product.variants.first %}
+  {%- capture product_name -%}
+    {{ product.title }}
+    {%- if selected_variant.title != 'Default Title' and selected_variant.option1 == 'Default Title' -%}
+      - {{ selected_variant.title }}
+    {%- endif -%}
+  {%- endcapture -%}
+  {%- assign plain_description = product.description | strip_html | strip_newlines | truncate: 4800 -%}
+  {%- assign product_id = shop.url | append: product.url | append: '#product' -%}
+  {%- assign sd_vendor = product.vendor | downcase -%}
+  {%- assign sd_contig = 'AL,AZ,AR,CA,CO,CT,DE,DC,FL,GA,ID,IL,IN,IA,KS,KY,LA,ME,MD,MA,MI,MN,MS,MO,MT,NE,NV,NH,NJ,NM,NY,NC,ND,OH,OK,OR,PA,RI,SC,SD,TN,TX,UT,VT,VA,WA,WV,WI,WY' -%}
+  {%- capture sd_shipping -%}
+    {%- case sd_vendor -%}
+      {%- when 'yarbo' -%}
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": { "@type": "MonetaryAmount", "value": 0, "currency": "USD" },
+          "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "US" }
+        },
+      {%- when 'betta' -%}
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": { "@type": "MonetaryAmount", "value": 0, "currency": "USD" },
+          "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "US", "addressRegion": {{ sd_contig | split: ',' | json }} },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "DAY" },
+            "transitTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 6, "unitCode": "DAY" }
+          }
+        },
+      {%- when 'wybot' -%}
+        "shippingDetails": [
+          {
+            "@type": "OfferShippingDetails",
+            "shippingRate": { "@type": "MonetaryAmount", "value": 0, "currency": "USD" },
+            "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "US", "addressRegion": {{ sd_contig | remove: 'RI,' | split: ',' | json }} },
+            "deliveryTime": {
+              "@type": "ShippingDeliveryTime",
+              "handlingTime": { "@type": "QuantitativeValue", "minValue": 0, "maxValue": 2, "unitCode": "DAY" },
+              "transitTime": { "@type": "QuantitativeValue", "minValue": 3, "maxValue": 7, "unitCode": "DAY" }
+            }
+          },
+          {
+            "@type": "OfferShippingDetails",
+            "doesNotShip": true,
+            "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "US", "addressRegion": ["AK", "HI", "RI"] }
+          }
+        ],
+    {%- endcase -%}
+  {%- endcapture -%}
+
+  {%- assign sd_return_days = 30 -%}
+  {%- capture sd_returns -%}
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "applicableCountry": "US",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": {{ sd_return_days }},
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility",
+          "itemDefectReturnFees": "https://schema.org/FreeReturn"
+        },
+  {%- endcapture -%}
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "@id": {{ product_id | json }},
+    "name": {{ product_name | strip_newlines | json }},
+    "url": {{ shop.url | append: product.url | json }},
+    "image": [
+      {%- for img in product.images limit: 6 -%}
+        {{ img | img_url: '1024x1024' | prepend: 'https:' | json }}{%- unless forloop.last -%},{%- endunless -%}
+      {%- endfor -%}
+    ],
+    {% if plain_description != blank %}
+      "description": {{ plain_description | json }},
+    {% endif %}
+    {% if product.vendor != blank %}
+      "brand": { "@type": "Brand", "name": {{ product.vendor | json }} },
+    {% endif %}
+    {% if selected_variant.sku != blank %}
+      "sku": {{ selected_variant.sku | json }},
+    {% endif %}
+    {%- assign sd_mpn = product.metafields.custom.mpn.value -%}
+    {% if sd_mpn != blank %}
+      "mpn": {{ sd_mpn | json }},
+    {% endif %}
+    {%- assign sd_bc = selected_variant.barcode | strip -%}
+    {%- assign sd_nd = sd_bc | remove: '0' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9' -%}
+    {% if sd_bc != blank and sd_nd == blank %}{% if sd_bc.size == 8 or sd_bc.size == 12 or sd_bc.size == 13 or sd_bc.size == 14 %}
+      "gtin": {{ sd_bc | json }},
+    {% endif %}{% endif %}
+    {% if product.type != blank %}
+      "category": {{ product.type | json }},
+    {% endif %}
+    {%- assign sd_rc = product.metafields.reviews.rating_count.value | plus: 0 -%}
+    {% if sd_rc > 0 and product.metafields.reviews.rating.value != blank %}
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": {{ product.metafields.reviews.rating.value.rating | json }},
+        "reviewCount": {{ sd_rc }},
+        "bestRating": 5,
+        "worstRating": 1
+      },
+    {% endif %}
+    "offers": [
+      {%- for v in product.variants limit: 50 -%}
+      {
+        "@type": "Offer",
+        "@id": {{ shop.url | append: v.url | append: '#offer' | json }},
+        "url": {{ shop.url | append: v.url | json }},
+        {% if v.sku != blank %}"sku": {{ v.sku | json }},{% endif %}
+        {%- assign vb = v.barcode | strip -%}
+        {%- assign vnd = vb | remove: '0' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9' -%}
+        {% if vb != blank and vnd == blank %}{% if vb.size == 8 or vb.size == 12 or vb.size == 13 or vb.size == 14 %}"gtin": {{ vb | json }},{% endif %}{% endif %}
+        {% if v.title != 'Default Title' %}"name": {{ product.title | append: ' - ' | append: v.title | json }},{% endif %}
+        "priceCurrency": {{ cart.currency.iso_code | json }},
+        "price": {{ v.price | divided_by: 100.0 | json }},
+        "availability": "https://schema.org/{% if v.available %}InStock{% else %}OutOfStock{% endif %}",
+        "itemCondition": "https://schema.org/NewCondition",
+        {{ sd_returns }}
+        {{ sd_shipping }}
+        "seller": { "@id": "https://yardautomationpros.com/#organization" }
+      }{%- unless forloop.last -%},{%- endunless -%}
+      {%- endfor -%}
+    ]
+  }
+  </script>
+{% endif %}
+
+{% comment %}
+  FAQ structured data (static — matches /pages/faqs visible text verbatim)
+  https://developers.google.com/search/docs/appearance/structured-data/faqpage
+{% endcomment %}
+
+{%- comment -%} /pages/faqs FAQPage now comes from sections/yi-faq.liquid (template page.yap-faq), built from the visible answers (2026-09-25). {%- endcomment -%}
+
+{% comment %}
+  Store information
+  https://developers.google.com/search/docs/data-types/sitename
+{% endcomment %}
+
+{% comment %}
+  Brand entity (handoff Task 1, 2026-09-24): one Organization entity sitewide (OnlineStore is an Organization subtype)
+  plus a WebSite entity that points to it by @id. Replaces the earlier bare WebSite block and the OnlineStore block.
+  Big Farmer LLC is the legal entity; Yard Automation Pros is its trade name. telephone added 2026-09-25 (owner:
+  support is email and phone, Monday to Friday 9am to 5pm EST). No address: online-only, not approved.
+{% endcomment %}
+{%- assign org_logo_img = images['yap-logo-square-512.png'] -%}
+{%- if org_logo_img != blank -%}
+  {%- assign organization_logo = org_logo_img | image_url: width: 512 | prepend: 'https:' -%}
+{%- else -%}
+  {%- assign organization_logo = 'https://yardautomationpros.com/cdn/shop/files/hf_20260205_221619_39ba99ae-a101-442b-954d-5d1a50ba6546_670x500.webp_2K_202608172258_221x165.jpg' -%}
+{%- endif -%}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "OnlineStore",
+        "@id": "https://yardautomationpros.com/#organization",
+        "name": "Yard Automation Pros",
+        "alternateName": ["YAP", "yardautomationpros.com"],
+        "legalName": "Big Farmer LLC",
+        "url": "https://yardautomationpros.com/",
+        "logo": {{ organization_logo | json }},
+        "image": {{ organization_logo | json }},
+        "email": "support@yardautomationpros.com",
+        "telephone": "+1-423-927-3776",
+        "description": "Online dealer of autonomous robot lawn mowers, robotic pool cleaners and robot snow blowers for large residential properties and estates.",
+        "currenciesAccepted": "USD",
+        "areaServed": { "@type": "Country", "name": "United States" },
+        "sameAs": [
+          "https://www.facebook.com/61594147011656",
+          "https://www.pinterest.com/Yard_Automation/"
+        ],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "email": "support@yardautomationpros.com",
+            "telephone": "+1-423-927-3776",
+            "contactType": "customer support",
+            "hoursAvailable": {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+              "opens": "09:00",
+              "closes": "17:00"
+            },
+            "areaServed": "US",
+            "availableLanguage": ["English"]
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://yardautomationpros.com/#website",
+        "name": "Yard Automation Pros",
+        "alternateName": "YAP",
+        "url": "https://yardautomationpros.com/",
+        "publisher": { "@id": "https://yardautomationpros.com/#organization" }
+      }
+    ]
+  }
+</script>

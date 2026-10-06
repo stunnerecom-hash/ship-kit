@@ -1,0 +1,290 @@
+{%- comment -%}
+  Collection copy (playbook S3-01 formula: intro above the grid, then how to choose, a fit table, why buy here and a mini-FAQ).
+  Kept in the theme so it is live without admin access; a collection's own Description, once written in admin, replaces the intro.
+  Usage: {% render 'yc-copy', f: 'intro' %}  fields: intro, h2, lead, steps ("Title. Text" per line), th ("Col A|Col B"), table ("A|B" per line), why, faq ("Question|Answer" per line)
+  Facts: manufacturer pages and YAP product pages verified 2026-09-24 (Yarbo, Mowrator, Aiper, WYBOT, Betta, HOBOT). No dealer, stock, 0% APR or ranking claims.
+{%- endcomment -%}
+{%- assign k = h | default: collection.handle -%}
+{%- capture tel -%}<a href="tel:+14239273776">+1 423-927-3776</a>{%- endcapture -%}
+{%- capture consult -%}<a href="/pages/schedule-your-professional-consultation">book a free consultation</a>{%- endcapture -%}
+{%- if f == 'override' -%}{%- case k -%}{%- when 'betta', 'bundle-deals', 'mowrator-mowers', 'mowrator-accessories' -%}yes{%- endcase -%}{%- endif -%}
+{%- comment -%} override: these admin descriptions are inaccurate or off-standard (dash, non-existent bundles); the theme intro replaces them until the admin text is rewritten. {%- endcomment -%}
+{%- case k -%}
+
+{%- when 'robot-mowers' -%}
+  {%- case f -%}
+  {%- when 'intro' -%}Robot lawn mowers and remote-control mowers for yards that are too big, too steep or too rough to push a mower across. Yarbo robots mow on their own with no boundary wire, and the Mowrator S1 is a remote-control mower you drive from a safe spot on slopes robots cannot handle.
+  {%- when 'h2' -%}How to choose a robot lawn mower
+  {%- when 'lead' -%}Four questions decide it.
+  {%- when 'steps' -%}How much lawn. Size for the grass you mow, not the lot. Yarbo rates the Y40 at up to 6 acres a week and the Y40P at up to 7 acres, at two cuts a week.
+How steep. Slopes are quoted in percent grade, and 100% is 45 degrees. Yarbo robots handle up to 70% (35°). Mowrator rates the S1 4WD at 75% (37°) on standard wheels, 85% (40°) with Wide Wheels and 119% (50°) with Grip Tread tires.
+Hands-off or hands-on. Yarbo maps the yard with RTK and stereo vision and mows on a schedule, with no wire to bury. The Mowrator S1 is driven with a handheld remote; it does not mow by itself.
+One job or all year. The Yarbo Core takes a Lawn Mower Pro, Snow Blower or Leaf Blower module, so one machine works every season. The S1 adds leaf collection, towing and, on the 4WD, a snow plow kit.
+  {%- when 'th' -%}Your yard|What to look at
+  {%- when 'table' -%}Up to 6 or 7 acres, slopes up to 35°, want it hands-off|Yarbo Y40 or Y40P with the Lawn Mower Pro module
+Mow in summer, clear snow in winter|Yarbo Core with Lawn Mower Pro and Snow Blower modules
+Mow, blow leaves and clear snow|Yarbo Y40 with all three modules
+Banks steeper than 35°, you are happy to drive|Mowrator S1 4WD, Wide Wheels or Grip Tread Tire Edition
+Banks up to 50° (119%)|Mowrator S1 4WD Grip Tread Tire Edition
+  {%- when 'why' -%}Free freight shipping on Yarbo systems and free shipping on most Mowrator products, each covered by its manufacturer's warranty (2 years on Yarbo). Pay over time with Shop Pay Installments, subject to an eligibility check. Questions go to a US team at {{ tel }}, 9am to 5pm EST, or {{ consult }} and we will tell you honestly what fits your yard. Paying for mowing now? <a href="/pages/find-your-robot#calculator">Compare a robot with 5 years of lawn service</a>, or <a href="/pages/find-your-robot#quiz">find your robot in 4 questions</a>.
+  {%- when 'faq' -%}What slope can a robot mower handle?|Yarbo robots mow slopes up to 70% (35°) on their own. For steeper banks, a remote-control mower is the practical choice: Mowrator rates the S1 4WD up to 119% (50°) with Grip Tread tires.
+Do I need to bury a boundary wire?|Not with Yarbo. It maps your yard with RTK satellite positioning and stereo vision, and you set zones in the app. The Mowrator S1 is driven by remote, so there is nothing to map.
+Can one machine mow and clear snow?|Yes. The Yarbo Core swaps modules by season: Lawn Mower Pro, Snow Blower and Leaf Blower. Mowrator also offers a Snow Plow Kit for the S1 4WD.
+  {%- endcase -%}
+
+{%- when 'robot-pool-cleaners' -%}
+  {%- case f -%}
+  {%- when 'intro' -%}Robotic pool cleaners and solar pool skimmers from Aiper, WYBOT and Betta. Cordless robots clean the floor, walls and waterline; solar skimmers stay on the surface and catch leaves, bugs and pollen before they sink. Sizes run from small above-ground pools to large in-ground pools.
+  {%- when 'h2' -%}How to choose a robotic pool cleaner
+  {%- when 'lead' -%}Four things matter more than suction figures.
+  {%- when 'steps' -%}Which surfaces. Entry models such as the WYBOT A1 and Aiper Scuba 800 clean the floor of flat pools. Most cordless robots also climb the walls and clean the waterline, where the scum line forms. Check the surfaces listed on each product.
+Pool size. Makers rate robots by pool area. The range here runs from 860 sq ft (Aiper Scuba 800) to about 3,230 sq ft (WYBOT S2 and Aiper Scuba X1 Pro Max).
+How it charges. Most robots charge out of the pool between cycles. The WYBOT S2 Solar models return to a solar charging dock, and the WYBOT S3 docks and empties its debris into a bin on the deck.
+The surface. Floor robots do not catch floating debris. Betta skimmers, the WYBOT F1 and the Aiper EcoSurfer M2 run on solar power and clear the surface, and many owners pair one with a floor robot.
+  {%- when 'th' -%}Your pool|What to look at
+  {%- when 'table' -%}Small above-ground pool with a flat floor|WYBOT A1 (up to 1,076 sq ft) or Aiper Scuba 800 (up to 860 sq ft)
+In-ground pool up to about 1,600 sq ft|WYBOT C1 or Aiper Scuba N1 Plus
+In-ground pool up to about 2,150 sq ft|WYBOT C2 or C2 Vision
+Large pool up to about 3,230 sq ft|WYBOT S2, S2 Solar or Aiper Scuba X1 Pro Max
+Leaves and pollen on the surface|Betta SE, SE Plus, Flex or Neo, WYBOT F1 or Aiper EcoSurfer M2
+Floor and surface together|A WYBOT Full Pool Solution bundle (robot plus F1)
+  {%- when 'why' -%}Free shipping on most pool robots, each covered by its manufacturer's warranty (1 or 2 years depending on the model). Pay over time with Shop Pay Installments, subject to an eligibility check. Describe your pool to our US team at {{ tel }}, 9am to 5pm EST, or {{ consult }}.
+  {%- when 'faq' -%}Does a pool robot replace my filter and chemicals?|No. Robots remove debris; they do not manage water quality. Keep running your pump, filter and chemical treatment.
+Do I still need to skim the surface?|A floor robot will not catch leaves floating on the water. A solar skimmer such as a Betta or the WYBOT F1 does, and running both covers the whole pool.
+Which robots clean the waterline?|Most of the cordless robots here, including the WYBOT B1, C1, C2 and S2 and the Aiper Scuba N1 Plus and X1 Pro Max. Floor-only models such as the WYBOT A1 and Aiper Scuba 800 do not.
+  {%- endcase -%}
+
+{%- when 'robot-snow-blowers' -%}
+  {%- case f -%}
+  {%- when 'intro' -%}Robotic snow blowers for driveways and paths that take too long to clear by hand. Every machine here is built on the Yarbo Core: a two-stage snow blower module on high-traction tracks that clears on a schedule or on command, and the same Core mows and blows leaves in other seasons.
+  {%- when 'h2' -%}How to choose a robotic snow blower
+  {%- when 'lead' -%}Size it for your driveway and your winters.
+  {%- when 'steps' -%}Area per charge. Yarbo rates the Y40 at up to 6,000 sq ft of clearing per charge and the Y40P at up to 7,000 sq ft, at 1 inch of snow. Deeper snow means less area per charge.
+Snow depth. The two-stage Snow Blower Module has a 12 inch intake and a 24 inch path, and throws snow 6 to 40 ft. The chute turns from -10° to 190°.
+Cold and ground. The Yarbo Core runs from -13°F to 113°F on high-traction tracks that grip slopes and rough ground.
+Other seasons. If you also mow or clear leaves, add the Lawn Mower Pro or Leaf Blower module to the same Core instead of buying a second machine. Already own a Core? Buy the Snow Blower Module on its own.
+  {%- when 'th' -%}Your situation|What to look at
+  {%- when 'table' -%}Snow only|Yarbo Y40 Snow Blower (Core plus Snow Blower Module)
+Snow in winter, leaves in fall|Yarbo Y40 Snow Blower plus Leaf Blower
+Snow, leaves and mowing|Yarbo Y40 with all three modules
+You already own a Yarbo Core|Yarbo Snow Blower Module
+  {%- when 'why' -%}Free freight shipping on Yarbo systems and Yarbo's 2-year limited warranty on the Core and modules. Pay over time with Shop Pay Installments, subject to an eligibility check. Talk it through with our US team at {{ tel }}, 9am to 5pm EST, or {{ consult }}.
+  {%- when 'faq' -%}How deep can the snow be?|The Snow Blower Module has a 12 inch intake and clears a 24 inch path, throwing snow 6 to 40 ft. Yarbo's clearing area per charge is quoted at 1 inch of snow; deeper snow covers less ground per charge.
+How cold can it work?|Yarbo rates the Core for -13°F to 113°F.
+Can the same machine mow in summer?|Yes. The Yarbo Core takes the Lawn Mower Pro and Leaf Blower modules too, so one machine covers every season.
+  {%- endcase -%}
+
+{%- when 'robot-vacuum-mops' -%}
+  {%- case f -%}
+  {%- when 'intro' -%}Robots that pick up after you, indoors and out. The HOBOT LEGEE-688 vacuums and mops hard floors in one pass, and Yarbo's Leaf Blower systems clear leaves and debris off lawns, drives and paths.
+  {%- when 'h2' -%}How to choose a cleaning robot
+  {%- when 'steps' -%}Indoors or out. The LEGEE-688 is a floor robot for inside the house. Yarbo Leaf Blower systems work outdoors on lawns, drives and paths.
+Hard floors and stains. HOBOT's LEGEE-688 vacuums, dry mops, sprays and wet mops in one pass, with Kitchen and Pet modes among its 7 cleaning modes.
+Leaves and debris. The Yarbo Leaf Blower Module moves 607 CFM of air at 174 mph on the Yarbo Core.
+  {%- when 'th' -%}You want to|What to look at
+  {%- when 'table' -%}Vacuum and mop hard floors|HOBOT LEGEE-688
+Clear leaves outdoors|Yarbo Y40 Leaf Blower (Core plus Leaf Blower Module)
+Add leaf clearing to a Core you own|Yarbo Leaf Blower Module
+  {%- when 'why' -%}We are an authorized HOBOT dealer, and every product carries its manufacturer's warranty. Pay over time with Shop Pay Installments, subject to an eligibility check. Questions go to our US team at {{ tel }}, 9am to 5pm EST.
+  {%- when 'faq' -%}Does the LEGEE-688 vacuum and mop at the same time?|Yes. HOBOT designed it to vacuum, dry mop, spray and wet mop in one pass.
+How strong is the Yarbo leaf blower?|The Leaf Blower Module moves 607 CFM of air at 174 mph.
+  {%- endcase -%}
+
+{%- when 'robot-window-cleaner' -%}
+  {%- case f -%}
+  {%- when 'intro' -%}Window cleaning robots from HOBOT that hold to the glass with suction, spray a fine water mist and clean on a planned route, tethered by a safety rope. Built for large windows and glass that is hard to reach by hand.
+  {%- when 'h2' -%}How to choose a window cleaning robot
+  {%- when 'steps' -%}Corners and edges. HOBOT says the 2S reaches about 80% of each corner, and its Edge-Leakage Sensors detect the slight lift at the edge of frameless glass. The HOBOT-298 cleans in a linear pattern on framed windows.
+Spray. The HOBOT-298 has one ultrasonic spray nozzle; the 2S has two that spray in three directions.
+Safety first. Both hang from a safety rope and hold on for 20 minutes on a backup battery, with an alert, if the power drops. Always tie the rope off before running the robot.
+  {%- when 'th' -%}Your windows|What to look at
+  {%- when 'table' -%}Standard framed windows|HOBOT-298
+Frameless or large glass, deep corners|HOBOT-2S
+  {%- when 'why' -%}We are an authorized HOBOT dealer, and both robots carry HOBOT's 1-year limited warranty. Pay over time with Shop Pay Installments, subject to an eligibility check. Questions go to our US team at {{ tel }}, 9am to 5pm EST.
+  {%- when 'faq' -%}Which HOBOT is better for frameless glass?|The HOBOT-2S. Its Edge-Leakage Sensors detect the slight lift at the edge of frameless glass, and HOBOT says it reaches about 80% of each corner.
+Do I need to spray the glass first?|No. Both models spray a fine water mist as they clean.
+  {%- endcase -%}
+
+{%- when 'yarbo' -%}
+  {%- case f -%}
+  {%- when 'intro' -%}Yarbo is a modular yard robot: one tracked Core that takes a lawn mower, snow blower or leaf blower module. It maps your property with RTK and stereo vision, needs no boundary wire and works on slopes up to 70% (35°), from mowing season through winter.
+  {%- when 'h2' -%}How to choose a Yarbo
+  {%- when 'lead' -%}Pick the Core, then the modules.
+  {%- when 'steps' -%}Y40 or Y40P. Both Cores map with RTK and vision and handle 35° slopes. Yarbo rates the Y40 at up to 6 acres of mowing a week and 6,000 sq ft of snow per charge; the Y40P at up to 7 acres and 7,000 sq ft.
+Mowing. The Lawn Mower Pro module has a 20 inch cutting width.
+Snow. The two-stage Snow Blower Module clears a 24 inch path, takes snow up to 12 inches deep and throws it 6 to 40 ft.
+Leaves. The Leaf Blower Module moves 607 CFM at 174 mph. Buy a package now or add modules to your Core later.
+  {%- when 'th' -%}You want|What to look at
+  {%- when 'table' -%}Mowing only|Yarbo Y40 Lawn Mower Pro, or Y40P Core plus Lawn Mower Pro
+Mowing and snow|Y40 Lawn Mower Pro plus Snow Blower
+Mowing, leaves and snow|Y40 with all three modules
+All three plus edge trimming|Y40 package with the Trimmer Module
+A module for a Core you own|Lawn Mower Pro, Snow Blower or Leaf Blower Module
+  {%- when 'why' -%}Free freight shipping and Yarbo's 2-year limited warranty on the Core and modules, with our team helping you file and follow up on claims. Pay over time with Shop Pay Installments, subject to an eligibility check. Call {{ tel }}, 9am to 5pm EST, or {{ consult }}. Paying for mowing now? <a href="/pages/find-your-robot#calculator">Compare a robot with 5 years of lawn service</a>, or <a href="/pages/find-your-robot#quiz">find your robot in 4 questions</a>.
+  {%- when 'faq' -%}Can I add modules later?|Yes. Every module fits the Yarbo Core, so you can start with one job and add others when you need them.
+Does Yarbo need a boundary wire?|No. It maps your property with RTK positioning and stereo vision, and you set zones in the app.
+What slopes can Yarbo handle?|Yarbo rates the Core for slopes up to 70% (35°).
+  {%- endcase -%}
+
+{%- when 'mowrator-mowers' -%}
+  {%- case f -%}
+  {%- when 'intro' -%}The Mowrator S1 is a remote-control lawn mower with a 21 inch deck, driven from a handheld remote so you can mow steep banks, ditches and rough ground from a safe spot. Four editions differ in drive and traction.
+  {%- when 'h2' -%}Which Mowrator S1 edition?
+  {%- when 'steps' -%}2WD or 4WD. The 2WD suits flatter lawns and gentle slopes. The 4WD drives all four wheels for hills and rough ground, and only the 4WD takes the Snow Plow Kit.
+Traction. Mowrator rates the 4WD at 75% (37°) on standard wheels, 85% (40°) with Wide Wheels and 119% (50°) with Grip Tread tires.
+Battery. The 4WD comes with a 12Ah battery; the Wide Wheel and Grip Tread editions come with the 18Ah battery for longer runs.
+  {%- when 'th' -%}Your yard|Edition
+  {%- when 'table' -%}Mostly flat, gentle slopes|S1 2WD
+Hills and rough ground up to 37°|S1 4WD
+Soft or uneven slopes up to 40°|S1 4WD Wide Wheels Edition
+Banks up to 50° (119%)|S1 4WD Grip Tread Tire Edition
+  {%- when 'why' -%}Free shipping on most Mowrator products, usually delivered in 7 to 10 business days, with our team helping you file and follow up on warranty claims. Pay over time with Shop Pay Installments, subject to an eligibility check. Call {{ tel }}, 9am to 5pm EST, or {{ consult }}.
+  {%- when 'faq' -%}Does the Mowrator S1 mow on its own?|No. It is a remote-control mower that you drive with the handheld remote.
+What is the steepest slope it can mow?|Mowrator rates the S1 4WD Grip Tread Tire Edition at 119% (50°).
+  {%- endcase -%}
+
+{%- when 'accessories' -%}
+  {%- comment -%} Parts hub (2026-09-25): Yarbo, Mowrator and Aiper parts plus Yarbo merchandise; brand groups in sections/yc-parts-hub. {%- endcomment -%}
+  {%- case f -%}
+  {%- when 'intro' -%}Parts and accessories for Yarbo, Mowrator and Aiper robots: batteries, chargers, blades, tracks, antennas, module covers, and baskets and filters for Aiper pool robots. Yarbo merchandise is here too. Each product page lists the models a part fits, so you can check before you order.
+  {%- when 'h2' -%}Finding the right part
+  {%- when 'steps' -%}Start with your robot. Parts are brand specific: Yarbo parts fit the Yarbo Core and modules, Mowrator parts fit the S1, and Aiper parts are named for the Scuba models they fit. Each product page lists the fit.
+Yarbo. Spare 38.4Ah battery, docking station, wired charger, lawn and snow tracks, cutting discs and blades, module covers, and antennas for the Data Center and rover.
+Mowrator S1. 12Ah and 18Ah batteries, the 600W fast charger, blade 3-packs, Wide Wheels and Grip Tread Tires for the 4WD, and the Snow Plow Kit (4WD only).
+Aiper. Chargers, a charging dock, debris baskets and filters for Scuba models, and a caddy for the Scuba X1 Pro Max and Scuba N1 Max.
+  {%- when 'th' -%}You want to|Part
+  {%- when 'table' -%}Run longer between charges|Yarbo 38.4Ah Battery; Mowrator 12Ah or 18Ah battery and 600W charger
+Replace worn cutting parts|Yarbo cutting discs and blades; Mowrator blade 3-packs
+Get more grip|Yarbo Lawn or Snow Track and anti-slip studs; Mowrator Wide Wheels or Grip Tread Tires (4WD)
+Protect a robot in storage|Yarbo Core and module covers
+Keep a pool robot running|Aiper chargers, debris baskets and filters
+  {%- when 'why' -%}Free shipping on Yarbo, Mowrator and Aiper parts within the contiguous US. Parts can be returned within 30 days of delivery, with no restocking fee; used consumables can't be returned. Not sure a part fits? Call {{ tel }}, 9am to 5pm EST, and we will confirm before you order.
+  {%- when 'faq' -%}Will this part fit my robot?|Each product page lists the models it fits. If you are not sure which model you own, call us and we will check.
+Do Yarbo parts ship free?|Yes. Yarbo systems, modules, parts and accessories all ship free within the contiguous US.
+Does the Mowrator Snow Plow Kit fit the 2WD?|No. Mowrator lists it for the S1 4WD only.
+  {%- endcase -%}
+
+{%- when 'yarbo-accessories' -%}
+  {%- case f -%}
+  {%- when 'intro' -%}Parts and accessories for the Yarbo Core and its modules: the 38.4Ah battery, docking station and wired charger, lawn and snow tracks, cutting discs and blades, module covers, antennas and towing gear. Each product page lists the models a part fits.
+  {%- when 'h2' -%}Finding the right Yarbo part
+  {%- when 'steps' -%}Check your Core. Tell us whether you run a Y40 or a Y40P and which modules you own; each product page lists the fit.
+Power and docking. A spare 38.4Ah battery, the docking station, its AC power cord and the wired charger.
+Mowing parts. Cutting discs, cutting blades and straight blades with bolts for the mower modules, and trimmer line spools.
+Winter and grip. Lawn and snow tracks, anti-slip studs for the rubber tracks, the snow plow blade, scraper bar and shear pins.
+Connectivity. RTK, HaLow and Bluetooth antennas for the Data Center and rover, the flexible RTK antenna mount and the POE power adapter.
+  {%- when 'why' -%}Yarbo parts ship free within the contiguous US. Yarbo parts can be returned within 30 days of delivery, with no restocking fee; used consumables can't be returned. Not sure a part fits? Call {{ tel }}, 9am to 5pm EST, and we will confirm before you order.
+  {%- when 'faq' -%}Will this part fit my Yarbo?|Each product page lists the Cores and modules it fits. If you are not sure, call us with your Core (Y40 or Y40P) and modules and we will check.
+Do Yarbo parts ship free?|Yes. Yarbo systems, modules, parts and accessories all ship free within the contiguous US.
+  {%- endcase -%}
+
+{%- when 'aiper-accessories' -%}
+  {%- case f -%}
+  {%- when 'intro' -%}Replacement parts for Aiper Scuba pool robots: chargers, a charging dock, debris baskets and filters, plus a caddy for the Scuba X1 Pro Max and Scuba N1 Max. Each part is named for the Scuba models it fits.
+  {%- when 'h2' -%}Finding the right Aiper part
+  {%- when 'steps' -%}Match the model. Aiper parts are made for specific Scuba models, and the model is in each part's name. The Scuba N1 and Scuba N1 Pro, for example, have separate chargers and debris baskets.
+Baskets and filters. Spare debris baskets for the Scuba N1 and N1 Pro, and ultra-fine filters for the Scuba L1.
+Keep it charged. A spare charger or the Scuba N1 Pro charging dock.
+  {%- when 'why' -%}Free shipping on most Aiper products, usually delivered in 10 to 14 business days. Not sure a part fits? Call {{ tel }}, 9am to 5pm EST, and we will confirm before you order.
+  {%- when 'faq' -%}Will this part fit my Aiper?|Check the model in the part's name against your robot. If you are not sure which Scuba you own, call us and we will check.
+  {%- endcase -%}
+
+{%- when 'mowrator-accessories' -%}
+  {%- case f -%}
+  {%- when 'intro' -%}Batteries, chargers, blades, wheels, tires and kits for the Mowrator S1. Each part lists the S1 editions it fits, so you can check before you order.
+  {%- when 'h2' -%}Finding the right part
+  {%- when 'steps' -%}Check the edition. Some parts fit every S1; wheels, tires and the Snow Plow Kit depend on 2WD or 4WD. The fit is listed on each product page.
+Blades. Choose self-sharpening, high-lift, self-sharpening high-lift or mulching blades, all sold in 3-packs.
+Power. A spare 12Ah or 18Ah battery lets you swap and keep mowing, and the 600W charger refills it faster.
+  {%- when 'th' -%}You want to|Part
+  {%- when 'table' -%}Mow longer|18Ah or 12Ah battery, 600W fast charger
+Collect leaves and clippings|Auto Dumping Bag, high-lift blades
+Mulch instead of collecting|Mulching Blades 3-Pack
+Climb steeper ground (4WD)|Wide Wheels or Grip Tread Tires
+Tow, plow or see what the mower sees|Trailer Hitch Kit, Snow Plow Kit (4WD), MOWFUN FPV
+  {%- when 'why' -%}Free shipping on most Mowrator products, usually delivered in 7 to 10 business days. Not sure a part fits? Call {{ tel }}, 9am to 5pm EST, and we will confirm before you order.
+  {%- when 'faq' -%}Will this part fit my S1?|Each part lists the editions it fits. If you are not sure which S1 you own, call us and we will check.
+Does the Snow Plow Kit fit the 2WD?|No. Mowrator lists it for the S1 4WD only.
+  {%- endcase -%}
+
+{%- when 'wybot' -%}
+  {%- case f -%}
+  {%- when 'intro' -%}WYBOT makes cordless robotic pool cleaners from compact floor cleaners to self-docking solar models, plus the F1 solar skimmer. Full Pool Solution bundles pair a floor robot with the F1 so the floor, walls and surface are all covered.
+  {%- when 'h2' -%}How to choose a WYBOT
+  {%- when 'steps' -%}Pool size. WYBOT rates its robots from 1,076 sq ft (A1) to 3,230 sq ft (S2).
+Surfaces. The A1 cleans the floor of flat pools; the B1, C1, C2 and S2 also clean walls and the waterline.
+Hands-off features. The C2 Vision and S2 Solar Vision add a camera that targets dirty areas; the S2 Solar models charge on a solar dock; the S3 maps the pool and empties itself.
+The surface. Add the F1 solar skimmer, or buy a Full Pool Solution bundle.
+  {%- when 'th' -%}Your pool|WYBOT
+  {%- when 'table' -%}Flat above-ground pool up to 1,076 sq ft|A1
+Small pool, whole-pool clean, up to 1,150 sq ft|B1
+Up to 1,615 sq ft|C1
+Up to 2,152 sq ft|C2 or C2 Vision
+Up to 3,230 sq ft|S2, S2 Solar or S2 Solar Vision
+Least hands-on|S3 (self-emptying dock)
+  {%- when 'why' -%}Free shipping within the contiguous US, except Rhode Island; WYBOT quotes 3 to 7 business days after processing. Each robot has a 1 or 2 year WYBOT warranty. Pay over time with Shop Pay Installments, subject to an eligibility check. Call {{ tel }}, 9am to 5pm EST.
+  {%- when 'faq' -%}Which WYBOT clean walls and the waterline?|Every model except the A1, which cleans the floor of flat-bottom pools.
+What is in a Full Pool Solution bundle?|A WYBOT floor robot plus the F1 solar skimmer, in one order.
+  {%- endcase -%}
+
+{%- when 'aiper' -%}
+  {%- case f -%}
+  {%- when 'intro' -%}Aiper cordless robotic pool cleaners, from the compact Scuba 800 for flat pools to the Scuba X1 Pro Max for floor, walls, waterline and surface, plus the EcoSurfer M2 solar skimmer and replacement parts.
+  {%- when 'h2' -%}How to choose an Aiper
+  {%- when 'steps' -%}Pool size. Aiper rates the Scuba 800 for flat-floor pools up to 860 sq ft, the Scuba N1 Plus for in-ground pools up to 1,600 sq ft and the Scuba X1 Pro Max for pools up to 3,230 sq ft.
+Surfaces. The N1 Plus cleans floor, walls and waterline; the X1 Pro Max adds the surface.
+Navigation. The Scuba N3 plans its own route with Aiper's AI vision.
+The surface. The EcoSurfer M2 skims for 35+ hours per battery and tops up in the sun.
+  {%- when 'th' -%}Your pool|Aiper
+  {%- when 'table' -%}Flat-floor pool up to 860 sq ft|Scuba 800
+In-ground pool up to 1,600 sq ft|Scuba N1 Plus
+Want AI route planning|Scuba N3
+Large pool up to 3,230 sq ft, including the surface|Scuba X1 Pro Max
+Floating leaves and pollen|EcoSurfer M2
+  {%- when 'why' -%}Free shipping on most Aiper products, usually delivered in 10 to 14 business days, each with Aiper's manufacturer warranty. Pay over time with Shop Pay Installments, subject to an eligibility check. Call {{ tel }}, 9am to 5pm EST.
+  {%- when 'faq' -%}Which Aiper cleans the waterline?|The Scuba N1 Plus and the Scuba X1 Pro Max. The Scuba 800 cleans the floor of flat pools.
+Do you sell Aiper replacement parts?|Yes: chargers, debris baskets, filters, a charging dock and a caddy for the X1 Pro Max and N1 Max.
+  {%- endcase -%}
+
+{%- when 'betta' -%}
+  {%- case f -%}
+  {%- when 'intro' -%}Betta solar robotic pool skimmers clear leaves, pollen and bugs from the surface around the clock, before they sink. Four models share the same solar skimming and differ in charging, control and the pools they suit.
+  {%- when 'h2' -%}Which Betta?
+  {%- when 'steps' -%}Charging. The SE and Flex run on solar only; the SE Plus and Neo add a wall adapter for cloudy stretches.
+Control. The SE and SE Plus have a wireless remote, the Neo uses the Betta app and a 600 ft Gateway, and the Flex runs by itself.
+Pool type. Only the Flex is rated for infinity edge pools. The SE Plus works in water as shallow as 3.5 inches.
+  {%- when 'th' -%}You want|Betta
+  {%- when 'table' -%}Simple solar skimming with a remote|SE
+Backup charging and shallow-water handling|SE Plus
+An infinity edge pool|Flex
+App control and scheduling|Neo
+  {%- when 'why' -%}We are an authorized Betta reseller. Free ground shipping within the contiguous US; Betta usually ships within 1 to 2 business days. Every Betta has a 1-year Betta warranty. Call {{ tel }}, 9am to 5pm EST.
+  {%- when 'faq' -%}Can Betta run at night?|Yes. It cannot charge in the dark, but a full charge runs it for up to 30+ hours, per Betta.
+Does Betta work in saltwater pools?|Yes, up to 5,000 ppm salt, per Betta.
+  {%- endcase -%}
+
+{%- when 'hobot' -%}
+  {%- case f -%}
+  {%- when 'intro' -%}HOBOT robots for the jobs inside the house: two window cleaning robots that hold to the glass with suction and spray as they clean, and the LEGEE-688, a floor robot that vacuums and mops hard floors in one pass.
+  {%- when 'h2' -%}Which HOBOT?
+  {%- when 'steps' -%}Windows or floors. The HOBOT-298 and HOBOT-2S clean glass on a planned route, tethered by a safety rope. The LEGEE-688 cleans hard floors.
+Corners and frameless glass. HOBOT says the 2S reaches about 80% of each corner, and its Edge-Leakage Sensors track frameless edges.
+Floors. The LEGEE-688 vacuums, dry mops, sprays and wet mops in one pass, with 7 cleaning modes including Kitchen and Pet.
+  {%- when 'th' -%}You want|HOBOT
+  {%- when 'table' -%}Standard framed windows|HOBOT-298
+Frameless or large glass, deep corners|HOBOT-2S
+Vacuum and mop hard floors|LEGEE-688
+  {%- when 'why' -%}We are an authorized HOBOT dealer, and every HOBOT carries HOBOT's 1-year limited warranty. Pay over time with Shop Pay Installments, subject to an eligibility check. Questions go to our US team at {{ tel }}, 9am to 5pm EST.
+  {%- when 'faq' -%}Which HOBOT is better for frameless glass?|The HOBOT-2S. Its Edge-Leakage Sensors detect the slight lift at the edge of frameless glass, and HOBOT says it reaches about 80% of each corner.
+Does the LEGEE-688 vacuum and mop at the same time?|Yes. HOBOT designed it to vacuum, dry mop, spray and wet mop in one pass.
+  {%- endcase -%}
+
+{%- when 'bundle-deals' -%}
+  {%- if f == 'intro' -%}Yarbo packages that pair the Core with the modules you need, from mowing only to mowing, snow and leaves in one order. See the Yarbo collection for a guide to choosing modules.{%- endif -%}
+{%- when 'best-sellers' -%}
+  {%- if f == 'intro' -%}A selection of yard, snow and pool robots from Yarbo, Mowrator, WYBOT, Aiper and Betta, plus parts and accessories. Browse by category from the menu, or call us for help choosing.{%- endif -%}
+{%- when 'new-arrivals-curated', 'new-arrivals' -%}
+  {%- if f == 'intro' -%}The latest additions to our range of yard, pool and home robots.{%- endif -%}
+{%- when 'shop-all' -%}
+  {%- if f == 'intro' -%}Every product we sell: robot mowers, snow blowers and yard systems, robotic pool cleaners and skimmers, window and floor robots, and parts.{%- endif -%}
+{%- endcase -%}

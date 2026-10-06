@@ -1,0 +1,224 @@
+{%- comment -%}
+  YAP Support Center hub (2026-09-25). Replaces the long text page. Facts: support hours and channels (CLAUDE.md), return and damage steps
+  (refund policy), warranty and delivery per brand (CLAUDE.md, brand kits), support tiers and checklist from the previous hub text
+  (unverified response-time promise and the "chat is not a human" line removed; chat is live and staffed).
+{%- endcomment -%}
+{{ 'yi.css' | asset_url | stylesheet_tag }}
+{%- assign hero = images[section.settings.image_name] -%}
+{%- capture i_phone -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>{%- endcapture -%}
+<div class="yi" data-yi-support>
+  <section class="yi-hero">
+    <div class="yi-wrap yi-hero__grid">
+      <div>
+        <p class="yi-kick">Support Center</p>
+        <h1>{{ section.settings.heading | escape }}</h1>
+        <div class="yi-lede">{{ section.settings.lede }}</div>
+        <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:24px">
+          <a class="yi-btn" href="#yi-triage">Find a fix</a>
+          <a class="yi-btn yi-btn--line" href="tel:+14239273776">Call +1 423-927-3776</a>
+        </div>
+      </div>
+      <div class="yi-hero__media">
+        {%- if hero != blank -%}{{ hero | image_url: width: 1300 | image_tag: loading: 'eager', fetchpriority: 'high', widths: '600, 900, 1300', sizes: '(min-width: 990px) 40vw, 100vw', alt: section.settings.image_alt }}{%- endif -%}
+      </div>
+    </div>
+  </section>
+
+  <section class="yi-sec" style="padding-bottom:clamp(28px,4vw,48px)">
+    <div class="yi-wrap">
+      <div class="yi-chans">
+        <a class="yi-chan" href="tel:+14239273776" data-yi-in>{{ i_phone }}<b>Call</b><span>Monday to Friday, 9am to 5pm EST. You reach a person.</span><em>+1 423-927-3776</em></a>
+        <a class="yi-chan" href="mailto:Support@yardautomationpros.com" data-yi-in><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg><b>Email</b><span>Send photos, videos and order numbers.</span><em class="is-long">Support@yardautomationpros.com</em></a>
+        <a class="yi-chan" href="/pages/contact" data-yi-in><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg><b>Chat</b><span>The chat button on every page answers setup and product questions anytime.</span><em>Contact options</em></a>
+        <a class="yi-chan yi-chan--navy" href="mailto:Support@yardautomationpros.com?subject=Warranty%20claim%3A%20order%20number%20and%20model" data-yi-in><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.4 9.3 8 11 4.6-1.7 8-6 8-11V5z"/><path d="m9 12 2 2 4-4"/></svg><b>Start a claim</b><span>Hardware fault? We prepare the claim package with you.</span><em>Email a claim</em></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="yi-sec yi-sec--navy" id="yi-triage" style="scroll-margin-top:110px">
+    <div class="yi-wrap">
+      <p class="yi-kick">Quick fix finder</p>
+      <h2 style="margin-bottom:26px">What is going on?</h2>
+      <div class="yi-triage">
+        <div class="yi-tq" role="group" aria-label="Pick what is happening">
+          <button type="button" aria-pressed="true" data-yi-t="1">It arrived damaged</button>
+          <button type="button" aria-pressed="false" data-yi-t="2">It will not connect or pair with the app</button>
+          <button type="button" aria-pressed="false" data-yi-t="3">The mower will not dock or charge</button>
+          <button type="button" aria-pressed="false" data-yi-t="4">It keeps losing RTK or GPS signal</button>
+          <button type="button" aria-pressed="false" data-yi-t="5">It gets stuck in the same spot</button>
+          <button type="button" aria-pressed="false" data-yi-t="6">I think it is a hardware fault</button>
+          <button type="button" aria-pressed="false" data-yi-t="7">I want to return it</button>
+        </div>
+        <div aria-live="polite">
+          <div class="yi-ta" data-yi-a="1"><h3>Damaged on arrival</h3><ol>
+            <li>Note any visible damage on the delivery receipt before you sign, if you can.</li>
+            <li>Take photos of the item, the packaging and the shipping label.</li>
+            <li>Email them with your order number and a short description to <a href="mailto:Support@yardautomationpros.com">Support@yardautomationpros.com</a> within 48 hours of delivery.</li>
+            <li>We file the claim with the supplier, who covers the costs for a damaged or defective item.</li></ol>
+            <a class="yi-btn" href="/policies/refund-policy">Read the refund policy</a></div>
+          <div class="yi-ta" data-yi-a="2" hidden><h3>Will not connect or pair</h3><ol>
+            <li>Most robots need a 2.4 GHz Wi-Fi network. If your router combines 2.4 and 5 GHz under one name, split them or turn band steering off while you pair.</li>
+            <li>Allow the app's location and Bluetooth permissions on your phone.</li>
+            <li>Stand close to the robot and the router, and avoid guest networks with a sign-in page.</li></ol>
+            <a class="yi-btn" href="/blogs/troubleshooting/robot-wont-connect-to-wifi-or-pair-with-the-app">Full pairing guide</a></div>
+          <div class="yi-ta" data-yi-a="3" hidden><h3>Will not dock or charge</h3><ol>
+            <li>Work out which it is: does the mower reach the dock but not charge, or not reach the dock at all?</li>
+            <li>For charging, check the power at the dock and clean the charging contacts.</li>
+            <li>For docking, check the approach path is level and clear, and that the dock has not moved since mapping.</li></ol>
+            <a class="yi-btn" href="/blogs/troubleshooting/robot-mower-wont-dock-or-wont-charge">Full docking guide</a></div>
+          <div class="yi-ta" data-yi-a="4" hidden><h3>Losing RTK or GPS signal</h3><ol>
+            <li>The antenna needs an open view of the sky, clear of rooflines, chimneys and tree cover.</li>
+            <li>Note where the signal drops: one spot points to the site, everywhere points to the setup.</li>
+            <li>Check the reference antenna or base station placement against the maker's guide.</li></ol>
+            <a class="yi-btn" href="/blogs/troubleshooting/robot-mower-losing-rtk-or-gps-signal">Full signal guide</a></div>
+          <div class="yi-ta" data-yi-a="5" hidden><h3>Stuck in the same spot</h3><ol>
+            <li>Mark the exact spot on the map. A repeat stall in one place is usually the map or the ground there.</li>
+            <li>Look for a dip, a root, wet ground or a slope past the machine's rating.</li>
+            <li>If it stalls in different places, check the wheels or tracks, then call us.</li></ol>
+            <a class="yi-btn" href="/blogs/troubleshooting/robot-getting-stuck-in-the-same-spot">Full stuck-robot guide</a></div>
+          <div class="yi-ta" data-yi-a="6" hidden><h3>Possible hardware fault</h3><ol>
+            <li>Do not open or take the machine apart. It is a safety risk and on most brands it voids the warranty.</li>
+            <li>Write down any error code or light pattern exactly, and film a short video of the fault.</li>
+            <li>Email us your order number, model and serial number. We rule out setup causes with you first.</li>
+            <li>If it is a genuine fault, we prepare a claim-ready package and help you file and follow up the claim with the maker.</li></ol>
+            <a class="yi-btn" href="mailto:Support@yardautomationpros.com?subject=Warranty%20claim%3A%20order%20number%20and%20model">Email a claim</a></div>
+          <div class="yi-ta" data-yi-a="7" hidden><h3>Returning an item</h3><ol>
+            <li>Start within 30 days of receiving it. Email us first so we can confirm eligibility with the supplier.</li>
+            <li>Used consumables and pre-orders that have already shipped can't be returned.</li>
+            <li>For any other return, you pay return shipping to the supplier. There is no restocking fee.</li>
+            <li>Defective, damaged or incorrect items: the supplier covers the costs, including return shipping.</li></ol>
+            <a class="yi-btn" href="/policies/refund-policy">Read the refund policy</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="yi-sec">
+    <div class="yi-wrap">
+      <p class="yi-kick">Guides</p>
+      <h2 style="margin-bottom:26px">Help by type of robot</h2>
+      <div class="yi-guides">
+        <a class="yi-guide" href="/pages/support-robot-lawn-mowers" data-yi-in><i>01</i><div><b>Robot lawn mowers</b><span>Mapping, RTK and GPS signal, dock placement, slope limits, blades and cut quality.</span><em>Open the guide</em></div></a>
+        <a class="yi-guide" href="/pages/support-robot-snow-blowers" data-yi-in><i>02</i><div><b>Robot snow blowers</b><span>Cold-weather running, chute and auger behavior, surfaces, seasonal changeover and storage.</span><em>Open the guide</em></div></a>
+        <a class="yi-guide" href="/pages/support-robot-pool-cleaners" data-yi-in><i>03</i><div><b>Pool cleaners and skimmers</b><span>Wall climbing, filters and baskets, charging, water chemistry and storage.</span><em>Open the guide</em></div></a>
+        <a class="yi-guide" href="/pages/support-betta-se" data-yi-in><i>04</i><div><b>Betta SE</b><span>Setup, the remote, status lights, run time in sun and winter, and maintenance.</span><em>Open the guide</em></div></a>
+        <a class="yi-guide" href="/pages/support-robot-vacuums-mops" data-yi-in><i>05</i><div><b>Robot vacuums and mops</b><span>Station placement, mapping, water tanks, pads and consumables.</span><em>Open the guide</em></div></a>
+        <a class="yi-guide" href="/pages/support-robot-window-cleaners" data-yi-in><i>06</i><div><b>Window cleaning robots</b><span>The safety rope, suitable glass, power, pads and sensor care.</span><em>Open the guide</em></div></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="yi-sec yi-sec--light">
+    <div class="yi-wrap">
+      <p class="yi-kick">By brand</p>
+      <h2 style="margin-bottom:26px">Warranty and delivery for every brand we carry</h2>
+      <div class="yi-brands">
+        {%- assign brands = 'yarbo|Yarbo|yap-brand-yarbo-seasons.png|2-year limited warranty on the Core and modules|Free freight shipping|~mowrator-mowers|Mowrator|yap-brand-mowrator-estate.jpg|2 years or 2,000 hours of home use; charger 1 year|Free on most, usually 7 to 10 business days|~wybot|WYBOT|yap-brand-wybot-pool.jpg|1 or 2 years, by model|Free in the contiguous US except Rhode Island, 3 to 7 business days after processing|~aiper|Aiper|yap-brand-aiper-deck.webp|1 to 3 years, by model|Free on most, usually 10 to 14 business days|Authorized dealer~betta|Betta|yap-brand-betta-skimmer.jpg|1 year|Free ground shipping, contiguous US|Authorized reseller~hobot|HOBOT|016.jpg|1-year limited warranty|Free shipping, contiguous US|Authorized dealer' | split: '~' -%}
+        {%- for b in brands -%}
+          {%- assign f = b | split: '|' -%}
+          <a class="yi-brand" href="/collections/{{ f[0] }}" data-yi-in>
+            <div class="yi-brand__img">{%- assign bi = images[f[2]] -%}{%- if bi != blank -%}{{ bi | image_url: width: 700 | image_tag: loading: 'lazy', widths: '400, 700', sizes: '(min-width: 990px) 30vw, (min-width: 600px) 45vw, 100vw', alt: f[1] | append: ' products' }}{%- endif -%}</div>
+            <div class="yi-brand__body">
+              {%- if f[5] != blank -%}<span class="yi-brand__tag">{{ f[5] }}</span>{%- endif -%}
+              <b>{{ f[1] }}</b>
+              <dl><div><dt>Warranty</dt><dd>{{ f[3] }}</dd></div><div><dt>Delivery</dt><dd>{{ f[4] }}</dd></div></dl>
+              <span style="margin-top:auto;font-weight:700;color:var(--g)">Shop {{ f[1] }}</span>
+            </div>
+          </a>
+        {%- endfor -%}
+      </div>
+      <p class="yi-note">Warranty details per model are on each product page and in the <a href="/pages/faqs#faq-warranty">FAQ</a>.</p>
+    </div>
+  </section>
+
+  <section class="yi-sec">
+    <div class="yi-wrap">
+      <p class="yi-kick">How support works</p>
+      <h2 style="margin-bottom:26px">From first call to warranty claim</h2>
+      <ol class="yi-tiers" data-yi-tiers>
+        <li data-yi-in><span>01</span><h3>We handle it</h3><p>Setup and configuration, app and Wi-Fi pairing, mapping, general questions, orders, shipping and damage in transit, by phone or email.</p></li>
+        <li data-yi-in><span>02</span><h3>We diagnose with you</h3><p>If a hardware fault is suspected, we rule out setup and site causes first, then prepare a claim-ready package: model, serial, purchase date, symptoms, error codes and video.</p></li>
+        <li data-yi-in><span>03</span><h3>The maker decides</h3><p>The manufacturer owns the claim: repair, parts or replacement, under its own terms. We help you file it and follow it up.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="yi-sec yi-sec--light">
+    <div class="yi-wrap yi-ready">
+      <div>
+        <p class="yi-kick">Before you contact us</p>
+        <h2>Have this ready</h2>
+        <p class="yi-lede">It makes our first reply useful instead of a request for more details.</p>
+        <p class="yi-safe"><b>Safety note.</b> Please do not open, take apart or repair any machine yourself. It is a safety risk, and on most brands it voids the warranty.</p>
+      </div>
+      <ul class="yi-checks">
+        <li data-yi-in>Your order number</li>
+        <li data-yi-in>Model name and serial number</li>
+        <li data-yi-in>Purchase or delivery date</li>
+        <li data-yi-in>What it does, and where it does it</li>
+        <li data-yi-in>Any error code or light pattern, exactly as shown</li>
+        <li data-yi-in>A short video if it happens now and then</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="yi-sec">
+    <div class="yi-wrap">
+      <p class="yi-kick">More help</p>
+      <h2>Policies and answers</h2>
+      <div class="yi-tiles">
+        <a class="yi-tile" href="/pages/faqs">Frequently asked questions</a>
+        <a class="yi-tile" href="/blogs/troubleshooting">Troubleshooting guides</a>
+        <a class="yi-tile" href="/policies/shipping-policy">Shipping policy</a>
+        <a class="yi-tile" href="/policies/refund-policy">Refund policy</a>
+      </div>
+    </div>
+  </section>
+</div>
+<style>
+  .yi-tiers { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; position: relative; }
+  .yi-tiers::before { content: ""; position: absolute; left: 6%; right: 6%; top: 34px; height: 2px; background: linear-gradient(90deg, var(--gold), var(--g)); transform: scaleX(0); transform-origin: left; transition: transform 1.2s cubic-bezier(.22,.61,.36,1) .2s; }
+  .yi-tiers.is-drawn::before { transform: scaleX(1); }
+  .yi-tiers li { position: relative; padding: 0 6px; }
+  .yi-tiers span { position: relative; z-index: 1; display: grid; place-items: center; width: 68px; height: 68px; border-radius: 50%; background: #fff; border: 2px solid var(--g); font: 400 22px/1 "Archivo Black", sans-serif; color: var(--g); margin-bottom: 18px; }
+  .yi-tiers li:last-child span { background: var(--nd); border-color: var(--nd); color: var(--gold); }
+  .yi-tiers h3 { font-size: 21px; margin-bottom: 8px; }
+  .yi-tiers p { margin: 0; line-height: 1.65; color: var(--mute); }
+  .yi-ready { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(24px, 4vw, 56px); align-items: start; }
+  .yi-safe { margin: 22px 0 0; padding: 14px 16px; border-radius: 12px; background: #fff; border-left: 3px solid #c0392b; font-size: 15px; line-height: 1.55; }
+  .yi-checks { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .yi-checks li { display: flex; align-items: center; gap: 12px; min-height: 64px; padding: 14px 16px; border-radius: 14px; background: #fff; font-weight: 700; color: var(--n); line-height: 1.35; }
+  .yi-checks li::before { content: ""; flex: 0 0 26px; height: 26px; border-radius: 50%; background: var(--g) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 8.5l2.5 2.5L12 5.5' fill='none' stroke='%23fff' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / 15px no-repeat; }
+  @media (max-width: 989px) { .yi-tiers { grid-template-columns: 1fr; } .yi-tiers::before { left: 33px; right: auto; top: 10px; bottom: 10px; width: 2px; height: auto; transform: none; } .yi-tiers li { padding-left: 90px; min-height: 80px; } .yi-tiers span { position: absolute; left: 0; top: 0; } .yi-ready { grid-template-columns: 1fr; } }
+  @media (max-width: 520px) { .yi-checks { grid-template-columns: 1fr; } }
+  @media (prefers-reduced-motion: reduce) { .yi-tiers::before { transition: none; transform: none; } }
+</style>
+<script>
+(function () {
+  var root = document.querySelector('[data-yi-support]'); if (!root) return;
+  var bs = root.querySelectorAll('[data-yi-t]'), as = root.querySelectorAll('[data-yi-a]');
+  bs.forEach(function (b) { b.addEventListener('click', function () {
+    var k = b.getAttribute('data-yi-t');
+    bs.forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+    as.forEach(function (a) { a.hidden = a.getAttribute('data-yi-a') !== k; });
+    if (matchMedia('(max-width: 989px)').matches) { var a = root.querySelector('[data-yi-a="' + k + '"]'); a.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  }); });
+  var tiers = root.querySelector('[data-yi-tiers]'), els = root.querySelectorAll('[data-yi-in]');
+  if (!('IntersectionObserver' in window) || matchMedia('(max-width: 989px)').matches) { els.forEach(function (x) { x.classList.add('is-in'); }); tiers.classList.add('is-drawn'); return; }
+  var io = new IntersectionObserver(function (es) { es.forEach(function (en) { if (!en.isIntersecting) return; if (en.target === tiers) { tiers.classList.add('is-drawn'); } else { var sib = [].indexOf.call(en.target.parentNode.children, en.target); setTimeout(function () { en.target.classList.add('is-in'); }, (sib % 4) * 90); } io.unobserve(en.target); }); }, { threshold: .15 });
+  els.forEach(function (x) { io.observe(x); }); io.observe(tiers);
+})();
+</script>
+
+{% schema %}
+{
+  "name": "YI: Support hub",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "How can we help?" },
+    { "type": "richtext", "id": "lede", "label": "Intro", "default": "<p>Support for every robot we sell, anywhere in the US: a real person on the phone during business hours, guides for your type of robot, fixes by symptom and a claim-ready package if it turns out to be hardware.</p>" },
+    { "type": "text", "id": "image_name", "label": "Photo file name (Files)", "default": "mw-battery-swap.png" },
+    { "type": "text", "id": "image_alt", "label": "Photo alt text", "default": "Swapping the battery on a Mowrator S1" }
+  ],
+  "presets": [ { "name": "YI: Support hub" } ]
+}
+{% endschema %}

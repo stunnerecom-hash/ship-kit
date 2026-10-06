@@ -1,0 +1,141 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-faq",
+      "settings": {}
+    },
+    "dynamic-faq": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_1": {
+          "type": "category",
+          "settings": {
+            "heading": "Before You Buy",
+            "show_category_card": true
+          }
+        },
+        "question_1": {
+          "type": "question",
+          "settings": {
+            "question": "Do you offer financing?",
+            "answer": "<p>Yes. 0% APR financing is available through Affirm and Shop Pay at checkout, so you can spread the cost of a robot system into monthly payments.</p>",
+            "icon": "none"
+          }
+        },
+        "question_2": {
+          "type": "question",
+          "settings": {
+            "question": "What is your price match policy?",
+            "answer": "<p>If you find a lower advertised price on a robot we sell, we will match it. See our full <a href=\"/pages/price-match-policy\">Price Match Policy</a> for what qualifies.</p>",
+            "icon": "none"
+          }
+        },
+        "question_3": {
+          "type": "question",
+          "settings": {
+            "question": "What slope can a robot mower handle?",
+            "answer": "<p>Most robot mowers handle slopes up to 45 percent (24 degrees). Tracked systems like the Yarbo Core manage 36 percent (20 degrees) reliably on grass. For steeper ground, remote controlled machines like the Mowrator S1 4WD handle up to 100 percent (45 degrees), with the trade off that you drive it rather than it running fully on its own.</p>",
+            "icon": "none"
+          }
+        },
+        "question_4": {
+          "type": "question",
+          "settings": {
+            "question": "Do robot mowers need a buried boundary wire?",
+            "answer": "<p>No. Our RTK GPS systems map your yard using satellite positioning, accurate to a few centimeters. You walk the perimeter once in the app, no digging required, and you can redraw zones any time.</p>",
+            "icon": "none"
+          }
+        },
+        "question_5": {
+          "type": "question",
+          "settings": {
+            "question": "How do I know which robot fits my property?",
+            "answer": "<p>Book a free property assessment. One of our team will review your acreage, slope, and layout, then recommend a setup, and tell you honestly if a different or smaller system is the better fit.</p>",
+            "icon": "none"
+          }
+        },
+        "category_2": {
+          "type": "category",
+          "settings": {
+            "heading": "Shipping & Delivery",
+            "show_category_card": true
+          }
+        },
+        "question_6": {
+          "type": "question",
+          "settings": {
+            "question": "Do you offer free shipping?",
+            "answer": "<p>Yes. Free freight shipping is included on robot mowers, snow blowers, and pool cleaners.</p>",
+            "icon": "none"
+          }
+        },
+        "question_7": {
+          "type": "question",
+          "settings": {
+            "question": "What if my order arrives damaged?",
+            "answer": "<p>Please inspect your delivery and email us within 48 hours with photos. We will handle the claim with the manufacturer and make it right.</p>",
+            "icon": "none"
+          }
+        },
+        "category_3": {
+          "type": "category",
+          "settings": {
+            "heading": "Returns & Warranty",
+            "show_category_card": true
+          }
+        },
+        "question_8": {
+          "type": "question",
+          "settings": {
+            "question": "What is your return policy?",
+            "answer": "<p>You can start a return within 30 days of delivery, and there is no restocking fee. Used consumables and pre-orders that have already shipped can not be returned. To start a return, email <a href=\"mailto:Support@yardautomationpros.com\">Support@yardautomationpros.com</a> and we will send instructions. Items sent back without a return authorization can not be accepted.</p>",
+            "icon": "none"
+          }
+        },
+        "question_9": {
+          "type": "question",
+          "settings": {
+            "question": "Who pays for return shipping?",
+            "answer": "<p>If the item arrived defective, damaged, or incorrect, the supplier covers it. For all other returns, return shipping is the customer's responsibility. Large robots ship by freight, so we will quote the cost before you commit.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_1",
+        "question_1",
+        "question_2",
+        "question_3",
+        "question_4",
+        "question_5",
+        "category_2",
+        "question_6",
+        "question_7",
+        "category_3",
+        "question_8",
+        "question_9"
+      ],
+      "settings": {
+        "section_width": "regular",
+        "heading": "",
+        "enable_category_cards": true,
+        "category_card_image_crop": "circle",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic-faq"
+  ]
+}
