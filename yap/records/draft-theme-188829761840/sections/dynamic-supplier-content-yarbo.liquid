@@ -1,0 +1,262 @@
+{%- comment -%}
+  Shared rich content section for all Yarbo products.
+  Static content, identical across the whole Yarbo catalog regardless of
+  which specific product is being viewed. Assigned via templateSuffix "yarbo".
+{%- endcomment -%}
+{%- assign yp_lmp = all_products['yarbo-lawn-mower-pro-module'] -%}
+{%- assign yp_snow = all_products['yarbo-snow-blower-module'] -%}
+{%- assign yp_leaf = all_products['yarbo-leaf-blower-module'] -%}
+{%- assign yp_lmp_bundle = all_products['yarbo-lawn-mower-pro-core-lawn-mower-pro-module'] -%}
+
+{% doc %}
+  Shared rich content block for all Yarbo products (Core, modules, and bundles).
+  Renders identical educational/comparison content across the whole Yarbo catalog,
+  regardless of which specific SKU is being viewed. Not product-specific.
+{% enddoc %}
+
+<div class="yarbo-rich-content" style="max-width: 900px; margin: 48px auto; padding: 0 20px; line-height: 1.7; color: #393939;">
+
+  <p style="letter-spacing:2px;font-size:0.8em;color:#c9a84c;text-transform:uppercase;margin-bottom:8px;"><strong>The Yarbo System, Explained</strong></p>
+  <h2 style="color:#232739;font-size:1.8em;margin-top:0;margin-bottom:20px;">One Robot, Built to Run Every Season of the Year</h2>
+
+  <p>Most yard equipment does one job for a few weeks a year and sits idle the rest of the time. A mower cuts grass from spring through fall, then spends winter in a shed. A snow blower does the opposite, four or five months of use followed by seven or eight months of storage. Yarbo was built around a different idea: one tracked, all-terrain base, called the Core, that stays working all year by swapping the tool on the front. Mow in summer. Blow leaves in fall. Clear snow in winter. Same machine, same navigation, same app, different attachment.</p>
+
+  <p>That single decision, building a base platform instead of three separate machines, is why Yarbo owners describe it less like buying a mower and more like installing infrastructure. You're not replacing a lawn mower. You're putting a year-round autonomous maintenance system on the property, and adding capability to it as your needs, and your budget, allow. The navigation hardware, drive motors, and battery interface that make up the most expensive part of any robotic outdoor equipment get used twelve months a year instead of four.</p>
+
+  <img src="https://cdn.shopify.com/s/files/1/0965/2056/9136/files/yarbo-core--pos1--Yarbo_Core_7.webp?v=1790046217" alt="Yarbo Core tracked robotic base" style="width:100%; border-radius:8px; margin: 24px 0;" loading="lazy" width="1024" height="1024">
+
+  <h3 style="color:#232739;margin-top:36px;">How the Modular System Actually Works</h3>
+
+  <p>The Yarbo Core is the constant. It's a tracked, all-terrain chassis with the navigation computer, drive motors, battery interface, and connectivity built in. On its own, the Core does nothing, it's designed that way on purpose. Every capability comes from the module bolted to the front: the Lawn Mower Pro Module, the Snow Blower Module, or the Leaf Blower Module. Swapping between them takes minutes, not tools and not a technician visit.</p>
+
+  <p>This is different from how most robotic yard equipment is built. A typical robot mower is a single-purpose machine: buy it, use it five months a year, and its navigation hardware, drive system, and battery sit unused the other seven months. If you also want a robotic snow blower, you're buying that navigation stack a second time, and a third time for leaf cleanup, three separate purchases each carrying their own version of the most expensive components. Yarbo's Core carries that hardware across every season instead of duplicating it. The module you're not using simply sits in the garage, cheap to store, since the expensive parts stayed on the Core doing something else.</p>
+
+  <h3 style="color:#232739;margin-top:36px;">Setup: An Afternoon, Not a Contractor Visit</h3>
+
+  <p>There's no trenching crew, no buried wire to schedule, and no waiting for a technician appointment. You unbox the Core, download the Yarbo app, and walk the perimeter of your property once. The app builds a map from that walk, accurate to within a few centimeters. From there you draw zones directly on the map on your phone: the front lawn, the back lawn, the driveway, a no-go area around the garden beds. Each zone can carry its own settings, cutting height for one area, a gentler mowing pattern for another, a different snow-clearing route for the driveway versus the front walk.</p>
+
+  <p>Because the map lives on your phone and in the Core, redrawing a zone later, say, after adding a new flower bed, takes a few minutes in the app. There's no wire to dig up and relocate. This is the single biggest practical difference between an RTK-based system like Yarbo and the older generation of boundary-wire robot mowers still common on the market: with a wire, changing your yard means changing the wire. With RTK and vision, changing your yard means updating a map.</p>
+
+  <h3 style="color:#232739;margin-top:36px;">Navigation That Doesn't Need a Buried Wire</h3>
+
+  <p>Every Yarbo Core navigates using RTK (Real-Time Kinematic) satellite positioning combined with binocular vision and inertial/odometry sensors, what Yarbo calls RTK + Vision + IMU + ODOM. In practical terms: it maps your property to centimeter-level accuracy using your phone, with no trenching, no boundary wire, and no beacons to install. You draw zones in the app, and the Core holds its line even under tree cover, where GPS-only systems typically drift, because the vision and inertial sensors keep tracking position even when satellite signal weakens for a moment.</p>
+
+  <p>The Core's tracked drive system climbs slopes up to 70% grade (35 degrees), terrain that stops most wheeled robotic equipment outright, and it can pull Yarbo's tow attachments and trailer. A wheeled robot mower relies on traction and weight distribution that simply doesn't hold on a real hillside or loose gravel; tracks distribute weight across a much larger contact area and grip terrain that would spin a wheel uselessly. Connectivity runs over 4G, Wi-Fi, Bluetooth, and Wi-Fi HaLow, so the Core stays reachable across a large property even far from the house router, an acre or more from your Wi-Fi access point isn't unusual on the properties this system is built for.</p>
+
+  <h3 style="color:#232739;margin-top:36px;">One App, Every Season</h3>
+
+  <p>The Yarbo app is the same interface whether the Core is wearing the mower, the snow blower, or the leaf blower. You get one login, one set of zone maps, one schedule calendar, and one notification feed, regardless of which module is attached. Scheduling works the same way across all three: set the days and times you want it to run, and it runs, and the Lawn Mower Pro uses rain detection to react when the weather turns. When you swap modules for the season, the app recognizes the change and switches the relevant settings and safety parameters automatically, you don't rebuild your zone map from scratch each time.</p>
+
+  <h3 style="color:#232739;margin-top:36px;">Built for Real Terrain, Not Just a Flat Suburban Lawn</h3>
+
+  <p>A lot of robotic yard equipment is designed and tested on flat, obstacle-free lots. Yarbo's target customer typically has a full acre or more, often with slopes, gravel sections, tree roots, and outbuildings that most consumer robots simply aren't rated for. The Core's tracked drive and 70% (35°) climbing ability were engineered around that reality rather than around a demo-day flat lawn. With Yarbo's tow hitch and trailer it can also haul supplies around the property.</p>
+
+  <hr style="border:none;border-top:1px solid #e5e5e5;margin:48px 0 0;">
+  <h3 style="color:#232739;margin-top:48px;">The Lawn Mower Pro Module: Cuts What Other Robots Can't</h3>
+
+  <img src="https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Yarbo_M1_1.png?v=1789594137" alt="Yarbo Lawn Mower Pro Module attached to Core" style="width:100%; border-radius:8px; margin: 20px 0;" loading="lazy" width="1024" height="1024">
+
+  <p>The Lawn Mower Pro Module turns the Core into a heavy-duty robotic mower built for large properties and demanding grass types. Dual 300W motors deliver up to 2,500W of peak power, and Yarbo rates it for both cool and warm season grasses, for residential and commercial lawns. Cutting width is 20 inches (500mm), with height adjustable from 0.8 to 4.0 inches, so you can run a tight, manicured cut on the main lawn and a taller, lower-maintenance height on rougher back-property sections, all from the same machine and the same zone map. Coverage is rated up to 6 acres a week on the Y40 and 7 acres on the Y40P, at two cuts a week.</p>
+
+  <p>Obstacle avoidance combines a binocular camera, ultrasonic radar, and a physical bumper, three overlapping detection systems rather than relying on just one. That layered approach matters on a large property where the machine will inevitably encounter something the map didn't account for, a fallen branch, a pet, a child's toy left on the lawn, and needs to stop or route around it reliably every time, not most of the time.</p>
+
+  <h3 style="color:#232739;margin-top:36px;">The Snow Blower Module: Clears the Driveway Before You're Awake</h3>
+
+  <img src="https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Snow_Blower_Module.webp?v=1789851770" alt="Yarbo Snow Blower Module clearing a driveway" style="width:100%; border-radius:8px; margin: 20px 0;" loading="lazy" width="1024" height="1024">
+
+  <p>The Snow Blower Module is genuinely two-stage clearing, not a single-stage auger dressed up as one. A 24-inch clearing width and 12-inch intake height pull dry, wet, and packed snow through in a single pass. The chute throws snow 6 to 40 feet and rotates from -10&deg; to 190&deg;, with the deflector adjustable from -5&deg; to 50&deg;, so snow lands exactly where you want it instead of back on the driveway or into a neighbor's yard.</p>
+
+  <p>It clears on the schedule you set in the Yarbo app and returns to its dock to recharge on its own. It covers up to 6,000 ft&sup2; per charge on the Y40 and 7,000 ft&sup2; on the Y40P at 1 inch of snow, works on paved, concrete and gravel surfaces, and is rated for slopes up to 36% (20&deg;). It is IPX5 rated and operates from -13&deg;F to 113&deg;F.</p>
+
+  <h3 style="color:#232739;margin-top:36px;">The Leaf Blower Module: Fall Cleanup on Autopilot</h3>
+
+  <img src="https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Blower_Module1.webp?v=1789744660" alt="Yarbo Leaf Blower Module clearing leaves" style="width:100%; border-radius:8px; margin: 20px 0;" loading="lazy" width="1024" height="1024">
+
+  <p>The Leaf Blower Module clears leaves and yard debris on a repeatable schedule you set once. It works lawns, paths, and hard surfaces automatically through the entire fall season, the season most homeowners describe as the single worst stretch of yard work all year, without you spending a single one of those weekends outside with a handheld blower or a bagged-leaves trip to the curb every few days. It moves 174 mph air at 607 CFM and works on slopes up to 70% (35&deg;).</p>
+
+  <hr style="border:none;border-top:1px solid #e5e5e5;margin:48px 0 0;">
+  <h3 style="color:#232739;margin-top:48px;">Yarbo Modules at a Glance</h3>
+
+  <table style="width:100%;border-collapse:collapse;line-height:1.5;color:#393939;margin:20px 0;">
+    <thead>
+      <tr style="background:#f5f3ed;">
+        <th style="padding:10px 8px;text-align:left;border-bottom:2px solid #c9a84c;">Module</th>
+        <th style="padding:10px 8px;text-align:left;border-bottom:2px solid #c9a84c;">Best for</th>
+        <th style="padding:10px 8px;text-align:left;border-bottom:2px solid #c9a84c;">Key spec</th>
+        <th style="padding:10px 8px;text-align:left;border-bottom:2px solid #c9a84c;">Coverage / capacity</th>
+        <th style="padding:10px 8px;text-align:left;border-bottom:2px solid #c9a84c;">Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #e5e5e5;">
+        <td style="padding:10px 8px;"><strong>Lawn Mower Pro</strong></td>
+        <td style="padding:10px 8px;">Large lawns, thick or warm-season grass</td>
+        <td style="padding:10px 8px;">2,500W peak, 20&quot; cutting width</td>
+        <td style="padding:10px 8px;">Up to 6 acres a week (Y40), 7 (Y40P)</td>
+        <td style="padding:10px 8px;">{{ yp_lmp.price | money_without_trailing_zeros }}</td>
+      </tr>
+      <tr style="border-bottom:1px solid #e5e5e5;">
+        <td style="padding:10px 8px;"><strong>Snow Blower</strong></td>
+        <td style="padding:10px 8px;">Driveways, sloped or gravel surfaces</td>
+        <td style="padding:10px 8px;">24&quot; clearing width, 40 ft throw</td>
+        <td style="padding:10px 8px;">Up to 6,000 ft&sup2; per charge (Y40), 7,000 (Y40P)</td>
+        <td style="padding:10px 8px;">{{ yp_snow.price | money_without_trailing_zeros }}</td>
+      </tr>
+      <tr>
+        <td style="padding:10px 8px;"><strong>Leaf Blower</strong></td>
+        <td style="padding:10px 8px;">Fall cleanup, lawns and hard surfaces</td>
+        <td style="padding:10px 8px;">174 mph, 607 CFM</td>
+        <td style="padding:10px 8px;">Whole-property coverage</td>
+        <td style="padding:10px 8px;">{{ yp_leaf.price | money_without_trailing_zeros }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 style="color:#232739;margin-top:40px;">RTK + Vision vs. Buried Boundary Wire</h3>
+
+  <p>If you've researched robot mowers before, you've likely seen boundary-wire systems, the older, still-common approach where a physical wire is buried or pinned around the perimeter of the area to be mowed, and the robot detects that wire to know where to stop. It works, but it comes with real tradeoffs Yarbo's approach was built to avoid.</p>
+
+  <table style="width:100%;border-collapse:collapse;line-height:1.5;color:#393939;margin:20px 0;">
+    <thead>
+      <tr style="background:#f5f3ed;">
+        <th style="padding:10px 8px;text-align:left;border-bottom:2px solid #c9a84c;"></th>
+        <th style="padding:10px 8px;text-align:left;border-bottom:2px solid #c9a84c;">Yarbo (RTK + Vision)</th>
+        <th style="padding:10px 8px;text-align:left;border-bottom:2px solid #c9a84c;">Boundary wire</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #e5e5e5;">
+        <td style="padding:10px 8px;"><strong>Initial setup</strong></td>
+        <td style="padding:10px 8px;">Walk the perimeter once with your phone, roughly an afternoon</td>
+        <td style="padding:10px 8px;">Dig or pin a physical wire around the entire area</td>
+      </tr>
+      <tr style="border-bottom:1px solid #e5e5e5;">
+        <td style="padding:10px 8px;"><strong>Changing zones later</strong></td>
+        <td style="padding:10px 8px;">Edit the map in the app, minutes</td>
+        <td style="padding:10px 8px;">Dig up and relocate the physical wire</td>
+      </tr>
+      <tr style="border-bottom:1px solid #e5e5e5;">
+        <td style="padding:10px 8px;"><strong>Accuracy</strong></td>
+        <td style="padding:10px 8px;">Centimeter-level, holds under tree cover</td>
+        <td style="padding:10px 8px;">Fixed to the wire's exact path</td>
+      </tr>
+      <tr>
+        <td style="padding:10px 8px;"><strong>Multiple zones</strong></td>
+        <td style="padding:10px 8px;">Unlimited zones drawn on the same map</td>
+        <td style="padding:10px 8px;">Each separate zone typically needs its own wire loop</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 style="color:#232739;margin-top:40px;">Yarbo vs. Traditional Equipment: The Real Cost Over Time</h3>
+
+  <p>A Yarbo Core plus one module is a larger upfront number than a gas mower or a snow blower off a hardware store shelf. The comparison that actually matters for a large property is total cost over several years, including labor, fuel, and lawn service fees, not the sticker price of a single machine sitting next to it in a showroom.</p>
+
+  <table style="width:100%;border-collapse:collapse;line-height:1.5;color:#393939;margin:20px 0;">
+    <thead>
+      <tr style="background:#f5f3ed;">
+        <th style="padding:10px 8px;text-align:left;border-bottom:2px solid #c9a84c;"></th>
+        <th style="padding:10px 8px;text-align:left;border-bottom:2px solid #c9a84c;">Yarbo (Core + module)</th>
+        <th style="padding:10px 8px;text-align:left;border-bottom:2px solid #c9a84c;">Traditional equipment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #e5e5e5;">
+        <td style="padding:10px 8px;"><strong>Weekly time cost</strong></td>
+        <td style="padding:10px 8px;">Zero, runs on its own schedule</td>
+        <td style="padding:10px 8px;">1 to 3 hours per session, per season</td>
+      </tr>
+      <tr style="border-bottom:1px solid #e5e5e5;">
+        <td style="padding:10px 8px;"><strong>Fuel / labor cost</strong></td>
+        <td style="padding:10px 8px;">Electricity only</td>
+        <td style="padding:10px 8px;">Gas, or a lawn service invoice every visit</td>
+      </tr>
+      <tr style="border-bottom:1px solid #e5e5e5;">
+        <td style="padding:10px 8px;"><strong>Seasonal coverage</strong></td>
+        <td style="padding:10px 8px;">One base, add modules as seasons change</td>
+        <td style="padding:10px 8px;">Separate machine per season, each stored idle most of the year</td>
+      </tr>
+      <tr>
+        <td style="padding:10px 8px;"><strong>Consistency</strong></td>
+        <td style="padding:10px 8px;">Same schedule every time, weather permitting</td>
+        <td style="padding:10px 8px;">Depends on your availability or your crew showing up</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>For a one-acre property paying a lawn service roughly $60 a visit through a 20-week season, that's about $1,200 a year before snow or leaf cleanup are even part of the conversation. At today's price of {{ yp_lmp_bundle.price | money_without_trailing_zeros }}, a Yarbo Lawn Mower Pro bundle works out to roughly {{ yp_lmp_bundle.price | divided_by: 120000 }} to {{ yp_lmp_bundle.price | divided_by: 120000 | plus: 1 }} years of that single expense, and every additional module you add afterward extends the same base investment into the next season instead of starting the calculation over from zero. Add the Snow Blower Module and you're also no longer paying a plow service per-storm, and add the Leaf Blower Module and the fall cleanup crew invoice disappears too. The math compounds in the Core's favor the more seasons you put it to work.</p>
+
+  <hr style="border:none;border-top:1px solid #e5e5e5;margin:48px 0 0;">
+  <h3 style="color:#232739;margin-top:48px;">Which Yarbo Setup Fits Your Property</h3>
+
+  <table style="width:100%;border-collapse:collapse;line-height:1.5;color:#393939;margin:20px 0;">
+    <thead>
+      <tr style="background:#f5f3ed;">
+        <th style="padding:10px 8px;text-align:left;border-bottom:2px solid #c9a84c;">Your situation</th>
+        <th style="padding:10px 8px;text-align:left;border-bottom:2px solid #c9a84c;">Recommended setup</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #e5e5e5;">
+        <td style="padding:10px 8px;">Just want the lawn handled</td>
+        <td style="padding:10px 8px;">Core + Lawn Mower Pro Module</td>
+      </tr>
+      <tr style="border-bottom:1px solid #e5e5e5;">
+        <td style="padding:10px 8px;">Cold climate, snowy driveway</td>
+        <td style="padding:10px 8px;">Core + Snow Blower Module, add mowing later</td>
+      </tr>
+      <tr style="border-bottom:1px solid #e5e5e5;">
+        <td style="padding:10px 8px;">Large property, every season matters</td>
+        <td style="padding:10px 8px;">Core + all three modules (Lawn Mower Pro + Snow Blower + Leaf Blower)</td>
+      </tr>
+      <tr>
+        <td style="padding:10px 8px;">Already own a Core</td>
+        <td style="padding:10px 8px;">Add any module individually as your needs grow</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p>Not sure which combination is right for your specific property, slope, or acreage? <a href="/pages/schedule-your-professional-consultation" style="color:#232739;font-weight:bold;">Book a free property assessment</a> and we'll walk through it with you, honestly, including telling you when a smaller setup makes more sense than the biggest bundle. We'd rather you buy the right system once than the biggest system and use a third of it.</p>
+
+  <img src="https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Yarbo_Snow_Blower_b8d50157-6ecd-4071-a3fe-d211629027c1.jpg?v=1789170139" alt="Yarbo Snow Blower bundle, Core and Snow Blower Module" style="width:100%; border-radius:8px; margin: 24px 0;" loading="lazy" width="1024" height="1024">
+
+  <h3 style="color:#232739;margin-top:40px;">Maintenance and Longevity</h3>
+
+  <p>The Core itself has few consumable parts, most of the wear happens on the module: mower blades, snow blower chute components, and similar wear items are the things you'll periodically replace, the same as with any equivalent traditional machine. What you're not doing is separate engine maintenance, oil changes, or winterizing three different small engines every year, since the Core is electric and the modules attach to a single drive and battery system. Every Core and module carries Yarbo's 2-year limited warranty, and Yard Automation Pros helps you file and follow up on any claim.</p>
+
+  <hr style="border:none;border-top:1px solid #e5e5e5;margin:48px 0 0;">
+  <h3 style="color:#232739;margin-top:48px;">Common Questions About the Yarbo System</h3>
+
+  <p><strong>Do I need to buy a new Core for every module?</strong><br>
+  No. One Core runs every module Yarbo makes. You buy the Core once and add modules over time as your seasonal needs expand, rather than buying three complete machines.</p>
+
+  <p><strong>How long does it take to swap modules?</strong><br>
+  A few minutes. It's designed for a homeowner to do it directly, not a scheduled technician visit, so switching from the mower to the snow blower as winter approaches isn't a project.</p>
+
+  <p><strong>Does it work without a buried boundary wire?</strong><br>
+  Yes. RTK + Vision navigation maps your property from your phone. No trenching, no wire, no beacons, and no wire to dig up if you change your landscaping later.</p>
+
+  <p><strong>What slope can it actually handle?</strong><br>
+  The tracked Core is rated for slopes up to 70% grade (35 degrees) with the mower and blower modules. With the Snow Blower Module, Yarbo rates it for 36% (20 degrees).</p>
+
+  <p><strong>Will it work under tree cover, where GPS is usually weaker?</strong><br>
+  Yes, this is specifically where RTK + Vision outperforms GPS-only systems. The binocular vision and inertial sensors keep the Core tracking its position accurately even when satellite signal weakens briefly under a dense canopy.</p>
+
+  <p><strong>What's the warranty?</strong><br>
+  Every Core and module carries Yarbo's 2-year limited warranty.</p>
+
+  <p><strong>Can I finance a Core and module together?</strong><br>
+  Yes, financing is available at checkout through Shop Pay Installments across the full system, Core and module together or added later.</p>
+
+  <h3 style="color:#232739;margin-top:40px;">Ownership, Handled</h3>
+
+  <p>Every Yarbo Core and module ships free, arriving approximately 10 to 14 days after payment. Financing is available at checkout through Shop Pay Installments, so the cost spreads over time rather than landing as one lump sum. And you're not buying this from a manufacturer's storefront with no one to call, Yard Automation Pros provides real, US-based expert guidance before and after your purchase, from picking the right modules for your property to helping you get the most out of the system once it's running. If something isn't working the way it should, you have a real person to reach, not a support ticket queue.</p>
+
+</div>
+
+{% schema %}
+{
+  "name": "Yarbo rich content",
+  "settings": []
+}
+{% endschema %}

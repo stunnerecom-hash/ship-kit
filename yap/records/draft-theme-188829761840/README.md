@@ -26,3 +26,14 @@ Whoever maintains `yd-src/` must make the same changes there, or the next build 
 - Shipping damage must be reported within 48 hours, with photos.
 - Used consumables and pre-orders that have already shipped are excluded.
 - If the item arrived defective, damaged or wrong, the supplier covers all costs. For any other return, the customer pays return shipping to the supplier.
+
+## Clean-up pass (2026-10-06, second session)
+
+Draft only. The live theme still has the old wording; publishing the draft is what makes these changes visible.
+Rollback for any file: copy it back from the live theme "Empire Main - SEO Work v2 2026-09-22" (188462596400), which the draft was duplicated from.
+
+- "Our US based support team responds to every inquiry within 1 business day via email ..." and "Every inquiry answered within 1 business day." now read "We reply to emails within 1 business day ..." in every template that had them (21 product templates, used or not).
+- Warehouse wording removed from every customer facing line (FAQ tracking answer, contact hint, buy box lines, spec lists, brand "Ownership, Handled" sections). The only lines left mentioning a warehouse are on the supplier signup page (`sections/yp-supplier.liquid`), which asks suppliers about their own warehouse, and the internal `source` note in `yd-facts`.
+- Legacy hidden buy box lines that said "Ships From Stock" or "In Stock" now say "Ships Direct", so nothing implies YAP holds stock.
+- `templates/page.faq.json` (not assigned to any page): the Affirm 0% APR answer is removed and the slope answer uses the verified figures.
+- `yd-facts.liquid`: the Yarbo lead time text is now "Usually delivered in 10 to 14 days after payment." The `yd-src/` owner must make the same change.

@@ -1,0 +1,534 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor_aA8jQd": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "2e128dd1-7dbd-45da-966d-745faa090a0f": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_WDrzrJ": {
+          "type": "text",
+          "name": "Unique Selling Points",
+          "settings": {
+            "text": "<p><a href=\"tel:4239273776\" title=\"tel:4239273776\"><em><strong>Buy Online Or Call Now To Order!</strong></em></a></p><p>✓ <strong>Free Shipping </strong>- on most {{ product.vendor }} products<br/>✓ <strong>Flexible Financing </strong>- Shop Pay Installments, 0-36% APR, Applicable at Checkout<br/>✓ <strong>In Stock </strong>- Fast Dispatch<br/>✓ <strong>Questions? </strong>- Call <a href=\"tel:4239273776\" title=\"tel:4239273776\">(423)-927-3776</a></p>"
+          }
+        },
+        "12214949-0a99-47d0-875d-57cf008e67f8": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_display": "low_stock_threshold",
+            "inventory_transfer_notice": true
+          }
+        },
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": false,
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "custom_liquid_yR4UPX": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .yap-trust-bar { width: 100%; max-width: 620px; margin: 0 auto; font-family: inherit; }\n  .yap-trust-item { display: flex; align-items: center; min-height: 58px; padding: 10px 0; border-bottom: 1px solid #e5e5e5; box-sizing: border-box; }\n  .yap-trust-item:last-child { border-bottom: none; }\n  .yap-trust-icon { width: 28px; min-width: 28px; margin-right: 11px; display: flex; align-items: center; justify-content: center; color: #555; }\n  .yap-trust-icon svg { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }\n  .yap-trust-text { flex: 1; font-size: 15px; line-height: 1.3; font-weight: 500; letter-spacing: -0.15px; color: #111; }\n  @media screen and (max-width: 749px) { .yap-trust-bar { max-width: 100%; } .yap-trust-item { min-height: 54px; padding: 9px 2px; } .yap-trust-text { font-size: 14px; } .yap-trust-icon { width: 26px; min-width: 26px; margin-right: 9px; } }\n</style>\n<div class=\"yap-trust-bar\">\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3 19 6v5c0 4.8-2.9 8.2-7 10-4.1-1.8-7-5.2-7-10V6l7-3z\"/><path d=\"m9 12 2 2 4-4\"/></svg></div>\n    <div class=\"yap-trust-text\">30-Day Price Match Guarantee | 30-Day Return Policy</div>\n  </div>\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M14.5 6.5a4 4 0 0 0-5.2 5.2L4 17l3 3 5.3-5.3a4 4 0 0 0 5.2-5.2l-2.2 2.2-2.8-2.8 2-2.4z\"/><path d=\"M16 4h4\"/><path d=\"M18 2v4\"/></svg></div>\n    <div class=\"yap-trust-text\">2-Year Manufacturer Warranty | US-Based Support</div>\n  </div>\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 6h11v11H3z\"/><path d=\"M14 10h4l3 3v4h-7z\"/><circle cx=\"7\" cy=\"18\" r=\"2\"/><circle cx=\"18\" cy=\"18\" r=\"2\"/></svg></div>\n    <div class=\"yap-trust-text\">In Stock – Fast Dispatch</div>\n  </div>\n</div>"
+          }
+        },
+        "collapsible_tab_UWQ8gk": {
+          "type": "collapsible-tab",
+          "name": "Overview",
+          "settings": {
+            "collapsible_tab_heading": "Overview",
+            "collapsible_tab_text": "<p>The Scuba N1 Plus is a dependable, straightforward clean for in-ground pools up to 1,600 sq ft. No mapping to configure, no AI patrol to babysit, just real coverage of the floor, walls, and waterline.<br/><br/>🔋 A brushless drain motor filters up to 4,800 GPH.<br/>🐛 Caterpillar treads hold onto walls, not just the floor.<br/>🌊 WavePath™ navigation follows your pool's natural flow instead of a fixed route.<br/></p>"
+          }
+        },
+        "collapsible_tab_Uf69Wz": {
+          "type": "collapsible-tab",
+          "name": "Product Information",
+          "settings": {
+            "collapsible_tab_heading": "Product Information",
+            "collapsible_tab_text": "<p><strong>Reliable Pool Care, Without the Learning Curve. By Yard Automation Pros.</strong></p><p>Built for in-ground pools up to 1,600 sq ft (150m²), 50 ft in length, the Scuba N1 Plus keeps things simple: floor, walls, and waterline, handled without an AI patrol or a mapping routine to set up.</p><h3>Real suction, no gimmicks</h3><p>A brushless drain motor filters up to 4,800 GPH while a dynamic silicone brush lifts dirt and debris. Caterpillar treads give it the traction to hold onto walls, not just cruise the floor.</p><h3>Follows the water, not a script</h3><p>WavePath™ navigation reads your pool's natural flow to increase cleaning coverage, adapting instead of repeating the same lap every time.</p><h3>Four ways to clean</h3><p>Choose Floor, Wall, Auto (floor + wall + waterline), or Eco mode, which runs a 45-minute cycle every 48 hours so your pool stays swim-ready without you thinking about it.</p><h3>Ownership, handled</h3><ul><li><strong>Dual filtration</strong> – swap between a 180μm fine filter basket or a 3μm MicroMesh™ ultra-fine filter, 3.5L top-load capacity.</li><li><strong>OTA updates</strong> through the Aiper App keep it current automatically.</li><li><strong>2-year manufacturer's warranty.</strong></li><li><strong>Curated and supported by Yard Automation Pros,</strong> before and after the sale.</li></ul>"
+          }
+        },
+        "collapsible_tab_X7L37G": {
+          "type": "collapsible-tab",
+          "name": "Warranty & Support",
+          "settings": {
+            "collapsible_tab_heading": "Warranty & Support:",
+            "collapsible_tab_text": "<p>Covered by Aiper's 2-year manufacturer's warranty on the cleaner (6 months on the DC charger and retrieval hook). We reply to emails within 1 business day at support@yardautomationpros.com.<br/><br/></p>"
+          }
+        },
+        "collapsible_tab_HjeTwa": {
+          "type": "collapsible-tab",
+          "name": "Setup & Installation",
+          "settings": {
+            "collapsible_tab_heading": "Setup & Installation",
+            "collapsible_tab_text": "<p>No installation, no boundary mapping. Charge it with the included DC charger, drop it in the pool, and choose Floor, Wall, Auto, or Eco mode from the device or the Aiper App. Use the included retrieval hook to lift it out when it's done.<br/><br/></p>"
+          }
+        },
+        "collapsible_tab_czbJiW": {
+          "type": "collapsible-tab",
+          "name": "Specifications",
+          "settings": {
+            "collapsible_tab_heading": "Specifications",
+            "collapsible_tab_text": "<h3>Cleaning &amp; Power</h3><ul><li><strong>Suction:</strong> Up to 4,800 GPH, brushless drain motor</li><li><strong>Coverage:</strong> Floor, walls, and waterline</li><li><strong>Pool size:</strong> Up to 1,600 sq ft (150m²), in-ground, 50 ft in length</li></ul><h3>Navigation &amp; Modes</h3><ul><li><strong>WavePath™ navigation:</strong> Adapts to your pool's natural water flow</li><li><strong>Modes:</strong> Floor, Wall, Auto (Floor + Wall + Waterline), Eco (45-min cycle every 48 hrs, x3)</li></ul><h3>Filtration</h3><ul><li><strong>Dual filtration:</strong> 180μm fine filter basket or 3μm MicroMesh™ ultra-fine filter</li><li><strong>Basket capacity:</strong> 3.5L, top-load</li></ul><h3>Battery &amp; Build</h3><ul><li><strong>Battery:</strong> Up to 180 minutes runtime</li><li><strong>Charge time:</strong> 3–4 hours, DC charger</li><li><strong>Weight:</strong> 7.9kg / 17.4 lbs</li></ul><h3>Smart Features &amp; Warranty</h3><ul><li><strong>OTA updates</strong> via the Aiper App</li><li><strong>Warranty:</strong> 2-year manufacturer's warranty (6 months on DC charger and retrieval hook)</li></ul>"
+          }
+        },
+        "complementary_products_8bK493": {
+          "type": "complementary_products",
+          "settings": {
+            "heading": "Pairs well with",
+            "product_recommendation_limit": 5,
+            "products_per_slide": 2
+          }
+        },
+        "collapsible_tab_mkEKLQ": {
+          "type": "collapsible-tab",
+          "name": "manuals",
+          "disabled": true,
+          "settings": {
+            "collapsible_tab_heading": "Manuals & Downloads",
+            "collapsible_tab_text": "<p>Use this text to share information about your product.</p>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_4NycBz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor_aA8jQd",
+        "2e128dd1-7dbd-45da-966d-745faa090a0f",
+        "price",
+        "text_WDrzrJ",
+        "12214949-0a99-47d0-875d-57cf008e67f8",
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956",
+        "custom_liquid_yR4UPX",
+        "collapsible_tab_UWQ8gk",
+        "collapsible_tab_Uf69Wz",
+        "collapsible_tab_X7L37G",
+        "collapsible_tab_HjeTwa",
+        "collapsible_tab_czbJiW",
+        "complementary_products_8bK493",
+        "collapsible_tab_mkEKLQ",
+        "description",
+        "judge_me_reviews_preview_badge_4NycBz"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": true,
+        "gallery_thumbnail_position": "below",
+        "gallery_thumbnail_layout": "carousel",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "dynamic_rich_text_n1pIntro": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular"
+      }
+    },
+    "dynamic_image_with_text_n1pWave": {
+      "type": "dynamic-image-with-text",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/AiperScubaN1PlusRoboticPoolCleaner_5_1800x_7f26dc43-27d7-43e1-b689-d3ae37836efe.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_image_with_text_n1pModes": {
+      "type": "dynamic-image-with-text",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/AiperScubaN1PlusRoboticPoolCleaner_8_1800x_2e4305f4-b3ae-46f7-a964-68f1a5cb2968.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "text_alignment": "center"
+      }
+    },
+    "blocks_n1p3col": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_7d61a93_n1pcol": {
+          "type": "ai_gen_block_7d61a93",
+          "settings": {
+            "heading": "Simple to Own, Built to Last",
+            "description": "Three things it gets right, without needing an AI patrol to do it.",
+            "heading_size": 36,
+            "description_size": 16,
+            "heading_color": "#232739",
+            "description_color": "#393939",
+            "column_1_image": "shopify://shop_images/AiperScubaN1PlusRoboticPoolCleaner_2_1800x_c2a206e6-8a20-4b6e-8143-8f0b6dba4393.jpg",
+            "column_1_label": "Wall-Climbing Treads",
+            "column_1_text": "Caterpillar treads give it the grip to climb and clean pool walls, not just cruise the floor.",
+            "column_2_image": "shopify://shop_images/AiperScubaN1PlusRoboticPoolCleaner_9_1800x_bf95e193-2756-4bec-9b78-9485194370c4.jpg",
+            "column_2_label": "180-Minute Runtime",
+            "column_2_text": "A full charge covers a complete cleaning cycle, with a 3–4 hour recharge on the included DC charger.",
+            "column_3_image": "shopify://shop_images/AiperScubaN1PlusRoboticPoolCleaner_8_1800x_2e4305f4-b3ae-46f7-a964-68f1a5cb2968.jpg",
+            "column_3_label": "OTA Updates Built In",
+            "column_3_text": "The Aiper App keeps the Scuba N1 Plus current automatically, no manual firmware updates required.",
+            "label_size": 20,
+            "text_size": 14,
+            "label_color": "#232739",
+            "text_color": "#393939",
+            "desktop_width_percent": 100,
+            "section_padding": 50,
+            "header_spacing": 40,
+            "grid_gap": 30,
+            "image_spacing": 20,
+            "image_border_radius": 8,
+            "background_color": "#f2f4f1"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_7d61a93_n1pcol"
+      ],
+      "name": "Image showcase grid",
+      "settings": {}
+    },
+    "dynamic_featured_collection_n1p": {
+      "type": "dynamic-featured-collection",
+      "name": "t:sections.featured_collection.presets.featured_collection.name",
+      "settings": {
+        "title": "Build Out Your Pool Care System",
+        "layout": "grid",
+        "mobile_layout": "slideshow",
+        "collection": "aiper",
+        "product_count": 5,
+        "cta_label": "SHOP COLLECTION",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_highlights_banner_n1p": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_XLUzQE": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-store",
+            "title": "100% American Owned and Operated",
+            "text": "<p>We're a locally owned and operated business</p>",
+            "link": ""
+          }
+        },
+        "highlight_84JPfV": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-heart",
+            "title": "30-Day Satisfaction Promise",
+            "text": "<p>If you're not happy, We're not happy</p>",
+            "link": ""
+          }
+        },
+        "highlight_HbAL67": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-lock",
+            "title": "Secure Online Payment System",
+            "text": "<p>All our transactions are protected and secure</p>",
+            "link": ""
+          }
+        },
+        "highlight_9pebcb": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery",
+            "title": "Free Shipping",
+            "text": "<p>On most Aiper products</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_XLUzQE",
+        "highlight_84JPfV",
+        "highlight_HbAL67",
+        "highlight_9pebcb"
+      ],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#ffffff",
+        "icon_color": "#ffffff",
+        "background_color": "#233923",
+        "mobile_layout": "slider"
+      }
+    },
+    "blocks_n1p4col": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_bca8f42_n1pcol": {
+          "type": "ai_gen_block_bca8f42",
+          "settings": {
+            "section_heading": "What You're Actually Getting",
+            "section_description": "",
+            "column_1_image": "shopify://shop_images/Aiper_Scuba_N1_Plus_Robotic_Pool_Cleaner_10_1800x_6e184865-0ae0-449e-858f-204788bfa2da.jpg",
+            "column_1_label": "4,800 GPH Suction",
+            "column_1_description": "A brushless drain motor and dynamic silicone brush handle real dirt and debris, not just surface dust.",
+            "column_2_image": "shopify://shop_images/AiperScubaN1PlusRoboticPoolCleaner_6_1800x_f9eb9359-efd2-422b-a89f-185c04e6b35d.jpg",
+            "column_2_label": "Up to 1,600 Sq Ft",
+            "column_2_description": "Sized for in-ground pools up to 50 ft in length, covering floor, walls, and waterline.",
+            "column_3_image": "shopify://shop_images/AiperScubaN1PlusRoboticPoolCleaner_5_1800x_7f26dc43-27d7-43e1-b689-d3ae37836efe.jpg",
+            "column_3_label": "Dual Filtration, 3.5L",
+            "column_3_description": "Swap between a 180μm basket and a 3μm MicroMesh™ ultra-fine filter depending on what you're cleaning up.",
+            "column_4_image": "shopify://shop_images/AiperScubaN1PlusRoboticPoolCleaner_2_1800x_c2a206e6-8a20-4b6e-8143-8f0b6dba4393.jpg",
+            "column_4_label": "2-Year Warranty",
+            "column_4_description": "Backed by Aiper's 2-year manufacturer's warranty, plus support from Yard Automation Pros.",
+            "section_padding": 40,
+            "grid_gap": 30,
+            "image_border_radius": 8,
+            "desktop_width_percent": 100,
+            "background_color": "#f2f4f1",
+            "heading_color": "#232739",
+            "description_color": "#393939",
+            "label_color": "#232739",
+            "text_color": "#393939",
+            "heading_font_size": 36,
+            "description_font_size": 16,
+            "label_font_size": 20,
+            "text_font_size": 14
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_bca8f42_n1pcol"
+      ],
+      "name": "4-column image showcase",
+      "settings": {}
+    },
+    "blocks_whyyap_n1p": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_whyyap_n1p": {
+          "type": "ai_gen_block_whyyap",
+          "settings": {
+            "heading": "Why Yard Automation Pros?",
+            "intro_text": "We don't just sell robots, we help you build the autonomous estate.",
+            "column_1_label": "Curated Selection",
+            "column_1_text": "Every product is hand-picked and tested against real residential use cases before we carry it.",
+            "column_2_label": "Expert Support",
+            "column_2_text": "US-based support from people who actually know the product, not a script.",
+            "column_3_label": "Ongoing Guidance",
+            "column_3_text": "When you buy an Aiper Scuba N1 Plus from us, you get a curated setup guide for your pool and access to our growing library of automation tips.",
+            "closing_text": "This is the future of pool care. We're here to make sure it works for you.",
+            "max_width": 1100,
+            "section_padding": 56,
+            "header_spacing": 36,
+            "grid_gap": 40,
+            "panel_radius": 12,
+            "heading_size": 32,
+            "label_size": 18,
+            "body_size": 15,
+            "accent_color": "#233923",
+            "icon_color": "#ffffff",
+            "panel_background": "#f2f4f1",
+            "border_color": "#dfe3de",
+            "heading_color": "#232739",
+            "text_color": "#393939"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_whyyap_n1p"
+      ],
+      "name": "Why YAP panel",
+      "settings": {}
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "disabled": true,
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "178784317865f92603": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_reviews_grid_widget_gnCmHd": {
+          "type": "shopify://apps/judge-me-reviews/blocks/reviews_grid_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "review_selection": "all",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "show_media_only": false,
+            "display_order": "media_first",
+            "card_grouping": "per_media",
+            "columns_desktop": 3,
+            "rows_desktop": 3,
+            "columns_mobile": "2",
+            "rows_mobile": 6,
+            "show_stars": true,
+            "show_reviewer_name": true,
+            "show_review_title_on_hover_desktop": true,
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "card_spacing": "medium",
+            "header_text_color": "#000000",
+            "star_and_reviewer_name_color": "#f9f9f9",
+            "drop_shadow_color": "#000000",
+            "overlay_and_background_color": "#000000",
+            "content_color": "#f9f9f9",
+            "header_text": "From our customers",
+            "show_average_rating": true,
+            "rating_display": "default"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_reviews_grid_widget_gnCmHd"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "dynamic_faq_n1p": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "question_1": {
+          "type": "question",
+          "settings": {
+            "question": "What pool types is this built for?",
+            "answer": "<p>In-ground pools up to 1,600 sq ft (150m²), 50 ft in length. It cleans the floor, walls, and waterline.</p>",
+            "icon": "none"
+          }
+        },
+        "question_2": {
+          "type": "question",
+          "settings": {
+            "question": "How does WavePath™ navigation work?",
+            "answer": "<p>It reads your pool's natural water flow to increase cleaning coverage, adapting its route instead of running a fixed pattern every time.</p>",
+            "icon": "none"
+          }
+        },
+        "question_3": {
+          "type": "question",
+          "settings": {
+            "question": "How long does it run and charge?",
+            "answer": "<p>Up to 180 minutes of runtime per cycle, with a 3–4 hour recharge using the included DC charger.</p>",
+            "icon": "none"
+          }
+        },
+        "question_4": {
+          "type": "question",
+          "settings": {
+            "question": "What cleaning modes does it offer?",
+            "answer": "<p>Floor, Wall, Auto (Floor + Wall + Waterline), and Eco, which runs a 45-minute cycle every 48 hours, repeating three times.</p>",
+            "icon": "none"
+          }
+        },
+        "question_5": {
+          "type": "question",
+          "settings": {
+            "question": "What's included in the box?",
+            "answer": "<p>The Scuba N1 Plus cleaner, a DC charger, a retrieval hook, and 2 extra PVC brushes.</p>",
+            "icon": "none"
+          }
+        },
+        "question_6": {
+          "type": "question",
+          "settings": {
+            "question": "How does the filtration work?",
+            "answer": "<p>A 3.5L top-load basket that takes either a 180μm fine filter or a 3μm MicroMesh™ ultra-fine filter, depending on the debris you're dealing with.</p>",
+            "icon": "none"
+          }
+        },
+        "question_7": {
+          "type": "question",
+          "settings": {
+            "question": "What's the warranty?",
+            "answer": "<p>Aiper's 2-year manufacturer's warranty on the cleaner, plus 6 months on the DC charger and retrieval hook. Our US based support team is available at support@yardautomationpros.com.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "question_1",
+        "question_2",
+        "question_3",
+        "question_4",
+        "question_5",
+        "question_6",
+        "question_7"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "heading": "Expert Q&A: Scuba N1 Plus, Answered",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "small",
+        "icon_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_rich_text_n1pIntro",
+    "dynamic_image_with_text_n1pWave",
+    "dynamic_image_with_text_n1pModes",
+    "blocks_n1p3col",
+    "dynamic_featured_collection_n1p",
+    "dynamic_highlights_banner_n1p",
+    "blocks_n1p4col",
+    "blocks_whyyap_n1p",
+    "recommendations",
+    "recently-viewed",
+    "178784317865f92603",
+    "dynamic_faq_n1p"
+  ]
+}

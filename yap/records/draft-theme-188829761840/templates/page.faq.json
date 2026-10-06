@@ -23,14 +23,6 @@
             "show_category_card": true
           }
         },
-        "question_1": {
-          "type": "question",
-          "settings": {
-            "question": "Do you offer financing?",
-            "answer": "<p>Yes. 0% APR financing is available through Affirm and Shop Pay at checkout, so you can spread the cost of a robot system into monthly payments.</p>",
-            "icon": "none"
-          }
-        },
         "question_2": {
           "type": "question",
           "settings": {
@@ -43,7 +35,7 @@
           "type": "question",
           "settings": {
             "question": "What slope can a robot mower handle?",
-            "answer": "<p>Most robot mowers handle slopes up to 45 percent (24 degrees). Tracked systems like the Yarbo Core manage 36 percent (20 degrees) reliably on grass. For steeper ground, remote controlled machines like the Mowrator S1 4WD handle up to 100 percent (45 degrees), with the trade off that you drive it rather than it running fully on its own.</p>",
+            "answer": "<p>Your steeper ground is covered. The Yarbo Y40 and Y40P are rated for slopes up to 70 percent (35 degrees) on high traction tracks. For steeper banks, the remote controlled Mowrator S1 4WD is rated up to 75 percent (37 degrees) on its standard wheels, 85 percent (40 degrees) on Wide Wheels and 119 percent (50 degrees) on Grip Tread Tires. The S1 2WD is rated up to 45 percent (24 degrees).</p>",
             "icon": "none"
           }
         },
@@ -112,7 +104,6 @@
       },
       "block_order": [
         "category_1",
-        "question_1",
         "question_2",
         "question_3",
         "question_4",

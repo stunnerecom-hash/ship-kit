@@ -1,0 +1,492 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor_aA8jQd": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "2e128dd1-7dbd-45da-966d-745faa090a0f": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_WDrzrJ": {
+          "type": "text",
+          "name": "Unique Selling Points",
+          "settings": {
+            "text": "<p><a href=\"tel:4239273776\" title=\"tel:4239273776\"><em><strong>Buy Online Or Call Now To Order!</strong></em></a></p><p>✓ <strong>Free Shipping </strong>- on most {{ product.vendor }} products<br/>✓ <strong>Flexible Financing </strong>- Shop Pay Installments, 0-36% APR, Applicable at Checkout<br/>✓ <strong>In Stock </strong>- Fast Dispatch<br/>✓ <strong>Questions? </strong>- Call <a href=\"tel:4239273776\" title=\"tel:4239273776\">(423)-927-3776</a></p>"
+          }
+        },
+        "12214949-0a99-47d0-875d-57cf008e67f8": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_display": "hidden",
+            "inventory_transfer_notice": true
+          }
+        },
+        "custom_liquid_yR4UPX": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .yap-trust-bar { width: 100%; max-width: 620px; margin: 0 auto; font-family: inherit; }\n  .yap-trust-item { display: flex; align-items: center; min-height: 58px; padding: 10px 0; border-bottom: 1px solid #e5e5e5; box-sizing: border-box; }\n  .yap-trust-item:last-child { border-bottom: none; }\n  .yap-trust-icon { width: 28px; min-width: 28px; margin-right: 11px; display: flex; align-items: center; justify-content: center; color: #555; }\n  .yap-trust-icon svg { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }\n  .yap-trust-text { flex: 1; font-size: 15px; line-height: 1.3; font-weight: 500; letter-spacing: -0.15px; color: #111; }\n  @media screen and (max-width: 749px) { .yap-trust-bar { max-width: 100%; } .yap-trust-item { min-height: 54px; padding: 9px 2px; } .yap-trust-text { font-size: 14px; } .yap-trust-icon { width: 26px; min-width: 26px; margin-right: 9px; } }\n</style>\n<div class=\"yap-trust-bar\">\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3 19 6v5c0 4.8-2.9 8.2-7 10-4.1-1.8-7-5.2-7-10V6l7-3z\"/><path d=\"m9 12 2 2 4-4\"/></svg></div>\n    <div class=\"yap-trust-text\">30-Day Price Match Guarantee | 30-Day Return Policy</div>\n  </div>\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M14.5 6.5a4 4 0 0 0-5.2 5.2L4 17l3 3 5.3-5.3a4 4 0 0 0 5.2-5.2l-2.2 2.2-2.8-2.8 2-2.4z\"/><path d=\"M16 4h4\"/><path d=\"M18 2v4\"/></svg></div>\n    <div class=\"yap-trust-text\">1-Year Manufacturer Warranty | US-Based Support</div>\n  </div>\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 6h11v11H3z\"/><path d=\"M14 10h4l3 3v4h-7z\"/><circle cx=\"7\" cy=\"18\" r=\"2\"/><circle cx=\"18\" cy=\"18\" r=\"2\"/></svg></div>\n    <div class=\"yap-trust-text\">In Stock – Fast Dispatch</div>\n  </div>\n</div>"
+          }
+        },
+        "custom_liquid_bnUyj8": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "{% assign current_variant = product.selected_or_first_available_variant %}\n\n<div class=\"mpf-box\">\n\n  <div class=\"mpf-price\" id=\"mpf-price-{{ product.id }}\">\n    <span class=\"mpf-price-main\" id=\"mpf-price-val-{{ product.id }}\">\n      {{ current_variant.price | money }}\n    </span>\n\n    <div class=\"mpf-installment\" id=\"mpf-install-{{ product.id }}\">\n      From {{ current_variant.price | divided_by: 12 | money }}/mo with\n      <strong>shop</strong> ⓘ\n    </div>\n  </div>\n\n  <form\n    method=\"post\"\n    action=\"/cart/add\"\n    id=\"mpf-form-{{ product.id }}\"\n    enctype=\"multipart/form-data\"\n  >\n\n    <input type=\"hidden\" name=\"form_type\" value=\"product\">\n    <input type=\"hidden\" name=\"utf8\" value=\"✓\">\n\n    <input\n      type=\"hidden\"\n      name=\"id\"\n      id=\"mpf-vid-{{ product.id }}\"\n      value=\"{{ current_variant.id }}\"\n    >\n\n    {% for option in product.options_with_values %}\n      <div class=\"mpf-option-group\">\n\n        <label class=\"mpf-option-label\">COLOR</label>\n\n        <div class=\"mpf-toggles\">\n\n          {% for value in option.values %}\n            <button\n              type=\"button\"\n              class=\"mpf-toggle {% if value == option.selected_value %}mpf-active{% elsif option.selected_value == blank and forloop.first %}mpf-active{% endif %}\"\n              data-index=\"{{ forloop.parentloop.index0 }}\"\n              data-value=\"{{ value | escape }}\"\n              onclick=\"mpfSelect(this, '{{ product.id }}')\"\n            >\n              {{ value }}\n            </button>\n          {% endfor %}\n\n        </div>\n      </div>\n    {% endfor %}\n\n    <div class=\"mpf-action-row\">\n\n      <div class=\"mpf-qty\">\n\n        <button\n          type=\"button\"\n          aria-label=\"Decrease quantity\"\n          onclick=\"mpfQty(-1,'{{ product.id }}')\"\n        >\n          −\n        </button>\n\n        <input\n          type=\"number\"\n          id=\"mpf-qty-{{ product.id }}\"\n          name=\"quantity\"\n          value=\"1\"\n          min=\"1\"\n          readonly\n          aria-label=\"Quantity\"\n        >\n\n        <button\n          type=\"button\"\n          aria-label=\"Increase quantity\"\n          onclick=\"mpfQty(1,'{{ product.id }}')\"\n        >\n          +\n        </button>\n\n      </div>\n\n      <button\n        type=\"submit\"\n        id=\"mpf-atc-{{ product.id }}\"\n        class=\"mpf-atc\"\n        {% unless current_variant.available %}disabled{% endunless %}\n      >\n        {% if current_variant.available %}\n          Add to cart\n        {% else %}\n          Sold out\n        {% endif %}\n      </button>\n\n    </div>\n\n  </form>\n\n</div>\n\n<script>\n  window['mpfVariants_{{ product.id }}'] = {{ product.variants | json }};\n\n  window['mpfSelected_{{ product.id }}'] = [\n    {% for option in product.options_with_values %}\n      \"{% if option.selected_value != blank %}{{ option.selected_value | escape }}{% else %}{{ option.values.first | escape }}{% endif %}\"\n      {% unless forloop.last %},{% endunless %}\n    {% endfor %}\n  ];\n\n  function mpfMoney(cents) {\n    return '$' + (cents / 100)\n      .toFixed(2)\n      .replace(/\\B(?=(\\d{3})+(?!\\d))/g, ',');\n  }\n\n  function mpfSelect(btn, pid) {\n\n    var idx = parseInt(\n      btn.getAttribute('data-index'),\n      10\n    );\n\n    var val = btn.getAttribute('data-value');\n\n    btn.parentElement\n      .querySelectorAll('.mpf-toggle')\n      .forEach(function(b) {\n        b.classList.remove('mpf-active');\n      });\n\n    btn.classList.add('mpf-active');\n\n    window['mpfSelected_' + pid][idx] = val;\n\n    var variants = window['mpfVariants_' + pid];\n\n    var selected = window['mpfSelected_' + pid];\n\n    var match = variants.find(function(v) {\n\n      return v.options.every(function(optionValue, index) {\n\n        return optionValue === selected[index];\n\n      });\n\n    });\n\n    if (!match) {\n      return;\n    }\n\n    document.getElementById(\n      'mpf-vid-' + pid\n    ).value = match.id;\n\n    document.getElementById(\n      'mpf-price-val-' + pid\n    ).textContent = mpfMoney(match.price);\n\n    document.getElementById(\n      'mpf-install-' + pid\n    ).innerHTML =\n      'From ' +\n      mpfMoney(Math.ceil(match.price / 12)) +\n      '/mo with <strong>shop</strong> ⓘ';\n\n    var atc = document.getElementById(\n      'mpf-atc-' + pid\n    );\n\n    atc.disabled = !match.available;\n\n    atc.textContent = match.available\n      ? 'Add to cart'\n      : 'Sold out';\n\n    var variantEvent = new CustomEvent(\n      'variant:change',\n      {\n        bubbles: true,\n        detail: {\n          variant: match\n        }\n      }\n    );\n\n    document.dispatchEvent(variantEvent);\n\n    try {\n\n      var url = new URL(\n        window.location.href\n      );\n\n      url.searchParams.set(\n        'variant',\n        match.id\n      );\n\n      window.history.replaceState(\n        {},\n        '',\n        url.toString()\n      );\n\n    } catch (e) {}\n\n    if (match.featured_media) {\n\n      var mediaId = match.featured_media.id;\n\n      var mediaSelectors = [\n        '[data-media-id=\"' + mediaId + '\"]',\n        '[data-media-id=\"ProductJSON-' + mediaId + '\"]',\n        '[data-media-id*=\"' + mediaId + '\"]'\n      ];\n\n      for (var i = 0; i < mediaSelectors.length; i++) {\n\n        var media = document.querySelector(\n          mediaSelectors[i]\n        );\n\n        if (media) {\n\n          media.scrollIntoView({\n            behavior: 'smooth',\n            block: 'nearest'\n          });\n\n          break;\n        }\n      }\n    }\n\n  }\n\n  function mpfQty(delta, pid) {\n\n    var input = document.getElementById(\n      'mpf-qty-' + pid\n    );\n\n    var current = parseInt(\n      input.value,\n      10\n    ) || 1;\n\n    input.value = Math.max(\n      1,\n      current + delta\n    );\n\n  }\n</script>\n\n<style>\n\n  .mpf-box {\n    background: var(--color-background, #f8f8f6);\n    border: 1.5px solid #e0e0e0;\n    border-radius: 12px;\n    padding: 22px 20px 16px;\n    max-width: 480px;\n    font-family: inherit;\n  }\n\n  .mpf-price {\n    margin-bottom: 20px;\n  }\n\n  .mpf-price-main {\n    display: block;\n    font-size: 32px;\n    font-weight: 800;\n    letter-spacing: -1px;\n    color: #111;\n    margin-bottom: 5px;\n    line-height: 1.1;\n  }\n\n  .mpf-installment {\n    font-size: 13px;\n    color: #666;\n  }\n\n  .mpf-installment strong {\n    color: #5433ff;\n  }\n\n  .mpf-option-group {\n    margin-bottom: 18px;\n  }\n\n  .mpf-option-label {\n    display: block;\n    font-size: 12px;\n    font-weight: 500;\n    color: #888;\n    text-transform: uppercase;\n    letter-spacing: 0.8px;\n    margin-bottom: 10px;\n  }\n\n  .mpf-toggles {\n    display: flex;\n    flex-direction: column;\n    gap: 8px;\n  }\n\n  .mpf-toggle {\n    width: 100%;\n    padding: 13px 16px;\n    border: 1.5px solid #d8d8d8;\n    border-radius: 8px;\n    background: #fff;\n    font-size: 14px;\n    font-weight: 400;\n    cursor: pointer;\n    text-align: left;\n    transition:\n      border-color 0.18s ease,\n      background 0.18s ease,\n      box-shadow 0.18s ease;\n    color: #333;\n    font-family: inherit;\n  }\n\n  .mpf-toggle:hover {\n    border-color: #aaa;\n    background: #fafafa;\n  }\n\n  .mpf-toggle.mpf-active {\n    border-color: #1a1a1a;\n    border-width: 2px;\n    background: #fff;\n    color: #1a1a1a;\n    font-weight: 500;\n  }\n\n  .mpf-action-row {\n    display: flex;\n    gap: 10px;\n    align-items: center;\n    margin-bottom: 14px;\n    margin-top: 4px;\n  }\n\n  .mpf-qty {\n    display: flex;\n    align-items: center;\n    border: 1.5px solid #d8d8d8;\n    border-radius: 8px;\n    overflow: hidden;\n    flex-shrink: 0;\n    background: #fff;\n  }\n\n  .mpf-qty button {\n    width: 40px;\n    height: 46px;\n    border: none;\n    background: transparent;\n    font-size: 20px;\n    cursor: pointer;\n    color: #333;\n  }\n\n  .mpf-qty button:hover {\n    background: #f0f0f0;\n  }\n\n  .mpf-qty input {\n    width: 50px;\n    height: 46px;\n    text-align: center;\n    border: none;\n    border-left: 1.5px solid #d8d8d8;\n    border-right: 1.5px solid #d8d8d8;\n    font-size: 15px;\n    background: #fff;\n    -moz-appearance: textfield;\n  }\n\n  .mpf-qty input::-webkit-outer-spin-button,\n  .mpf-qty input::-webkit-inner-spin-button {\n    -webkit-appearance: none;\n  }\n\n  .mpf-atc {\n    flex: 1;\n    height: 46px;\n    background: #1a3c1a;\n    color: #fff;\n    border: none;\n    border-radius: 8px;\n    font-size: 15px;\n    font-weight: 600;\n    cursor: pointer;\n    transition: background 0.2s;\n    font-family: inherit;\n    letter-spacing: 0.3px;\n  }\n\n  .mpf-atc:hover {\n    background: #244d24;\n  }\n\n  .mpf-atc:disabled {\n    background: #bbb;\n    cursor: not-allowed;\n  }\n\n  @media screen and (max-width: 480px) {\n\n    .mpf-box {\n      padding: 18px 16px 14px;\n    }\n\n    .mpf-price-main {\n      font-size: 28px;\n    }\n\n    .mpf-action-row {\n      gap: 8px;\n    }\n\n    .mpf-qty button {\n      width: 36px;\n    }\n\n    .mpf-qty input {\n      width: 42px;\n    }\n\n  }\n\n</style>"
+          }
+        },
+        "collapsible_tab_UWQ8gk": {
+          "type": "collapsible-tab",
+          "name": "Overview",
+          "settings": {
+            "collapsible_tab_heading": "Overview",
+            "collapsible_tab_text": "<p>The Betta Flex is Betta's most adaptable skimmer, built with a streamlined, low-profile body and a soft-touch casing that works across infinity edge, in-ground, and above-ground pools.<br/><br/>🌊 Dual cleaning modes: Eco for periodic sweeps, Normal for 24/7 performance.<br/>🪧 Soft-touch casing is gentle on pool surfaces, including infinity edges.<br/>⚡ 100% solar-powered, cordless, 5-6 hour recharge.<br/></p>"
+          }
+        },
+        "collapsible_tab_Uf69Wz": {
+          "type": "collapsible-tab",
+          "name": "Product Information",
+          "settings": {
+            "collapsible_tab_heading": "Product Information",
+            "collapsible_tab_text": "<p><strong>The Most Adaptable Skimmer in the Betta Line. By Yard Automation Pros.</strong></p><p>The Betta Flex is built for pools other skimmers struggle with, including infinity edge designs, alongside standard in-ground and above-ground pools up to roughly 2,400 sq ft.</p><h3>Built to fit tighter spaces</h3><p>A newly streamlined, low-profile body navigates tighter spaces with ease, cleaning efficiently around pool edges and narrow corners that trip up bulkier skimmers.</p><h3>Two modes for two different needs</h3><p>Switch between Eco Mode for smart, periodic sweeps that stretch battery life, or Normal Mode for continuous 24/7 cleaning when you want it handled constantly.</p><h3>Gentle where it matters</h3><p>A newly engineered soft-touch casing protects pool surfaces, including infinity edges, while still standing up to debris. Twin SCT motors keep it working in both saltwater and chlorine pools.</p><h3>Ownership, handled</h3><ul><li><strong>Ultrasonic radar</strong> with Shallow Water Safeguard design to avoid getting stuck.</li><li><strong>1-year manufacturer's warranty.</strong></li><li><strong>Curated and supported by Yard Automation Pros,</strong> before and after the sale.</li></ul>"
+          }
+        },
+        "collapsible_tab_X7L37G": {
+          "type": "collapsible-tab",
+          "name": "Warranty & Support",
+          "settings": {
+            "collapsible_tab_heading": "Warranty & Support:",
+            "collapsible_tab_text": "<p>Covered by Betta's 1-year manufacturer's warranty. We reply to emails within 1 business day at support@yardautomationpros.com.<br/><br/></p>"
+          }
+        },
+        "collapsible_tab_HjeTwa": {
+          "type": "collapsible-tab",
+          "name": "Setup & Installation",
+          "settings": {
+            "collapsible_tab_heading": "Setup & Installation",
+            "collapsible_tab_text": "<p>No app, no pairing, no remote included. Charge it via solar, drop it in the pool, and choose Eco or Normal mode via the onboard switch.<br/><br/></p>"
+          }
+        },
+        "collapsible_tab_czbJiW": {
+          "type": "collapsible-tab",
+          "name": "Specifications",
+          "settings": {
+            "collapsible_tab_heading": "Specifications",
+            "collapsible_tab_text": "<h3>Cleaning &amp; Coverage</h3><ul><li><strong>Cleaning modes:</strong> Auto, Eco</li><li><strong>Pool coverage:</strong> Up to 40 ft x 60 ft (approx. 2,400 sq ft)</li><li><strong>Pool compatibility:</strong> Infinity edge, above-ground, and in-ground, saltwater and chlorine</li></ul><h3>Power</h3><ul><li><strong>Charging:</strong> 100% solar-powered</li><li><strong>Recharge time:</strong> 5-6 hours in direct sunlight</li></ul><h3>Build &amp; Navigation</h3><ul><li><strong>Motors:</strong> Twin Salt Chlorine Tolerant (SCT) motors</li><li><strong>Navigation:</strong> Ultrasonic radar obstacle detection, Shallow Water Safeguard design</li><li><strong>Casing:</strong> Soft-touch, UV-resistant</li><li><strong>Body:</strong> Streamlined, low-profile design</li></ul><h3>Warranty</h3><ul><li>1-year manufacturer's warranty</li></ul>"
+          }
+        },
+        "complementary_products_8bK493": {
+          "type": "complementary_products",
+          "settings": {
+            "heading": "Pairs well with",
+            "product_recommendation_limit": 5,
+            "products_per_slide": 2
+          }
+        },
+        "collapsible_tab_mkEKLQ": {
+          "type": "collapsible-tab",
+          "name": "manuals",
+          "disabled": true,
+          "settings": {
+            "collapsible_tab_heading": "Manuals & Downloads",
+            "collapsible_tab_text": "<p>Use this text to share information about your product.</p>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_4NycBz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor_aA8jQd",
+        "2e128dd1-7dbd-45da-966d-745faa090a0f",
+        "price",
+        "text_WDrzrJ",
+        "12214949-0a99-47d0-875d-57cf008e67f8",
+        "custom_liquid_yR4UPX",
+        "custom_liquid_bnUyj8",
+        "collapsible_tab_UWQ8gk",
+        "collapsible_tab_Uf69Wz",
+        "collapsible_tab_X7L37G",
+        "collapsible_tab_HjeTwa",
+        "collapsible_tab_czbJiW",
+        "complementary_products_8bK493",
+        "collapsible_tab_mkEKLQ",
+        "description",
+        "judge_me_reviews_preview_badge_4NycBz"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": true,
+        "gallery_thumbnail_position": "below",
+        "gallery_thumbnail_layout": "carousel",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "dynamic_rich_text_flexIntro": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "content_alignment": "left"
+      }
+    },
+    "dynamic_image_with_text_flexModes": {
+      "type": "dynamic-image-with-text",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/DualCleaningModes-FlexBlue_1500x_a47a6a2d-bb0a-4858-bbdf-d553fac2c4d6.png",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_width": 50,
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_image_with_text_flexInfinity": {
+      "type": "dynamic-image-with-text",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/Infinity_Pool_Compatible_-_Flex_Blue_1500x_4d058773-a707-425d-87ab-4af9f8660ca4.png",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_width": 50,
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_featured_collection_flex": {
+      "type": "dynamic-featured-collection",
+      "name": "t:sections.featured_collection.presets.featured_collection.name",
+      "settings": {
+        "title": "Explore the Full Betta Line",
+        "layout": "grid",
+        "mobile_layout": "slideshow",
+        "collection": "betta",
+        "product_count": 5,
+        "cta_label": "SHOP COLLECTION",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_highlights_banner_flex": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_XLUzQE": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-store",
+            "title": "100% American Owned and Operated",
+            "text": "<p>We're a locally owned and operated business</p>",
+            "link": ""
+          }
+        },
+        "highlight_84JPfV": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-heart",
+            "title": "30-Day Satisfaction Promise",
+            "text": "<p>If you're not happy, We're not happy</p>",
+            "link": ""
+          }
+        },
+        "highlight_HbAL67": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-lock",
+            "title": "Secure Online Payment System",
+            "text": "<p>All our transactions are protected and secure</p>",
+            "link": ""
+          }
+        },
+        "highlight_9pebcb": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-truck",
+            "title": "Free Shipping",
+            "text": "<p>On most Betta products</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_XLUzQE",
+        "highlight_84JPfV",
+        "highlight_HbAL67",
+        "highlight_9pebcb"
+      ],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#ffffff",
+        "icon_color": "#ffffff",
+        "background_color": "#233923",
+        "mobile_layout": "slider"
+      }
+    },
+    "blocks_flex3col": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_7d61a93_flexcol": {
+          "type": "ai_gen_block_7d61a93",
+          "settings": {
+            "heading": "The Reliable Core, Streamlined",
+            "description": "Same dependable fundamentals as the rest of the Betta line, in a tighter package.",
+            "heading_size": 36,
+            "description_size": 16,
+            "heading_color": "#232739",
+            "description_color": "#393939",
+            "column_1_image": "shopify://shop_images/Cordless_Solar_Power-_Flex_Blue_1500x_9e676305-a561-4ba6-a48b-b97408af552a.png",
+            "column_1_label": "100% Solar, Fully Cordless",
+            "column_1_text": "No plugs, no charging cables. A 5-6 hour recharge in direct sunlight keeps it running.",
+            "column_2_image": "shopify://shop_images/RadarSensorUVResistant-FlexBlue_1500x_32eb8314-72a5-4b77-a3ca-048264a2e24c.png",
+            "column_2_label": "Ultrasonic Radar + UV Resistant",
+            "column_2_text": "Obstacle detection guides it around your pool automatically, while a UV-resistant coating protects the body from sun damage.",
+            "column_3_image": "shopify://shop_images/SmartAutoClean-FlexBlue_1500x_f1aa1b5c-fd2b-4ff6-99a7-06228c8ac34c.png",
+            "column_3_label": "Smart Auto Clean",
+            "column_3_text": "Automatically clears leaves, dust, pollen, and pet hair off the surface before they ever sink.",
+            "label_size": 20,
+            "text_size": 14,
+            "label_color": "#232739",
+            "text_color": "#393939",
+            "desktop_width_percent": 100,
+            "section_padding": 50,
+            "header_spacing": 40,
+            "grid_gap": 30,
+            "image_spacing": 20,
+            "image_border_radius": 8,
+            "background_color": "#f2f4f1"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_7d61a93_flexcol"
+      ],
+      "name": "Image showcase grid",
+      "settings": {}
+    },
+    "blocks_whyyap_flex": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_whyyap_flex": {
+          "type": "ai_gen_block_whyyap",
+          "settings": {
+            "heading": "Why Yard Automation Pros?",
+            "intro_text": "We don't just sell robots, we help you build the autonomous estate.",
+            "column_1_label": "Curated Selection",
+            "column_1_text": "Every product is hand-picked and tested against real residential use cases before we carry it.",
+            "column_2_label": "Expert Support",
+            "column_2_text": "US-based support from people who actually know the product, not a script.",
+            "column_3_label": "Ongoing Guidance",
+            "column_3_text": "When you buy a Betta Flex from us, you get a curated setup guide for your pool and access to our growing library of automation tips.",
+            "closing_text": "This is the future of pool care. We're here to make sure it works for you.",
+            "max_width": 1100,
+            "section_padding": 56,
+            "header_spacing": 36,
+            "grid_gap": 40,
+            "panel_radius": 12,
+            "heading_size": 32,
+            "label_size": 18,
+            "body_size": 15,
+            "accent_color": "#233923",
+            "icon_color": "#ffffff",
+            "panel_background": "#f2f4f1",
+            "border_color": "#dfe3de",
+            "heading_color": "#232739",
+            "text_color": "#393939"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_whyyap_flex"
+      ],
+      "name": "Why YAP panel",
+      "settings": {}
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "disabled": true,
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "178784317865f92603": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_reviews_grid_widget_gnCmHd": {
+          "type": "shopify://apps/judge-me-reviews/blocks/reviews_grid_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "review_selection": "all",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "show_media_only": false,
+            "display_order": "media_first",
+            "card_grouping": "per_media",
+            "columns_desktop": 3,
+            "rows_desktop": 3,
+            "columns_mobile": "2",
+            "rows_mobile": 6,
+            "show_stars": true,
+            "show_reviewer_name": true,
+            "show_review_title_on_hover_desktop": true,
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "card_spacing": "medium",
+            "header_text_color": "#000000",
+            "star_and_reviewer_name_color": "#f9f9f9",
+            "drop_shadow_color": "#000000",
+            "overlay_and_background_color": "#000000",
+            "content_color": "#f9f9f9",
+            "header_text": "From our customers",
+            "show_average_rating": true,
+            "rating_display": "default"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_reviews_grid_widget_gnCmHd"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "dynamic_faq_flex": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "question_nCTWbR": {
+          "type": "question",
+          "settings": {
+            "question": "Does the Flex really work on infinity edge pools?",
+            "answer": "<p>Yes. It's the only Betta model built specifically for infinity edge compatibility, alongside standard in-ground and above-ground pools, thanks to its streamlined body and soft-touch casing.</p>",
+            "icon": "none"
+          }
+        },
+        "question_69jhiF": {
+          "type": "question",
+          "settings": {
+            "question": "What's the difference between Eco and Normal mode?",
+            "answer": "<p>Eco Mode runs periodic, energy-efficient sweeps to stretch battery life. Normal Mode runs continuous 24/7 cleaning. Switch between them with the onboard control, no app needed.</p>",
+            "icon": "none"
+          }
+        },
+        "question_8KCdGW": {
+          "type": "question",
+          "settings": {
+            "question": "Does it need Wi-Fi or an app?",
+            "answer": "<p>No. The Flex runs fully automatically with mode switching handled on the unit itself. No app or remote included.</p>",
+            "icon": "none"
+          }
+        },
+        "question_EcA6Mx": {
+          "type": "question",
+          "settings": {
+            "question": "Is it safe for saltwater pools?",
+            "answer": "<p>Yes. Twin Salt Chlorine Tolerant (SCT) motors are built for both saltwater and chlorine pools.</p>",
+            "icon": "none"
+          }
+        },
+        "question_BQYmLz": {
+          "type": "question",
+          "settings": {
+            "question": "What size pool is this rated for?",
+            "answer": "<p>Up to 40 ft x 60 ft, approximately 2,400 sq ft, across infinity edge, in-ground, and above-ground pools.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JjXiyk": {
+          "type": "question",
+          "settings": {
+            "question": "How is the soft-touch casing different from the standard body?",
+            "answer": "<p>It's a newly engineered casing designed to be gentle on pool surfaces, including delicate infinity edges, while still standing up to regular debris pickup.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JxkamV": {
+          "type": "question",
+          "settings": {
+            "question": "What kind of support do I get after purchase?",
+            "answer": "<p>Betta's 1-year manufacturer's warranty, plus our own US based support team at support@yardautomationpros.com for setup and anything that comes up after.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "question_nCTWbR",
+        "question_69jhiF",
+        "question_8KCdGW",
+        "question_EcA6Mx",
+        "question_BQYmLz",
+        "question_JjXiyk",
+        "question_JxkamV"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "heading": "Expert Q&A: Betta Flex, Answered",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "small",
+        "icon_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_rich_text_flexIntro",
+    "dynamic_image_with_text_flexModes",
+    "dynamic_image_with_text_flexInfinity",
+    "dynamic_featured_collection_flex",
+    "dynamic_highlights_banner_flex",
+    "blocks_flex3col",
+    "blocks_whyyap_flex",
+    "recommendations",
+    "recently-viewed",
+    "178784317865f92603",
+    "dynamic_faq_flex"
+  ]
+}

@@ -1,0 +1,869 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor_aA8jQd": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "2e128dd1-7dbd-45da-966d-745faa090a0f": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_WDrzrJ": {
+          "type": "text",
+          "name": "Unique Selling Points",
+          "settings": {
+            "text": "<p><a href=\"tel:4239273776\" title=\"tel:4239273776\"><em><strong>Buy Online Or Call Now To Order!</strong></em></a></p><p>✓ <strong>Free Shipping </strong>- on most {{ product.vendor }} products<br/>✓ <strong>Flexible Financing </strong>- Shop Pay Installments, 0-36% APR, Applicable at Checkout<br/>✓ <strong>Ships Direct </strong>- orders ship in 6-13 business days<br/>✓ <strong>Questions? </strong>- Call <a href=\"tel:4239273776\" title=\"tel:4239273776\">(423)-927-3776</a></p>"
+          }
+        },
+        "12214949-0a99-47d0-875d-57cf008e67f8": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_display": "low_stock_threshold",
+            "inventory_transfer_notice": true
+          }
+        },
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": false,
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "custom_liquid_E6cjNy": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .yap-trust-bar { width: 100%; max-width: 620px; margin: 0 auto; font-family: inherit; }\n  .yap-trust-item { display: flex; align-items: center; min-height: 58px; padding: 10px 0; border-bottom: 1px solid #e5e5e5; box-sizing: border-box; }\n  .yap-trust-item:last-child { border-bottom: none; }\n  .yap-trust-icon { width: 28px; min-width: 28px; margin-right: 11px; display: flex; align-items: center; justify-content: center; color: #555; }\n  .yap-trust-icon svg { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }\n  .yap-trust-text { flex: 1; font-size: 15px; line-height: 1.3; font-weight: 500; letter-spacing: -0.15px; color: #111; }\n  @media screen and (max-width: 749px) { .yap-trust-bar { max-width: 100%; } .yap-trust-item { min-height: 54px; padding: 9px 2px; } .yap-trust-text { font-size: 14px; } .yap-trust-icon { width: 26px; min-width: 26px; margin-right: 9px; } }\n</style>\n<div class=\"yap-trust-bar\">\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3 19 6v5c0 4.8-2.9 8.2-7 10-4.1-1.8-7-5.2-7-10V6l7-3z\"></path><path d=\"m9 12 2 2 4-4\"></path></svg></div>\n    <div class=\"yap-trust-text\">Price Match Available on Request | Returns Per Manufacturer Policy</div>\n  </div>\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M14.5 6.5a4 4 0 0 0-5.2 5.2L4 17l3 3 5.3-5.3a4 4 0 0 0 5.2-5.2l-2.2 2.2-2.8-2.8 2-2.4z\"></path><path d=\"M16 4h4\"></path><path d=\"M18 2v4\"></path></svg></div>\n    <div class=\"yap-trust-text\">2-Year Manufacturer Warranty | US-Based Email Support</div>\n  </div>\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 6h11v11H3z\"></path><path d=\"M14 10h4l3 3v4h-7z\"></path><circle cx=\"7\" cy=\"18\" r=\"2\"></circle><circle cx=\"18\" cy=\"18\" r=\"2\"></circle></svg></div>\n    <div class=\"yap-trust-text\">6–13 Business Day Estimated Delivery</div>\n  </div>\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"4\" y=\"10\" width=\"16\" height=\"10\" rx=\"2\"></rect><path d=\"M8 10V7a4 4 0 0 1 8 0v3\"></path><path d=\"M12 14v3\"></path><circle cx=\"12\" cy=\"14\" r=\"1\"></circle></svg></div>\n    <div class=\"yap-trust-text\">Secure Checkout | Protected Payment</div>\n  </div>\n</div>"
+          }
+        },
+        "complementary_products_xzTmRV": {
+          "type": "complementary_products",
+          "settings": {
+            "heading": "Pairs well with {{ product.vendor }}",
+            "product_recommendation_limit": 5,
+            "products_per_slide": 2
+          }
+        },
+        "collapsible_tab_UWQ8gk": {
+          "type": "collapsible-tab",
+          "name": "Overview",
+          "settings": {
+            "collapsible_tab_heading": "Overview",
+            "collapsible_tab_text": "<h3>Built for the Slope Nothing Else Can Take</h3><p>Loose soil, wet grass, drainage banks, hillside beds, the <strong>Mowrator S1 21″ 4WD Grip Tread Tire Edition</strong> is built to go where the rest of the S1 lineup stops.</p><p>Full-time <strong>4WD</strong> and <strong>Grip Tread deformable tires</strong> combine to handle slopes up to <strong>100% grade (45°)</strong>, the highest slope rating in the entire S1 platform.</p><p>The <strong>21″ cutting deck</strong> and adjustable cutting height give you control over the cut, while the <strong>18Ah Steady Force battery</strong> gives you up to <strong>2.25 hours</strong> of runtime and <strong>1.125 acres</strong> per charge.</p><p><strong>Mow, mulch, bag, or discharge</strong>, all from a safe, comfortable distance with the included remote controller.</p><p><strong>The steepest yard on the block isn't a problem anymore. It's just another Tuesday.</strong></p>"
+          }
+        },
+        "collapsible_tab_Uf69Wz": {
+          "type": "collapsible-tab",
+          "name": "Product Information",
+          "settings": {
+            "collapsible_tab_heading": "Product Information",
+            "collapsible_tab_text": "<h2>Battery & Runtime</h2><p>The Grip Tread Tire Edition ships in a single configuration: a 56V 18Ah LiFePO4 “Steady Force” battery, delivering up to <strong>2.25 hours</strong> of runtime and coverage of up to <strong>1.125 acres</strong> per charge — sized for the extra draw of sustained climbing.</p><h2>Cutting Power</h2><p>The 21″ steel cutting deck offers adjustable cutting height from <strong>1.5″ to 4.3″</strong>, with mulch, rear bag, or side discharge options depending on the job.</p><h2>Drive & Traction</h2><p>Full-time 4WD distributes power across all four wheels, and the included <strong>Grip Tread deformable tires</strong> flex to maintain contact on loose, uneven, or steep ground. Together they're rated for slopes up to <strong>100% grade (45°)</strong> — the highest of any S1 configuration, ahead of the standard 4WD (75% / 37°) and Wide Wheels (85% / 40°) editions.</p><h2>Control</h2><p>The S1 is operated via handheld remote control rather than autonomous navigation, so you stay in command of every pass — especially on terrain where unattended operation isn't the right call.</p><h2>Warranty</h2><p>2 year warranty covering the main machine, remote, and battery.</p>"
+          }
+        },
+        "collapsible_tab_X7L37G": {
+          "type": "collapsible-tab",
+          "name": "Warranty & Support",
+          "settings": {
+            "collapsible_tab_heading": "Warranty & Support",
+            "collapsible_tab_text": "<p>Every Mowrator S1 4WD Grip Tread Tire Edition is backed by Mowrator's standard 2 year warranty, covering the main machine, the remote control, and the battery.</p><p><strong>What's covered</strong><br/><br/>Manufacturing defects and functional failures under normal residential use. Warranty service is handled through Mowrator's authorized repair network; you'll need proof of purchase (order date, model, and serial number) to file a claim.</p><p><strong>30 Day Money-Back Guarantee</strong><br/><br/>If the Grip Tread Edition doesn't work out for your terrain, return it within 30 days of delivery for a refund. Keep the original packaging on hand for the return window — it makes the process faster.</p><p><strong>Reporting an issue</strong><br/><br/>Inspect your mower on delivery. Shipping damage should be reported within 24 hours, and any other concerns within 7 days, to keep your claim eligible.</p><p><strong>Our role</strong><br/><br/>As your dealer, we're your first point of contact. Reach out to us for setup help, order questions, or to get a warranty claim started, and we'll coordinate directly with Mowrator on your behalf so you're not left navigating it alone.</p>"
+          }
+        },
+        "collapsible_tab_HjeTwa": {
+          "type": "collapsible-tab",
+          "name": "Setup & Installation",
+          "settings": {
+            "collapsible_tab_heading": "Setup & Installation",
+            "collapsible_tab_text": "<p>Getting the Grip Tread Tire Edition running takes about 15 to 20 minutes, most of it charging.</p><p><strong>In the box</strong><br/><br/>Mower body with 21 inch cutting deck, Steady Force 18Ah battery, 600W Fast Super Charger, Professional Remote Controller, Grip Tread deformable tires (installed), manual grass bag with frame, and standard tool/data accessories.</p><p><strong>1. Charge the battery</strong><br/><br/>Before first use, fully charge the battery using the included 600W charger. Connect the charger to a standard outlet and seat the battery securely in the charging port.</p><p><strong>2. Assemble the grass bag</strong><br/><br/>Check the bag for damage before installing. Slide the fabric onto the metal frame, then fasten the rubber strips around the bag opening to the frame.</p><p><strong>3. Choose your clipping mode</strong><br/><br/>For mulching, open the grass outlet cover and insert the mulching insert. For bagging, attach the assembled grass bag. For discharge, no attachment is needed.</p><p><strong>4. Seat the battery</strong><br/><br/>Unlock the battery buckle, insert the battery into its compartment until secure, and close the buckle.</p><p><strong>5. Pair the remote</strong><br/><br/>Power on the mower. The remote connects to it wirelessly. Indicator lights confirm connection status: red means not connected, amber means connecting, green means ready to mow.</p><p><strong>6. Set your cutting height</strong><br/><br/>Adjust the deck to your starting height within the 1.5 to 4.3 inch range. Start higher on the first cut, especially on steep or uneven ground.</p><p><strong>7. Walk the slope before you mow it</strong><br/><br/>Before running the mower on a steep section, walk it yourself first. Clear sticks, rocks, and debris that could catch the tires. Keep people and pets clear of the mowing area, and always mow across a slope, not straight up or down it.</p>"
+          }
+        },
+        "collapsible_tab_czbJiW": {
+          "type": "collapsible-tab",
+          "name": "Specifications",
+          "settings": {
+            "collapsible_tab_heading": "Specifications",
+            "collapsible_tab_text": "<p>Model: Mowrator S1 21″ 4WD Grip Tread Tire Edition<br/><br/>Drive: Four-wheel drive (4WD)<br/><br/>Tires: Grip Tread deformable tires<br/><br/>Cutting width: 21 in<br/><br/>Cutting height range: 1.5 to 4.3 in, adjustable<br/><br/>Max slope rating: 100% grade (45°)<br/><br/>Battery: 56V LiFePO4, 18Ah (Steady Force)<br/><br/>Runtime: up to 2.25 hours<br/><br/>Coverage per charge: up to 1.125 acres<br/><br/>Charger: 600W Fast Super Charger<br/><br/>Clipping system: mulch, rear bag, or side discharge<br/><br/>Control method: handheld remote control<br/><br/>Warranty: 2 years on main machine, remote control, and battery<br/><br/></p>"
+          }
+        },
+        "collapsible_tab_mkEKLQ": {
+          "type": "collapsible-tab",
+          "name": "manuals",
+          "disabled": true,
+          "settings": {
+            "collapsible_tab_heading": "Manuals & Downloads",
+            "collapsible_tab_text": "<p>Use this text to share information about your product.</p>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_4NycBz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor_aA8jQd",
+        "2e128dd1-7dbd-45da-966d-745faa090a0f",
+        "price",
+        "text_WDrzrJ",
+        "12214949-0a99-47d0-875d-57cf008e67f8",
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956",
+        "custom_liquid_E6cjNy",
+        "complementary_products_xzTmRV",
+        "collapsible_tab_UWQ8gk",
+        "collapsible_tab_Uf69Wz",
+        "collapsible_tab_X7L37G",
+        "collapsible_tab_HjeTwa",
+        "collapsible_tab_czbJiW",
+        "collapsible_tab_mkEKLQ",
+        "description",
+        "judge_me_reviews_preview_badge_4NycBz"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": true,
+        "gallery_thumbnail_position": "below",
+        "gallery_thumbnail_layout": "carousel",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "dynamic_rich_text_K9aKGV": {
+      "type": "dynamic-rich-text",
+      "blocks": {
+        "heading_YQgmPd": {
+          "type": "heading",
+          "settings": {
+            "title": "The Only S1 Built for 100% Slope",
+            "heading_size": "medium"
+          }
+        },
+        "text_tmipfV": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Grip Tread tires and full-time 4WD take the S1 platform to its limit, engineered for the yards where every other mower stalls out.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YQgmPd",
+        "text_tmipfV"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "content_alignment": "center"
+      }
+    },
+    "dynamic_slideshow_Eg6At8": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "slide_9MA9rr": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify://shop_images/Remove_text_from_image_2K_202608300054.jpg",
+            "mobile_background_image": "shopify://shop_images/Remove_text_from_image_2K_202608300054.jpg",
+            "title": "Where the Yard Gets Steep, This Is the One",
+            "text": "Grip Tread traction and full-time 4WD get you up slopes nothing else in the S1 lineup can handle.",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "SHOP COLLECTION",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        },
+        "slide_86M9Gi": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify://shop_images/Group_2036456674_1.webp",
+            "mobile_background_image": "shopify://shop_images/Group_2036456674_1.webp",
+            "title": "Terrain Doesn't Slow It Down",
+            "text": "From loose soil to soaked grass after rain, Grip Tread keeps traction when standard tires spin out.",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "SHOP COLLECTION",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "slide_9MA9rr",
+        "slide_86M9Gi"
+      ],
+      "name": "t:sections.slideshow.presets.slideshow.name",
+      "settings": {
+        "slideshow_width": "full",
+        "enable_autoplay": true,
+        "autoplay_duration": 8,
+        "slideshow_height": "medium",
+        "show_navigation_arrows": true,
+        "slideshow_height_mobile": "medium",
+        "slideshow_text_below_image": true
+      }
+    },
+    "dynamic_rich_text_YwBaBN": {
+      "type": "dynamic-rich-text",
+      "blocks": {
+        "heading_eiKJBr": {
+          "type": "heading",
+          "settings": {
+            "title": "Built By Slope, Not By Spec Sheet",
+            "heading_size": "medium"
+          }
+        },
+        "text_ye86z4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We didn't pick the Grip Tread Edition because of a number on a spec sheet. We picked it because it's the only S1 configuration rated to handle a full 45° grade, the kind of slope that turns most remote mowers into lawn ornaments.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eiKJBr",
+        "text_ye86z4"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "content_alignment": "center"
+      }
+    },
+    "dynamic_image_with_text_7Fk6dY": {
+      "type": "dynamic-image-with-text",
+      "blocks": {
+        "heading_Dj8Kyz": {
+          "type": "heading",
+          "settings": {
+            "text": "Grip Tread Tires",
+            "heading_size": "medium"
+          }
+        },
+        "text_TM8iEJ": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p><br/>Traction built for extremes. Deformable Grip Tread tires flex and grip on loose soil, wet grass, and steep grades where standard tires lose contact. They're the difference between a mower that struggles on your hillside and one that's rated for it. More contact. More control.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Dj8Kyz",
+        "text_TM8iEJ"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/Group_2036456675.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_width": 50,
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_image_with_text_CkyrhA": {
+      "type": "dynamic-image-with-text",
+      "blocks": {
+        "heading_gzFCnM": {
+          "type": "heading",
+          "settings": {
+            "text": "Full-Time 4WD",
+            "heading_size": "medium"
+          }
+        },
+        "text_whCAid": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Power to all four wheels, all the time. Four-wheel drive keeps traction distributed evenly across the deck, so the S1 keeps climbing instead of spinning a wheel and stalling out mid-slope. Built to keep moving.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gzFCnM",
+        "text_whCAid"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/Group_20.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_width": 50,
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_image_with_text_NFTj4j": {
+      "type": "dynamic-image-with-text",
+      "blocks": {
+        "heading_Vm46aB": {
+          "type": "heading",
+          "settings": {
+            "text": "Steady Force 18Ah Battery",
+            "heading_size": "medium"
+          }
+        },
+        "text_MxE67C": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Up to 2.25 hours of runtime and up to 1.125 acres per charge, powered by a 56V LiFePO4 pack sized for the extra draw of climbing steep terrain.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Vm46aB",
+        "text_MxE67C"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/2WD_11229df1-f3bc-4685-bc0c-97b8b88a68d4.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_width": 50,
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_image_with_text_QccBLk": {
+      "type": "dynamic-image-with-text",
+      "blocks": {
+        "heading_99xmcW": {
+          "type": "heading",
+          "settings": {
+            "text": "Remote Control, Real Distance",
+            "heading_size": "medium"
+          }
+        },
+        "text_dQ7Jr7": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Operate from a safe, comfortable distance on slopes where standing next to the mower isn't an option. You stay in control, and the S1 does the climbing.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_99xmcW",
+        "text_dQ7Jr7"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/pc-cov.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_width": 50,
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_drqCNG": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "content_alignment": "center"
+      }
+    },
+    "178785960657771b38": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_a137da6_rnDycB": {
+          "type": "ai_gen_block_a137da6",
+          "settings": {
+            "heading": "The Complete Mowrator System",
+            "description": "Build your setup around the Mowrator S1 with the batteries, attachments, and accessories designed to expand what your machine can do.",
+            "heading_size": 32,
+            "description_size": 16,
+            "heading_color": "#232739",
+            "description_color": "#393939",
+            "heading_font": "sans_serif_n7",
+            "column_1_image": "shopify://shop_images/battery-pc.webp",
+            "column_1_label": "Mowrator Battery",
+            "column_1_description": "The power behind every S1 session, built to deliver reliable performance and the runtime you need to take on your yard.",
+            "column_2_image": "shopify://shop_images/pc-safe.webp",
+            "column_2_label": "Mowrator Remote Controller",
+            "column_2_description": "The control center for your S1, giving you precise command over movement, mowing, and operation from a distance.",
+            "column_3_image": "shopify://shop_images/auto-pc.webp",
+            "column_3_label": "Leaf Vacuum Kit",
+            "column_3_description": "The attachment that turns your Mowrator S1 into a powerful leaf-collection machine, with 931 CFM suction and a 70L bag.",
+            "column_label_size": 18,
+            "column_description_size": 14,
+            "column_label_color": "#232739",
+            "column_description_color": "#393939",
+            "desktop_width_percent": 100,
+            "section_padding": 40,
+            "grid_gap": 30,
+            "image_border_radius": 8
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_a137da6_rnDycB"
+      ],
+      "settings": {}
+    },
+    "dynamic_image_with_text_BLxhg8": {
+      "type": "dynamic-image-with-text",
+      "blocks": {
+        "heading_xHKXht": {
+          "type": "heading",
+          "settings": {
+            "text": "Safety Built Into Every Move",
+            "heading_size": "medium"
+          }
+        },
+        "text_VTrna3": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p><br/>Multiple safety sensors work together to detect obstacles, stop the blade, and prevent unexpected movement. With smart collision detection, emergency stop controls, and automatic blade protection, your mower works safely while you enjoy a perfectly maintained lawn.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xHKXht",
+        "text_VTrna3"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "Intelligent Protection, Built In.",
+        "image": "shopify://shop_images/Mowrator_Files_1.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_width": 50,
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_featured_collection_QW3kNX": {
+      "type": "dynamic-featured-collection",
+      "name": "t:sections.featured_collection.presets.featured_collection.name",
+      "settings": {
+        "title": "{{ section.settings.collection.title }} Collection",
+        "layout": "grid",
+        "mobile_layout": "slideshow",
+        "collection": "mowrator-mowers",
+        "product_count": 5,
+        "cta_label": "Shop collection",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_collection_list_WMGyT8": {
+      "type": "dynamic-collection-list",
+      "blocks": {
+        "collection_yAYfHN": {
+          "type": "collection",
+          "settings": {
+            "collection": "mowrator-mowers",
+            "title": ""
+          }
+        },
+        "collection_LGhbbp": {
+          "type": "collection",
+          "settings": {
+            "collection": "robot-snow-blowers",
+            "title": ""
+          }
+        },
+        "collection_zkmQzR": {
+          "type": "collection",
+          "settings": {
+            "collection": "robot-pool-cleaners",
+            "title": ""
+          }
+        },
+        "collection_6JGkqW": {
+          "type": "collection",
+          "settings": {
+            "collection": "robot-vacuum-mops",
+            "title": ""
+          }
+        },
+        "collection_dLFjHg": {
+          "type": "collection",
+          "settings": {
+            "collection": "robot-window-cleaner",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_yAYfHN",
+        "collection_LGhbbp",
+        "collection_zkmQzR",
+        "collection_6JGkqW",
+        "collection_dLFjHg"
+      ],
+      "disabled": true,
+      "name": "t:sections.collection_list.presets.collection_list.name",
+      "settings": {
+        "title": "Shop {{ product.vendor }} Collection",
+        "thumbnail_columns_desktop": 5,
+        "thumbnail_columns_mobile": 2,
+        "image-crop": "original",
+        "cta_label": "View All",
+        "cta_link": "",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_highlights_banner_AbhkkV": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_XLUzQE": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-store",
+            "title": "100% American Owned and Operated",
+            "text": "<p>We're a locally owned and operated business</p>",
+            "link": ""
+          }
+        },
+        "highlight_84JPfV": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-heart",
+            "title": "30-Day Satisfaction Promise",
+            "text": "<p>If you're not happy, We're not happy</p>",
+            "link": ""
+          }
+        },
+        "highlight_HbAL67": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-lock",
+            "title": "Secure Online Payment System",
+            "text": "<p>All our transactions are protected and secure</p>",
+            "link": ""
+          }
+        },
+        "highlight_9pebcb": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery",
+            "title": "Free Freight Shipping",
+            "text": "<p>Free shipping on most orders</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_XLUzQE",
+        "highlight_84JPfV",
+        "highlight_HbAL67",
+        "highlight_9pebcb"
+      ],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#f2f4f1",
+        "icon_color": "#f2f4f1",
+        "background_color": "#233923",
+        "mobile_layout": "slider"
+      }
+    },
+    "17880326652f40275f": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_009df83_fpNmyD": {
+          "type": "ai_gen_block_009df83",
+          "settings": {
+            "heading": "Two Systems. One Extreme-Terrain S1.",
+            "subtext": "Grip Tread tires and full-time 4WD, working together to make 100% grade possible.",
+            "image_12ah": "shopify://shop_images/tall-1_GRIP.webp",
+            "title_12ah_1": "Grip Tread Tires",
+            "text_12ah_1": "Traction on Terrain That Beats Standard Tires\nDeformable tires flex to hold their grip on loose soil, mud, and wet grass instead of slipping.",
+            "title_12ah_2": "Built for Steep Ground",
+            "text_12ah_2": "Paired with 4WD, Grip Tread tires are what push the slope rating to 100% grade (45°), the highest in the S1 line.",
+            "title_12ah_3": "Install-Ready",
+            "text_12ah_3": "Grip Tread tires ship pre-installed on this edition, so there's nothing extra to swap before your first mow.",
+            "image_18ah": "shopify://shop_images/1564_952_grip.webp",
+            "title_18ah_1": "Full-Time 4WD",
+            "text_18ah_1": "Power to All Four Wheels\nFour-wheel drive keeps the S1 climbing instead of spinning out on loose or uneven ground.",
+            "title_18ah_2": "Distributed Traction",
+            "text_18ah_2": "Power split across all four wheels means better control on inclines than a two-wheel drive setup.",
+            "title_18ah_3": "Consistent Performance",
+            "text_18ah_3": "Whether you're mowing flat ground or a steep bank, 4WD keeps performance consistent across the whole yard.",
+            "desktop_width_percent": 100,
+            "max_width": 1200,
+            "section_padding_top": 80,
+            "section_padding_bottom": 80,
+            "header_spacing": 50,
+            "content_spacing": 40,
+            "model_gap": 60,
+            "mobile_gap": 50,
+            "inner_spacing": 30,
+            "text_block_spacing": 25,
+            "image_aspect_ratio": "4 / 3",
+            "image_border_radius": 8,
+            "image_background": "#f8f8f8",
+            "heading_font": "sans_serif_n7",
+            "body_font": "sans_serif_n4",
+            "heading_size": 42,
+            "subtext_size": 18,
+            "subtext_spacing": 15,
+            "feature_title_size": 20,
+            "feature_text_size": 15,
+            "background_color": "#f2f4f1",
+            "heading_color": "#232739",
+            "text_color": "#393939"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_009df83_fpNmyD"
+      ],
+      "settings": {}
+    },
+    "blocks_QjYtYU": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_whyyap_EdMddc": {
+          "type": "ai_gen_block_whyyap",
+          "settings": {
+            "heading": "Why Yard Automation Pros?",
+            "intro_text": "We don't just sell robots, we help you build the autonomous estate.",
+            "column_1_label": "Curated Selection",
+            "column_1_text": "Every product is hand-picked and tested against real residential and commercial use cases before we carry it.",
+            "column_2_label": "Expert Support",
+            "column_2_text": "US-based support from people who actually know the product, not a script.",
+            "column_3_label": "Ongoing Guidance",
+            "column_3_text": "Access to our growing library of automation tips and seasonal guides, before and after the sale.",
+            "closing_text": "This is the future of yard care. We're here to make sure it works for you.",
+            "max_width": 1100,
+            "section_padding": 56,
+            "header_spacing": 36,
+            "grid_gap": 40,
+            "panel_radius": 12,
+            "heading_size": 32,
+            "label_size": 18,
+            "body_size": 15,
+            "accent_color": "#233923",
+            "icon_color": "#ffffff",
+            "panel_background": "#f2f4f1",
+            "border_color": "#dfe3de",
+            "heading_color": "#232739",
+            "text_color": "#393939"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_whyyap_EdMddc"
+      ],
+      "name": "Why YAP panel",
+      "settings": {}
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "disabled": true,
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "dynamic_faq_8AUh7M": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "question_nCTWbR": {
+          "type": "question",
+          "settings": {
+            "question": "Is the Grip Tread Tire Edition autonomous, like a robot mower?",
+            "answer": "<p>No. It's a remote-controlled mower, not a self-navigating robot. You operate it with a handheld controller from a safe distance. It doesn't map your yard, use GPS, or run scheduled mows on its own.<br/><br/></p>",
+            "icon": "none"
+          }
+        },
+        "question_69jhiF": {
+          "type": "question",
+          "settings": {
+            "question": "What makes this different from the standard S1 4WD or the Wide Wheels Edition?",
+            "answer": "<p>The tires and slope rating. The standard 4WD is rated for 75% grade (37°), the Wide Wheels Edition for 85% (40°), and the Grip Tread Tire Edition for 100% grade (45°), the highest in the S1 lineup. If your yard has genuinely steep sections, this is the configuration built for it.<br/><br/></p>",
+            "icon": "none"
+          }
+        },
+        "question_8KCdGW": {
+          "type": "question",
+          "settings": {
+            "question": "How steep is a 100% grade, really?",
+            "answer": "<p>A 100% grade is a 45 degree slope, steep enough that walking a traditional push mower up it isn't realistic or safe. That's the terrain this configuration is built for. Always mow across a slope rather than straight up or down it.<br/><br/></p>",
+            "icon": "none"
+          }
+        },
+        "question_EcA6Mx": {
+          "type": "question",
+          "settings": {
+            "question": "Can it handle wet or loose ground on a slope?",
+            "answer": "<p>That's the point of the Grip Tread tires. They deform and flex to maintain contact on loose soil, mud, and wet grass, where standard tires would lose traction and slip. Extremely saturated or muddy ground is still best avoided regardless of tire type.<br/><br/></p>",
+            "icon": "none"
+          }
+        },
+        "question_BQYmLz": {
+          "type": "question",
+          "settings": {
+            "question": "Does the 18Ah battery cover a full mow on hilly terrain?",
+            "answer": "<p>You get up to 2.25 hours of runtime and up to 1.125 acres per charge under typical conditions. Steep, continuous climbing draws more power than flat ground, so actual coverage on a heavily sloped property may run toward the lower end of that range.<br/><br/></p>",
+            "icon": "none"
+          }
+        },
+        "question_JjXiyk": {
+          "type": "question",
+          "settings": {
+            "question": "Who can operate it safely on a slope?",
+            "answer": "<p>The remote is simple to use, but operating on steep terrain still requires attention. Stand at a stable, safe distance, keep children and pets clear of the mowing area, and never operate it from a position where you could lose your footing.<br/><br/></p>",
+            "icon": "none"
+          }
+        },
+        "question_JxkamV": {
+          "type": "question",
+          "settings": {
+            "question": "Does it require different maintenance because of the tires?",
+            "answer": "<p>Basic upkeep is the same as any S1: keep the blade clean and sharp, clear debris from the deck after use, and store the battery partially charged if it'll sit unused. Inspect the Grip Tread tires periodically for embedded debris or damage, since they see more contact stress on rough terrain.<br/><br/></p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "question_nCTWbR",
+        "question_69jhiF",
+        "question_8KCdGW",
+        "question_EcA6Mx",
+        "question_BQYmLz",
+        "question_JjXiyk",
+        "question_JxkamV"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "heading": "Expert Q&A: Mowrator, Answered.",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "small",
+        "icon_color": "#ffffff"
+      }
+    },
+    "178784317865f92603": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_reviews_grid_widget_gnCmHd": {
+          "type": "shopify://apps/judge-me-reviews/blocks/reviews_grid_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "review_selection": "all",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "show_media_only": false,
+            "display_order": "media_first",
+            "card_grouping": "per_media",
+            "columns_desktop": 3,
+            "rows_desktop": 3,
+            "columns_mobile": "2",
+            "rows_mobile": 6,
+            "show_stars": true,
+            "show_reviewer_name": true,
+            "show_review_title_on_hover_desktop": true,
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "card_spacing": "medium",
+            "header_text_color": "#000000",
+            "star_and_reviewer_name_color": "#f9f9f9",
+            "drop_shadow_color": "#000000",
+            "overlay_and_background_color": "#000000",
+            "content_color": "#f9f9f9",
+            "header_text": "From our customers",
+            "show_average_rating": true,
+            "rating_display": "default"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_reviews_grid_widget_gnCmHd"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": ""
+      }
+    },
+    "blocks_Pexw6z": {
+      "type": "_blocks",
+      "name": "Image showcase grid",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_rich_text_K9aKGV",
+    "dynamic_slideshow_Eg6At8",
+    "dynamic_rich_text_YwBaBN",
+    "dynamic_image_with_text_7Fk6dY",
+    "dynamic_image_with_text_CkyrhA",
+    "dynamic_image_with_text_NFTj4j",
+    "dynamic_image_with_text_QccBLk",
+    "dynamic_rich_text_drqCNG",
+    "178785960657771b38",
+    "dynamic_image_with_text_BLxhg8",
+    "dynamic_featured_collection_QW3kNX",
+    "dynamic_collection_list_WMGyT8",
+    "dynamic_highlights_banner_AbhkkV",
+    "17880326652f40275f",
+    "blocks_QjYtYU",
+    "recently-viewed",
+    "dynamic_faq_8AUh7M",
+    "178784317865f92603",
+    "recommendations",
+    "blocks_Pexw6z"
+  ]
+}

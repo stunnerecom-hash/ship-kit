@@ -1,0 +1,520 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor_aA8jQd": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "2e128dd1-7dbd-45da-966d-745faa090a0f": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_WDrzrJ": {
+          "type": "text",
+          "name": "Unique Selling Points",
+          "settings": {
+            "text": "<p><a href=\"tel:4239273776\" title=\"tel:4239273776\"><em><strong>Buy Online Or Call Now To Order!</strong></em></a></p><p>⚠️ <strong>Requires a Yarbo Core </strong>- this module attaches to a Core you already own<br/>✓ <strong>Flexible Financing </strong>- Shop Pay Installments, 0-36% APR, Applicable at Checkout<br/>✓ <strong>Delivery </strong>- typically about 2 weeks<br/>✓ <strong>Questions? </strong>- Call <a href=\"tel:4239273776\" title=\"tel:4239273776\">(423)-927-3776</a></p>"
+          }
+        },
+        "12214949-0a99-47d0-875d-57cf008e67f8": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_display": "low_stock_threshold",
+            "inventory_transfer_notice": true
+          }
+        },
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": false,
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "custom_liquid_visibleDesc": {
+          "type": "custom-liquid",
+          "name": "Visible Description",
+          "settings": {
+            "custom_liquid": "<style>\n  .lb-desc { margin: 28px 0 0; }\n  .lb-desc__heading { font-size: 22px; font-weight: 700; color: #233923; margin: 0 0 12px; line-height: 1.25; }\n  .lb-desc__text { font-size: 15.5px; line-height: 1.6; color: #233923; margin: 0; }\n</style>\n<div class=\"lb-desc\">\n  <h2 class=\"lb-desc__heading\">Clears Leaves on a Schedule You Never Think About</h2>\n  <p class=\"lb-desc__text\">The Leaf Blower Module attaches to your Yarbo Core and turns it into an autonomous fall-cleanup machine. It puts out up to 21 N of blowing force, enough to move real debris rather than just scatter it, and rides on the Core's tracked chassis to handle slopes up to 35° (70%), terrain that stops most yard equipment outright. A single charge covers roughly 70 minutes of continuous runtime. Set your zones once in the Yarbo app and it clears lawns, paths, and hard surfaces on the schedule you choose. Requires a Yarbo Core, sold separately or as part of a bundle.</p>\n</div>"
+          }
+        },
+        "custom_liquid_yR4UPX": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .yap-trust-bar { width: 100%; max-width: 620px; margin: 0 auto; font-family: inherit; }\n  .yap-trust-item { display: flex; align-items: center; min-height: 58px; padding: 10px 0; border-bottom: 1px solid #e5e5e5; box-sizing: border-box; }\n  .yap-trust-item:last-child { border-bottom: none; }\n  .yap-trust-icon { width: 28px; min-width: 28px; margin-right: 11px; display: flex; align-items: center; justify-content: center; color: #555; }\n  .yap-trust-icon svg { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }\n  .yap-trust-text { flex: 1; font-size: 15px; line-height: 1.3; font-weight: 500; letter-spacing: -0.15px; color: #111; }\n  @media screen and (max-width: 749px) { .yap-trust-bar { max-width: 100%; } .yap-trust-item { min-height: 54px; padding: 9px 2px; } .yap-trust-text { font-size: 14px; } .yap-trust-icon { width: 26px; min-width: 26px; margin-right: 9px; } }\n</style>\n<div class=\"yap-trust-bar\">\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3 19 6v5c0 4.8-2.9 8.2-7 10-4.1-1.8-7-5.2-7-10V6l7-3z\"/><path d=\"m9 12 2 2 4-4\"/></svg></div>\n    <div class=\"yap-trust-text\">2-Year Manufacturer Warranty</div>\n  </div>\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 6h11v11H3z\"/><path d=\"M14 10h4l3 3v4h-7z\"/><circle cx=\"7\" cy=\"18\" r=\"2\"/><circle cx=\"18\" cy=\"18\" r=\"2\"/></svg></div>\n    <div class=\"yap-trust-text\">Typically Delivered in About 2 Weeks</div>\n  </div>\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M14.5 6.5a4 4 0 0 0-5.2 5.2L4 17l3 3 5.3-5.3a4 4 0 0 0 5.2-5.2l-2.2 2.2-2.8-2.8 2-2.4z\"/><path d=\"M16 4h4\"/><path d=\"M18 2v4\"/></svg></div>\n    <div class=\"yap-trust-text\">Expert Guidance Before and After Your Purchase</div>\n  </div>\n</div>"
+          }
+        },
+        "collapsible_tab_UWQ8gk": {
+          "type": "collapsible-tab",
+          "name": "Overview",
+          "settings": {
+            "collapsible_tab_heading": "Overview",
+            "collapsible_tab_text": "<p>Fall cleanup, without the fall weekends. The Leaf Blower Module clears leaves and yard debris automatically, keeping large properties tidy through fall without hours of manual work.</p><p><strong>Real Force, Real Terrain</strong><br/>Up to 21 N of blowing force clears real debris, not just scatters it. The Core's tracked chassis handles slopes up to 35° (70%), where wheeled blowers stall out.</p><p><strong>Set It and Forget It</strong><br/>Roughly 70 minutes of continuous runtime per charge. Map your zones once in the Yarbo app and it clears lawns, paths, and hard surfaces on the schedule you choose.</p><p>⚠️ <strong>Requires a Yarbo Core.</strong> This module attaches to a Core you already own. Starting from scratch? The <a href=\"/products/yarbo-leaf-blower-core-leaf-blower-module\">Leaf Blower bundle</a> includes both.</p>"
+          }
+        },
+        "collapsible_tab_X7L37G": {
+          "type": "collapsible-tab",
+          "name": "Warranty & Support",
+          "settings": {
+            "collapsible_tab_heading": "Warranty & Support",
+            "collapsible_tab_text": "<p>2-year manufacturer warranty, with expert support behind it. Typically delivered in about two weeks after your order.<br/><br/></p>"
+          }
+        },
+        "collapsible_tab_HjeTwa": {
+          "type": "collapsible-tab",
+          "name": "Setup & Installation",
+          "settings": {
+            "collapsible_tab_heading": "Setup & Installation",
+            "collapsible_tab_text": "<p>Attaches to your existing Yarbo Core in minutes, no tools or wiring required. Set your clearing schedule through the Yarbo app and it takes over from there.<br/><br/></p>"
+          }
+        },
+        "collapsible_tab_czbJiW": {
+          "type": "collapsible-tab",
+          "name": "Specifications",
+          "settings": {
+            "collapsible_tab_heading": "Specifications",
+            "collapsible_tab_text": "<p><strong>Leaf Blower Module</strong><br/>Blowing force: up to 21 N<br/>Runtime: approximately 70 minutes continuous per charge<br/>Compatibility: Yarbo Core (sold separately)<br/>Installation: Tool-free attachment to existing Core</p><p><strong>Yarbo Core</strong><br/>Navigation: RTK GPS + stereo vision + ODOM<br/>Climbing ability: 35° (70%)<br/>Drive system: Tracked chassis</p><p><strong>Warranty &amp; Shipping</strong><br/>Warranty: 2-year manufacturer warranty<br/>Delivery: typically about two weeks after your order</p>"
+          }
+        },
+        "complementary_products_8bK493": {
+          "type": "complementary_products",
+          "settings": {
+            "heading": "Pairs well with",
+            "product_recommendation_limit": 5,
+            "products_per_slide": 2
+          }
+        },
+        "collapsible_tab_mkEKLQ": {
+          "type": "collapsible-tab",
+          "name": "manuals",
+          "disabled": true,
+          "settings": {
+            "collapsible_tab_heading": "Manuals & Downloads",
+            "collapsible_tab_text": "<p>Use this text to share information about your product.</p>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_4NycBz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor_aA8jQd",
+        "2e128dd1-7dbd-45da-966d-745faa090a0f",
+        "price",
+        "text_WDrzrJ",
+        "12214949-0a99-47d0-875d-57cf008e67f8",
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956",
+        "custom_liquid_visibleDesc",
+        "custom_liquid_yR4UPX",
+        "collapsible_tab_UWQ8gk",
+        "collapsible_tab_X7L37G",
+        "collapsible_tab_HjeTwa",
+        "collapsible_tab_czbJiW",
+        "complementary_products_8bK493",
+        "collapsible_tab_mkEKLQ",
+        "description",
+        "judge_me_reviews_preview_badge_4NycBz"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": true,
+        "gallery_thumbnail_position": "below",
+        "gallery_thumbnail_layout": "carousel",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "dynamic_rich_text_lbmIntro": {
+      "type": "dynamic-rich-text",
+      "blocks": {
+        "heading_lbIntro": {
+          "type": "heading",
+          "settings": {
+            "title": "Fall Doesn't Get a Vote Anymore",
+            "heading_size": "medium"
+          }
+        },
+        "text_lbIntro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>21 N of real blowing force, a tracked chassis that climbs what wheeled blowers can't, and a schedule you set once, this module turns a season of Saturday cleanup into a job that just happens on its own.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_lbIntro",
+        "text_lbIntro"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "content_alignment": "center"
+      }
+    },
+    "video_section_lb10": {
+      "type": "video-section",
+      "blocks": {
+        "feature_row_lb10": {
+          "type": "feature_row",
+          "settings": {
+            "video": "shopify://files/videos/Yarbo_B1_10.mp4",
+            "media_position": "left",
+            "heading": "Covers Real Ground, Not a Demo Pad",
+            "heading_color": "#233923",
+            "text": "<p>Wide open lawns are exactly the kind of ground this module is built to cover, real acreage, not a staged test patch. Set the zone once and it works the whole area on its own schedule.</p>",
+            "text_color": "#233923"
+          }
+        }
+      },
+      "block_order": [
+        "feature_row_lb10"
+      ],
+      "name": "Video Feature Rows",
+      "settings": {
+        "background_color": "#f2f4f1"
+      }
+    },
+    "video_section_lb11": {
+      "type": "video-section",
+      "blocks": {
+        "feature_row_lb11": {
+          "type": "feature_row",
+          "settings": {
+            "video": "shopify://files/videos/Yarbo_B1_11.mp4",
+            "media_position": "right",
+            "heading": "Engineered Around a Directional Fan",
+            "heading_color": "#233923",
+            "text": "<p>A high-speed fan housing concentrates airflow through a single nozzle instead of a wide, weak spread, the same principle that lets a small module move real debris instead of just stirring it.</p>",
+            "text_color": "#233923"
+          }
+        }
+      },
+      "block_order": [
+        "feature_row_lb11"
+      ],
+      "name": "Video Feature Rows",
+      "settings": {
+        "background_color": "#f2f4f1"
+      }
+    },
+    "dynamic_custom_liquid_lbTopdown": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .lb-stack2 { max-width: 820px; margin: 0 auto; padding: 64px 24px; text-align: center; }\n  @media screen and (max-width: 749px) { .lb-stack2 { padding: 40px 20px; } }\n  .lb-stack2__frame { border-radius: 14px; overflow: hidden; border: 1px solid #e5e5e5; box-shadow: 0 8px 28px rgba(35,39,57,.10); margin: 0 0 28px; background: #f2f4f1; }\n  .lb-stack2__frame img { display: block; width: 100%; height: auto; }\n  .lb-stack2__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c9a84c; margin: 0 0 14px; padding-bottom: 8px; border-bottom: 2px solid #c9a84c; }\n  .lb-stack2__heading { font-size: clamp(24px, 3vw, 32px); font-weight: 700; color: #233923; margin: 0 0 16px; line-height: 1.2; }\n  .lb-stack2__text { font-size: 16px; line-height: 1.6; color: #233923; margin: 0 auto; max-width: 600px; }\n</style>\n<div class=\"lb-stack2\">\n  <div class=\"lb-stack2__frame\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0965/2056/9136/files/2_e908e945-3e1e-4e25-8afd-7a3911bd91db.webp?v=1788468191\" alt=\"Top-down view of the Yarbo Leaf Blower Module showing its blowing pattern moving leaves across the ground\" loading=\"lazy\" width=\"1200\" height=\"1200\">\n  </div>\n  <span class=\"lb-stack2__kicker\">One Pass, One Direction</span>\n  <h2 class=\"lb-stack2__heading\">A Cleared Path, Not a Scattered Mess</h2>\n  <p class=\"lb-stack2__text\">The airflow is aimed, not blasted in every direction, so debris moves where it's told to instead of ending up spread across a wider area than when it started.</p>\n</div>"
+      }
+    },
+    "dynamic_custom_liquid_lbBleed": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .lb-bleed { position: relative; width: 100%; min-height: 480px; overflow: hidden; display: flex; align-items: center; justify-content: center; background-size: cover; background-position: center; }\n  .lb-bleed__overlay { position: absolute; inset: 0; background: rgba(20,26,20,.42); }\n  .lb-bleed__content { position: relative; z-index: 2; text-align: center; color: #F2F4F1; max-width: 660px; padding: 0 24px; }\n  .lb-bleed__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c9a84c; margin: 0 0 14px; padding-bottom: 8px; border-bottom: 2px solid #c9a84c; }\n  .lb-bleed__heading { font-size: clamp(28px, 4vw, 42px); font-weight: 700; margin: 0 0 14px; }\n  .lb-bleed__text { font-size: 17px; line-height: 1.55; margin: 0; }\n  @media screen and (max-width: 749px) { .lb-bleed { min-height: 380px; } }\n</style>\n<div class=\"lb-bleed\" style=\"background-image: url('https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Yarbo_B1_7.png?v=1787782992');\">\n  <div class=\"lb-bleed__overlay\"></div>\n  <div class=\"lb-bleed__content\">\n    <span class=\"lb-bleed__kicker\">Watch a Season of Cleanup Disappear in Minutes</span>\n  <p class=\"lb-bleed__text\">21 N of blowing force moves real debris in a single pass. No raking, no bagging, no standing in the cold holding a gas blower for an hour.</p>\n  </div>\n</div>"
+      }
+    },
+    "dynamic_custom_liquid_lbPark": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .lb-split { max-width: 1200px; margin: 0 auto; padding: 64px 24px; }\n  @media screen and (max-width: 749px) { .lb-split { padding: 40px 20px; } }\n  .lb-split__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }\n  @media screen and (max-width: 819px) { .lb-split__grid { grid-template-columns: 1fr; gap: 24px; } }\n  .lb-split__frame { position: relative; border-radius: 14px; overflow: hidden; border: 1px solid #e5e5e5; box-shadow: 0 8px 28px rgba(35,39,57,.10); }\n  .lb-split__frame img { display: block; width: 100%; height: auto; }\n  .lb-split__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c9a84c; margin: 0 0 14px; padding-bottom: 10px; border-bottom: 2px solid #c9a84c; }\n  .lb-split__heading { font-size: clamp(24px, 3vw, 32px); font-weight: 700; color: #233923; margin: 0 0 16px; line-height: 1.2; }\n  .lb-split__text { font-size: 16px; line-height: 1.6; color: #233923; margin: 0; }\n</style>\n<div class=\"lb-split\">\n  <div class=\"lb-split__grid\">\n    <div class=\"lb-split__frame\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Frame_2036458133.webp?v=1788490711\" alt=\"Yarbo Leaf Blower Module clearing a leaf-covered lawn near a park path, bicycle visible for scale\" loading=\"lazy\" width=\"1600\" height=\"900\">\n    </div>\n    <div>\n      <span class=\"lb-split__kicker\">Built for Large Properties, Not Just a Patio</span>\n     \n      <p class=\"lb-split__text\">This isn't a machine sized for a handful of leaves by the front door. It's built to work an actual lawn, the kind of ground that takes a person an afternoon to clear by hand.</p>\n    </div>\n  </div>\n</div>"
+      }
+    },
+    "hero_lbm": {
+      "type": "dynamic-custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<style>\n  .lb-hero { max-width: 1200px; margin: 0 auto; padding: 40px 24px 64px; }\n  .lb-hero__frame { border-radius: 14px; overflow: hidden; box-shadow: 0 8px 28px rgba(35,39,57,.14); }\n  .lb-hero__frame img { display: block; width: 100%; height: auto; }\n  .lb-hero__text { max-width: 640px; margin: 32px auto 0; text-align: center; }\n  .lb-hero__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c9a84c; margin: 0 0 14px; padding-bottom: 8px; border-bottom: 2px solid #c9a84c; }\n  .lb-hero__heading { font-size: clamp(26px, 3.5vw, 38px); font-weight: 700; color: #233923; margin: 0 0 14px; line-height: 1.2; }\n  .lb-hero__body { font-size: 16px; line-height: 1.6; color: #233923; margin: 0; }\n  .lb-hero__cta { margin-top: 26px; }\n  .lb-hero__btn { display: inline-block; padding: 15px 36px; background: #233923; color: #F2F4F1; border: none; border-radius: 8px; font-size: 15px; font-weight: 700; letter-spacing: .4px; text-align: center; cursor: pointer; transition: background .2s ease, transform .15s ease; }\n  .lb-hero__btn:hover { background: #c9a84c; color: #233923; transform: translateY(-1px); }\n</style>\n<div class=\"lb-hero\">\n  <div class=\"lb-hero__frame\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Frame_2036458165.webp?v=1788468262\" alt=\"Yarbo Leaf Blower Module clearing fallen leaves along a grass path edge\" loading=\"eager\" width=\"1600\" height=\"700\">\n  </div>\n  <div class=\"lb-hero__text\">\n    <span class=\"lb-hero__kicker\">Real Footage, Not a Render</span>\n    <h1 class=\"lb-hero__heading\">Fall Cleanup, Without the Fall Weekends</h1>\n    <p class=\"lb-hero__body\">The Leaf Blower Module clears leaves and yard debris on a schedule you set, working lawns and paths automatically while you do something better with your Saturday.</p>\n    <div class=\"lb-hero__cta\">\n      <button type=\"button\" class=\"lb-hero__btn\" onclick=\"var f=document.querySelector('form[action*=\\'/cart/add\\']'); if(f){f.scrollIntoView({behavior:'smooth', block:'center'});}\">Shop Now</button>\n    </div>\n  </div>\n</div>"
+      }
+    },
+    "dynamic_custom_liquid_lbAngle": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .lb-split2 { max-width: 1200px; margin: 0 auto; padding: 64px 24px; }\n  @media screen and (max-width: 749px) { .lb-split2 { padding: 40px 20px; } }\n  .lb-split2__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; direction: rtl; }\n  .lb-split2__grid > * { direction: ltr; }\n  @media screen and (max-width: 819px) { .lb-split2__grid { grid-template-columns: 1fr; gap: 24px; direction: ltr; } }\n  .lb-split2__frame { position: relative; border-radius: 14px; overflow: hidden; border: 1px solid #e5e5e5; box-shadow: 0 8px 28px rgba(35,39,57,.10); }\n  .lb-split2__frame img { display: block; width: 100%; height: auto; }\n  .lb-split2__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c9a84c; margin: 0 0 14px; padding-bottom: 10px; border-bottom: 2px solid #c9a84c; }\n  .lb-split2__heading { font-size: clamp(24px, 3vw, 32px); font-weight: 700; color: #233923; margin: 0 0 16px; line-height: 1.2; }\n  .lb-split2__text { font-size: 16px; line-height: 1.6; color: #233923; margin: 0; }\n</style>\n<div class=\"lb-split2\">\n  <div class=\"lb-split2__grid\">\n    <div class=\"lb-split2__frame\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Yarbo_B1_8.png?v=1787782993\" alt=\"Yarbo Leaf Blower Module clearing leaves at ground level, debris visibly moving\" loading=\"lazy\" width=\"1600\" height=\"900\">\n    </div>\n    <div>\n      <span class=\"lb-split2__kicker\">Close to the Ground, Close to the Work</span>\n      <h2 class=\"lb-split2__heading\">Low, Direct, and Aimed Where It Needs to Be</h2>\n      <p class=\"lb-split2__text\">A low nozzle position keeps the airflow working close to the surface, where leaves and debris actually sit, instead of scattering them up and out in every direction.</p>\n    </div>\n  </div>\n</div>"
+      }
+    },
+    "dynamic_custom_liquid_lbAttach": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .lb-stack { max-width: 760px; margin: 0 auto; padding: 64px 24px; text-align: center; }\n  @media screen and (max-width: 749px) { .lb-stack { padding: 40px 20px; } }\n  .lb-stack__frame { border-radius: 14px; overflow: hidden; border: 1px solid #e5e5e5; box-shadow: 0 8px 28px rgba(35,39,57,.10); background: #fff; margin: 0 0 28px; }\n  .lb-stack__frame img { display: block; width: 100%; height: auto; max-width: 420px; margin: 0 auto; }\n  .lb-stack__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c9a84c; margin: 0 0 14px; padding-bottom: 8px; border-bottom: 2px solid #c9a84c; }\n  .lb-stack__heading { font-size: clamp(24px, 3vw, 32px); font-weight: 700; color: #233923; margin: 0 0 16px; line-height: 1.2; }\n  .lb-stack__text { font-size: 16px; line-height: 1.6; color: #233923; margin: 0 auto; max-width: 560px; }\n</style>\n<div class=\"lb-stack\">\n  <div class=\"lb-stack__frame\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Yarbo_B1_1.png?v=1787782903\" alt=\"Yarbo Core and Leaf Blower Module shown separately, ready to attach\" loading=\"lazy\" width=\"1200\" height=\"1200\">\n  </div>\n <h2 class=\"lb-stack__heading\">Attaches to the Core You Already Own</h2>\n  <p class=\"lb-stack__text\">The Leaf Blower Module is the fall half of the same modular system as the Lawn Mower Pro and Snow Blower. It mounts to the Yarbo Core's tracked chassis and comes back off in minutes when the season changes, one Core, swapped through all four seasons.</p>\n</div>"
+      }
+    },
+    "dynamic_custom_liquid_lbMech": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .lb-callout { max-width: 1100px; margin: 0 auto; padding: 64px 24px; }\n  @media screen and (max-width: 749px) { .lb-callout { padding: 40px 20px; } }\n  .lb-callout__panel { display: flex; gap: 40px; align-items: center; background: #f2f4f1; border: 1px solid #d7ddd4; border-left: 4px solid #c9a84c; border-radius: 12px; padding: 36px; }\n  @media screen and (max-width: 819px) { .lb-callout__panel { flex-direction: column; text-align: center; } }\n  .lb-callout__img-wrap { flex: 0 0 220px; }\n  .lb-callout__img-wrap img { width: 100%; max-width: 220px; height: auto; border-radius: 10px; display: block; margin: 0 auto; background: #fff; }\n  .lb-callout__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c9a84c; margin: 0 0 10px; }\n  h2.lb-callout__quote { font-size: clamp(20px, 2.6vw, 26px); font-weight: 700; color: #233923; margin: 0 0 12px; line-height: 1.3; }\n  .lb-callout__text { font-size: 15.5px; line-height: 1.6; color: #233923; margin: 0; }\n</style>\n<div class=\"lb-callout\">\n  <div class=\"lb-callout__panel\">\n    <div class=\"lb-callout__img-wrap\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Yarbo_B1_4.png?v=1787782902\" alt=\"Close-up of the Yarbo Leaf Blower Module mounted to the Core, showing the fan housing and nozzle\" loading=\"lazy\" width=\"1200\" height=\"1200\">\n    </div>\n    <div>\n      <span class=\"lb-callout__kicker\">21 N of Real Blowing Force</span>\n      <h2 class=\"lb-callout__quote\">Enough force to move debris, not just scatter it.</h2>\n      <p class=\"lb-callout__text\">The directional nozzle concentrates the airflow instead of spreading it thin, so wet leaves and packed debris actually move instead of just shifting in place.</p>\n    </div>\n  </div>\n</div>"
+      }
+    },
+    "dynamic_custom_liquid_lbStats": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .lb-stats { max-width: 1100px; margin: 0 auto; padding: 64px 24px; text-align: center; }\n  @media screen and (max-width: 749px) { .lb-stats { padding: 40px 20px; } }\n  .lb-stats__heading { font-size: clamp(24px, 3vw, 32px); font-weight: 700; color: #233923; margin: 0 0 40px; }\n  .lb-stats__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }\n  @media screen and (max-width: 749px) { .lb-stats__grid { grid-template-columns: 1fr; } }\n  .lb-stats__card { background: #f2f4f1; border-radius: 12px; overflow: hidden; border: 1px solid #d7ddd4; }\n  .lb-stats__card img { display: block; width: 100%; height: 160px; object-fit: cover; }\n  .lb-stats__num { font-size: 28px; font-weight: 700; color: #233923; margin: 18px 0 4px; }\n  .lb-stats__label { font-size: 13.5px; color: #233923; opacity: .85; margin: 0 0 20px; padding: 0 16px; }\n</style>\n<div class=\"lb-stats\">\n  <h2 class=\"lb-stats__heading\">By the Numbers</h2>\n  <div class=\"lb-stats__grid\">\n    <div class=\"lb-stats__card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Frame_2036458135.webp?v=1788490664\" alt=\"Graphic showing the Yarbo Leaf Blower Module's 21 N blowing force along a debris trail\" loading=\"lazy\">\n      <p class=\"lb-stats__num\">21 N</p>\n      <p class=\"lb-stats__label\">Blowing force, enough to move real debris</p>\n    </div>\n    <div class=\"lb-stats__card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Frame_2036458136.webp?v=1788474368\" alt=\"Graphic showing the Yarbo Leaf Blower Module climbing a 35 degree, 70 percent slope\" loading=\"lazy\">\n      <p class=\"lb-stats__num\">35° (70%)</p>\n      <p class=\"lb-stats__label\">Max slope the Core's tracked chassis climbs</p>\n    </div>\n    <div class=\"lb-stats__card\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Frame_2036458137.webp?v=1788474367\" alt=\"Graphic showing the Yarbo Leaf Blower Module's 70 minute continuous runtime per charge\" loading=\"lazy\">\n      <p class=\"lb-stats__num\">70 min</p>\n      <p class=\"lb-stats__label\">Continuous runtime per charge</p>\n    </div>\n  </div>\n</div>"
+      }
+    },
+    "blocks_whyyap_lbm": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_whyyap_lbm": {
+          "type": "ai_gen_block_whyyap",
+          "settings": {
+            "heading": "Why Yard Automation Pros?",
+            "intro_text": "We don't just sell robots, we help you build the autonomous estate.",
+            "column_1_label": "Curated Selection",
+            "column_1_text": "Every product is hand-picked and tested against real residential and commercial use cases before we carry it.",
+            "column_2_label": "Expert Support",
+            "column_2_text": "US-based support from people who actually know the product, not a script.",
+            "column_3_label": "Ongoing Guidance",
+            "column_3_text": "Access to our growing library of automation tips and seasonal guides, before and after the sale.",
+            "closing_text": "This is the future of yard care. We're here to make sure it works for you.",
+            "max_width": 1100,
+            "section_padding": 56,
+            "header_spacing": 36,
+            "grid_gap": 40,
+            "panel_radius": 12,
+            "heading_size": 32,
+            "label_size": 18,
+            "body_size": 15,
+            "accent_color": "#233923",
+            "icon_color": "#81F200",
+            "panel_background": "#f2f4f1",
+            "border_color": "#233923",
+            "heading_color": "#233923",
+            "text_color": "#233923"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_whyyap_lbm"
+      ],
+      "name": "Why YAP panel",
+      "settings": {}
+    },
+    "dynamic_highlights_banner_lbm": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_XLUzQE": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-store",
+            "title": "100% American Owned and Operated",
+            "text": "<p>We're a locally owned and operated business</p>",
+            "link": ""
+          }
+        },
+        "highlight_84JPfV": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-heart",
+            "title": "30-Day Satisfaction Promise",
+            "text": "<p>If you're not happy, We're not happy</p>",
+            "link": ""
+          }
+        },
+        "highlight_HbAL67": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-lock",
+            "title": "Secure Online Payment System",
+            "text": "<p>All our transactions are protected and secure</p>",
+            "link": ""
+          }
+        },
+        "highlight_9pebcb": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-discount",
+            "title": "Flexible Financing",
+            "text": "<p>Shop Pay Installments available at checkout</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_XLUzQE",
+        "highlight_84JPfV",
+        "highlight_HbAL67",
+        "highlight_9pebcb"
+      ],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#f2f4f1",
+        "icon_color": "#f2f4f1",
+        "background_color": "#233923",
+        "mobile_layout": "slider"
+      }
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "178784317865f92603": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_reviews_grid_widget_gnCmHd": {
+          "type": "shopify://apps/judge-me-reviews/blocks/reviews_grid_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "review_selection": "all",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "show_media_only": false,
+            "display_order": "media_first",
+            "card_grouping": "per_media",
+            "columns_desktop": 3,
+            "rows_desktop": 3,
+            "columns_mobile": "2",
+            "rows_mobile": 6,
+            "show_stars": true,
+            "show_reviewer_name": true,
+            "show_review_title_on_hover_desktop": true,
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "card_spacing": "medium",
+            "header_text_color": "#000000",
+            "star_and_reviewer_name_color": "#f9f9f9",
+            "drop_shadow_color": "#000000",
+            "overlay_and_background_color": "#000000",
+            "content_color": "#f9f9f9",
+            "header_text": "From our customers",
+            "show_average_rating": true,
+            "rating_display": "default"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_reviews_grid_widget_gnCmHd"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "dynamic_faq_lbm": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "question_nCTWbR": {
+          "type": "question",
+          "settings": {
+            "question": "Do I need to already own a Yarbo Core?",
+            "answer": "<p>Yes. This is a module only, it attaches to a Core you already own. If you don't have one yet, the Leaf Blower bundle includes both the Core and this module together.</p>",
+            "icon": "none"
+          }
+        },
+        "question_69jhiF": {
+          "type": "question",
+          "settings": {
+            "question": "How do I install it?",
+            "answer": "<p>It attaches to your existing Core in minutes, no tools or wiring required. Set your clearing schedule through the Yarbo app afterward.</p>",
+            "icon": "none"
+          }
+        },
+        "question_8KCdGW": {
+          "type": "question",
+          "settings": {
+            "question": "Can I switch back to the mower or snow blower module?",
+            "answer": "<p>Yes. Modules swap on and off the same Core in minutes, so you can switch between mowing, leaf clearing, and snow clearing as the seasons change.</p>",
+            "icon": "none"
+          }
+        },
+        "question_FrcXQs": {
+          "type": "question",
+          "settings": {
+            "question": "How much force does it actually blow with?",
+            "answer": "<p>Up to 21 N of blowing force, enough to move real debris, wet leaves and packed clippings included, not just scatter what's already loose.</p>",
+            "icon": "none"
+          }
+        },
+        "question_KLmzTf": {
+          "type": "question",
+          "settings": {
+            "question": "Can it handle slopes or uneven ground?",
+            "answer": "<p>Yes. The Core's tracked chassis climbs up to a 35° (70%) grade, terrain that stops most wheeled yard equipment outright.</p>",
+            "icon": "none"
+          }
+        },
+        "question_EcA6Mx": {
+          "type": "question",
+          "settings": {
+            "question": "What if something goes wrong?",
+            "answer": "<p>A 2-year manufacturer warranty, with expert support behind it.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "question_nCTWbR",
+        "question_69jhiF",
+        "question_8KCdGW",
+        "question_FrcXQs",
+        "question_KLmzTf",
+        "question_EcA6Mx"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "heading": "Common Questions, Answered Up Front",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "small",
+        "icon_color": "#233923"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_rich_text_lbmIntro",
+    "video_section_lb10",
+    "video_section_lb11",
+    "dynamic_custom_liquid_lbTopdown",
+    "dynamic_custom_liquid_lbBleed",
+    "dynamic_custom_liquid_lbPark",
+    "hero_lbm",
+    "dynamic_custom_liquid_lbAngle",
+    "dynamic_custom_liquid_lbAttach",
+    "dynamic_custom_liquid_lbMech",
+    "dynamic_custom_liquid_lbStats",
+    "blocks_whyyap_lbm",
+    "dynamic_highlights_banner_lbm",
+    "recommendations",
+    "recently-viewed",
+    "178784317865f92603",
+    "dynamic_faq_lbm"
+  ]
+}

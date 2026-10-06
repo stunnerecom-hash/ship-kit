@@ -1,0 +1,170 @@
+{%- comment -%}
+  YAP Contact page (2026-09-25). Hero with a live open/closed status (Eastern Time, Monday to Friday 9am to 5pm), four ways to reach us,
+  a Shopify contact form with topic chips and topic tips, an hours card and help links. Facts: support hours, phone, email and chat per CLAUDE.md;
+  return and damage steps per the store refund policy (supplier covers damaged/defective, report within 48 hours with photos).
+{%- endcomment -%}
+{{ 'yi.css' | asset_url | stylesheet_tag }}
+{%- assign hero = images[section.settings.image_name] -%}
+<div class="yi" data-yi-contact>
+  <section class="yi-hero">
+    <div class="yi-wrap yi-hero__grid">
+      <div>
+        <p class="yi-kick">{{ section.settings.kicker | escape }}</p>
+        <h1>{{ section.settings.heading | escape }}</h1>
+        <div class="yi-lede">{{ section.settings.lede }}</div>
+        <p class="yi-status" data-yi-status aria-live="polite"><i></i><span>Monday to Friday, 9am to 5pm EST</span></p>
+      </div>
+      <div class="yi-hero__media">
+        {%- if hero != blank -%}{{ hero | image_url: width: 1300 | image_tag: loading: 'eager', fetchpriority: 'high', widths: '600, 900, 1300', sizes: '(min-width: 990px) 40vw, 100vw', alt: section.settings.image_alt }}{%- endif -%}
+      </div>
+    </div>
+  </section>
+
+  <section class="yi-sec">
+    <div class="yi-wrap">
+      <p class="yi-kick">Reach us</p>
+      <h2>Four ways to get an answer</h2>
+      <div class="yi-chans" style="margin-top:26px">
+        <a class="yi-chan" href="tel:+14239273776" data-yi-in>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg>
+          <b>Call us</b><span>Talk to our US team about a robot, an order or a claim.</span><em>+1 423-927-3776</em>
+        </a>
+        <a class="yi-chan" href="mailto:Support@yardautomationpros.com" data-yi-in>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+          <b>Email</b><span>Best for photos, order numbers and anything you want in writing.</span><em class="is-long">Support@yardautomationpros.com</em>
+        </a>
+        <a class="yi-chan" href="#yi-form" data-yi-chat data-yi-in>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          <b>Chat</b><span>The chat button sits at the bottom right of every page, anytime.</span><em>Open the chat</em>
+        </a>
+        <a class="yi-chan yi-chan--navy" href="/pages/schedule-your-professional-consultation" data-yi-in>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6"/></svg>
+          <b>Free consultation</b><span>Not sure which robot fits? Tell us about your property.</span><em>Start here</em>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="yi-sec yi-sec--light" id="yi-form" style="scroll-margin-top:120px">
+    <div class="yi-wrap">
+      <p class="yi-kick">Send a message</p>
+      <h2>How can we help?</h2>
+      <div class="yi-formgrid">
+        <div class="yi-card">
+          {%- form 'contact', id: 'yi-contact-form' -%}
+            {%- if form.posted_successfully? -%}
+              <div class="yi-msg yi-msg--ok" role="status" tabindex="-1" data-yi-ok><strong>Thanks, your message is in.</strong> We reply by email or phone during business hours, Monday to Friday, 9am to 5pm EST.</div>
+            {%- elsif form.errors -%}
+              <div class="yi-msg yi-msg--err" role="alert">Please check the form: {{ form.errors | default_errors }}</div>
+            {%- endif -%}
+            <fieldset class="yi-topics">
+              <legend class="yi-legend">What is it about?</legend>
+              <div class="yi-chips">
+                {%- assign topics = 'Product question|Order status|Returns or damage|Warranty claim|Something else' | split: '|' -%}
+                {%- for t in topics -%}
+                  <label class="yi-chip"><input type="radio" name="contact[Topic]" value="{{ t }}" {% if forloop.first %}checked{% endif %} data-yi-topic="{{ forloop.index }}"><span>{{ t }}</span></label>
+                {%- endfor -%}
+              </div>
+            </fieldset>
+            <p class="yi-hint" data-yi-hint="1">Tell us the model you are looking at and a little about your yard, pool or home. We will answer from the maker's published specs.</p>
+            <p class="yi-hint" data-yi-hint="2" hidden>Add your order number so we can check with the supplier. Tracking is emailed once your order ships.</p>
+            <p class="yi-hint" data-yi-hint="3" hidden>Damaged on arrival? Email photos of the item and packaging within 48 hours of delivery. The supplier covers the costs for a damaged or defective item. For any other return, return shipping to the supplier is paid by the customer. See the <a href="/policies/refund-policy">refund policy</a>.</p>
+            <p class="yi-hint" data-yi-hint="4" hidden>Include your order number, the model and serial number if you have it, and a short video or photos of the fault. We prepare a claim-ready package and help you file and follow up the claim with the maker.</p>
+            <p class="yi-hint" data-yi-hint="5" hidden>Anything goes. The more detail you give, the faster we can help.</p>
+            <div class="yi-row">
+              <div class="yi-f"><label for="yi-name">Name</label><input id="yi-name" name="contact[name]" autocomplete="name" required value="{{ form.name }}"></div>
+              <div class="yi-f"><label for="yi-email">Email</label><input id="yi-email" type="email" name="contact[email]" autocomplete="email" required value="{{ form.email }}"></div>
+            </div>
+            <div class="yi-row">
+              <div class="yi-f"><label for="yi-phone">Phone <span>(optional)</span></label><input id="yi-phone" type="tel" name="contact[phone]" autocomplete="tel" value="{{ form.phone }}"></div>
+              <div class="yi-f"><label for="yi-order">Order number <span>(if you have one)</span></label><input id="yi-order" name="contact[Order number]" inputmode="numeric"></div>
+            </div>
+            <div class="yi-f"><label for="yi-body">Message</label><textarea id="yi-body" name="contact[body]" required>{{ form.body }}</textarea></div>
+            <button class="yi-submit" type="submit">Send message</button>
+            <p class="yi-note">We use your details only to answer this message. See our <a href="/policies/privacy-policy">privacy policy</a>.</p>
+          {%- endform -%}
+        </div>
+        <aside class="yi-side" aria-label="Hours and details">
+          <h3>Support hours</h3>
+          <table class="yi-hours" data-yi-hours>
+            <tbody>
+              <tr data-day="1"><td>Monday</td><td>9am to 5pm</td></tr>
+              <tr data-day="2"><td>Tuesday</td><td>9am to 5pm</td></tr>
+              <tr data-day="3"><td>Wednesday</td><td>9am to 5pm</td></tr>
+              <tr data-day="4"><td>Thursday</td><td>9am to 5pm</td></tr>
+              <tr data-day="5"><td>Friday</td><td>9am to 5pm</td></tr>
+              <tr data-day="6"><td>Saturday</td><td>Chat only</td></tr>
+              <tr data-day="0"><td>Sunday</td><td>Chat only</td></tr>
+            </tbody>
+          </table>
+          <p style="margin:10px 0 0;font-size:13px;color:#aeb3c4">All times Eastern (EST).</p>
+          <ul>
+            <li>Online store, delivering across the US. No showroom or pickup.</li>
+            <li>Yard Automation Pros is a trade name of Big Farmer LLC.</li>
+            <li><a href="/policies/shipping-policy">Shipping policy</a> and <a href="/policies/refund-policy">refund policy</a></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="yi-sec">
+    <div class="yi-wrap">
+      <p class="yi-kick">Quick answers</p>
+      <h2>Maybe it is already answered</h2>
+      <div class="yi-tiles">
+        <a class="yi-tile" href="/pages/faqs">Frequently asked questions</a>
+        <a class="yi-tile" href="/pages/support">Support Center</a>
+        <a class="yi-tile" href="/policies/shipping-policy">Shipping and delivery</a>
+        <a class="yi-tile" href="/policies/refund-policy">Returns and damage</a>
+      </div>
+    </div>
+  </section>
+</div>
+<script>
+(function () {
+  var root = document.querySelector('[data-yi-contact]'); if (!root) return;
+  // open / closed, Eastern Time
+  try {
+    var parts = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', weekday: 'short', hour: 'numeric', hour12: false }).formatToParts(new Date());
+    var wd = parts.find(function (p) { return p.type === 'weekday'; }).value, hr = parseInt(parts.find(function (p) { return p.type === 'hour'; }).value, 10) % 24;
+    var day = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(wd);
+    var open = day >= 1 && day <= 5 && hr >= 9 && hr < 17;
+    var st = root.querySelector('[data-yi-status]');
+    st.classList.toggle('is-open', open);
+    st.querySelector('span').textContent = open ? 'Open now: our team answers until 5pm EST' : (day >= 1 && day <= 5 && hr < 9 ? 'Opens today at 9am EST. Chat is open now.' : 'Closed now. Phone lines open Monday to Friday, 9am EST. Chat is open now.');
+    var row = root.querySelector('[data-yi-hours] tr[data-day="' + day + '"]'); if (row) row.classList.add('is-today');
+  } catch (e) {}
+  // topic tips
+  root.querySelectorAll('[data-yi-topic]').forEach(function (r) {
+    r.addEventListener('change', function () { root.querySelectorAll('[data-yi-hint]').forEach(function (h) { h.hidden = h.getAttribute('data-yi-hint') !== r.getAttribute('data-yi-topic'); }); });
+  });
+  // chat card: open the YAP chat (layout/theme.liquid); fall back to the form if the chat is missing
+  var chat = root.querySelector('[data-yi-chat]');
+  chat.addEventListener('click', function (e) {
+    if (window.yapChat && window.yapChat.open) { e.preventDefault(); window.yapChat.open('chat'); return; }
+    var l = document.getElementById('yap-chat-bubble');
+    if (l) { e.preventDefault(); l.click(); }
+  });
+  var ok = root.querySelector('[data-yi-ok]'); if (ok) { document.getElementById('yi-form').scrollIntoView(); ok.focus(); }
+  // reveal once
+  var els = root.querySelectorAll('[data-yi-in]');
+  if (!('IntersectionObserver' in window) || matchMedia('(max-width: 989px)').matches) { els.forEach(function (x) { x.classList.add('is-in'); }); return; }
+  var io = new IntersectionObserver(function (es) { es.forEach(function (en) { if (en.isIntersecting) { var i = [].indexOf.call(els, en.target); setTimeout(function () { en.target.classList.add('is-in'); }, (i % 4) * 90); io.unobserve(en.target); } }); }, { threshold: .2 });
+  els.forEach(function (x) { io.observe(x); });
+})();
+</script>
+
+{% schema %}
+{
+  "name": "YI: Contact",
+  "settings": [
+    { "type": "text", "id": "kicker", "label": "Kicker", "default": "Contact us" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Talk to a Yard Automation Pro" },
+    { "type": "richtext", "id": "lede", "label": "Intro", "default": "<p>Questions about a robot, an order, a delivery or a warranty claim go to a real person on our US team. Call, email or chat, whichever suits you.</p>" },
+    { "type": "text", "id": "image_name", "label": "Photo file name (Files)", "default": "yap-yarbo-lineup-dusk.png" },
+    { "type": "text", "id": "image_alt", "label": "Photo alt text", "default": "Yarbo yard robots lined up at dusk" }
+  ],
+  "presets": [ { "name": "YI: Contact" } ]
+}
+{% endschema %}

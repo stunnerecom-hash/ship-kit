@@ -1,0 +1,534 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor_aA8jQd": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "2e128dd1-7dbd-45da-966d-745faa090a0f": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_WDrzrJ": {
+          "type": "text",
+          "name": "Unique Selling Points",
+          "settings": {
+            "text": "<p><a href=\"tel:4239273776\" title=\"tel:4239273776\"><em><strong>Buy Online Or Call Now To Order!</strong></em></a></p><p>✓ <strong>Free Shipping </strong>- on most {{ product.vendor }} products<br/>✓ <strong>Flexible Financing </strong>- Shop Pay Installments, 0-36% APR, Applicable at Checkout<br/>✓ <strong>In Stock </strong>- Fast Dispatch<br/>✓ <strong>Questions? </strong>- Call <a href=\"tel:4239273776\" title=\"tel:4239273776\">(423)-927-3776</a></p>"
+          }
+        },
+        "12214949-0a99-47d0-875d-57cf008e67f8": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_display": "low_stock_threshold",
+            "inventory_transfer_notice": true
+          }
+        },
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": false,
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "custom_liquid_yR4UPX": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .yap-trust-bar { width: 100%; max-width: 620px; margin: 0 auto; font-family: inherit; }\n  .yap-trust-item { display: flex; align-items: center; min-height: 58px; padding: 10px 0; border-bottom: 1px solid #e5e5e5; box-sizing: border-box; }\n  .yap-trust-item:last-child { border-bottom: none; }\n  .yap-trust-icon { width: 28px; min-width: 28px; margin-right: 11px; display: flex; align-items: center; justify-content: center; color: #555; }\n  .yap-trust-icon svg { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }\n  .yap-trust-text { flex: 1; font-size: 15px; line-height: 1.3; font-weight: 500; letter-spacing: -0.15px; color: #111; }\n  @media screen and (max-width: 749px) { .yap-trust-bar { max-width: 100%; } .yap-trust-item { min-height: 54px; padding: 9px 2px; } .yap-trust-text { font-size: 14px; } .yap-trust-icon { width: 26px; min-width: 26px; margin-right: 9px; } }\n</style>\n<div class=\"yap-trust-bar\">\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3 19 6v5c0 4.8-2.9 8.2-7 10-4.1-1.8-7-5.2-7-10V6l7-3z\"/><path d=\"m9 12 2 2 4-4\"/></svg></div>\n    <div class=\"yap-trust-text\">30-Day Price Match Guarantee | 30-Day Return Policy</div>\n  </div>\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M14.5 6.5a4 4 0 0 0-5.2 5.2L4 17l3 3 5.3-5.3a4 4 0 0 0 5.2-5.2l-2.2 2.2-2.8-2.8 2-2.4z\"/><path d=\"M16 4h4\"/><path d=\"M18 2v4\"/></svg></div>\n    <div class=\"yap-trust-text\">1-Year Manufacturer Warranty | US-Based Support</div>\n  </div>\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 6h11v11H3z\"/><path d=\"M14 10h4l3 3v4h-7z\"/><circle cx=\"7\" cy=\"18\" r=\"2\"/><circle cx=\"18\" cy=\"18\" r=\"2\"/></svg></div>\n    <div class=\"yap-trust-text\">In Stock – Fast Dispatch</div>\n  </div>\n</div>"
+          }
+        },
+        "collapsible_tab_UWQ8gk": {
+          "type": "collapsible-tab",
+          "name": "Overview",
+          "settings": {
+            "collapsible_tab_heading": "Overview",
+            "collapsible_tab_text": "<p>The Scuba 800 is a simple, cordless robotic cleaner built for above-ground and flat-floor pools up to 860 sq ft. Drop it in, let it run, and it parks itself near the wall when it's done or the battery gets low.<br/><br/>🔋 Dual-drive motors filter up to 1,320 GPH.<br/>💧 Quick-drainage releases 80% of stored water in 15 seconds.<br/>🔊 Audio alerts keep you posted on status, no app required.<br/></p>"
+          }
+        },
+        "collapsible_tab_Uf69Wz": {
+          "type": "collapsible-tab",
+          "name": "Product Information",
+          "settings": {
+            "collapsible_tab_heading": "Product Information",
+            "collapsible_tab_text": "<p><strong>Pool Care That Doesn't Need to Be Complicated. By Yard Automation Pros.</strong></p><p>Built for above-ground and flat-floor pools up to 860 sq ft (80m²), 30 ft in length. The Scuba 800 keeps its job simple: clean the floor, then get out of the way.</p><h3>Built to move efficiently</h3><p>A hydrodynamic design lets the Scuba 800 flow through the water instead of fighting it, so more of its power goes into cleaning. Dual-drive motors filter up to 1,320 GPH, storing debris in a 2-liter filter box.</p><h3>You always know its status</h3><p>An audio alert system keeps you informed on battery and cleaning status, no app required. When the job's done or the battery runs low, it auto-parks near the pool wall.</p><h3>Retrieval that doesn't soak you</h3><p>A quick-drainage system releases up to 80% of stored water in 15 seconds, so lifting it out is simple.</p><h3>What's included</h3><ul><li>Scuba 800 Cordless Robotic Pool Cleaner</li><li>Retrieval Hook</li><li>DC Charger</li><li>2x Brushes</li></ul><p>Backed by Aiper's 1-year manufacturer's warranty and supported by Yard Automation Pros before and after the sale.</p>"
+          }
+        },
+        "collapsible_tab_X7L37G": {
+          "type": "collapsible-tab",
+          "name": "Warranty & Support",
+          "settings": {
+            "collapsible_tab_heading": "Warranty & Support:",
+            "collapsible_tab_text": "<p>Covered by Aiper's 1-year manufacturer's warranty. We reply to emails within 1 business day at support@yardautomationpros.com.<br/><br/></p>"
+          }
+        },
+        "collapsible_tab_HjeTwa": {
+          "type": "collapsible-tab",
+          "name": "Setup & Installation",
+          "settings": {
+            "collapsible_tab_heading": "Setup & Installation",
+            "collapsible_tab_text": "<p>No installation, no app, no pairing. Charge it with the included DC charger, drop it in the pool, and press the button to start a cycle. Use the included retrieval hook to lift it out when it's parked at the wall.<br/><br/></p>"
+          }
+        },
+        "collapsible_tab_czbJiW": {
+          "type": "collapsible-tab",
+          "name": "Specifications",
+          "settings": {
+            "collapsible_tab_heading": "Specifications",
+            "collapsible_tab_text": "<h3>Cleaning &amp; Power</h3><ul><li><strong>Suction:</strong> Up to 1,320 GPH, dual-drive motors</li><li><strong>Coverage:</strong> Floor only</li><li><strong>Pool size:</strong> Above-ground/flat-floor pools up to 860 sq ft (80m²), 30 ft in length</li></ul><h3>Battery &amp; Build</h3><ul><li><strong>Battery:</strong> Up to 90 minutes runtime</li><li><strong>Charge time:</strong> 3–4 hours, DC charger</li><li><strong>Weight:</strong> 3.4kg / 7.5 lbs</li></ul><h3>Filtration &amp; Retrieval</h3><ul><li><strong>Filter:</strong> 180μm fine filter basket, 2L capacity</li><li><strong>Quick-drainage:</strong> Releases up to 80% of stored water in 15 seconds</li><li><strong>Status:</strong> Audio alert system, auto-parks at pool wall</li></ul><h3>What's in the Box</h3><ul><li>Scuba 800 Cordless Robotic Pool Cleaner</li><li>Retrieval Hook</li><li>DC Charger</li><li>2x Brushes</li></ul><h3>Warranty</h3><ul><li>1-year manufacturer's warranty</li></ul>"
+          }
+        },
+        "complementary_products_8bK493": {
+          "type": "complementary_products",
+          "settings": {
+            "heading": "Pairs well with",
+            "product_recommendation_limit": 5,
+            "products_per_slide": 2
+          }
+        },
+        "collapsible_tab_mkEKLQ": {
+          "type": "collapsible-tab",
+          "name": "manuals",
+          "disabled": true,
+          "settings": {
+            "collapsible_tab_heading": "Manuals & Downloads",
+            "collapsible_tab_text": "<p>Use this text to share information about your product.</p>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_4NycBz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor_aA8jQd",
+        "2e128dd1-7dbd-45da-966d-745faa090a0f",
+        "price",
+        "text_WDrzrJ",
+        "12214949-0a99-47d0-875d-57cf008e67f8",
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956",
+        "custom_liquid_yR4UPX",
+        "collapsible_tab_UWQ8gk",
+        "collapsible_tab_Uf69Wz",
+        "collapsible_tab_X7L37G",
+        "collapsible_tab_HjeTwa",
+        "collapsible_tab_czbJiW",
+        "complementary_products_8bK493",
+        "collapsible_tab_mkEKLQ",
+        "description",
+        "judge_me_reviews_preview_badge_4NycBz"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": true,
+        "gallery_thumbnail_position": "below",
+        "gallery_thumbnail_layout": "carousel",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "dynamic_rich_text_s800Intro": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular"
+      }
+    },
+    "dynamic_image_with_text_s800Hydro": {
+      "type": "dynamic-image-with-text",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/2_1800x_c0f4ed3a-2338-44e4-95fa-098af1a41040.png",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_image_with_text_s800Drain": {
+      "type": "dynamic-image-with-text",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/3_1800x_638f7098-b46f-4e23-9e50-805c4452f681.png",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "text_alignment": "center"
+      }
+    },
+    "blocks_s8003col": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_7d61a93_s800col": {
+          "type": "ai_gen_block_7d61a93",
+          "settings": {
+            "heading": "Simple, on Purpose",
+            "description": "Three things it does well, nothing it tries to fake.",
+            "heading_size": 36,
+            "description_size": 16,
+            "heading_color": "#232739",
+            "description_color": "#393939",
+            "column_1_image": "shopify://shop_images/5_1800x_7cfd6670-441d-42d2-9241-494a16393a7b.png",
+            "column_1_label": "Auto-Parks When Done",
+            "column_1_text": "When the cycle finishes or the battery runs low, it parks itself near the pool wall, so you're never fishing it out of the deep end.",
+            "column_2_image": "shopify://shop_images/6_1800x_ca579afb-b362-4359-9e55-4131283b5380.png",
+            "column_2_label": "Fully Cordless",
+            "column_2_text": "No cord to tangle, no cord to trip on. Charge it, drop it in, done. Lighter and more portable than the plug-in cleaners it replaces.",
+            "column_3_image": "shopify://shop_images/1_1800x_2cfecd2b-39a2-419f-afba-d2f6a0f1dd32.png",
+            "column_3_label": "Tells You What It's Doing",
+            "column_3_text": "An audio alert system covers battery and cleaning status, no app required, no phone needed poolside.",
+            "label_size": 20,
+            "text_size": 14,
+            "label_color": "#232739",
+            "text_color": "#393939",
+            "desktop_width_percent": 100,
+            "section_padding": 50,
+            "header_spacing": 40,
+            "grid_gap": 30,
+            "image_spacing": 20,
+            "image_border_radius": 8,
+            "background_color": "#f2f4f1"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_7d61a93_s800col"
+      ],
+      "name": "Image showcase grid",
+      "settings": {}
+    },
+    "dynamic_featured_collection_s800": {
+      "type": "dynamic-featured-collection",
+      "name": "t:sections.featured_collection.presets.featured_collection.name",
+      "settings": {
+        "title": "Build Out Your Pool Care System",
+        "layout": "grid",
+        "mobile_layout": "slideshow",
+        "collection": "aiper",
+        "product_count": 5,
+        "cta_label": "SHOP COLLECTION",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_highlights_banner_s800": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_XLUzQE": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-store",
+            "title": "100% American Owned and Operated",
+            "text": "<p>We're a locally owned and operated business</p>",
+            "link": ""
+          }
+        },
+        "highlight_84JPfV": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-heart",
+            "title": "30-Day Satisfaction Promise",
+            "text": "<p>If you're not happy, We're not happy</p>",
+            "link": ""
+          }
+        },
+        "highlight_HbAL67": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-lock",
+            "title": "Secure Online Payment System",
+            "text": "<p>All our transactions are protected and secure</p>",
+            "link": ""
+          }
+        },
+        "highlight_9pebcb": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-discount",
+            "title": "Free Shipping",
+            "text": "<p>On most Aiper products</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_XLUzQE",
+        "highlight_84JPfV",
+        "highlight_HbAL67",
+        "highlight_9pebcb"
+      ],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#ffffff",
+        "icon_color": "#ffffff",
+        "background_color": "#233923",
+        "mobile_layout": "slider"
+      }
+    },
+    "blocks_s8004col": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_bca8f42_s800col": {
+          "type": "ai_gen_block_bca8f42",
+          "settings": {
+            "section_heading": "What You're Actually Getting",
+            "section_description": "",
+            "column_1_image": "shopify://shop_images/Main_1800x_e0cf1677-e1cf-4cb5-b3d8-ae87b30e12ab.png",
+            "column_1_label": "1,320 GPH Suction",
+            "column_1_description": "Dual-drive motors sized right for a flat above-ground floor, not scaled down from an in-ground unit that's fighting to keep up.",
+            "column_2_image": "shopify://shop_images/4_1800x_1430a44b-ab8e-4842-ae2f-6e367afc7cd5.png",
+            "column_2_label": "Up to 860 Sq Ft",
+            "column_2_description": "Covers a real above-ground or flat-floor pool up to 30 ft in length, sized for the pools this cleaner is actually built for.",
+            "column_3_image": "shopify://shop_images/2_1800x_c0f4ed3a-2338-44e4-95fa-098af1a41040.png",
+            "column_3_label": "90-Minute Runtime",
+            "column_3_description": "A full cycle on most above-ground pools, with a 3–4 hour recharge on the included DC charger.",
+            "column_4_image": "shopify://shop_images/3_1800x_638f7098-b46f-4e23-9e50-805c4452f681.png",
+            "column_4_label": "2L Filter, 180μm",
+            "column_4_description": "Enough capacity for a standard cleaning cycle without needing to stop and empty it halfway through.",
+            "section_padding": 40,
+            "grid_gap": 30,
+            "image_border_radius": 8,
+            "desktop_width_percent": 100,
+            "background_color": "#f2f4f1",
+            "heading_color": "#232739",
+            "description_color": "#393939",
+            "label_color": "#232739",
+            "text_color": "#393939",
+            "heading_font_size": 36,
+            "description_font_size": 16,
+            "label_font_size": 20,
+            "text_font_size": 14
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_bca8f42_s800col"
+      ],
+      "name": "4-column image showcase",
+      "settings": {}
+    },
+    "blocks_whyyap_s800": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_whyyap_s800": {
+          "type": "ai_gen_block_whyyap",
+          "settings": {
+            "heading": "Why Yard Automation Pros?",
+            "intro_text": "We don't just sell robots, we help you build the autonomous estate.",
+            "column_1_label": "Curated Selection",
+            "column_1_text": "Every product is hand-picked and tested against real residential use cases before we carry it.",
+            "column_2_label": "Expert Support",
+            "column_2_text": "US-based support from people who actually know the product, not a script.",
+            "column_3_label": "Ongoing Guidance",
+            "column_3_text": "When you buy an Aiper Scuba 800 from us, you get a curated setup guide for your pool and access to our growing library of automation tips.",
+            "closing_text": "This is the future of pool care. We're here to make sure it works for you.",
+            "max_width": 1100,
+            "section_padding": 56,
+            "header_spacing": 36,
+            "grid_gap": 40,
+            "panel_radius": 12,
+            "heading_size": 32,
+            "label_size": 18,
+            "body_size": 15,
+            "accent_color": "#233923",
+            "icon_color": "#ffffff",
+            "panel_background": "#f2f4f1",
+            "border_color": "#dfe3de",
+            "heading_color": "#232739",
+            "text_color": "#393939"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_whyyap_s800"
+      ],
+      "name": "Why YAP panel",
+      "settings": {}
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "disabled": true,
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "178784317865f92603": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_reviews_grid_widget_gnCmHd": {
+          "type": "shopify://apps/judge-me-reviews/blocks/reviews_grid_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "review_selection": "all",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "show_media_only": false,
+            "display_order": "media_first",
+            "card_grouping": "per_media",
+            "columns_desktop": 3,
+            "rows_desktop": 3,
+            "columns_mobile": "2",
+            "rows_mobile": 6,
+            "show_stars": true,
+            "show_reviewer_name": true,
+            "show_review_title_on_hover_desktop": true,
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "card_spacing": "medium",
+            "header_text_color": "#000000",
+            "star_and_reviewer_name_color": "#f9f9f9",
+            "drop_shadow_color": "#000000",
+            "overlay_and_background_color": "#000000",
+            "content_color": "#f9f9f9",
+            "header_text": "From our customers",
+            "show_average_rating": true,
+            "rating_display": "default"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_reviews_grid_widget_gnCmHd"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "dynamic_faq_s800": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "question_nCTWbR": {
+          "type": "question",
+          "settings": {
+            "question": "What pool types is this built for?",
+            "answer": "<p>Above-ground and flat-floor pools up to 860 sq ft (80m²), 30 ft in length. It cleans the floor only, not walls or waterline.</p>",
+            "icon": "none"
+          }
+        },
+        "question_69jhiF": {
+          "type": "question",
+          "settings": {
+            "question": "Does it need an app to run?",
+            "answer": "<p>No. It's a one-click start with an audio alert system for battery and status. No app, no pairing required.</p>",
+            "icon": "none"
+          }
+        },
+        "question_8KCdGW": {
+          "type": "question",
+          "settings": {
+            "question": "How long does it run and charge?",
+            "answer": "<p>Up to 90 minutes of runtime per cycle, with a 3–4 hour recharge using the included DC charger.</p>",
+            "icon": "none"
+          }
+        },
+        "question_EcA6Mx": {
+          "type": "question",
+          "settings": {
+            "question": "How do I get it out of the pool when it's done?",
+            "answer": "<p>It auto-parks near the pool wall when finished or low on battery. The quick-drainage system releases up to 80% of stored water in about 15 seconds, then use the included retrieval hook to lift it out.</p>",
+            "icon": "none"
+          }
+        },
+        "question_BQYmLz": {
+          "type": "question",
+          "settings": {
+            "question": "What's included in the box?",
+            "answer": "<p>The Scuba 800 cleaner, a retrieval hook, a DC charger, and 2 replacement brushes.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JjXiyk": {
+          "type": "question",
+          "settings": {
+            "question": "How much debris can the filter hold before I need to empty it?",
+            "answer": "<p>The 180-micron filter basket holds up to 2 liters, enough for a standard cleaning cycle on an 860 sq ft pool.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JxkamV": {
+          "type": "question",
+          "settings": {
+            "question": "What kind of support do I get after purchase?",
+            "answer": "<p>Aiper's 1-year manufacturer's warranty, plus our own US based support team at support@yardautomationpros.com for setup and anything that comes up after.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "question_nCTWbR",
+        "question_69jhiF",
+        "question_8KCdGW",
+        "question_EcA6Mx",
+        "question_BQYmLz",
+        "question_JjXiyk",
+        "question_JxkamV"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "heading": "Expert Q&A: Scuba 800, Answered",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "small",
+        "icon_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_rich_text_s800Intro",
+    "dynamic_image_with_text_s800Hydro",
+    "dynamic_image_with_text_s800Drain",
+    "blocks_s8003col",
+    "dynamic_featured_collection_s800",
+    "dynamic_highlights_banner_s800",
+    "blocks_s8004col",
+    "blocks_whyyap_s800",
+    "recommendations",
+    "recently-viewed",
+    "178784317865f92603",
+    "dynamic_faq_s800"
+  ]
+}

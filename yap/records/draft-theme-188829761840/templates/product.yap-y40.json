@@ -1,0 +1,1378 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor_aA8jQd": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "2e128dd1-7dbd-45da-966d-745faa090a0f": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_WDrzrJ": {
+          "type": "text",
+          "name": "Unique Selling Points",
+          "settings": {
+            "text": "<p><a href=\"tel:4239273776\" title=\"tel:4239273776\"><em><strong>Buy Online Or Call Now To Order!</strong></em></a></p><p>✓ <strong>Free Shipping </strong>- on most {{ product.vendor }} products<br/>✓ <strong>Flexible Financing </strong>- Shop Pay Installments, rates from 0 to 36% APR, subject to an eligibility check<br/>✓ <strong>Ships Direct </strong>- orders ship in 10-14 business days<br/>✓ <strong>Questions? </strong>- Call <a href=\"tel:4239273776\" title=\"tel:4239273776\">(423)-927-3776</a></p>"
+          }
+        },
+        "12214949-0a99-47d0-875d-57cf008e67f8": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_display": "low_stock_threshold",
+            "inventory_transfer_notice": true
+          }
+        },
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": false,
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "yap_consult": {
+          "type": "custom-liquid",
+          "name": "YAP consultation CTA",
+          "settings": {
+            "custom_liquid": "<div style=\"margin:14px 0 0;padding:16px 18px;border-radius:16px;background:#fff;box-shadow:0 1px 2px rgba(35,39,57,.08);font-family:Roboto,sans-serif;\">\n  <p style=\"margin:0 0 6px;font-weight:700;color:#232739;font-size:16px;\">Not sure which Yarbo setup fits your property?</p>\n  <p style=\"margin:0 0 10px;color:#393939;font-size:15px;line-height:1.5;\">Book a free assessment. A Yard Automation Pro reviews your acreage, slopes and driveway with you and tells you honestly which setup makes sense.</p>\n  <a href=\"/pages/schedule-your-professional-consultation\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#233923;color:#fff;font-weight:700;font-size:14px;text-decoration:none;\">Book a free assessment</a>\n  <a href=\"tel:+14239273776\" style=\"margin-left:12px;color:#233923;font-weight:700;font-size:14px;\">+1 423-927-3776</a>\n</div>"
+          }
+        },
+        "yap_tabs": {
+          "type": "custom-liquid",
+          "name": "YAP product tabs",
+          "settings": {
+            "custom_liquid": "{% render 'yap-product-tabs' %}"
+          }
+        },
+        "judge_me_reviews_preview_badge_4NycBz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor_aA8jQd",
+        "2e128dd1-7dbd-45da-966d-745faa090a0f",
+        "price",
+        "text_WDrzrJ",
+        "12214949-0a99-47d0-875d-57cf008e67f8",
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956",
+        "yap_consult",
+        "yap_tabs",
+        "judge_me_reviews_preview_badge_4NycBz"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": true,
+        "gallery_thumbnail_position": "below",
+        "gallery_thumbnail_layout": "carousel",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "ys_owned": {
+      "type": "ys-owned",
+      "settings": {
+        "kicker": "Works with what you own",
+        "heading": "Made for the Yarbo Core.",
+        "needs": "Every module runs on a Yarbo Y Series Core. The Core is the drive, battery and navigation; the module does the job."
+      }
+    },
+    "yap_intro": {
+      "type": "yap-intro",
+      "settings": {
+        "show_product_title": true,
+        "eyebrow": "",
+        "heading": "Yard work, handled in every season.",
+        "text": "<p>One Yarbo Core and swappable modules mow the lawn, clear leaves, trim the edges and blow the snow. Below: the key numbers, what each module does, and a builder to plan the setup that fits your property.</p>"
+      }
+    },
+    "yap_ticker": {
+      "type": "yap-ticker",
+      "blocks": {
+        "b1": {
+          "type": "item",
+          "settings": {
+            "text": "Up to 6 acres mowed a week"
+          }
+        },
+        "b2": {
+          "type": "item",
+          "settings": {
+            "text": "Climbs 70% (35°) slopes"
+          }
+        },
+        "b3": {
+          "type": "item",
+          "settings": {
+            "text": "6,000 ft² of snow per charge"
+          }
+        },
+        "b4": {
+          "type": "item",
+          "settings": {
+            "text": "No boundary wire"
+          }
+        },
+        "b5": {
+          "type": "item",
+          "settings": {
+            "text": "Wireless auto-recharging"
+          }
+        },
+        "b6": {
+          "type": "item",
+          "settings": {
+            "text": "One Core, four modules"
+          }
+        },
+        "b7": {
+          "type": "item",
+          "settings": {
+            "text": "Free freight shipping"
+          }
+        },
+        "b8": {
+          "type": "item",
+          "settings": {
+            "text": "US support +1 423-927-3776"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8"
+      ],
+      "settings": {
+        "y40p_only": false,
+        "label": "Yarbo Y40 key facts"
+      }
+    },
+    "yap_hero": {
+      "type": "yap-video-hero",
+      "blocks": {
+        "b1": {
+          "type": "chip",
+          "settings": {
+            "value": "6 acres",
+            "label": "Per week, 2 cuts"
+          }
+        },
+        "b2": {
+          "type": "chip",
+          "settings": {
+            "value": "1.7 acres",
+            "label": "Mowed per day"
+          }
+        },
+        "b3": {
+          "type": "chip",
+          "settings": {
+            "value": "70%",
+            "label": "Slope rating (35°)"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3"
+      ],
+      "settings": {
+        "y40p_only": false,
+        "use_product": false,
+        "video_url": "https://cdn.shopify.com/videos/c/vp/555aa6e55928422db5d81dd520ff3c07/555aa6e55928422db5d81dd520ff3c07.HD-720p-2.1Mbps-95373697.mp4",
+        "poster": "shopify://shop_images/yap-y40p-mow-poster.jpg",
+        "video_label": "Yarbo mowing even stripes across a lawn",
+        "eyebrow": "Yarbo Y40",
+        "heading": "Your lawn, finished before breakfast.",
+        "text": "With the Lawn Mower Pro, the Yarbo Y40 mows up to 1.7 acres a day on its own schedule, with no boundary wire. Swap the module and the same machine clears leaves, trims edges and blows snow.",
+        "button_label": "",
+        "button_url": "",
+        "phone_link": false
+      }
+    },
+    "yap_stats": {
+      "type": "yap-stats",
+      "blocks": {
+        "b1": {
+          "type": "stat",
+          "settings": {
+            "prefix": "",
+            "number": "6",
+            "suffix": "acres",
+            "label": "Mowed per week",
+            "note": "At two cuts a week with the Lawn Mower Pro."
+          }
+        },
+        "b2": {
+          "type": "stat",
+          "settings": {
+            "prefix": "",
+            "number": "70",
+            "suffix": "%",
+            "label": "Max climb (35°)",
+            "note": "Tracks for slopes and rough ground."
+          }
+        },
+        "b3": {
+          "type": "stat",
+          "settings": {
+            "prefix": "",
+            "number": "6000",
+            "suffix": "ft²",
+            "label": "Snow per charge",
+            "note": "At 1 inch of snow with the Snow Blower."
+          }
+        },
+        "b4": {
+          "type": "stat",
+          "settings": {
+            "prefix": "",
+            "number": "120",
+            "suffix": "min",
+            "label": "Mowing per charge",
+            "note": "Then it docks and recharges on its own."
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4"
+      ],
+      "settings": {
+        "y40p_only": false,
+        "use_product": false,
+        "eyebrow": "Y40 at a glance",
+        "heading": "One machine, every season.",
+        "source": "Figures from yarbo.com for the Yarbo Y40 with the Lawn Mower Pro and Snow Blower modules."
+      }
+    },
+    "yap_anatomy": {
+      "type": "yap-anatomy",
+      "blocks": {
+        "b1": {
+          "type": "point",
+          "settings": {
+            "title": "Stereo vision and RTK",
+            "text": "Stereo vision and RTK positioning map your property in the app, so there is no boundary wire to bury. Yarbo's Data Center sets up a local RTK base station for centimeter-level accuracy.",
+            "fact": "No buried wire",
+            "x": 24,
+            "y": 32
+          }
+        },
+        "b2": {
+          "type": "point",
+          "settings": {
+            "title": "High-traction tracks",
+            "text": "Rubber tracks grip slopes up to 70% (35°), thick grass and uneven ground that stop many wheeled robots.",
+            "fact": "70% (35°) climb",
+            "x": 30,
+            "y": 70
+          }
+        },
+        "b3": {
+          "type": "point",
+          "settings": {
+            "title": "Wireless auto-recharging",
+            "text": "When the battery runs low it drives back to the dock and charges wirelessly, then carries on with the job.",
+            "fact": "90 min, 20 to 80%",
+            "x": 58,
+            "y": 53
+          }
+        },
+        "b4": {
+          "type": "point",
+          "settings": {
+            "title": "Quick-swap module mount",
+            "text": "The Lawn Mower Pro, Snow Blower, Leaf Blower and Trimmer all attach to the same Core, so one machine covers the whole year.",
+            "fact": "4 modules",
+            "x": 38,
+            "y": 49
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4"
+      ],
+      "settings": {
+        "y40p_only": false,
+        "eyebrow": "Inside the Core",
+        "heading": "The base that does every job.",
+        "intro": "Tap the numbers to see what does the work.",
+        "image": "shopify://shop_images/Yarbo_Core_1_0ed79aa3-2c3a-4f5d-9332-3b4036e2c3cd.png"
+      }
+    },
+    "yb_swap": {
+      "type": "yb-swap",
+      "blocks": {
+        "module1": {
+          "type": "module",
+          "settings": {
+            "name": "Lawn Mower Pro",
+            "sub": "Mowing, spring to fall",
+            "season": "Summer",
+            "icon": "mow",
+            "angle": 0,
+            "apart": "Yarbo_MPRO_1.png",
+            "together": "Yarbo_MPRO_3.png",
+            "fact1": "Cutting width|20 in",
+            "fact2": "Y40 per week|Up to 6 acres",
+            "fact3": "Y40P per week|Up to 7 acres",
+            "cta": "Shop the Lawn Mower Pro module",
+            "url": "shopify://products/yarbo-lawn-mower-pro-module"
+          }
+        },
+        "module2": {
+          "type": "module",
+          "settings": {
+            "name": "Leaf Blower",
+            "sub": "Leaves and debris",
+            "season": "Fall",
+            "icon": "leaf",
+            "angle": 135,
+            "apart": "Yarbo_B1_2.png",
+            "together": "Yarbo_B1_4.png",
+            "fact1": "Airflow|607 CFM",
+            "fact2": "Air speed|174 mph",
+            "fact3": "Works on|Lawns, drives, paths",
+            "cta": "Shop the Leaf Blower module",
+            "url": "shopify://products/yarbo-leaf-blower-module"
+          }
+        },
+        "module3": {
+          "type": "module",
+          "settings": {
+            "name": "Snow Blower",
+            "sub": "Two-stage, on tracks",
+            "season": "Winter",
+            "icon": "snow",
+            "angle": -135,
+            "apart": "Yarbo_S1_2.png",
+            "together": "Yarbo_S1_3.png",
+            "fact1": "Clearing path|24 in",
+            "fact2": "Throw|6 to 40 ft",
+            "fact3": "Intake height|12 in",
+            "cta": "Shop the Snow Blower module",
+            "url": "shopify://products/yarbo-snow-blower-module"
+          }
+        }
+      },
+      "block_order": [
+        "module1",
+        "module2",
+        "module3"
+      ],
+      "settings": {
+        "tone": "paper",
+        "kicker": "One Core, every season",
+        "heading": "Swap the module, change the job.",
+        "text": "The same tracked Core takes a Lawn Mower Pro, a Snow Blower or a Leaf Blower module. Pick one to see it go on.",
+        "note": "Renders from Yarbo. Figures from Yarbo; acreage at two cuts a week, snow area at 1 inch of snow."
+      }
+    },
+    "yap_upgrades": {
+      "type": "yap-season-scroll",
+      "blocks": {
+        "b1": {
+          "type": "chapter",
+          "settings": {
+            "label": "Spring to fall",
+            "title": "The lawn, on schedule.",
+            "text": "The Lawn Mower Pro mows up to 1.7 acres a day and about 6 acres a week at two cuts, with a 20 inch cut from 0.8 to 4 inches. It handles cool and warm season grasses.",
+            "link_label": "",
+            "link": "",
+            "image_a": "shopify://shop_images/Covers_Large_Properties_with_Ease.jpg",
+            "image_b": "shopify://shop_images/Yarbo_Lawn_Mower_Pro_2.webp"
+          }
+        },
+        "b2": {
+          "type": "chapter",
+          "settings": {
+            "label": "Fall",
+            "title": "Leaves off the lawn.",
+            "text": "The Leaf Blower Module moves 174 mph air at 607 CFM across lawns, drives and paths, on slopes up to 70% (35°).",
+            "link_label": "",
+            "link": "",
+            "image_a": "shopify://shop_images/Frame_2036458133.webp",
+            "image_b": "shopify://shop_images/Blower_Module2.webp"
+          }
+        },
+        "b3": {
+          "type": "chapter",
+          "settings": {
+            "label": "Winter",
+            "title": "The driveway, cleared.",
+            "text": "The 2-stage Snow Blower clears a 24 inch path and throws snow 6 to 40 feet, up to 6,000 ft² per charge at 1 inch of snow, from -13°F to 113°F.",
+            "link_label": "",
+            "link": "",
+            "image_a": "shopify://shop_images/Yarbo_S1_7_1.png",
+            "image_b": "shopify://shop_images/Yarbo_S1_5_1.png"
+          }
+        },
+        "b4": {
+          "type": "chapter",
+          "settings": {
+            "label": "All season",
+            "title": "Clean edges.",
+            "text": "The Trimmer finishes the strip along fences, walls and beds that a mower leaves behind. It connects through the Back Brace Mount in the Trimmer Package.",
+            "link_label": "",
+            "link": "",
+            "image_a": "shopify://shop_images/yap-trimmer-1.png",
+            "image_b": "shopify://shop_images/Yarbo_T1_5.png"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4"
+      ],
+      "settings": {
+        "y40p_only": false,
+        "eyebrow": "A year with the Y40",
+        "heading": "Four seasons, one machine."
+      }
+    },
+    "yap_compare": {
+      "type": "yap-compare",
+      "blocks": {
+        "b1": {
+          "type": "row",
+          "settings": {
+            "metric": "Drive system",
+            "a": "Tracked drive",
+            "b": "Gearbox-free hub motors",
+            "bar_a": 0,
+            "bar_b": 0
+          }
+        },
+        "b2": {
+          "type": "row",
+          "settings": {
+            "metric": "Max drive speed",
+            "a": "0.6 m/s",
+            "b": "1.2 m/s",
+            "bar_a": 50,
+            "bar_b": 100
+          }
+        },
+        "b3": {
+          "type": "row",
+          "settings": {
+            "metric": "Lawn mowed per charge",
+            "a": "0.25 acre",
+            "b": "0.3 acre",
+            "bar_a": 83,
+            "bar_b": 100
+          }
+        },
+        "b4": {
+          "type": "row",
+          "settings": {
+            "metric": "Lawn mowed per day",
+            "a": "1.7 acres",
+            "b": "2 acres",
+            "bar_a": 85,
+            "bar_b": 100
+          }
+        },
+        "b5": {
+          "type": "row",
+          "settings": {
+            "metric": "Weekly coverage (2 cuts)",
+            "a": "6 acres",
+            "b": "7 acres",
+            "bar_a": 86,
+            "bar_b": 100
+          }
+        },
+        "b6": {
+          "type": "row",
+          "settings": {
+            "metric": "Snow cleared per charge",
+            "a": "6,000 ft²",
+            "b": "7,000 ft²",
+            "bar_a": 86,
+            "bar_b": 100
+          }
+        },
+        "b7": {
+          "type": "row",
+          "settings": {
+            "metric": "Max climb",
+            "a": "70% (35°)",
+            "b": "70% (35°)",
+            "bar_a": 0,
+            "bar_b": 0
+          }
+        },
+        "b8": {
+          "type": "row",
+          "settings": {
+            "metric": "Modules",
+            "a": "Y Series",
+            "b": "Y Series",
+            "bar_a": 0,
+            "bar_b": 0
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8"
+      ],
+      "settings": {
+        "y40p_only": false,
+        "eyebrow": "Y40 or Y40P?",
+        "heading": "Same system, two cores.",
+        "intro": "Both cores take the same Y Series modules and climb the same 70% (35°) slopes. The Y40P adds gearbox-free hub motors for more ground per charge. Book an assessment and we will tell you honestly which one your property needs.",
+        "col_label": "Metric",
+        "col_a": "Y40",
+        "col_b": "Y40P",
+        "source": "Source: yarbo.com and Yarbo's Y40P product overview. Mowing figures use the Lawn Mower Pro module; snow figures assume 1 inch of snow."
+      }
+    },
+    "yb_acre": {
+      "type": "yb-acre",
+      "settings": {
+        "tone": "light",
+        "kicker": "Size it",
+        "heading": "How much lawn is yours?",
+        "text": "Slide to the area of grass you mow, not the whole lot. The gauge shows it against Yarbo's weekly ratings for each Core.",
+        "note": "Yarbo ratings at two cuts a week. Slopes up to 70% (35°); steep or broken ground can lower real coverage."
+      }
+    },
+    "yap_modules": {
+      "type": "yap-modules",
+      "blocks": {
+        "b1": {
+          "type": "module",
+          "settings": {
+            "name": "Lawn Mower Pro",
+            "season": "Spring to fall",
+            "status": "",
+            "headline": "A striped lawn, on schedule.",
+            "text": "Two 300 W cutting motors cut a 20-inch path at any height from 0.8 to 4 inches. Cameras, ultrasonic sensors and a bumper watch the path, and it handles cool and warm season grasses.",
+            "image": "shopify://shop_images/Yarbo_M1_8.png",
+            "video_url": "https://cdn.shopify.com/videos/c/vp/f11a40710fea41b7b8e52e5f456b6d06/f11a40710fea41b7b8e52e5f456b6d06.HD-720p-1.6Mbps-95373699.mp4",
+            "specs": "Per charge | 0.25 acre\nPer day | 1.7 acres\nWeekly (2 cuts) | 6 acres\nCutting width | 20 in\nCutting height | 0.8 to 4.0 in\nWeather rating | IPX6",
+            "product": "yarbo-lawn-mower-pro-module",
+            "fallback_price": "$1,800"
+          }
+        },
+        "b2": {
+          "type": "module",
+          "settings": {
+            "name": "Snow Blower",
+            "season": "Winter",
+            "status": "",
+            "headline": "The driveway, cleared before you need it.",
+            "text": "A 2-stage blower clears a 24-inch path, takes snow up to 12 inches deep and throws it 6 to 40 feet. It handles dry, wet and packed snow on paved, concrete and gravel surfaces, from -13°F to 113°F.",
+            "image": "shopify://shop_images/Yarbo_S1_6_6d0f8ff7-93d8-406e-a7e9-ca36851661cc.png",
+            "video_url": "https://cdn.shopify.com/videos/c/vp/728a6939d9c54f90aa3432517aed842a/728a6939d9c54f90aa3432517aed842a.HD-720p-1.6Mbps-95373698.mp4",
+            "specs": "Per charge (1 in snow) | 6,000 ft²\nClearing width | 24 in\nIntake height | 12 in\nThrow distance | 6 to 40 ft\nRated slope | 36% (20°)\nWeather rating | IPX5",
+            "product": "yarbo-snow-blower-module",
+            "fallback_price": "$2,000"
+          }
+        },
+        "b3": {
+          "type": "module",
+          "settings": {
+            "name": "Blower",
+            "season": "Fall",
+            "status": "",
+            "headline": "Leaves off the lawn before they mat down.",
+            "text": "174 mph air at 607 CFM moves leaves and debris off lawns and paths, on slopes up to 70% (35°).",
+            "image": "shopify://shop_images/Yarbo_B1_8_0922d4c6-5a2f-4cfe-9645-e982b05e43c4.png",
+            "video_url": "",
+            "specs": "Air velocity | 174 mph\nAir volume | 607 CFM\nRated slope | 70% (35°)\nWeather rating | IPX5\nWeight | 28.7 lb",
+            "product": "yarbo-leaf-blower-module",
+            "fallback_price": "$1,000"
+          }
+        },
+        "b4": {
+          "type": "module",
+          "settings": {
+            "name": "Trimmer",
+            "season": "Spring to fall",
+            "status": "",
+            "headline": "Clean edges where the mower can't reach.",
+            "text": "The Trimmer finishes the strip along fences, walls and beds that a mower leaves behind. It connects to the Core through the Back Brace Mount, which comes in the Trimmer Package.",
+            "image": "shopify://shop_images/yap-y40p-trimmer-poster.jpg",
+            "video_url": "https://cdn.shopify.com/videos/c/vp/7d6cc81a04c94925979b3f0e56e30e1a/7d6cc81a04c94925979b3f0e56e30e1a.HD-720p-1.6Mbps-95373700.mp4",
+            "specs": "Motor | 200 W, 36 V\nRun time per charge | 135 min\nLine speed | 6,500 RPM\nTrimming height | 2 to 4 in\nLine | 0.06 in, 23 ft\nRated slope | 70% (35°)",
+            "product": "yarbo-trimmer-package-trimmer-module-bbm",
+            "fallback_price": "$1,200"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4"
+      ],
+      "settings": {
+        "y40p_only": false,
+        "eyebrow": "One Core, four jobs",
+        "heading": "Pick the job. Swap the module.",
+        "intro": "Every module snaps onto the same Core. When the season changes, you change the module and the Core keeps its map of your property.",
+        "consult_url": "shopify://pages/schedule-your-professional-consultation"
+      }
+    },
+    "yap_trimmer": {
+      "type": "yap-spotlight",
+      "blocks": {
+        "b1": {
+          "type": "step",
+          "settings": {
+            "title": "Back Brace Mount.",
+            "text": "A mount on the back of the Core. The Trimmer only connects through it."
+          }
+        },
+        "b2": {
+          "type": "step",
+          "settings": {
+            "title": "Trimmer head.",
+            "text": "A 200 W motor spins the line at 6,500 RPM and trims from 2 to 4 inches high, for about 135 minutes per charge."
+          }
+        },
+        "b3": {
+          "type": "step",
+          "settings": {
+            "title": "Tow hitch included.",
+            "text": "The package also ships with a tow hitch made to work with the Back Brace Mount."
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3"
+      ],
+      "settings": {
+        "badge": "Trimmer Package (Y Series)",
+        "heading": "Meet the Yarbo Trimmer.",
+        "text": "Mowing leaves a line of grass along every fence post, wall and flower bed. The Trimmer takes care of that line, so the lawn looks finished without anyone walking the edges with a string trimmer.",
+        "video_url": "https://cdn.shopify.com/videos/c/vp/7d6cc81a04c94925979b3f0e56e30e1a/7d6cc81a04c94925979b3f0e56e30e1a.HD-720p-1.6Mbps-95373700.mp4",
+        "image": "shopify://shop_images/yap-y40p-trimmer-poster.jpg",
+        "image_2": "shopify://shop_images/yap-trimmer-4_aeb7e769-be7c-4050-a042-eb56c8cee3d7.png",
+        "product": "yarbo-trimmer-package-trimmer-module-bbm",
+        "fallback_price": "$1,200",
+        "footnote": "The Trimmer Package includes the Trimmer, the Back Brace Mount and a matching tow hitch."
+      }
+    },
+    "yap_builder": {
+      "type": "yap-builder",
+      "blocks": {
+        "b1": {
+          "type": "option",
+          "settings": {
+            "kind": "core",
+            "product": "yarbo-core",
+            "title": "Yarbo Y40 Core",
+            "job": "The base: drive, battery and navigation",
+            "image": "shopify://shop_images/Yarbo_Core_1_0ed79aa3-2c3a-4f5d-9332-3b4036e2c3cd.png",
+            "months": "",
+            "color": "#232739",
+            "default_on": true
+          }
+        },
+        "b2": {
+          "type": "option",
+          "settings": {
+            "kind": "module",
+            "product": "yarbo-lawn-mower-pro-module",
+            "title": "Lawn Mower Pro module (Y Series)",
+            "job": "Mowing, spring to fall",
+            "image": "shopify://shop_images/Yarbo_M1_4.png",
+            "fallback_cents": 180000,
+            "months": "4,5,6,7,8,9,10",
+            "color": "#3f7d3a",
+            "default_on": true
+          }
+        },
+        "b3": {
+          "type": "option",
+          "settings": {
+            "kind": "module",
+            "product": "yarbo-leaf-blower-module",
+            "title": "Blower module (Y Series)",
+            "job": "Leaves and debris, fall",
+            "image": "shopify://shop_images/Yarbo_B1_1_a06c6c30-71c0-40be-a6db-241816216790.png",
+            "fallback_cents": 100000,
+            "months": "9,10,11",
+            "color": "#c9772e",
+            "default_on": false
+          }
+        },
+        "b4": {
+          "type": "option",
+          "settings": {
+            "kind": "module",
+            "product": "yarbo-snow-blower-module",
+            "title": "Snow Blower module (Y Series)",
+            "job": "Driveways and paths, winter",
+            "image": "shopify://shop_images/Yarbo_S1_3_2.png",
+            "fallback_cents": 200000,
+            "months": "12,1,2,3",
+            "color": "#6aa3cf",
+            "default_on": false
+          }
+        },
+        "b5": {
+          "type": "option",
+          "settings": {
+            "kind": "module",
+            "product": "yarbo-trimmer-package-trimmer-module-bbm",
+            "title": "Trimmer Package",
+            "job": "Edges along fences and beds",
+            "image": "shopify://shop_images/yap-trimmer-package.png",
+            "fallback_cents": 120000,
+            "months": "4,5,6,7,8,9,10",
+            "color": "#c9a84c",
+            "default_on": false
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5"
+      ],
+      "settings": {
+        "eyebrow": "Build your Yarbo year",
+        "heading": "Pick the jobs you want off your list.",
+        "intro": "Choose your modules. The calendar fills in the months your yard is covered and the total updates as you go.",
+        "jobs_label": "jobs handled by one machine",
+        "note": "You buy the Core once. Each module gives the same machine another job, so you are not paying for a new drive, battery and navigation system every season. Start with one module and add the next when you are ready."
+      }
+    },
+    "yap_mosaic": {
+      "type": "yap-mosaic",
+      "blocks": {
+        "b1": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify://shop_images/yap-y40p-mow-poster.jpg",
+            "video_url": "https://cdn.shopify.com/videos/c/vp/555aa6e55928422db5d81dd520ff3c07/555aa6e55928422db5d81dd520ff3c07.HD-720p-2.1Mbps-95373697.mp4",
+            "caption": "Mowing even stripes on a wide lawn",
+            "size": "big"
+          }
+        },
+        "b2": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify://shop_images/Yarbo_S1_7_1.png",
+            "video_url": "",
+            "caption": "Clearing snow down to the pavement",
+            "size": "tall"
+          }
+        },
+        "b3": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify://shop_images/Yarbo_Lawn_Mower_Pro_2.webp",
+            "video_url": "",
+            "caption": "Lawn Mower Pro in thick grass",
+            "size": "normal"
+          }
+        },
+        "b4": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2036458134.webp",
+            "video_url": "",
+            "caption": "Leaf Blower in the fall",
+            "size": "normal"
+          }
+        },
+        "b5": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify://shop_images/yap-yarbo-four-seasons.jpg",
+            "video_url": "",
+            "caption": "One Core through all four seasons",
+            "size": "wide"
+          }
+        },
+        "b6": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2036458133.webp",
+            "video_url": "",
+            "caption": "Clearing a leaf-covered lawn",
+            "size": "tall"
+          }
+        },
+        "b7": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify://shop_images/yarbo-core--pos1--Yarbo_Core_7.webp",
+            "video_url": "",
+            "caption": "The Yarbo Core",
+            "size": "normal"
+          }
+        },
+        "b8": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify://shop_images/yap-trimmer-2.png",
+            "video_url": "",
+            "caption": "Trimmer finishing an edge",
+            "size": "normal"
+          }
+        },
+        "b9": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify://shop_images/yap-y40p-trimmer-poster.jpg",
+            "video_url": "https://cdn.shopify.com/videos/c/vp/7d6cc81a04c94925979b3f0e56e30e1a/7d6cc81a04c94925979b3f0e56e30e1a.HD-720p-1.6Mbps-95373700.mp4",
+            "caption": "Trimmer along a wall",
+            "size": "wide"
+          }
+        },
+        "b10": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify://shop_images/Yarbo_S1_8_09d71954-587d-4697-8a7d-a92ad7bd08e0.png",
+            "video_url": "",
+            "caption": "Snow Blower in deep snow",
+            "size": "normal"
+          }
+        },
+        "b11": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify://shop_images/Frame_2036458136.webp",
+            "video_url": "",
+            "caption": "Working a 35° slope",
+            "size": "normal"
+          }
+        },
+        "b12": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify://shop_images/Covers_Large_Properties_with_Ease.jpg",
+            "video_url": "",
+            "caption": "Large lawns, no boundary wire",
+            "size": "normal"
+          }
+        },
+        "b13": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify://shop_images/Yarbo_S1_5_1.png",
+            "video_url": "",
+            "caption": "Driveway cleared",
+            "size": "normal"
+          }
+        },
+        "b14": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify://shop_images/yap-yarbo-driveway-snow.png",
+            "video_url": "",
+            "caption": "Home driveway after a storm",
+            "size": "wide"
+          }
+        },
+        "b15": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify://shop_images/Yarbo_Lawn_Mower_Pro_5.webp",
+            "video_url": "",
+            "caption": "What comes in the Lawn Mower Pro box",
+            "size": "normal"
+          }
+        },
+        "b16": {
+          "type": "tile",
+          "settings": {
+            "image": "shopify://shop_images/Yarbo_4-in-1_Yard_Robot_with_Lawn_Mower_Pro_Module.webp",
+            "video_url": "",
+            "caption": "Core with every module",
+            "size": "normal"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10",
+        "b11",
+        "b12",
+        "b13",
+        "b14",
+        "b15",
+        "b16"
+      ],
+      "settings": {
+        "y40p_only": false,
+        "use_product_media": false,
+        "eyebrow": "Yarbo at work",
+        "heading": "Four seasons, one machine.",
+        "intro": "Photos and films from Yarbo. Tap a photo to see it full size."
+      }
+    },
+    "yb_reel": {
+      "type": "yb-reel",
+      "blocks": {
+        "clip1": {
+          "type": "clip",
+          "settings": {
+            "title": "Snow thrown clear of the lane",
+            "kicker": "Winter",
+            "alt": "Yarbo Snow Blower Module clearing a lane beside a fence",
+            "src": "https://cdn.shopify.com/videos/c/vp/acfb96aa41cf4c319ae5d2c71ed7ee30/acfb96aa41cf4c319ae5d2c71ed7ee30.HD-720p-1.6Mbps-95506851.mp4",
+            "poster": "yap-film-snow.jpg"
+          }
+        },
+        "clip2": {
+          "type": "clip",
+          "settings": {
+            "title": "Two-stage snow blower, up close",
+            "kicker": "Winter",
+            "alt": "Yarbo Snow Blower Module throwing snow, close up",
+            "src": "https://cdn.shopify.com/videos/c/vp/e5675ac9d8e04e04862736abd4c19a17/e5675ac9d8e04e04862736abd4c19a17.SD-480p-0.9Mbps-95506852.mp4",
+            "poster": "yap-film-snow-close.jpg"
+          }
+        },
+        "clip3": {
+          "type": "clip",
+          "settings": {
+            "title": "Leaves moved off the lawn",
+            "kicker": "Fall",
+            "alt": "Yarbo Leaf Blower Module clearing leaves",
+            "src": "https://cdn.shopify.com/videos/c/vp/f6d88a9d601541928b29489dd95cd92d/f6d88a9d601541928b29489dd95cd92d.HD-720p-1.6Mbps-95506853.mp4",
+            "poster": "yap-film-leaves.jpg"
+          }
+        },
+        "clip4": {
+          "type": "clip",
+          "settings": {
+            "title": "Mowing stripes on its own",
+            "kicker": "Summer",
+            "alt": "Yarbo Lawn Mower Pro mowing stripes",
+            "src": "https://cdn.shopify.com/videos/c/vp/dced8af3408a4799ab79eaeab63c0a14/dced8af3408a4799ab79eaeab63c0a14.HD-720p-2.1Mbps-95506854.mp4",
+            "poster": "yap-film-mow.jpg"
+          }
+        },
+        "clip5": {
+          "type": "clip",
+          "settings": {
+            "title": "Trimming along the wall",
+            "kicker": "Summer",
+            "alt": "Yarbo trimmer edging along a wall",
+            "src": "https://cdn.shopify.com/videos/c/vp/7fdcb63793c342d889eb0514aa4f3e51/7fdcb63793c342d889eb0514aa4f3e51.HD-720p-1.6Mbps-95506855.mp4",
+            "poster": "yap-film-trim.jpg"
+          }
+        },
+        "clip6": {
+          "type": "clip",
+          "settings": {
+            "title": "A snowy path, cleared",
+            "kicker": "Winter",
+            "alt": "Owners watching Yarbo clear a snowy path",
+            "src": "https://cdn.shopify.com/videos/c/vp/12192f78441746c5b05c9a29284c6b19/12192f78441746c5b05c9a29284c6b19.HD-720p-1.6Mbps-95506856.mp4",
+            "poster": "yap-film-family.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "clip1",
+        "clip2",
+        "clip3",
+        "clip4",
+        "clip5",
+        "clip6"
+      ],
+      "settings": {
+        "kicker": "Yarbo at work",
+        "heading": "Watch a year of yard work.",
+        "text": "Mowing, trimming, leaves and snow, all with the same Core. Clips play muted; tap any clip to jump to it.",
+        "note": "Clips from Yarbo's media kit."
+      }
+    },
+    "yap_shop": {
+      "type": "dynamic-featured-collection",
+      "settings": {
+        "title": "Shop the Yarbo system",
+        "layout": "grid",
+        "mobile_layout": "slideshow",
+        "collection": "yarbo",
+        "product_count": 8,
+        "cta_label": "See every Yarbo product",
+        "cta_button_style": "primary"
+      }
+    },
+    "yap_specs": {
+      "type": "yap-specs",
+      "blocks": {
+        "b1": {
+          "type": "group",
+          "settings": {
+            "name": "Y40 Core",
+            "note": "",
+            "rows": "Max drive speed | 0.6 m/s\nMax climb | 70% (35°)\nBattery | 36 V, 38.4 Ah\nCharging time (20 to 80%) | 90 min\nAuto-recharge | Yes, wireless\nPositioning | RTK and stereo vision, IMU\nOperating temperature | -13°F to 113°F (-25°C to 45°C)\nSmart Assist Module | Needed for certain features, sold separately\nModules | Lawn Mower Pro, Snow Blower, Blower, Trimmer"
+          }
+        },
+        "b2": {
+          "type": "group",
+          "settings": {
+            "name": "Lawn Mower Pro",
+            "note": "",
+            "rows": "Max mowing size (2 cuts a week) | 6 acres\nMowing area per day | 1.7 acres\nMowing area per charge (20 to 80%) | 0.25 acre\nCutting motors | 300 W x 2\nCutting width | 20 in (500 mm)\nCutting height | 0.8 to 4.0 in (20 to 102 mm)\nMowing time per charge | 120 min\nObstacle avoidance | Binocular cameras, ultrasonic sensors, bumper\nIP rating | IPX6\nWeight | 70.9 lb (32.2 kg)"
+          }
+        },
+        "b3": {
+          "type": "group",
+          "settings": {
+            "name": "Snow Blower",
+            "note": "",
+            "rows": "Coverage per charge (1 in snow) | 6,000 ft²\nStage type | 2-stage\nClearing width | 24 in (600 mm)\nIntake height | 12 in (300 mm)\nThrow distance | 6 to 40 ft (1.8 to 12 m)\nChute rotation | -10° to 190°\nDeflector angle | -5° to 50°\nRated slope | 36% (20°)\nSnow types | Dry, wet, packed\nSurfaces | Paved, concrete, gravel\nOperating temperature | -13°F to 113°F (-25°C to 45°C)\nWeight | 83 lb (37.5 kg)"
+          }
+        },
+        "b4": {
+          "type": "group",
+          "settings": {
+            "name": "Blower",
+            "note": "",
+            "rows": "Air velocity | 174 mph\nAir volume | 607 CFM\nRated slope | 70% (35°)\nIP rating | IPX5\nOperating temperature | -13°F to 113°F (-25°C to 45°C)\nWeight | 28.7 lb (13 kg)"
+          }
+        },
+        "b5": {
+          "type": "group",
+          "settings": {
+            "name": "Trimmer",
+            "note": "",
+            "rows": "Includes | Trimmer, Back Brace Mount, tow hitch\nVoltage | 36 V\nMotor power | 200 W\nOperating time per charge | 135 min\nNo-load speed | 6,500 RPM\nLine | 0.06 in (1.6 mm), 23 ft (7 m)\nTrimming height | 2 to 4 in (50 to 102 mm)\nMax climb | 70% (35°)\nIP rating | IPX5"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5"
+      ],
+      "settings": {
+        "y40p_only": false,
+        "use_product_specs": false,
+        "default_group": "",
+        "eyebrow": "Specifications",
+        "heading": "Every number, in one place.",
+        "source": "Specifications from yarbo.com and Yarbo's product documentation. Figures are for the Y40 unless noted."
+      }
+    },
+    "yap_testimonials": {
+      "type": "yap-testimonials",
+      "blocks": {
+        "b1": {
+          "type": "quote",
+          "settings": {
+            "quote": "",
+            "name": "",
+            "detail": "",
+            "source": "",
+            "rating": 0
+          }
+        }
+      },
+      "block_order": [
+        "b1"
+      ],
+      "settings": {
+        "eyebrow": "From Yard Automation Pros customers",
+        "heading": "What owners are saying."
+      }
+    },
+    "yb_tubes": {
+      "type": "yb-tubes",
+      "blocks": {
+        "video1": {
+          "type": "video",
+          "settings": {
+            "id": "o36d3tQtJUw",
+            "channel": "DIY with Vinny",
+            "title": "1 Year With Yarbo Robot Doing my Yardwork: Real-World Review of the Mower, Snow Blower & Leaf Blower"
+          }
+        },
+        "video2": {
+          "type": "video",
+          "settings": {
+            "id": "pkQDG5KqUCE",
+            "channel": "Brandon Doyle",
+            "title": "Yarbo Review: One Year Later"
+          }
+        },
+        "video3": {
+          "type": "video",
+          "settings": {
+            "id": "PJ4K8LPo7t8",
+            "channel": "Payette Forward",
+            "title": "Best Robot Lawnmower, Snowblower, Leaf Blower & More: Yarbo Modular Yard Robot Review [2025]"
+          }
+        },
+        "video4": {
+          "type": "video",
+          "settings": {
+            "id": "_ZujtKxNKv0",
+            "channel": "Michael Leen",
+            "title": "The Most Insane Yard Robot Ever Made? Yarbo Review"
+          }
+        },
+        "video5": {
+          "type": "video",
+          "settings": {
+            "id": "FocsMlo2pq0",
+            "channel": "Dirty Tesla",
+            "title": "The Yarbo Robot Snow Blower Drives Itself - But Does It Actually Work?"
+          }
+        },
+        "video6": {
+          "type": "video",
+          "settings": {
+            "id": "9BP40fKU9Kw",
+            "channel": "Mike O'Brien",
+            "title": "I Replaced My Lawn Guy with A Robot (Yarbo In-Depth Review)"
+          }
+        }
+      },
+      "block_order": [
+        "video1",
+        "video2",
+        "video3",
+        "video4",
+        "video5",
+        "video6"
+      ],
+      "settings": {
+        "kicker": "Independent reviews",
+        "heading": "Owners and reviewers on YouTube.",
+        "text": "Long-form reviews from people who have run a Yarbo through the seasons, good points and bad.",
+        "note": "Videos by independent creators on YouTube. Their opinions are their own. Videos load only when you press play."
+      }
+    },
+    "yap_faq": {
+      "type": "yap-faq",
+      "blocks": {
+        "b1": {
+          "type": "qa",
+          "settings": {
+            "q": "What is the difference between the Y40 and the Y40P?",
+            "a": "<p>Both take the same Y Series modules and climb slopes up to 70% (35°). The Y40P adds gearbox-free hub motors: top speed goes from 0.6 to 1.2 m/s, weekly mowing from about 6 to 7 acres, and snow per charge from 6,000 to 7,000 ft². If the Y40's numbers cover your property, it is the lower-cost way into the system.</p>"
+          }
+        },
+        "b2": {
+          "type": "qa",
+          "settings": {
+            "q": "Does the Yarbo Core work on its own?",
+            "a": "<p>No. The Core is the base: drive, battery and navigation. It needs a module to mow, blow or clear snow. The bundles include the Core and one or more modules, so they are ready to run.</p>"
+          }
+        },
+        "b3": {
+          "type": "qa",
+          "settings": {
+            "q": "How much lawn can the Y40 mow?",
+            "a": "<p>With the Lawn Mower Pro, up to 0.25 acre per charge, 1.7 acres a day and about 6 acres a week at two cuts. It mows for up to 120 minutes per charge, then docks and recharges on its own.</p>"
+          }
+        },
+        "b4": {
+          "type": "qa",
+          "settings": {
+            "q": "How steep a slope can it handle?",
+            "a": "<p>Up to 70% (35°) with the Lawn Mower Pro, Blower and Trimmer. With the Snow Blower, Yarbo rates it for slopes up to 36% (20°).</p>"
+          }
+        },
+        "b5": {
+          "type": "qa",
+          "settings": {
+            "q": "Can it work in rain and cold?",
+            "a": "<p>The Lawn Mower Pro is rated IPX6 and has rain detection. The Snow Blower, Blower and Trimmer are rated IPX5, and Yarbo lists an operating range of -13°F to 113°F.</p>"
+          }
+        },
+        "b6": {
+          "type": "qa",
+          "settings": {
+            "q": "Do I need to bury a boundary wire?",
+            "a": "<p>No. The Core uses RTK and stereo vision positioning, and Yarbo's Data Center sets up a local RTK base station. You map your property in the app instead of digging in a wire.</p>"
+          }
+        },
+        "b7": {
+          "type": "qa",
+          "settings": {
+            "q": "What is the Smart Assist Module?",
+            "a": "<p>Yarbo notes that certain features need the Smart Assist Module, which is sold separately. Call <a href=\"tel:+14239273776\">+1 423-927-3776</a> and we will tell you whether your plans need it.</p>"
+          }
+        },
+        "b8": {
+          "type": "qa",
+          "settings": {
+            "q": "Can I add modules later?",
+            "a": "<p>Yes. Every module is a Y Series module, so you can start with one and add the Snow Blower, Blower or Trimmer to the same Core when you are ready.</p>"
+          }
+        },
+        "b9": {
+          "type": "qa",
+          "settings": {
+            "q": "What is the Yarbo Trimmer?",
+            "a": "<p>A module that edges along fences, walls and beds where the mower cannot reach. It connects to the Core through the Back Brace Mount, which comes in the Trimmer Package with a tow hitch.</p>"
+          }
+        },
+        "b10": {
+          "type": "qa",
+          "settings": {
+            "q": "What support do I get after I buy?",
+            "a": "<p>Every Yarbo is covered by Yarbo's 2-year limited warranty, and our team is at <a href=\"tel:+14239273776\">+1 423-927-3776</a>, 9am to 5pm EST, or <a href=\"mailto:Support@yardautomationpros.com\">Support@yardautomationpros.com</a>. We help with app setup, mapping and warranty claims with Yarbo.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3",
+        "b4",
+        "b5",
+        "b6",
+        "b7",
+        "b8",
+        "b9",
+        "b10"
+      ],
+      "settings": {
+        "y40p_only": false,
+        "eyebrow": "Questions before you buy",
+        "heading": "Yarbo Y40, answered.",
+        "intro": "<p>Still deciding? Call <a href=\"tel:+14239273776\">+1 423-927-3776</a>, 9am to 5pm EST, or <a href=\"/pages/schedule-your-professional-consultation\">book a free property assessment</a>.</p>"
+      }
+    },
+    "yap_final": {
+      "type": "yap-video-hero",
+      "settings": {
+        "y40p_only": false,
+        "use_product": false,
+        "video_url": "https://cdn.shopify.com/videos/c/vp/728a6939d9c54f90aa3432517aed842a/728a6939d9c54f90aa3432517aed842a.HD-720p-1.6Mbps-95373698.mp4",
+        "poster": "shopify://shop_images/yap-y40p-snow-poster.jpg",
+        "video_label": "Yarbo clearing a snowy path at sunrise",
+        "eyebrow": "Free property assessment",
+        "heading": "Not sure it fits your property?",
+        "text": "Tell us about your acreage, slopes and driveway. A Yard Automation Pro will recommend the setup that makes sense, including when a Yarbo is not the right answer.",
+        "button_label": "Book a free assessment",
+        "button_url": "shopify://pages/schedule-your-professional-consultation",
+        "phone_link": true
+      }
+    },
+    "yap_sticky": {
+      "type": "yap-sticky-atc",
+      "settings": {
+        "consult_url": "shopify://pages/schedule-your-professional-consultation"
+      }
+    },
+    "yap_reviews": {
+      "type": "yap-reviews",
+      "blocks": {
+        "rich_text": {
+          "type": "rich_text",
+          "settings": {
+            "heading": "What Yarbo owners are saying",
+            "text": "<p>These reviews were written by Yarbo owners and originally posted on yarbo.com.</p>"
+          }
+        },
+        "review_widget": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "rich_text",
+        "review_widget"
+      ],
+      "settings": {
+        "handles": "yarbo-lawn-mower-pro-core-lawn-mower-pro-module\nyarbo-snow-blower-core-snow-blower-module",
+        "tone": "paper"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ys_owned",
+    "yap_intro",
+    "yap_ticker",
+    "yap_hero",
+    "yap_stats",
+    "yap_anatomy",
+    "yb_swap",
+    "yap_upgrades",
+    "yap_compare",
+    "yb_acre",
+    "yap_modules",
+    "yap_trimmer",
+    "yap_builder",
+    "yap_mosaic",
+    "yb_reel",
+    "yap_shop",
+    "yap_specs",
+    "yap_testimonials",
+    "yb_tubes",
+    "yap_faq",
+    "yap_reviews",
+    "yap_final",
+    "yap_sticky"
+  ]
+}

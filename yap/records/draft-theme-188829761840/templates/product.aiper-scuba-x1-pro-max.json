@@ -1,0 +1,548 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor_aA8jQd": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "2e128dd1-7dbd-45da-966d-745faa090a0f": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_WDrzrJ": {
+          "type": "text",
+          "name": "Unique Selling Points",
+          "settings": {
+            "text": "<p><a href=\"tel:4239273776\" title=\"tel:4239273776\"><em><strong>Buy Online Or Call Now To Order!</strong></em></a></p><p>✓ <strong>Free Shipping </strong>- on most {{ product.vendor }} products<br/>✓ <strong>Flexible Financing </strong>- Shop Pay Installments, 0-36% APR, Applicable at Checkout<br/>✓ <strong>In Stock </strong>- Fast Dispatch<br/>✓ <strong>Questions? </strong>- Call <a href=\"tel:4239273776\" title=\"tel:4239273776\">(423)-927-3776</a></p>"
+          }
+        },
+        "12214949-0a99-47d0-875d-57cf008e67f8": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_display": "low_stock_threshold",
+            "inventory_transfer_notice": true
+          }
+        },
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": false,
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "custom_liquid_yR4UPX": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .yap-trust-bar { width: 100%; max-width: 620px; margin: 0 auto; font-family: inherit; }\n  .yap-trust-item { display: flex; align-items: center; min-height: 58px; padding: 10px 0; border-bottom: 1px solid #e5e5e5; box-sizing: border-box; }\n  .yap-trust-item:last-child { border-bottom: none; }\n  .yap-trust-icon { width: 28px; min-width: 28px; margin-right: 11px; display: flex; align-items: center; justify-content: center; color: #555; }\n  .yap-trust-icon svg { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }\n  .yap-trust-text { flex: 1; font-size: 15px; line-height: 1.3; font-weight: 500; letter-spacing: -0.15px; color: #111; }\n  @media screen and (max-width: 749px) { .yap-trust-bar { max-width: 100%; } .yap-trust-item { min-height: 54px; padding: 9px 2px; } .yap-trust-text { font-size: 14px; } .yap-trust-icon { width: 26px; min-width: 26px; margin-right: 9px; } }\n</style>\n<div class=\"yap-trust-bar\">\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3 19 6v5c0 4.8-2.9 8.2-7 10-4.1-1.8-7-5.2-7-10V6l7-3z\"/><path d=\"m9 12 2 2 4-4\"/></svg></div>\n    <div class=\"yap-trust-text\">30-Day Price Match Guarantee | 30-Day Return Policy</div>\n  </div>\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M14.5 6.5a4 4 0 0 0-5.2 5.2L4 17l3 3 5.3-5.3a4 4 0 0 0 5.2-5.2l-2.2 2.2-2.8-2.8 2-2.4z\"/><path d=\"M16 4h4\"/><path d=\"M18 2v4\"/></svg></div>\n    <div class=\"yap-trust-text\">Manufacturer Warranty Up to 3 Years | US-Based Support</div>\n  </div>\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 6h11v11H3z\"/><path d=\"M14 10h4l3 3v4h-7z\"/><circle cx=\"7\" cy=\"18\" r=\"2\"/><circle cx=\"18\" cy=\"18\" r=\"2\"/></svg></div>\n    <div class=\"yap-trust-text\">In Stock – Fast Dispatch</div>\n  </div>\n</div>"
+          }
+        },
+        "collapsible_tab_UWQ8gk": {
+          "type": "collapsible-tab",
+          "name": "Overview",
+          "settings": {
+            "collapsible_tab_heading": "Overview",
+            "collapsible_tab_text": "<p>The Scuba X1 Pro Max is Aiper's flagship all-in-one cordless robotic pool cleaner. A 9-motor system delivers 8,500 GPH suction while FlexiPath 2.0 navigation and OmniSense+ 2.0 (40 ultrasonic sensors, 360° scanning) map your pool and plan efficient cleaning paths.<br/><br/>🏊 All-in-one coverage: floor, walls, waterline, and surface skimming, in one machine.<br/>🤖 8 cleaning modes including Hero Mode (smart obstacle avoidance) and Eco Mode.<br/>⚡ Wireless charging dock, safe to dock and charge while still wet.<br/></p>"
+          }
+        },
+        "collapsible_tab_Uf69Wz": {
+          "type": "collapsible-tab",
+          "name": "Product Information",
+          "settings": {
+            "collapsible_tab_heading": "Product Information",
+            "collapsible_tab_text": "<p><strong>Your Pool, Fully Maintained. By Yard Automation Pros.</strong></p><p>Cordless, all-in-one, and built for pools up to 3,230 sq ft or 100 ft in length. The Scuba X1 Pro Max handles the entire pool, not just the floor.</p><h3>Navigation that actually maps your pool</h3><p>FlexiPath 2.0 adaptive navigation paired with OmniSense+ 2.0's 40 ultrasonic sensors scans and maps your pool in real time, planning efficient paths around steps, ladders, and corners instead of bumping into them.</p><h3>Built to clean everything, not just the floor</h3><p>Dual active front and rear scrubbing rollers handle floors and walls, while the surface-skimming function clears leaves and debris before they ever sink. Swap between the 180-micron filter for larger debris and the 3-micron filter for fine dust and algae.</p><h3>Ownership, handled</h3><ul><li><strong>Wireless charging dock</strong> – safe to charge while the unit is still wet, no exposed charging ports.</li><li><strong>Manufacturer warranty up to 3 years</strong> depending on registration and model terms.</li><li><strong>Curated and supported by Yard Automation Pros,</strong> before and after the sale.</li></ul>"
+          }
+        },
+        "collapsible_tab_X7L37G": {
+          "type": "collapsible-tab",
+          "name": "Warranty & Support",
+          "settings": {
+            "collapsible_tab_heading": "Warranty & Support:",
+            "collapsible_tab_text": "<p>Covered by Aiper's manufacturer warranty, up to 3 years depending on model and registration terms. We reply to emails within 1 business day at support@yardautomationpros.com.<br/><br/></p>"
+          }
+        },
+        "collapsible_tab_HjeTwa": {
+          "type": "collapsible-tab",
+          "name": "Setup & Installation",
+          "settings": {
+            "collapsible_tab_heading": "Setup & Installation",
+            "collapsible_tab_text": "<p>No installation required. Charge the unit on its wireless dock, connect to the Aiper App, and drop it in the pool. FlexiPath 2.0 begins mapping and cleaning automatically. Compatible with iOS and Android.<br/><br/></p>"
+          }
+        },
+        "collapsible_tab_czbJiW": {
+          "type": "collapsible-tab",
+          "name": "Specifications",
+          "settings": {
+            "collapsible_tab_heading": "Specifications",
+            "collapsible_tab_text": "<h3>Cleaning &amp; Power</h3><ul><li><strong>Suction:</strong> 8,500 GPH, 9-motor system</li><li><strong>Coverage:</strong> Floor, walls, waterline, and surface skimming</li><li><strong>Cleaning modes:</strong> 8 modes including Hero Mode and Eco Mode</li></ul><h3>Navigation &amp; Sensing</h3><ul><li><strong>Navigation:</strong> FlexiPath 2.0 adaptive path planning</li><li><strong>Sensing:</strong> OmniSense+ 2.0, 40 ultrasonic sensors, 360° scanning</li></ul><h3>Filtration &amp; Scrubbing</h3><ul><li><strong>Scrubbing:</strong> Dual active front and rear rollers</li><li><strong>Filters:</strong> Swappable 180-micron and 3-micron filters</li></ul><h3>Coverage &amp; Charging</h3><ul><li><strong>Pool size:</strong> Up to 3,230 sq ft or 100 ft in length</li><li><strong>Charging:</strong> Wireless dock, safe to charge while wet</li><li><strong>Connectivity:</strong> App control via Aiper App; HydroComm compatible</li></ul><h3>Warranty</h3><ul><li>Manufacturer warranty up to 3 years, depending on model and registration terms</li></ul>"
+          }
+        },
+        "complementary_products_8bK493": {
+          "type": "complementary_products",
+          "settings": {
+            "heading": "Pairs well with",
+            "product_recommendation_limit": 5,
+            "products_per_slide": 2
+          }
+        },
+        "collapsible_tab_mkEKLQ": {
+          "type": "collapsible-tab",
+          "name": "manuals",
+          "disabled": true,
+          "settings": {
+            "collapsible_tab_heading": "Manuals & Downloads",
+            "collapsible_tab_text": "<p>Use this text to share information about your product.</p>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_4NycBz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor_aA8jQd",
+        "2e128dd1-7dbd-45da-966d-745faa090a0f",
+        "price",
+        "text_WDrzrJ",
+        "12214949-0a99-47d0-875d-57cf008e67f8",
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956",
+        "custom_liquid_yR4UPX",
+        "collapsible_tab_UWQ8gk",
+        "collapsible_tab_Uf69Wz",
+        "collapsible_tab_X7L37G",
+        "collapsible_tab_HjeTwa",
+        "collapsible_tab_czbJiW",
+        "complementary_products_8bK493",
+        "collapsible_tab_mkEKLQ",
+        "description",
+        "judge_me_reviews_preview_badge_4NycBz"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": true,
+        "gallery_thumbnail_position": "below",
+        "gallery_thumbnail_layout": "carousel",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "dynamic_rich_text_aiperIntro": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular"
+      }
+    },
+    "dynamic_image_with_text_aiperNav": {
+      "type": "dynamic-image-with-text",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/aiper_scuba_x1_pro_max_robotic_pool_cleaner_15_1800x_2e0a6e32-4fae-439e-b7be-95dc583972e6.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_image_with_text_aiperCoverage": {
+      "type": "dynamic-image-with-text",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/aiper_scuba_x1_pro_max_robotic_pool_cleaner_4_1800x_27b7995f-04b2-47f1-893b-46fc8e4ebd63.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "text_alignment": "center"
+      }
+    },
+    "blocks_aiper3col": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_7d61a93_aiper1": {
+          "type": "ai_gen_block_7d61a93",
+          "settings": {
+            "heading": "Three Details Most Pool Robots Skip",
+            "description": "The parts that decide whether it actually works, not just whether it moves.",
+            "heading_size": 36,
+            "description_size": 16,
+            "heading_color": "#232739",
+            "description_color": "#393939",
+            "column_1_image": "shopify://shop_images/aiper_scuba_x1_pro_max_robotic_pool_cleaner_7_1800x_1f963b45-6667-4ebf-9930-a9d72e2c76f3.jpg",
+            "column_1_label": "Dual Scrubbing Rollers",
+            "column_1_text": "Active front and rear rollers scrub as they go, so grime on the walls and floor gets lifted, not just brushed past.",
+            "column_2_image": "shopify://shop_images/aiper_scuba_x1_pro_max_robotic_pool_cleaner_6_1800x_cf53d08f-e5e6-4c1b-9c33-8c2c6493d656.jpg",
+            "column_2_label": "Two Filters, Two Jobs",
+            "column_2_text": "Swap the 180-micron filter in for leaves and larger debris, or the 3-micron filter for fine dust and algae. One machine, either mess.",
+            "column_3_image": "shopify://shop_images/aiper_scuba_x1_pro_max_robotic_pool_cleaner_2_1000x_ef733371-cea4-43d5-b238-0e04b54969b1.jpg",
+            "column_3_label": "8 Modes, Including One That Watches Where It's Going",
+            "column_3_text": "Hero Mode recognizes drains, ladders, and tight corners and routes around them. Eco Mode stretches runtime when you just want it handled quietly.",
+            "label_size": 20,
+            "text_size": 14,
+            "label_color": "#232739",
+            "text_color": "#393939",
+            "desktop_width_percent": 100,
+            "section_padding": 50,
+            "header_spacing": 40,
+            "grid_gap": 30,
+            "image_spacing": 20,
+            "image_border_radius": 8,
+            "background_color": "#f2f4f1"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_7d61a93_aiper1"
+      ],
+      "name": "Image showcase grid",
+      "settings": {}
+    },
+    "dynamic_image_with_text_aiperHydro": {
+      "type": "dynamic-image-with-text",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/aiper_scuba_x1_pro_max_robotic_pool_cleaner_and_hydrocomm_pure_1000x_8bacf5cf-a9ca-4b9f-b1dd-72b276679d59.png",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_highlights_banner_aiper": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_XLUzQE": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-store",
+            "title": "100% American Owned and Operated",
+            "text": "<p>We're a locally owned and operated business</p>",
+            "link": ""
+          }
+        },
+        "highlight_84JPfV": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-heart",
+            "title": "30-Day Satisfaction Promise",
+            "text": "<p>If you're not happy, We're not happy</p>",
+            "link": ""
+          }
+        },
+        "highlight_HbAL67": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-lock",
+            "title": "Secure Online Payment System",
+            "text": "<p>All our transactions are protected and secure</p>",
+            "link": ""
+          }
+        },
+        "highlight_9pebcb": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-truck",
+            "title": "Free Shipping",
+            "text": "<p>On most Aiper products</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_XLUzQE",
+        "highlight_84JPfV",
+        "highlight_HbAL67",
+        "highlight_9pebcb"
+      ],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#ffffff",
+        "icon_color": "#ffffff",
+        "background_color": "#233923",
+        "mobile_layout": "slider"
+      }
+    },
+    "blocks_aiper4col": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_bca8f42_aiper1": {
+          "type": "ai_gen_block_bca8f42",
+          "settings": {
+            "section_heading": "What's Actually Doing the Work",
+            "section_description": "",
+            "column_1_image": "shopify://shop_images/aiper_scuba_x1_pro_max_robotic_pool_cleaner_2_1000x_ef733371-cea4-43d5-b238-0e04b54969b1.jpg",
+            "column_1_label": "9 Motors, 8,500 GPH",
+            "column_1_description": "A 9-motor system drives suction strong enough to pull in fine sand and debris, not just leaves floating near the surface.",
+            "column_2_image": "shopify://shop_images/aiper_scuba_x1_pro_max_robotic_pool_cleaner_15_1800x_2e0a6e32-4fae-439e-b7be-95dc583972e6.jpg",
+            "column_2_label": "40 Sensors, 360° Scanning",
+            "column_2_description": "OmniSense+ 2.0 reads the pool in real time, so the cleaning path adapts instead of running the same guesswork lap twice.",
+            "column_3_image": "shopify://shop_images/aiper_scuba_x1_pro_max_robotic_pool_cleaner_and_hydrocomm_pure_1000x_8bacf5cf-a9ca-4b9f-b1dd-72b276679d59.png",
+            "column_3_label": "Charges Wet, No Corrosion Risk",
+            "column_3_description": "The wireless dock is built to accept the unit straight out of the pool, no exposed charging port to dry off or worry about first.",
+            "column_4_image": "shopify://shop_images/scuba-x1-pro-max-whats-in-the-box_1800x_d1494d4b-01f6-4a93-b842-4a350d2ca009.jpg",
+            "column_4_label": "Sized for Real Pools",
+            "column_4_description": "Rated for pools up to 3,230 sq ft or 100 ft in length, built for a real backyard pool, not a marketing-brochure kiddie pool.",
+            "section_padding": 40,
+            "grid_gap": 30,
+            "image_border_radius": 8,
+            "desktop_width_percent": 100,
+            "background_color": "#f2f4f1",
+            "heading_color": "#232739",
+            "description_color": "#393939",
+            "label_color": "#232739",
+            "text_color": "#393939",
+            "heading_font_size": 36,
+            "description_font_size": 16,
+            "label_font_size": 20,
+            "text_font_size": 14
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_bca8f42_aiper1"
+      ],
+      "name": "4-column image showcase",
+      "settings": {}
+    },
+    "blocks_whyyap_x1": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_whyyap_x1": {
+          "type": "ai_gen_block_whyyap",
+          "settings": {
+            "heading": "Why Yard Automation Pros?",
+            "intro_text": "We don't just sell robots, we help you build the autonomous estate.",
+            "column_1_label": "Curated Selection",
+            "column_1_text": "Every product is hand-picked and tested against real residential use cases before we carry it.",
+            "column_2_label": "Expert Support",
+            "column_2_text": "US-based support from people who actually know the product, not a script.",
+            "column_3_label": "Ongoing Guidance",
+            "column_3_text": "When you buy an Aiper Scuba X1 Pro Max from us, you get a curated setup guide for your pool and access to our growing library of automation tips.",
+            "closing_text": "This is the future of pool care. We're here to make sure it works for you.",
+            "max_width": 1100,
+            "section_padding": 56,
+            "header_spacing": 36,
+            "grid_gap": 40,
+            "panel_radius": 12,
+            "heading_size": 32,
+            "label_size": 18,
+            "body_size": 15,
+            "accent_color": "#233923",
+            "icon_color": "#ffffff",
+            "panel_background": "#f2f4f1",
+            "border_color": "#dfe3de",
+            "heading_color": "#232739",
+            "text_color": "#393939"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_whyyap_x1"
+      ],
+      "name": "Why YAP panel",
+      "settings": {}
+    },
+    "dynamic_featured_collection_aiper": {
+      "type": "dynamic-featured-collection",
+      "name": "t:sections.featured_collection.presets.featured_collection.name",
+      "settings": {
+        "title": "Build Out Your Pool Care System",
+        "layout": "grid",
+        "mobile_layout": "slideshow",
+        "collection": "aiper",
+        "product_count": 5,
+        "cta_label": "SHOP COLLECTION",
+        "cta_button_style": "primary"
+      }
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "disabled": true,
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "178784317865f92603": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_reviews_grid_widget_gnCmHd": {
+          "type": "shopify://apps/judge-me-reviews/blocks/reviews_grid_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "review_selection": "all",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "show_media_only": false,
+            "display_order": "media_first",
+            "card_grouping": "per_media",
+            "columns_desktop": 3,
+            "rows_desktop": 3,
+            "columns_mobile": "2",
+            "rows_mobile": 6,
+            "show_stars": true,
+            "show_reviewer_name": true,
+            "show_review_title_on_hover_desktop": true,
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "card_spacing": "medium",
+            "header_text_color": "#000000",
+            "star_and_reviewer_name_color": "#f9f9f9",
+            "drop_shadow_color": "#000000",
+            "overlay_and_background_color": "#000000",
+            "content_color": "#f9f9f9",
+            "header_text": "From our customers",
+            "show_average_rating": true,
+            "rating_display": "default"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_reviews_grid_widget_gnCmHd"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "dynamic_faq_aiper": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "question_nCTWbR": {
+          "type": "question",
+          "settings": {
+            "question": "Does it clean the walls, or just the floor?",
+            "answer": "<p>Both, plus the waterline and the surface. The X1 Pro Max is all-in-one: dual scrubbing rollers handle the floor and walls, and the surface-skimming function clears debris before it sinks.</p>",
+            "icon": "none"
+          }
+        },
+        "question_69jhiF": {
+          "type": "question",
+          "settings": {
+            "question": "How does it navigate without hitting steps or ladders?",
+            "answer": "<p>FlexiPath 2.0 adaptive navigation works with OmniSense+ 2.0's 40 ultrasonic sensors and 360° scanning to map obstacles in real time and route around them, including in Hero Mode, which is built specifically for tight corners and fixtures.</p>",
+            "icon": "none"
+          }
+        },
+        "question_8KCdGW": {
+          "type": "question",
+          "settings": {
+            "question": "What size pool can it handle?",
+            "answer": "<p>Up to 3,230 sq ft or 100 ft in length, sized for a real in-ground residential pool. Confirm your pool's dimensions before ordering if you're near that upper range.</p>",
+            "icon": "none"
+          }
+        },
+        "question_EcA6Mx": {
+          "type": "question",
+          "settings": {
+            "question": "Is it safe to charge right after taking it out of the pool?",
+            "answer": "<p>Yes. The wireless charging dock is designed to accept the unit while it's still wet, with no exposed charging port, which removes the corrosion risk that plug-in chargers carry.</p>",
+            "icon": "none"
+          }
+        },
+        "question_BQYmLz": {
+          "type": "question",
+          "settings": {
+            "question": "What's the difference between the two filters?",
+            "answer": "<p>The 180-micron filter is built for leaves and larger debris. The 3-micron filter targets fine dust and algae. Swap between them depending on what your pool is dealing with that week.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JjXiyk": {
+          "type": "question",
+          "settings": {
+            "question": "Can I control it or check on it from my phone?",
+            "answer": "<p>Yes, through the Aiper App. The X1 Pro Max is also HydroComm compatible, so pairing it with that accessory lets you send commands from poolside without pulling the robot out.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JxkamV": {
+          "type": "question",
+          "settings": {
+            "question": "What kind of support do I get after purchase?",
+            "answer": "<p>Aiper's manufacturer warranty, up to 3 years depending on model and registration, plus our own US based support team, on hand at support@yardautomationpros.com for setup and anything that comes up after.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "question_nCTWbR",
+        "question_69jhiF",
+        "question_8KCdGW",
+        "question_EcA6Mx",
+        "question_BQYmLz",
+        "question_JjXiyk",
+        "question_JxkamV"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "heading": "Expert Q&A: Scuba X1 Pro Max, Answered",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "small",
+        "icon_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_rich_text_aiperIntro",
+    "dynamic_image_with_text_aiperNav",
+    "dynamic_image_with_text_aiperCoverage",
+    "blocks_aiper3col",
+    "dynamic_image_with_text_aiperHydro",
+    "dynamic_featured_collection_aiper",
+    "dynamic_highlights_banner_aiper",
+    "blocks_aiper4col",
+    "blocks_whyyap_x1",
+    "recommendations",
+    "recently-viewed",
+    "178784317865f92603",
+    "dynamic_faq_aiper"
+  ]
+}

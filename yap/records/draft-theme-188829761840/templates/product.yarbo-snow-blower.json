@@ -1,0 +1,691 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor_aA8jQd": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "2e128dd1-7dbd-45da-966d-745faa090a0f": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_WDrzrJ": {
+          "type": "text",
+          "name": "Unique Selling Points",
+          "settings": {
+            "text": "<p><a href=\"tel:4239273776\" title=\"tel:4239273776\"><em><strong>Buy Online Or Call Now To Order!</strong></em></a></p><p>✓ <strong>Free Shipping </strong>- on most {{ product.vendor }} products<br/>✓ <strong>Flexible Financing </strong>- Shop Pay Installments, 0-36% APR, Applicable at Checkout<br/>✓ <strong>Ships Direct </strong>- orders ship in 10-14 business days<br/>✓ <strong>Questions? </strong>- Call <a href=\"tel:4239273776\" title=\"tel:4239273776\">(423)-927-3776</a></p>"
+          }
+        },
+        "12214949-0a99-47d0-875d-57cf008e67f8": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_display": "low_stock_threshold",
+            "inventory_transfer_notice": true
+          }
+        },
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": false,
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "custom_liquid_visibleDesc": {
+          "type": "custom-liquid",
+          "name": "Visible Description",
+          "settings": {
+            "custom_liquid": "<style>\n  .sb-desc { margin: 28px 0 0; }\n  .sb-desc__heading { font-size: 22px; font-weight: 700; color: #233923; margin: 0 0 12px; line-height: 1.25; }\n  .sb-desc__text { font-size: 15.5px; line-height: 1.6; color: #233923; margin: 0; }\n</style>\n<div class=\"sb-desc\">\n  <h2 class=\"sb-desc__heading\">Clears the Driveway Before You're Even Up</h2>\n  <p class=\"sb-desc__text\">The Snow Blower Module turns a Yarbo Core into a fully autonomous, two-stage snow clearing machine. It monitors weather conditions and starts clearing on its own when snowfall begins, working a 24-inch-wide path with 12 inches of intake height and throwing snow up to 40 feet, adjustable down to 6 feet for close work. The chute rotates -10° to 190° and the deflector angles from -5° to 50°, so you control exactly where the snow lands, not just that it moves. Built from Q355 steel with an IPX5 waterproof rating and rated to run from -13°F to 113°F, it auto-docks at 20% battery and resumes at 80%, continuing through a storm with no input from you. Requires a Yarbo Core, sold separately or as part of a bundle.</p>\n</div>"
+          }
+        },
+        "custom_liquid_yccLBT": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .yap-trust-bar {\n    width: 100%;\n    max-width: 620px;\n    margin: 0 auto;\n    font-family: inherit;\n  }\n\n  .yap-trust-item {\n    display: flex;\n    align-items: center;\n    min-height: 58px;\n    padding: 10px 0;\n    border-bottom: 1px solid #e5e5e5;\n    box-sizing: border-box;\n  }\n\n  .yap-trust-item:last-child {\n    border-bottom: none;\n  }\n\n  .yap-trust-icon {\n    width: 28px;\n    min-width: 28px;\n    margin-right: 11px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    color: #555;\n  }\n\n  .yap-trust-icon svg {\n    width: 24px;\n    height: 24px;\n    stroke: currentColor;\n    fill: none;\n    stroke-width: 1.5;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n  }\n\n  .yap-trust-text {\n    flex: 1;\n    font-size: 15px;\n    line-height: 1.3;\n    font-weight: 500;\n    letter-spacing: -0.15px;\n    color: #111;\n  }\n\n  @media screen and (max-width: 749px) {\n    .yap-trust-bar {\n      max-width: 100%;\n    }\n\n    .yap-trust-item {\n      min-height: 54px;\n      padding: 9px 2px;\n    }\n\n    .yap-trust-text {\n      font-size: 14px;\n    }\n\n    .yap-trust-icon {\n      width: 26px;\n      min-width: 26px;\n      margin-right: 9px;\n    }\n  }\n</style>\n\n<div class=\"yap-trust-bar\">\n\n  <!-- ROW 1: PRICE MATCH + RETURNS -->\n  <div class=\"yap-trust-item\">\n\n    <div class=\"yap-trust-icon\">\n      <!-- Shield Icon -->\n      <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n        <path d=\"M12 3 19 6v5c0 4.8-2.9 8.2-7 10-4.1-1.8-7-5.2-7-10V6l7-3z\"/>\n        <path d=\"m9 12 2 2 4-4\"/>\n      </svg>\n    </div>\n\n    <div class=\"yap-trust-text\">\n      Price Match Available on Request | Returns Per Manufacturer Policy\n    </div>\n\n  </div>\n\n\n  <!-- ROW 2: WARRANTY + SUPPORT -->\n  <div class=\"yap-trust-item\">\n\n    <div class=\"yap-trust-icon\">\n      <!-- Warranty / Repair Icon -->\n      <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n        <path d=\"M14.5 6.5a4 4 0 0 0-5.2 5.2L4 17l3 3 5.3-5.3a4 4 0 0 0 5.2-5.2l-2.2 2.2-2.8-2.8 2-2.4z\"/>\n        <path d=\"M16 4h4\"/>\n        <path d=\"M18 2v4\"/>\n      </svg>\n    </div>\n\n    <div class=\"yap-trust-text\">\n      2-Year Manufacturer Warranty | US-Based Email Support\n    </div>\n\n  </div>\n\n\n  <!-- ROW 3: DELIVERY -->\n  <div class=\"yap-trust-item\">\n\n    <div class=\"yap-trust-icon\">\n      <!-- Delivery Truck Icon -->\n      <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n        <path d=\"M3 6h11v11H3z\"/>\n        <path d=\"M14 10h4l3 3v4h-7z\"/>\n        <circle cx=\"7\" cy=\"18\" r=\"2\"/>\n        <circle cx=\"18\" cy=\"18\" r=\"2\"/>\n      </svg>\n    </div>\n\n    <div class=\"yap-trust-text\">\n      10–14 Business Day Estimated Delivery\n    </div>\n\n  </div>\n\n</div>"
+          }
+        },
+        "collapsible_tab_UWQ8gk": {
+          "type": "collapsible-tab",
+          "name": "Overview",
+          "settings": {
+            "collapsible_tab_heading": "Overview",
+            "collapsible_tab_text": "<p>The Yarbo Snow Blower Module attaches to your Yarbo Core and turns it into a fully autonomous winter clearing machine. No shoveling, no scheduling a plow, no early mornings.</p><p><strong>Two-Stage Clearing</strong><br/>24\" clearing width, 12\" intake height, and up to 40 feet of throw distance handles dry, wet, and packed snow. Chute rotates -10° to 190° and deflector adjusts from -5° to 50° so you control exactly where snow lands.</p><p><strong>Clears Automatically</strong><br/>It monitors weather conditions and starts clearing on its own when snowfall begins, working continuously through the storm to prevent buildup. Auto-docks at 20% battery and resumes clearing at 80%, with zero input from you.</p><p><strong>Built for Real Winter</strong><br/>Q355 steel construction, an IPX5 waterproof rating, and a standard operating range of -13°F to 113°F (-25°C to 45°C). Works on asphalt, cement, masonry, gravel, and tile.</p><p><strong>Smart Zone Mapping</strong><br/>Map your driveway, pathways, and sidewalks separately in the Yarbo App. Each zone gets its own route, deflector angle, and schedule. Spiral Mode supports circular driveways.</p><p><strong>Coverage</strong><br/>Approximately 6,000 ft² per charge (Y40), charging in about 1.5 hours. Free shipping and backed by Yarbo's 2-year manufacturer warranty.</p><p>Requires Yarbo Core, Smart Battery, and docking station — sold separately or as part of a bundle.</p>"
+          }
+        },
+        "collapsible_tab_Uf69Wz": {
+          "type": "collapsible-tab",
+          "name": "Product Information",
+          "settings": {
+            "collapsible_tab_heading": "Product Information",
+            "collapsible_tab_text": "<p><strong>The Autonomous Estate. By Yard Automation Pros.</strong></p><p><strong>Winter clearing, zero effort.</strong></p><p>The Snow Blower module attaches to your Yarbo Core and turns it into a two-stage winter machine built for driveways, walkways, and mixed surfaces, fully autonomous, every storm.</p><p><strong>Requires a Yarbo Core to run.</strong> This module needs a Core base to operate. If you don’t already own one, a bundle like the <a href=\"/products/yarbo-lawn-mower-pro-core-lawn-mower-pro-module\">Lawn Mower Pro bundle</a> includes a Core and gets you running immediately.</p><h3>Two-stage clearing, not a single push</h3><p>An auger pulls snow in and a second-stage impeller throws it clear, the same two-stage principle used on commercial equipment, so it handles dry, wet, and packed snow without clogging.</p><h3>Works with the Core’s all-terrain chassis</h3><p>The module relies on the Core’s tracked, steel-spiked drive system for traction on packed snow and ice that leaves wheeled machines spinning in place.</p>"
+          }
+        },
+        "collapsible_tab_X7L37G": {
+          "type": "collapsible-tab",
+          "name": "Warranty & Support",
+          "settings": {
+            "collapsible_tab_heading": "Warranty & Support:",
+            "collapsible_tab_text": "<p>Covered by Yarbo’s standard 2 year manufacturer warranty on defective parts, excluding consumables, beginning from the date your machine is activated. We reply to emails within 1 business day at support@yardautomationpros.com.<br/><br/></p>"
+          }
+        },
+        "collapsible_tab_HjeTwa": {
+          "type": "collapsible-tab",
+          "name": "Setup & Installation",
+          "settings": {
+            "collapsible_tab_heading": "Setup & Installation",
+            "collapsible_tab_text": "<p>Attaching the Snow Blower module to your Yarbo Core takes just a few minutes, no tools required. The Yarbo app guides you through calibration and setup. Compatible with iOS and Android.<br/><br/></p>"
+          }
+        },
+        "collapsible_tab_czbJiW": {
+          "type": "collapsible-tab",
+          "name": "Specifications",
+          "settings": {
+            "collapsible_tab_heading": "Specifications",
+            "collapsible_tab_text": "<p><strong>Snow Blower Module</strong><br/>Stage type: 2-stage design<br/>Clearing width: 24 inches<br/>Intake height: 12 inches (raises up to ~2 inches to skim uneven gravel)<br/>Throw distance: 6 to 40 feet (adjustable)<br/>Chute rotation: -10° to 190°<br/>Deflector angle: -5° to 50°<br/>Applicable snow types: dry, wet, packed snow<br/>Coverage per charge: approximately 6,000 ft² (Y40)<br/>Charging time: approximately 1.5 hours<br/>Max climbing ability (module attached): 36% (20°)<br/>Operating temperature: -13°F to 113°F (-25°C to 45°C)<br/>Construction: Q355 steel, IPX5 waterproof rating<br/>Surfaces: asphalt, cement, masonry, gravel, tile<br/>Optional accessory: plow blade attachment for wet, heavy snow (sold separately)</p><p><strong>Yarbo Core</strong><br/>Navigation: RTK + Vision + IMU + ODOM<br/>Obstacle avoidance: Binocular camera + ultrasonic radar + bumper<br/>Drive system: Tracked with steel-spiked traction<br/>Battery capacity: 38.4 Ah<br/>Auto-dock: Yes — docks at 20%, resumes at 80%<br/>Connectivity: 4G, Wi-Fi, Bluetooth, Wi-Fi HaLow<br/>Warranty: Covered by Yarbo's standard 2-year manufacturer warranty on defective parts, excluding consumables, from the date of activation (3-year extended warranty available as an add-on)<br/>Delivery: approximately 10 to 14 days after payment</p>"
+          }
+        },
+        "complementary_products_r97KJJ": {
+          "type": "complementary_products",
+          "settings": {
+            "heading": "Pairs well with",
+            "product_recommendation_limit": 5,
+            "products_per_slide": 2
+          }
+        },
+        "collapsible_tab_mkEKLQ": {
+          "type": "collapsible-tab",
+          "name": "manuals",
+          "disabled": true,
+          "settings": {
+            "collapsible_tab_heading": "Manuals & Downloads",
+            "collapsible_tab_text": "<p>Use this text to share information about your product.</p>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_4NycBz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor_aA8jQd",
+        "2e128dd1-7dbd-45da-966d-745faa090a0f",
+        "price",
+        "text_WDrzrJ",
+        "12214949-0a99-47d0-875d-57cf008e67f8",
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956",
+        "custom_liquid_visibleDesc",
+        "custom_liquid_yccLBT",
+        "collapsible_tab_UWQ8gk",
+        "collapsible_tab_Uf69Wz",
+        "collapsible_tab_X7L37G",
+        "collapsible_tab_HjeTwa",
+        "collapsible_tab_czbJiW",
+        "complementary_products_r97KJJ",
+        "collapsible_tab_mkEKLQ",
+        "description",
+        "judge_me_reviews_preview_badge_4NycBz"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": true,
+        "gallery_thumbnail_position": "below",
+        "gallery_thumbnail_layout": "carousel",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "dynamic_rich_text_mcMN4y": {
+      "type": "dynamic-rich-text",
+      "blocks": {
+        "heading_sbIntro": {
+          "type": "heading",
+          "settings": {
+            "title": "Winter Doesn't Get a Vote Anymore",
+            "heading_size": "medium"
+          }
+        },
+        "text_sbIntro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A two-stage auger, steel-spiked tracks, and weather-triggered autonomy mean the driveway gets cleared whether you're awake, away, or asleep. Set your zones once in the app and every storm after that is handled the same way, without you standing outside at 6am.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_sbIntro",
+        "text_sbIntro"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "content_alignment": "center"
+      }
+    },
+    "video_section_snow11": {
+      "type": "video-section",
+      "blocks": {
+        "feature_row_snow11": {
+          "type": "feature_row",
+          "settings": {
+            "video": "shopify://files/videos/Yarbo_S1_11.mp4",
+            "media_position": "left",
+            "heading": "Built Around a Two-Stage Auger",
+            "heading_color": "#233923",
+            "text": "<p>An auger pulls snow in, a second-stage impeller launches it clear of the machine, the same two-stage design used on commercial-grade snow equipment, scaled down and automated. It's why the module handles packed and wet snow without clogging the way a single-stage blower does.</p>",
+            "text_color": "#233923"
+          }
+        }
+      },
+      "block_order": [
+        "feature_row_snow11"
+      ],
+      "name": "Video Feature Rows",
+      "settings": {
+        "background_color": "#f2f4f1"
+      }
+    },
+    "dynamic_image_with_text_EjdfDJ": {
+      "type": "dynamic-image-with-text",
+      "blocks": {
+        "heading_sbDriveway": {
+          "type": "heading",
+          "settings": {
+            "text": "Clears a Real Driveway, Not a Test Pad",
+            "heading_size": "medium"
+          }
+        },
+        "text_sbDriveway": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>A two-story home, a two-car driveway, real snowfall, this is the kind of property the Snow Blower Module is actually built for. One pass across the 24-inch width leaves a clean, drivable surface behind it.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_sbDriveway",
+        "text_sbDriveway"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "background_color": "",
+        "image": "shopify://shop_images/yarbo-snow-blower-in-action-on-suburban-driveway.png",
+        "image_alt": "Yarbo Snow Blower Module clearing a wide snow plume across a suburban driveway in front of a two-story house",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_width": 50,
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "text_alignment": "center"
+      }
+    },
+    "video_hero_snow": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .sb-vhero { max-width: 1200px; margin: 0 auto; padding: 40px 24px 48px; }\n  .sb-vhero__videos { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }\n  @media screen and (max-width: 819px) { .sb-vhero__videos { grid-template-columns: 1fr; } }\n  .sb-vhero__frame { border-radius: 14px; overflow: hidden; box-shadow: 0 8px 28px rgba(35,39,57,.14); background: #0d0f14; }\n  .sb-vhero__frame video { display: block; width: 100%; height: 100%; object-fit: cover; aspect-ratio: 16/9; }\n  .sb-vhero__text { max-width: 640px; margin: 32px auto 0; text-align: center; }\n  .sb-vhero__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c9a84c; margin: 0 0 14px; padding-bottom: 8px; border-bottom: 2px solid #c9a84c; }\n  .sb-vhero__heading { font-size: clamp(26px, 3.5vw, 38px); font-weight: 700; color: #233923; margin: 0 0 14px; line-height: 1.2; }\n  .sb-vhero__body { font-size: 16px; line-height: 1.6; color: #233923; margin: 0; }\n  .sb-vhero__cta { margin-top: 26px; }\n  .sb-vhero__btn { display: inline-block; padding: 15px 36px; background: #233923; color: #F2F4F1; border: none; border-radius: 8px; font-size: 15px; font-weight: 700; letter-spacing: .4px; text-align: center; cursor: pointer; transition: background .2s ease, transform .15s ease; }\n  .sb-vhero__btn:hover { background: #c9a84c; color: #233923; transform: translateY(-1px); }\n</style>\n<div class=\"sb-vhero\">\n  <div class=\"sb-vhero__videos\">\n    <div class=\"sb-vhero__frame\">\n      <video src=\"https://cdn.shopify.com/videos/c/vp/e4728929ecc14e8894c904e4bf57d163/e4728929ecc14e8894c904e4bf57d163.HD-1080p-7.2Mbps-94649611.mp4\" autoplay muted loop playsinline aria-label=\"Yarbo Snow Blower Module throwing a continuous snow plume along a fence line\"></video>\n    </div>\n    <div class=\"sb-vhero__frame\">\n      <video src=\"https://cdn.shopify.com/videos/c/vp/b253d4f0fc32407c81a1245bdd98fe87/b253d4f0fc32407c81a1245bdd98fe87.SD-480p-1.5Mbps-94649612.mp4\" autoplay muted loop playsinline aria-label=\"Aerial view of a driveway already cleared in a swath behind the Yarbo Snow Blower Module\"></video>\n    </div>\n  </div>\n  <div class=\"sb-vhero__text\">\n    <span class=\"sb-vhero__kicker\">Real Footage, Not a Render</span>\n    <h2 class=\"sb-vhero__heading\">Watch the Snow Blower Module Actually Clear a Driveway</h2>\n    <p class=\"sb-vhero__body\">Continuous snow-throwing along a real property line on the left, an aerial view of the cleared swath it leaves behind on the right. No boundary wires, no shoveling, no waiting for a plow.</p>\n    <div class=\"sb-vhero__cta\">\n      <button type=\"button\" class=\"sb-vhero__btn\" onclick=\"var f=document.querySelector('form[action*=\\'/cart/add\\']'); if(f){f.scrollIntoView({behavior:'smooth', block:'center'});}\">Shop Now</button>\n    </div>\n  </div>\n</div>"
+      }
+    },
+    "dynamic_image_with_text_7Fk6dY": {
+      "type": "dynamic-image-with-text",
+      "blocks": {
+        "heading_sbAim": {
+          "type": "heading",
+          "settings": {
+            "text": "Aim the Chute, Not the Snow",
+            "heading_size": "medium"
+          }
+        },
+        "text_sbAim": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>The chute rotates -10° to 190° and the deflector angles from -5° to 50°, so you decide where the snow lands instead of clearing it twice because it landed somewhere inconvenient the first time.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_sbAim",
+        "text_sbAim"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "background_color": "",
+        "image": "shopify://shop_images/yarbo_snow_v22.webp",
+        "image_alt": "Rendered close-up of the Yarbo Snow Blower Module showing the adjustable deflector mechanism",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_width": 50,
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_custom_liquid_snowAttach": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .sb-stack { max-width: 760px; margin: 0 auto; padding: 56px 24px; text-align: center; }\n  .sb-stack__frame { border-radius: 14px; overflow: hidden; border: 1px solid #e5e5e5; box-shadow: 0 8px 28px rgba(35,39,57,.10); background: #fff; margin: 0 0 28px; }\n  .sb-stack__frame img { display: block; width: 100%; height: auto; max-width: 420px; margin: 0 auto; }\n  .sb-stack__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c9a84c; margin: 0 0 14px; padding-bottom: 8px; border-bottom: 2px solid #c9a84c; }\n  .sb-stack__heading { font-size: clamp(24px, 3vw, 32px); font-weight: 700; color: #233923; margin: 0 0 16px; line-height: 1.2; }\n  .sb-stack__text { font-size: 16px; line-height: 1.6; color: #233923; margin: 0 auto; max-width: 560px; }\n</style>\n<div class=\"sb-stack\">\n  <div class=\"sb-stack__frame\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Yarbo_S1_1.png?v=1787782890\" alt=\"Yarbo Core and Snow Blower Module shown separately, ready to attach\" loading=\"lazy\" width=\"1200\" height=\"1200\">\n  </div>\n  <h2 class=\"sb-stack__heading\">Attaches to the Core You Already Own</h2>\n  <p class=\"sb-stack__text\">The Snow Blower Module is the winter half of the same modular system as the Lawn Mower Pro and Leaf Blower. It mounts to the Yarbo Core's tracked chassis and comes back off in minutes when the season changes, one Core, swapped through all four seasons.</p>\n</div>"
+      }
+    },
+    "dynamic_custom_liquid_snowBleed": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .sb-bleed { position: relative; width: 100%; min-height: 480px; margin: 20px 0; overflow: hidden; display: flex; align-items: center; justify-content: center; background-size: cover; background-position: center; }\n  .sb-bleed__overlay { position: absolute; inset: 0; background: rgba(20,26,20,.42); }\n  .sb-bleed__content { position: relative; z-index: 2; text-align: center; color: #F2F4F1; max-width: 660px; padding: 0 24px; }\n  .sb-bleed__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c9a84c; margin: 0 0 14px; padding-bottom: 8px; border-bottom: 2px solid #c9a84c; }\n  .sb-bleed__heading { font-size: clamp(28px, 4vw, 42px); font-weight: 700; margin: 0 0 14px; }\n  .sb-bleed__text { font-size: 17px; line-height: 1.55; margin: 0; }\n  @media screen and (max-width: 749px) { .sb-bleed { min-height: 380px; } }\n</style>\n<div class=\"sb-bleed\" style=\"background-image: url('https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Yarbo_S1_6.png?v=1787783002');\">\n  <div class=\"sb-bleed__overlay\"></div>\n  <div class=\"sb-bleed__content\">\n    <span class=\"sb-bleed__kicker\">Clears the Whole Driveway While You're Still Asleep</span>\n \n    <p class=\"sb-bleed__text\">A 24-inch-wide, two-stage path with up to 40 feet of throw distance means one pass covers real ground, not a narrow shoveled trail. It starts on its own when snowfall begins and keeps working through the storm.</p>\n  </div>\n</div>"
+      }
+    },
+    "dynamic_image_with_text_CCdnyL": {
+      "type": "dynamic-image-with-text",
+      "blocks": {
+        "heading_sbTracks": {
+          "type": "heading",
+          "settings": {
+            "text": "Steel-Spiked Tracks, Built for Ice",
+            "heading_size": "medium"
+          }
+        },
+        "text_sbTracks": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Traction on packed snow and ice is a tracked-chassis problem, not a wheel problem. The tracked drive system and steel-spiked tread hold traction on surfaces that would leave a wheeled machine spinning in place.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_sbTracks",
+        "text_sbTracks"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "background_color": "",
+        "image": "shopify://shop_images/Frame_2036457893.webp",
+        "image_alt": "Rendered close-up of the Yarbo Snow Blower Module's steel-spiked track and auger housing on snow",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_width": 50,
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_featured_collection_rWGALp": {
+      "type": "dynamic-featured-collection",
+      "name": "t:sections.featured_collection.presets.featured_collection.name",
+      "settings": {
+        "title": "The Rest of Your System Is Waiting",
+        "layout": "grid",
+        "mobile_layout": "slideshow",
+        "collection": "yarbo",
+        "product_count": 5,
+        "cta_label": "SHOP COLLECTION",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_highlights_banner_AbhkkV": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_XLUzQE": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-store",
+            "title": "100% American Owned and Operated",
+            "text": "<p>We're a locally owned and operated business</p>",
+            "link": ""
+          }
+        },
+        "highlight_84JPfV": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-heart",
+            "title": "30-Day Satisfaction Promise",
+            "text": "<p>If you're not happy, We're not happy</p>",
+            "link": ""
+          }
+        },
+        "highlight_HbAL67": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-lock",
+            "title": "Secure Online Payment System",
+            "text": "<p>All our transactions are protected and secure</p>",
+            "link": ""
+          }
+        },
+        "highlight_9pebcb": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery-cart",
+            "title": "Free Freight Shipping",
+            "text": "<p>Free shipping on all Yarbo robot systems</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_XLUzQE",
+        "highlight_84JPfV",
+        "highlight_HbAL67",
+        "highlight_9pebcb"
+      ],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#f2f4f1",
+        "icon_color": "#f2f4f1",
+        "background_color": "#233923",
+        "mobile_layout": "slider"
+      }
+    },
+    "dynamic_custom_liquid_snowCallout": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .sb-callout { max-width: 1100px; margin: 0 auto; padding: 56px 24px; }\n  .sb-callout__panel { display: flex; gap: 40px; align-items: center; background: #f2f4f1; border: 1px solid #d7ddd4; border-left: 4px solid #c9a84c; border-radius: 12px; padding: 36px; }\n  @media screen and (max-width: 819px) { .sb-callout__panel { flex-direction: column; text-align: center; } }\n  .sb-callout__img-wrap { flex: 0 0 220px; }\n  .sb-callout__img-wrap img { width: 100%; max-width: 220px; height: auto; border-radius: 10px; display: block; margin: 0 auto; background: #fff; }\n  .sb-callout__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c9a84c; margin: 0 0 10px; }\n  h2.sb-callout__quote { font-size: clamp(20px, 2.6vw, 26px); font-weight: 700; color: #233923; margin: 0 0 12px; line-height: 1.3; }\n  .sb-callout__text { font-size: 15.5px; line-height: 1.6; color: #233923; margin: 0; }\n</style>\n<div class=\"sb-callout\">\n  <div class=\"sb-callout__panel\">\n    <div class=\"sb-callout__img-wrap\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Yarbo_S1_8.png?v=1787782986\" alt=\"Close-up of the Yarbo Snow Blower Module's auger and impeller sitting in real snow\" loading=\"lazy\" width=\"1200\" height=\"1200\">\n    </div>\n    <div>\n      <span class=\"sb-callout__kicker\">Two-Stage Auger, Up Close</span>\n      <h2 class=\"sb-callout__quote\">Built to chew through packed snow, not just push it.</h2>\n      <p class=\"sb-callout__text\">The auger pulls snow in, the impeller throws it clear, the same two-stage principle used on commercial equipment. It handles dry, wet, and packed snow without clogging the way a single-stage blower does.</p>\n    </div>\n  </div>\n</div>"
+      }
+    },
+    "dynamic_custom_liquid_snowHeadlights": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .sb-stack2 { max-width: 820px; margin: 0 auto; padding: 56px 24px; text-align: center; }\n  .sb-stack2__frame { border-radius: 14px; overflow: hidden; border: 1px solid #e5e5e5; box-shadow: 0 8px 28px rgba(35,39,57,.10); margin: 0 0 28px; }\n  .sb-stack2__frame img { display: block; width: 100%; height: auto; }\n  .sb-stack2__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c9a84c; margin: 0 0 14px; padding-bottom: 8px; border-bottom: 2px solid #c9a84c; }\n  .sb-stack2__heading { font-size: clamp(24px, 3vw, 32px); font-weight: 700; color: #233923; margin: 0 0 16px; line-height: 1.2; }\n  .sb-stack2__text { font-size: 16px; line-height: 1.6; color: #233923; margin: 0 auto; max-width: 600px; }\n</style>\n<div class=\"sb-stack2\">\n  <div class=\"sb-stack2__frame\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Yarbo_S1_7.png?v=1787783005\" alt=\"Yarbo Snow Blower Module clearing snow with front LED headlights lit in low daylight\" loading=\"lazy\" width=\"1600\" height=\"900\">\n  </div>\n  <span class=\"sb-stack2__kicker\">The Driveway Is Already Clear By the Time You Look Outside</span>\n<p class=\"sb-stack2__text\">Front LED lighting means low light or pre-dawn clearing isn't a limitation. It starts when snowfall begins, not when there's enough daylight to see by.</p>\n</div>"
+      }
+    },
+    "178785960657771b38": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "blocks_beazWB": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_bca8f42_UPtHPf": {
+          "type": "ai_gen_block_bca8f42",
+          "settings": {
+            "section_heading": "",
+            "section_description": "",
+            "column_1_image": "shopify://shop_images/Frame_2036457890.webp",
+            "column_1_label": "Two-Stage Clearing",
+            "column_1_description": "24\" wide, 12\" intake, throws snow up to 40 feet. The chute rotates -10° to 190° so you put it exactly where you want it.",
+            "column_2_image": "shopify://shop_images/Frame_2036457889.webp",
+            "column_2_label": "Built for Real Winter",
+            "column_2_description": "Q355 steel construction and an IPX5 waterproof rating. Operates from -13°F to 113°F (-25°C to 45°C).",
+            "column_3_image": "shopify://shop_images/Frame_2036457891.webp",
+            "column_3_label": "Smart Zone Mapping",
+            "column_3_description": "Map driveways, walkways, and sidewalks separately. Each zone keeps its own route, angle, and schedule.",
+            "column_4_image": "shopify://shop_images/Screenshot_2026-09-02_002846.png",
+            "column_4_label": "Weather-Triggered Autonomy",
+            "column_4_description": "Monitors weather conditions and starts clearing on its own when snowfall begins. Auto-docks at 20% and resumes clearing at 80%, with zero input needed.",
+            "section_padding": 40,
+            "grid_gap": 30,
+            "image_border_radius": 8,
+            "desktop_width_percent": 100,
+            "background_color": "#f2f4f1",
+            "heading_color": "#233923",
+            "description_color": "#233923",
+            "label_color": "#233923",
+            "text_color": "#233923",
+            "heading_font_size": 36,
+            "description_font_size": 16,
+            "label_font_size": 20,
+            "text_font_size": 14
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_bca8f42_UPtHPf"
+      ],
+      "name": "4-column image showcase",
+      "settings": {}
+    },
+    "blocks_whyyap_snow": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_whyyap_snow": {
+          "type": "ai_gen_block_whyyap",
+          "settings": {
+            "heading": "Why Yard Automation Pros?",
+            "intro_text": "We don't just sell robots, we help you build the autonomous estate.",
+            "column_1_label": "Curated Selection",
+            "column_1_text": "Every product is hand-picked and tested against real residential and commercial use cases before we carry it.",
+            "column_2_label": "Expert Support",
+            "column_2_text": "US-based support from people who actually know the product, not a script.",
+            "column_3_label": "Ongoing Guidance",
+            "column_3_text": "Access to our growing library of automation tips and seasonal guides, before and after the sale.",
+            "closing_text": "This is the future of yard care. We're here to make sure it works for you.",
+            "max_width": 1100,
+            "section_padding": 56,
+            "header_spacing": 36,
+            "grid_gap": 40,
+            "panel_radius": 12,
+            "heading_size": 32,
+            "label_size": 18,
+            "body_size": 15,
+            "accent_color": "#233923",
+            "icon_color": "#81f200",
+            "panel_background": "#f2f4f1",
+            "border_color": "#233923",
+            "heading_color": "#233923",
+            "text_color": "#233923"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_whyyap_snow"
+      ],
+      "name": "Why YAP panel",
+      "settings": {}
+    },
+    "17878590594a6b1b2d": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "dynamic_faq_8AUh7M": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "question_nCTWbR": {
+          "type": "question",
+          "settings": {
+            "question": "Does the Snow Blower Module work with any Yarbo Core?",
+            "answer": "<p>Yes. The Snow Blower Module attaches to any standard Yarbo Core using the quick-swap modular connector. If you're starting from scratch, the Snow Blower bundle includes the Core and module together.</p>",
+            "icon": "none"
+          }
+        },
+        "question_69jhiF": {
+          "type": "question",
+          "settings": {
+            "question": "How wide does it clear, and how far does it throw snow?",
+            "answer": "<p>24 inches wide with a 12 inch intake height. It throws snow 6 to 40 feet, adjustable. The chute rotates -10° to 190° so you control exactly where snow lands.</p>",
+            "icon": "none"
+          }
+        },
+        "question_8KCdGW": {
+          "type": "question",
+          "settings": {
+            "question": "Can it handle steep or gravel driveways?",
+            "answer": "<p>With the Snow Blower Module attached, the Core is rated to climb up to a 36% (20°) grade. For gravel, the intake height raises up to about 2 inches so it skims the surface instead of pulling loose stone into the machine.</p>",
+            "icon": "none"
+          }
+        },
+        "question_EcA6Mx": {
+          "type": "question",
+          "settings": {
+            "question": "How does it know when to start clearing?",
+            "answer": "<p>It monitors weather conditions through the Yarbo app and starts clearing automatically when snowfall begins, then keeps working continuously through the storm to prevent buildup. You set your zones once and it handles every storm after that.</p>",
+            "icon": "none"
+          }
+        },
+        "question_BQYmLz": {
+          "type": "question",
+          "settings": {
+            "question": "What happens when the battery runs low mid-storm?",
+            "answer": "<p>It auto-docks at 20% battery and automatically resumes clearing at 80%, continuing through the storm with no input from you.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JjXiyk": {
+          "type": "question",
+          "settings": {
+            "question": "How cold can it operate in?",
+            "answer": "<p>Standard operating range is -13°F to 113°F (-25°C to 45°C).</p>",
+            "icon": "none"
+          }
+        },
+        "question_JxkamV": {
+          "type": "question",
+          "settings": {
+            "question": "What warranty and support do I get?",
+            "answer": "<p>Covered by Yarbo's standard 2-year manufacturer warranty on defective parts, excluding consumables, beginning from the date your machine is activated. Supported by Yard Automation Pros before and after the sale.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "question_nCTWbR",
+        "question_69jhiF",
+        "question_8KCdGW",
+        "question_EcA6Mx",
+        "question_BQYmLz",
+        "question_JjXiyk",
+        "question_JxkamV"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "heading": "Expert Q&A: Command Winter, Effortlessly",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "small",
+        "icon_color": "#ffffff"
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "178784317865f92603": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_reviews_grid_widget_gnCmHd": {
+          "type": "shopify://apps/judge-me-reviews/blocks/reviews_grid_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "review_selection": "all",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "show_media_only": false,
+            "display_order": "media_first",
+            "card_grouping": "per_media",
+            "columns_desktop": 3,
+            "rows_desktop": 3,
+            "columns_mobile": "2",
+            "rows_mobile": 6,
+            "show_stars": true,
+            "show_reviewer_name": true,
+            "show_review_title_on_hover_desktop": true,
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "card_spacing": "medium",
+            "header_text_color": "#000000",
+            "star_and_reviewer_name_color": "#f9f9f9",
+            "drop_shadow_color": "#000000",
+            "overlay_and_background_color": "#000000",
+            "content_color": "#f9f9f9",
+            "header_text": "From our customers",
+            "show_average_rating": true,
+            "rating_display": "default"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_reviews_grid_widget_gnCmHd"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "Complete Your Yarbo Setup"
+      }
+    },
+    "video_section_Fyz4zJ": {
+      "type": "video-section",
+      "blocks": {
+        "feature_row_YrVzL4": {
+          "type": "feature_row",
+          "settings": {
+            "video": "shopify://files/videos/Yarbo_Family_9 (1).mp4",
+            "media_position": "left",
+            "heading": "Tough Grass? No problem",
+            "heading_color": "#111111",
+            "text": "<p>Tough overgrown grass and stubborn weeds are no match.</p>",
+            "text_color": "#333333"
+          }
+        }
+      },
+      "block_order": [
+        "feature_row_YrVzL4"
+      ],
+      "name": "Video Feature Rows",
+      "settings": {
+        "background_color": "#F0F4F5"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_rich_text_mcMN4y",
+    "video_section_snow11",
+    "dynamic_image_with_text_EjdfDJ",
+    "video_hero_snow",
+    "dynamic_image_with_text_7Fk6dY",
+    "dynamic_custom_liquid_snowAttach",
+    "dynamic_custom_liquid_snowBleed",
+    "dynamic_image_with_text_CCdnyL",
+    "dynamic_featured_collection_rWGALp",
+    "dynamic_highlights_banner_AbhkkV",
+    "dynamic_custom_liquid_snowCallout",
+    "dynamic_custom_liquid_snowHeadlights",
+    "178785960657771b38",
+    "blocks_beazWB",
+    "blocks_whyyap_snow",
+    "17878590594a6b1b2d",
+    "dynamic_faq_8AUh7M",
+    "recently-viewed",
+    "178784317865f92603",
+    "recommendations",
+    "video_section_Fyz4zJ"
+  ]
+}

@@ -1,0 +1,416 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor_aA8jQd": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "2e128dd1-7dbd-45da-966d-745faa090a0f": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_WDrzrJ": {
+          "type": "text",
+          "name": "Unique Selling Points",
+          "settings": {
+            "text": "<p><a href=\"tel:4239273776\" title=\"tel:4239273776\"><em><strong>Buy Online Or Call Now To Order!</strong></em></a></p><p>✓ <strong>Free Shipping </strong>- on most {{ product.vendor }} products<br/>✓ <strong>Flexible Financing </strong>- Shop Pay Installments, 0-36% APR, Applicable at Checkout<br/>✓ <strong>Ships Direct </strong>- orders ship in 6-13 business days<br/>✓ <strong>Questions? </strong>- Call <a href=\"tel:4239273776\" title=\"tel:4239273776\">(423)-927-3776</a></p>"
+          }
+        },
+        "12214949-0a99-47d0-875d-57cf008e67f8": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_display": "low_stock_threshold",
+            "inventory_transfer_notice": true
+          }
+        },
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": false,
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "custom_liquid_E6cjNy": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .yap-trust-bar { width: 100%; max-width: 620px; margin: 0 auto; font-family: inherit; }\n  .yap-trust-item { display: flex; align-items: center; min-height: 58px; padding: 10px 0; border-bottom: 1px solid #e5e5e5; box-sizing: border-box; }\n  .yap-trust-item:last-child { border-bottom: none; }\n  .yap-trust-icon { width: 28px; min-width: 28px; margin-right: 11px; display: flex; align-items: center; justify-content: center; color: #555; }\n  .yap-trust-icon svg { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }\n  .yap-trust-text { flex: 1; font-size: 15px; line-height: 1.3; font-weight: 500; letter-spacing: -0.15px; color: #111; }\n  @media screen and (max-width: 749px) { .yap-trust-bar { max-width: 100%; } .yap-trust-item { min-height: 54px; padding: 9px 2px; } .yap-trust-text { font-size: 14px; } .yap-trust-icon { width: 26px; min-width: 26px; margin-right: 9px; } }\n</style>\n<div class=\"yap-trust-bar\">\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3 19 6v5c0 4.8-2.9 8.2-7 10-4.1-1.8-7-5.2-7-10V6l7-3z\"/><path d=\"m9 12 2 2 4-4\"/></svg></div>\n    <div class=\"yap-trust-text\">Price Match Available on Request | Returns Per Manufacturer Policy</div>\n  </div>\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M14.5 6.5a4 4 0 0 0-5.2 5.2L4 17l3 3 5.3-5.3a4 4 0 0 0 5.2-5.2l-2.2 2.2-2.8-2.8 2-2.4z\"/><path d=\"M16 4h4\"/><path d=\"M18 2v4\"/></svg></div>\n    <div class=\"yap-trust-text\">2-Year Manufacturer Warranty | US-Based Email Support</div>\n  </div>\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 6h11v11H3z\"/><path d=\"M14 10h4l3 3v4h-7z\"/><circle cx=\"7\" cy=\"18\" r=\"2\"/><circle cx=\"18\" cy=\"18\" r=\"2\"/></svg></div>\n    <div class=\"yap-trust-text\">6–13 Business Day Estimated Delivery</div>\n  </div>\n</div>"
+          }
+        },
+        "collapsible_tab_UWQ8gk": {
+          "type": "collapsible-tab",
+          "name": "Overview",
+          "settings": {
+            "collapsible_tab_heading": "Overview",
+            "collapsible_tab_text": "<p>The Mowrator S1 21″ 4WD 18Ah Wide Wheels Edition is built for steep, soft, and uneven terrain where additional tire footprint improves traction and stability.<br/><br/>🛤️ Up to 85% grade (40°) slope capability, ahead of the standard 4WD's 75% (37°).<br/>🏎️ Wide wheels increase footprint and distribute weight, reducing turf damage.<br/>🔋 56V 18Ah LiFePO4 battery, up to 2.25 hours runtime.<br/></p>"
+          }
+        },
+        "collapsible_tab_Uf69Wz": {
+          "type": "collapsible-tab",
+          "name": "Product Information",
+          "settings": {
+            "collapsible_tab_heading": "Product Information",
+            "collapsible_tab_text": "<h2>More Footprint, More Traction</h2><p>Standard wheels balance traction and turf protection well, but on soft, uneven, or steeper ground they can lose grip. The Wide Wheels Edition swaps in a wider tire footprint that spreads the mower's weight over more surface area, preventing wheel spin and slippage while actually reducing turf compaction compared to a narrower tire under the same load.</p><h2>85% Grade, Up From 75%</h2><p>The wider footprint and improved grip push the slope rating from the standard 4WD's 75% (37°) to 85% (40°), handling steeper terrain than the base configuration without the more aggressive Grip Tread tire needed for the 100% (45°) Grip Tread Tire Edition.</p><h2>Same Reliable S1 Platform</h2><p>21-inch cutting deck, adjustable cutting height from 1.5 to 4.3 inches, and a 56V 18Ah LiFePO4 battery delivering up to 2.25 hours of runtime and 1.125 acres per charge, depending on conditions.</p><h2>Warranty</h2><p>2 year warranty covering the main machine, remote, and battery.</p>"
+          }
+        },
+        "collapsible_tab_X7L37G": {
+          "type": "collapsible-tab",
+          "name": "Warranty & Support",
+          "settings": {
+            "collapsible_tab_heading": "Warranty & Support",
+            "collapsible_tab_text": "<p>Every Mowrator S1 4WD Wide Wheels Edition is backed by Mowrator's standard 2 year warranty, covering the main machine, the remote control, and the battery.</p><p><strong>What's covered</strong><br/><br/>Manufacturing defects and functional failures under normal residential use. Warranty service is handled through Mowrator's authorized repair network; you'll need proof of purchase (order date, model, and serial number) to file a claim.</p><p><strong>30 Day Money-Back Guarantee</strong><br/><br/>If the Wide Wheels Edition doesn't work out for your terrain, return it within 30 days of delivery for a refund.</p><p><strong>Our role</strong><br/><br/>As your dealer, we're your first point of contact. Reach out to us for setup help, order questions, or to get a warranty claim started, and we'll coordinate directly with Mowrator on your behalf.</p>"
+          }
+        },
+        "collapsible_tab_HjeTwa": {
+          "type": "collapsible-tab",
+          "name": "Setup & Installation",
+          "settings": {
+            "collapsible_tab_heading": "Setup & Installation",
+            "collapsible_tab_text": "<p>Getting the Wide Wheels Edition running takes about 15 to 20 minutes, most of it charging.</p><p><strong>In the box</strong><br/><br/>Mower body with 21 inch cutting deck, 18Ah battery, 600W charger, wide wheels (installed), Professional Remote Controller, tool bag, manual grass bag, mulching insert, and data cable.</p><p><strong>1. Charge the battery</strong><br/><br/>Before first use, fully charge the battery using the included charger.</p><p><strong>2. Assemble the grass bag</strong><br/><br/>Slide the fabric onto the metal frame, then fasten the rubber strips around the bag opening to the frame.</p><p><strong>3. Choose your clipping mode</strong><br/><br/>Mulch, rear bag, or side discharge, whichever fits the job.</p><p><strong>4. Seat the battery and pair the remote</strong><br/><br/>Power on the mower and the remote connects wirelessly. Indicator lights confirm connection status.</p><p><strong>5. Set your cutting height and walk the terrain first</strong><br/><br/>Especially on the steeper or uneven ground this edition is built for, walk the area first to clear debris before running a full pass.</p>"
+          }
+        },
+        "collapsible_tab_czbJiW": {
+          "type": "collapsible-tab",
+          "name": "Specifications",
+          "settings": {
+            "collapsible_tab_heading": "Specifications",
+            "collapsible_tab_text": "<p>Model: Mowrator S1 21″ 4WD 18Ah Wide Wheels Edition<br/><br/>Drive: Four-wheel drive (4WD)<br/><br/>Wheels: Wide wheels, PU material, increased footprint<br/><br/>Cutting width: 21 in<br/><br/>Cutting height range: 1.5 to 4.3 in, adjustable<br/><br/>Max slope rating: 85% grade (40°)<br/><br/>Battery: 56V LiFePO4, 18Ah<br/><br/>Runtime: up to 2.25 hours<br/><br/>Coverage per charge: up to 1.125 acres, depending on conditions<br/><br/>Clipping system: mulch, rear bag, or side discharge<br/><br/>Control method: handheld remote control<br/><br/>Warranty: 2 years on main machine, remote control, and battery<br/><br/></p>"
+          }
+        },
+        "complementary_products_8bK493": {
+          "type": "complementary_products",
+          "settings": {
+            "heading": "Pairs well with",
+            "product_recommendation_limit": 5,
+            "products_per_slide": 2
+          }
+        },
+        "collapsible_tab_mkEKLQ": {
+          "type": "collapsible-tab",
+          "name": "manuals",
+          "disabled": true,
+          "settings": {
+            "collapsible_tab_heading": "Manuals & Downloads",
+            "collapsible_tab_text": "<p>Use this text to share information about your product.</p>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_4NycBz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor_aA8jQd",
+        "2e128dd1-7dbd-45da-966d-745faa090a0f",
+        "price",
+        "text_WDrzrJ",
+        "12214949-0a99-47d0-875d-57cf008e67f8",
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956",
+        "custom_liquid_E6cjNy",
+        "collapsible_tab_UWQ8gk",
+        "collapsible_tab_Uf69Wz",
+        "collapsible_tab_X7L37G",
+        "collapsible_tab_HjeTwa",
+        "collapsible_tab_czbJiW",
+        "complementary_products_8bK493",
+        "collapsible_tab_mkEKLQ",
+        "description",
+        "judge_me_reviews_preview_badge_4NycBz"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": true,
+        "gallery_thumbnail_position": "below",
+        "gallery_thumbnail_layout": "carousel",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "dynamic_rich_text_wwIntro": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "content_alignment": "left"
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "disabled": true,
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "dynamic_image_with_text_wwSafety": {
+      "type": "dynamic-image-with-text",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "Intelligent Protection, Built In.",
+        "image": "shopify://shop_images/Mowrator_Files_1.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_width": 50,
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "text_alignment": "left"
+      }
+    },
+    "blocks_ww3col": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_7d61a93_wwcol": {
+          "type": "ai_gen_block_7d61a93",
+          "settings": {
+            "heading": "Wide Wheels vs. Standard",
+            "description": "What the wider footprint actually changes.",
+            "heading_size": 36,
+            "description_size": 16,
+            "heading_color": "#232739",
+            "description_color": "#393939",
+            "column_1_image": "shopify://shop_images/pc-cov.webp",
+            "column_1_label": "85% Grade vs. 75%",
+            "column_1_text": "The wider footprint and improved grip take on steeper terrain than the standard 4WD configuration handles.",
+            "column_2_image": "shopify://shop_images/ha-pc.webp",
+            "column_2_label": "Less Turf Damage",
+            "column_2_text": "Weight spread over a larger contact area means less compaction and tearing than a narrower tire under the same load.",
+            "column_3_image": "shopify://shop_images/mowrator-s1-4wd-18ah-wide-wheels.jpg",
+            "column_3_label": "Same Reliable S1 Platform",
+            "column_3_text": "21-inch deck, 1.5–4.3 inch adjustable height, and up to 2.25 hours of runtime, unchanged from the standard 4WD.",
+            "label_size": 20,
+            "text_size": 14,
+            "label_color": "#232739",
+            "text_color": "#393939",
+            "desktop_width_percent": 100,
+            "section_padding": 50,
+            "header_spacing": 40,
+            "grid_gap": 30,
+            "image_spacing": 20,
+            "image_border_radius": 8,
+            "background_color": "#f2f4f1"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_7d61a93_wwcol"
+      ],
+      "name": "Image showcase grid",
+      "settings": {}
+    },
+    "dynamic_rich_text_wwWhyYAP": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "content_alignment": "left"
+      }
+    },
+    "dynamic_highlights_banner_ww": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_XLUzQE": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-store",
+            "title": "100% American Owned and Operated",
+            "text": "<p>We're a locally owned and operated business</p>",
+            "link": ""
+          }
+        },
+        "highlight_84JPfV": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-heart",
+            "title": "30-Day Satisfaction Promise",
+            "text": "<p>If you're not happy, We're not happy</p>",
+            "link": ""
+          }
+        },
+        "highlight_HbAL67": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-lock",
+            "title": "Secure Online Payment System",
+            "text": "<p>All our transactions are protected and secure</p>",
+            "link": ""
+          }
+        },
+        "highlight_9pebcb": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-truck",
+            "title": "Free Freight Shipping",
+            "text": "<p>Free shipping on most orders</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_XLUzQE",
+        "highlight_84JPfV",
+        "highlight_HbAL67",
+        "highlight_9pebcb"
+      ],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#4d4d4d",
+        "icon_color": "#4d4d4d",
+        "background_color": "#f8f8f8",
+        "mobile_layout": "slider"
+      }
+    },
+    "dynamic_faq_ww": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "question_nCTWbR": {
+          "type": "question",
+          "settings": {
+            "question": "What's different about the Wide Wheels Edition vs. the standard 4WD?",
+            "answer": "<p>Wide wheels in place of the standard set, raising the slope rating from 75% (37°) to 85% (40°) and spreading the mower's weight over a larger contact area to reduce turf damage.</p>",
+            "icon": "none"
+          }
+        },
+        "question_69jhiF": {
+          "type": "question",
+          "settings": {
+            "question": "How is this different from the Grip Tread Tire Edition?",
+            "answer": "<p>The Grip Tread Tire Edition uses deformable tires and is rated for 100% grade (45°), the highest in the S1 lineup. Wide Wheels uses a wider standard-type PU tire rated for 85% (40°), a step up from base but not as extreme.</p>",
+            "icon": "none"
+          }
+        },
+        "question_8KCdGW": {
+          "type": "question",
+          "settings": {
+            "question": "Does it damage the lawn more than standard wheels?",
+            "answer": "<p>Less, if anything. The wider footprint distributes the mower's weight over more surface area, reducing compaction and tearing compared to a narrower tire carrying the same load.</p>",
+            "icon": "none"
+          }
+        },
+        "question_EcA6Mx": {
+          "type": "question",
+          "settings": {
+            "question": "Is this remote-controlled or autonomous?",
+            "answer": "<p>Remote-controlled, like the rest of the S1 line. You operate it with a handheld controller from wherever you're standing, it doesn't map your yard or run on its own schedule.</p>",
+            "icon": "none"
+          }
+        },
+        "question_BQYmLz": {
+          "type": "question",
+          "settings": {
+            "question": "What's the warranty?",
+            "answer": "<p>A 2-year warranty covering the main machine, remote, and battery.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "question_nCTWbR",
+        "question_69jhiF",
+        "question_8KCdGW",
+        "question_EcA6Mx",
+        "question_BQYmLz"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "heading": "Expert Q&A: Mowrator, Answered.",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "small",
+        "icon_color": "#ffffff"
+      }
+    },
+    "178784317865f92603": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_reviews_grid_widget_gnCmHd": {
+          "type": "shopify://apps/judge-me-reviews/blocks/reviews_grid_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "review_selection": "all",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "show_media_only": false,
+            "display_order": "media_first",
+            "card_grouping": "per_media",
+            "columns_desktop": 3,
+            "rows_desktop": 3,
+            "columns_mobile": "2",
+            "rows_mobile": 6,
+            "show_stars": true,
+            "show_reviewer_name": true,
+            "show_review_title_on_hover_desktop": true,
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "card_spacing": "medium",
+            "header_text_color": "#000000",
+            "star_and_reviewer_name_color": "#f9f9f9",
+            "drop_shadow_color": "#000000",
+            "overlay_and_background_color": "#000000",
+            "content_color": "#f9f9f9",
+            "header_text": "From our customers",
+            "show_average_rating": true,
+            "rating_display": "default"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_reviews_grid_widget_gnCmHd"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_rich_text_wwIntro",
+    "recently-viewed",
+    "dynamic_image_with_text_wwSafety",
+    "blocks_ww3col",
+    "dynamic_rich_text_wwWhyYAP",
+    "dynamic_highlights_banner_ww",
+    "dynamic_faq_ww",
+    "178784317865f92603",
+    "recommendations"
+  ]
+}

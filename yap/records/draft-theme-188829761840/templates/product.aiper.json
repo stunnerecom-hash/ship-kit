@@ -1,0 +1,332 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor_aA8jQd": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "2e128dd1-7dbd-45da-966d-745faa090a0f": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_WDrzrJ": {
+          "type": "text",
+          "name": "Unique Selling Points",
+          "settings": {
+            "text": "<p><a href=\"tel:4239273776\" title=\"tel:4239273776\"><em><strong>Buy Online Or Call Now To Order!</strong></em></a></p><p>✓ <strong>Free Shipping </strong>- on most {{ product.vendor }} products<br/>✓ <strong>Flexible Financing </strong>- Shop Pay Installments, 0-36% APR, Applicable at Checkout<br/>✓ <strong>Ships Direct </strong>- orders ship in 6-13 business days<br/>✓ <strong>Questions? </strong>- Call <a href=\"tel:4239273776\" title=\"tel:4239273776\">(423)-927-3776</a></p>"
+          }
+        },
+        "12214949-0a99-47d0-875d-57cf008e67f8": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_display": "low_stock_threshold",
+            "inventory_transfer_notice": true
+          }
+        },
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": false,
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "collapsible_tab_mkEKLQ": {
+          "type": "collapsible-tab",
+          "name": "manuals",
+          "disabled": true,
+          "settings": {
+            "collapsible_tab_heading": "Manuals & Downloads",
+            "collapsible_tab_text": "<p>Use this text to share information about your product.</p>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_4NycBz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor_aA8jQd",
+        "2e128dd1-7dbd-45da-966d-745faa090a0f",
+        "price",
+        "text_WDrzrJ",
+        "12214949-0a99-47d0-875d-57cf008e67f8",
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956",
+        "collapsible_tab_mkEKLQ",
+        "description",
+        "judge_me_reviews_preview_badge_4NycBz"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": true,
+        "gallery_thumbnail_position": "below",
+        "gallery_thumbnail_layout": "carousel",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "1770171007f1eebbc5": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_40e41b2_4EfCUA": {
+          "type": "ai_gen_block_40e41b2",
+          "settings": {
+            "show_heading": true,
+            "heading": "100% Secure Payment",
+            "heading_size": 18,
+            "heading_color": "#232739",
+            "show_payment_icons": false,
+            "show_visa": false,
+            "show_mastercard": false,
+            "show_amex": false,
+            "show_discover": false,
+            "show_paypal": false,
+            "show_apple_pay": false,
+            "show_google_pay": false,
+            "show_shop_pay": false,
+            "payment_icon_size": 60,
+            "icon_spacing": 8,
+            "icon_background": "#ffffff",
+            "icon_border_color": "#e0e0e0",
+            "icon_border_radius": 4,
+            "show_trust_badges": true,
+            "show_secure_checkout": true,
+            "secure_checkout_text": "Secure Checkout",
+            "show_money_back": true,
+            "money_back_text": "Money Back Guarantee",
+            "show_free_shipping": true,
+            "free_shipping_text": "Free Shipping",
+            "show_ssl_encrypted": true,
+            "ssl_encrypted_text": "SSL Encrypted",
+            "trust_icon_size": 24,
+            "trust_text_size": 13,
+            "trust_spacing": 12,
+            "trust_padding": 12,
+            "trust_background": "#f5f5f5",
+            "trust_border_color": "#e0e0e0",
+            "trust_border_radius": 8,
+            "trust_icon_color": "#233923",
+            "trust_text_color": "#393939",
+            "show_divider": true,
+            "divider_color": "#e0e0e0",
+            "spacing": 20,
+            "padding": 30,
+            "border_radius": 8,
+            "background_color": "#ffffff",
+            "desktop_width_percent": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_40e41b2_4EfCUA"
+      ],
+      "settings": {}
+    },
+    "aiper_rich_content": {
+      "type": "dynamic-supplier-content-aiper",
+      "settings": {}
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "dynamic_highlights_banner_AbhkkV": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_XLUzQE": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-store",
+            "title": "100% American Owned and Operated",
+            "text": "<p>We're a locally owned and operated business</p>",
+            "link": ""
+          }
+        },
+        "highlight_84JPfV": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-heart",
+            "title": "30-Day Satisfaction Promise",
+            "text": "<p>If you're not happy, We're not happy</p>",
+            "link": ""
+          }
+        },
+        "highlight_HbAL67": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-lock",
+            "title": "Secure Online Payment System",
+            "text": "<p>All our transactions are protected and secure</p>",
+            "link": ""
+          }
+        },
+        "highlight_9pebcb": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-truck",
+            "title": "Free Freight Shipping",
+            "text": "<p>Free shipping on most orders</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_XLUzQE",
+        "highlight_84JPfV",
+        "highlight_HbAL67",
+        "highlight_9pebcb"
+      ],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#4d4d4d",
+        "icon_color": "#4d4d4d",
+        "background_color": "#f8f8f8",
+        "mobile_layout": "slider"
+      }
+    },
+    "17701784384e272088": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_fCE7P7": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_fCE7P7"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "dynamic_faq_8AUh7M": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "question_nCTWbR": {
+          "type": "question",
+          "settings": {
+            "question": "Do I need any special installation or setup?",
+            "answer": "<p>Most of our products are ready to use out of the box, with setup instructions included. If a product needs an app or account setup, we walk you through it in the Setup & Installation section on the product page.</p>",
+            "icon": "none"
+          }
+        },
+        "question_69jhiF": {
+          "type": "question",
+          "settings": {
+            "question": "What if the product doesn't work for my space?",
+            "answer": "<p>Every product page lists the coverage, dimensions, or compatibility details relevant to that item. If you're unsure whether something fits your space, reach out to us before ordering and we'll help you confirm.</p>",
+            "icon": "none"
+          }
+        },
+        "question_8KCdGW": {
+          "type": "question",
+          "settings": {
+            "question": "What happens if something goes wrong?",
+            "answer": "<p>Each product is backed by its manufacturer's warranty, detailed on the product page. If you run into an issue, contact us and we'll help you get it resolved directly with the manufacturer.</p>",
+            "icon": "none"
+          }
+        },
+        "question_EcA6Mx": {
+          "type": "question",
+          "settings": {
+            "question": "How long does shipping take?",
+            "answer": "<p>Shipping times vary by product and are noted on each product page. Most orders ship from within the U.S.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JxkamV": {
+          "type": "question",
+          "settings": {
+            "question": "What kind of support do I get after purchase?",
+            "answer": "<p>Yard Automation Pros curates every product we carry and provides support before and after the sale. We reply to emails within 1 business day at support@yardautomationpros.com.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "question_nCTWbR",
+        "question_69jhiF",
+        "question_8KCdGW",
+        "question_EcA6Mx",
+        "question_JxkamV"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "small",
+        "icon_color": "#ffffff"
+      }
+    },
+    "dynamic_image_with_text_7Fk6dY": {
+      "type": "dynamic-image-with-text",
+      "disabled": true,
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "Image with text",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "text_alignment": "left"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1770171007f1eebbc5",
+    "aiper_rich_content",
+    "recommendations",
+    "recently-viewed",
+    "dynamic_highlights_banner_AbhkkV",
+    "dynamic_image_with_text_7Fk6dY",
+    "17701784384e272088",
+    "dynamic_faq_8AUh7M"
+  ]
+}

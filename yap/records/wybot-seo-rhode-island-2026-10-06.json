@@ -1,0 +1,96 @@
+{
+ "changed": "2026-10-06",
+ "field": "product SEO description (title sent unchanged alongside)",
+ "products": {
+  "15282827166000": {
+   "seo_title": "WYBOT S2 Solar Vision + F1 Bundle | Yard Automation Pros",
+   "before": "WYBOT S2 Solar Vision cleans pools up to 3,229 sq ft and docks to charge by sun, while the F1 skims the surface. Free shipping in the contiguous US.",
+   "after": "WYBOT S2 Solar Vision cleans pools up to 3,229 sq ft and docks to charge by sun, while the F1 skims the surface. Free shipping in the contiguous US, except Rhode Island."
+  },
+  "15282827526448": {
+   "seo_title": "WYBOT C2 Cordless Pool Robot 2026 | Yard Automation Pros",
+   "before": "WYBOT C2 cleans floors, walls and waterline in pools up to 2,152 sq ft, up to 180 min in Eco mode, with two filters. Free shipping in the contiguous US.",
+   "after": "WYBOT C2 cleans floors, walls and waterline in pools up to 2,152 sq ft, up to 180 min in Eco mode, with two filters. Free shipping in the contiguous US, except Rhode Island."
+  },
+  "15282827559216": {
+   "seo_title": "WYBOT S2 Solar Pool Robot, Solar Dock | Yard Automation Pros",
+   "before": "WYBOT S2 Solar returns to its solar dock below 20% battery and runs on a weekly schedule, for pools up to 3,229 sq ft. Free shipping in the contiguous US.",
+   "after": "WYBOT S2 Solar returns to its solar dock below 20% battery and runs on a weekly schedule, for pools up to 3,229 sq ft. Free shipping in the contiguous US, except Rhode Island."
+  },
+  "15282827591984": {
+   "seo_title": "WYBOT F1 Solar Robotic Pool Skimmer | Yard Automation Pros",
+   "before": "WYBOT F1 solar robotic skimmer with a 33 W panel and a 7 L basket. Smart mode runs all day in cycles; Standard runs 8 h. Free shipping in the contiguous US.",
+   "after": "WYBOT F1 solar robotic skimmer with a 33 W panel and a 7 L basket. Smart mode runs all day in cycles; Standard runs 8 h. Free shipping in the contiguous US, except Rhode Island."
+  },
+  "15282827624752": {
+   "seo_title": "WYBOT S2 Cordless Robot, Big Pools | Yard Automation Pros",
+   "before": "WYBOT S2 cleans floors, walls, steps and waterline in pools up to 3,230 sq ft, with up to 210 minutes of runtime. Free shipping in the contiguous US.",
+   "after": "WYBOT S2 cleans floors, walls, steps and waterline in pools up to 3,230 sq ft, with up to 210 minutes of runtime. Free shipping in the contiguous US, except Rhode Island."
+  },
+  "15282827657520": {
+   "seo_title": "WYBOT C2 Vision AI Pool Cleaner | Yard Automation Pros",
+   "before": "WYBOT C2 Vision uses a camera to find debris on the pool floor first. Pools up to 2,152 sq ft, up to 180 min in Eco mode. Free shipping in the contiguous US.",
+   "after": "WYBOT C2 Vision uses a camera to find debris on the pool floor first. Pools up to 2,152 sq ft, up to 180 min in Eco mode. Free shipping in the contiguous US, except Rhode Island."
+  },
+  "15282827690288": {
+   "seo_title": "WYBOT C1 Cordless Pool Robot 2026 | Yard Automation Pros",
+   "before": "WYBOT C1 cleans floors, walls, waterline, steps and slopes in pools up to 1,615 sq ft, for up to 150 minutes per charge. Free shipping in the contiguous US.",
+   "after": "WYBOT C1 cleans floors, walls, waterline, steps and slopes in pools up to 1,615 sq ft, for up to 150 minutes per charge. Free shipping in the contiguous US, except Rhode Island."
+  },
+  "15282827723056": {
+   "seo_title": "WYBOT B1 Cordless Pool Cleaner Robot | Yard Automation Pros",
+   "before": "WYBOT B1 is a light cordless cleaner for floors, walls, waterline and steps in pools up to 1,150 sq ft, up to 120 min. Free shipping in the contiguous US.",
+   "after": "WYBOT B1 is a light cordless cleaner for floors, walls, waterline and steps in pools up to 1,150 sq ft, up to 120 min. Free shipping in the contiguous US, except Rhode Island."
+  },
+  "15282827755824": {
+   "seo_title": "WYBOT C1 + F1 Full Pool Bundle | Yard Automation Pros",
+   "before": "WYBOT C1 cleans floors, walls and waterline in pools up to 1,615 sq ft while the solar F1 skims the surface. Free shipping in the contiguous US.",
+   "after": "WYBOT C1 cleans floors, walls and waterline in pools up to 1,615 sq ft while the solar F1 skims the surface. Free shipping in the contiguous US, except Rhode Island."
+  },
+  "15282827788592": {
+   "seo_title": "WYBOT A1 Cordless Floor Pool Cleaner | Yard Automation Pros",
+   "before": "WYBOT A1 cleans the floor of flat-bottom pools up to 1,076 sq ft, up to 120 minutes per charge, with a cycle timer. Free shipping in the contiguous US.",
+   "after": "WYBOT A1 cleans the floor of flat-bottom pools up to 1,076 sq ft, up to 120 minutes per charge, with a cycle timer. Free shipping in the contiguous US, except Rhode Island."
+  },
+  "15282827821360": {
+   "seo_title": "WYBOT S2 Solar Vision Pool Robot | Yard Automation Pros",
+   "before": "WYBOT S2 Solar Vision adds a camera and AI Vision floor mode to the solar dock, for pools up to 3,229 sq ft. Free shipping in the contiguous US.",
+   "after": "WYBOT S2 Solar Vision adds a camera and AI Vision floor mode to the solar dock, for pools up to 3,229 sq ft. Free shipping in the contiguous US, except Rhode Island."
+  },
+  "15282827854128": {
+   "seo_title": "WYBOT C2 + F1 Full Pool Bundle | Yard Automation Pros",
+   "before": "WYBOT C2 cleans floors, walls and waterline in pools up to 2,152 sq ft while the solar F1 skims the surface. Free shipping in the contiguous US.",
+   "after": "WYBOT C2 cleans floors, walls and waterline in pools up to 2,152 sq ft while the solar F1 skims the surface. Free shipping in the contiguous US, except Rhode Island."
+  },
+  "15282827886896": {
+   "seo_title": "WYBOT A1 + F1 Full Pool Bundle | Yard Automation Pros",
+   "before": "WYBOT A1 cleans the floor of flat-bottom pools up to 1,076 sq ft while the solar F1 skims leaves off the top. Free shipping in the contiguous US.",
+   "after": "WYBOT A1 cleans the floor of flat-bottom pools up to 1,076 sq ft while the solar F1 skims leaves off the top. Free shipping in the contiguous US, except Rhode Island."
+  },
+  "15282827919664": {
+   "seo_title": "WYBOT S2 Solar + F1 Pool Bundle | Yard Automation Pros",
+   "before": "WYBOT S2 Solar cleans pools up to 3,229 sq ft and docks to charge by sun, while the F1 skims the surface. Free shipping in the contiguous US.",
+   "after": "WYBOT S2 Solar cleans pools up to 3,229 sq ft and docks to charge by sun, while the F1 skims the surface. Free shipping in the contiguous US, except Rhode Island."
+  },
+  "15282828017968": {
+   "seo_title": "WYBOT S3 Self-Emptying Pool Robot | Yard Automation Pros",
+   "before": "WYBOT S3 maps your pool, then docks, recharges and empties debris into a 10 L deck bin after each cycle. Free shipping in the contiguous US.",
+   "after": "WYBOT S3 maps your pool, then docks, recharges and empties debris into a 10 L deck bin after each cycle. Free shipping in the contiguous US, except Rhode Island."
+  },
+  "15282828050736": {
+   "seo_title": "WYBOT C2 Vision + F1 Pool Bundle | Yard Automation Pros",
+   "before": "WYBOT C2 Vision targets floor debris with its camera in pools up to 2,152 sq ft, while the solar F1 skims. Free shipping in the contiguous US.",
+   "after": "WYBOT C2 Vision targets floor debris with its camera in pools up to 2,152 sq ft, while the solar F1 skims. Free shipping in the contiguous US, except Rhode Island."
+  },
+  "15282828083504": {
+   "seo_title": "WYBOT S2 + F1 Full Pool Bundle | Yard Automation Pros",
+   "before": "WYBOT S2 cleans pools up to 3,230 sq ft for up to 210 minutes per charge while the solar F1 skims the surface. Free shipping in the contiguous US.",
+   "after": "WYBOT S2 cleans pools up to 3,230 sq ft for up to 210 minutes per charge while the solar F1 skims the surface. Free shipping in the contiguous US, except Rhode Island."
+  },
+  "15282828116272": {
+   "seo_title": "WYBOT B1 + F1 Full Pool Bundle | Yard Automation Pros",
+   "before": "WYBOT B1 cleans floors, walls and waterline in pools up to 1,150 sq ft while the solar F1 skims the surface. Free shipping in the contiguous US.",
+   "after": "WYBOT B1 cleans floors, walls and waterline in pools up to 1,150 sq ft while the solar F1 skims the surface. Free shipping in the contiguous US, except Rhode Island."
+  }
+ }
+}

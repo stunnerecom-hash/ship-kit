@@ -1,0 +1,666 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor_aA8jQd": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "2e128dd1-7dbd-45da-966d-745faa090a0f": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_WDrzrJ": {
+          "type": "text",
+          "name": "Unique Selling Points",
+          "settings": {
+            "text": "<p><a href=\"tel:4239273776\" title=\"tel:4239273776\"><em><strong>Buy Online Or Call Now To Order!</strong></em></a></p><p>✓ <strong>Free Shipping </strong>- on most {{ product.vendor }} products<br/>✓ <strong>Flexible Financing </strong>- Shop Pay Installments, 0-36% APR, Applicable at Checkout<br/>✓ <strong>Ships Direct </strong>- orders ship in 10-14 business days<br/>✓ <strong>Questions? </strong>- Call <a href=\"tel:4239273776\" title=\"tel:4239273776\">(423)-927-3776</a></p>"
+          }
+        },
+        "12214949-0a99-47d0-875d-57cf008e67f8": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_display": "low_stock_threshold",
+            "inventory_transfer_notice": true
+          }
+        },
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": false,
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "custom_liquid_visibleDesc": {
+          "type": "custom-liquid",
+          "name": "Visible Description",
+          "settings": {
+            "custom_liquid": "<style>\n  .ylm-desc { margin: 28px 0 0; }\n  .ylm-desc__heading { font-size: 22px; font-weight: 700; color: #233923; margin: 0 0 12px; line-height: 1.25; }\n  .ylm-desc__text { font-size: 15.5px; line-height: 1.6; color: #233923; margin: 0; }\n</style>\n<div class=\"ylm-desc\">\n  <h2 class=\"ylm-desc__heading\">Twice the Power, Built for the Grass That Fights Back</h2>\n  <p class=\"ylm-desc__text\">The Lawn Mower Pro Module upgrades a Yarbo Core into a heavy-duty autonomous mower built for large, demanding lawns. Dual 300W motors deliver up to 2,500W of peak power, roughly double a standard mower module, so dense Bermuda, Zoysia, St. Augustine, Buffalo Grass, and Kikuyu don't slow it down. Cutting height adjusts from 0.8 to 4.0 inches, with standard reinforced cutting discs for everyday mowing or optional SK85 high-carbon steel straight blades for a finer, lower cut. Covers up to 6 acres, riding on the Core's tracked chassis and 70% (35°) climbing ability to handle slopes and rough ground a wheeled mower can't. Requires a Yarbo Core to run, sold separately or as part of a bundle.</p>\n</div>"
+          }
+        },
+        "custom_liquid_yR4UPX": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .yap-trust-bar {\n    width: 100%;\n    max-width: 620px;\n    margin: 0 auto;\n    font-family: inherit;\n  }\n\n  .yap-trust-item {\n    display: flex;\n    align-items: center;\n    min-height: 58px;\n    padding: 10px 0;\n    border-bottom: 1px solid #e5e5e5;\n    box-sizing: border-box;\n  }\n\n  .yap-trust-item:last-child {\n    border-bottom: none;\n  }\n\n  .yap-trust-icon {\n    width: 28px;\n    min-width: 28px;\n    margin-right: 11px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    color: #555;\n  }\n\n  .yap-trust-icon svg {\n    width: 24px;\n    height: 24px;\n    stroke: currentColor;\n    fill: none;\n    stroke-width: 1.5;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n  }\n\n  .yap-trust-text {\n    flex: 1;\n    font-size: 15px;\n    line-height: 1.3;\n    font-weight: 500;\n    letter-spacing: -0.15px;\n    color: #111;\n  }\n\n  @media screen and (max-width: 749px) {\n    .yap-trust-bar {\n      max-width: 100%;\n    }\n\n    .yap-trust-item {\n      min-height: 54px;\n      padding: 9px 2px;\n    }\n\n    .yap-trust-text {\n      font-size: 14px;\n    }\n\n    .yap-trust-icon {\n      width: 26px;\n      min-width: 26px;\n      margin-right: 9px;\n    }\n  }\n</style>\n\n<div class=\"yap-trust-bar\">\n\n  <!-- ROW 1: PRICE MATCH + RETURNS -->\n  <div class=\"yap-trust-item\">\n\n    <div class=\"yap-trust-icon\">\n      <!-- Shield Icon -->\n      <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n        <path d=\"M12 3 19 6v5c0 4.8-2.9 8.2-7 10-4.1-1.8-7-5.2-7-10V6l7-3z\"/>\n        <path d=\"m9 12 2 2 4-4\"/>\n      </svg>\n    </div>\n\n    <div class=\"yap-trust-text\">\n      Price Match Available on Request | Returns Per Manufacturer Policy\n    </div>\n\n  </div>\n\n\n  <!-- ROW 2: WARRANTY + SUPPORT -->\n  <div class=\"yap-trust-item\">\n\n    <div class=\"yap-trust-icon\">\n      <!-- Warranty / Repair Icon -->\n      <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n        <path d=\"M14.5 6.5a4 4 0 0 0-5.2 5.2L4 17l3 3 5.3-5.3a4 4 0 0 0 5.2-5.2l-2.2 2.2-2.8-2.8 2-2.4z\"/>\n        <path d=\"M16 4h4\"/>\n        <path d=\"M18 2v4\"/>\n      </svg>\n    </div>\n\n    <div class=\"yap-trust-text\">\n      2-Year Manufacturer Warranty | US-Based Email Support\n    </div>\n\n  </div>\n\n\n  <!-- ROW 3: DELIVERY -->\n  <div class=\"yap-trust-item\">\n\n    <div class=\"yap-trust-icon\">\n      <!-- Delivery Truck Icon -->\n      <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\">\n        <path d=\"M3 6h11v11H3z\"/>\n        <path d=\"M14 10h4l3 3v4h-7z\"/>\n        <circle cx=\"7\" cy=\"18\" r=\"2\"/>\n        <circle cx=\"18\" cy=\"18\" r=\"2\"/>\n      </svg>\n    </div>\n\n    <div class=\"yap-trust-text\">\n      10–14 Business Day Estimated Delivery\n    </div>\n\n  </div>\n\n</div>"
+          }
+        },
+        "collapsible_tab_UWQ8gk": {
+          "type": "collapsible-tab",
+          "name": "Overview",
+          "settings": {
+            "collapsible_tab_heading": "Overview",
+            "collapsible_tab_text": "<p>The Yarbo Lawn Mower Pro Module attaches to your Yarbo Core and turns it into a heavy-duty autonomous mower built for large, demanding lawns. No boundary wires, no manual mowing, no lawn service.</p><p><strong>Power and Precision</strong><br/>Dual 300W motors deliver 2,500W peak power, twice the standard motor output. Cutting height adjusts from 0.8\" to 4.0\" across 20 settings.</p><p><strong>Built for Real Lawns</strong><br/>Covers up to 6 acres on a twice-weekly mowing cycle. Handles Bermuda, Zoysia, St. Augustine, Buffalo Grass, and Kikuyu. Choose reinforced cutting discs or SK85 high-carbon steel straight blades depending on your lawn.</p><p><strong>Smart Obstacle Detection</strong><br/>Binocular camera, ultrasonic radar, and a front bumper sensor work together to navigate safely around pets, furniture, and obstacles.</p><p>Requires Yarbo Core — sold separately or as part of a bundle.</p>"
+          }
+        },
+        "collapsible_tab_Uf69Wz": {
+          "type": "collapsible-tab",
+          "name": "Product Information",
+          "disabled": true,
+          "settings": {
+            "collapsible_tab_heading": "Product Information",
+            "collapsible_tab_text": "<p><strong>The Autonomous Estate. By Yard Automation Pros.</strong></p><p><strong>Cuts what other robots can't.</strong></p><p>The Lawn Mower Pro Module upgrades your Yarbo Core into a heavy-duty autonomous mower, engineered for large and demanding properties, fully autonomous, every cut.</p><p><strong>Requires a Yarbo Core to run.</strong> This module needs a Core base to operate. If you don’t already own one, a bundle like the <a href=\"https://bz1drk-tc.myshopify.com/products/yarbo-lawn-mower-pro-core-lawn-mower-pro-module\">Lawn Mower Pro bundle</a> includes a Core and gets you running immediately.</p><h3>Built for demanding lawns</h3><p>Dual 300W motors and 2,500W peak power cut through thick, tall, and difficult grass without slowing down.</p><h3>Works with the Core’s all-terrain chassis</h3><p>The module relies on the Core’s tracked drive system and 70% (35°) climbing ability to take on slopes and rough ground that stop wheeled mowers.</p>"
+          }
+        },
+        "collapsible_tab_X7L37G": {
+          "type": "collapsible-tab",
+          "name": "Warranty & Support",
+          "settings": {
+            "collapsible_tab_heading": "Warranty & Support:",
+            "collapsible_tab_text": "<p>Covered by Yarbo’s standard 2 year manufacturer warranty on defective parts, excluding consumables, beginning from the date your machine is activated. We reply to emails within 1 business day at support@yardautomationpros.com.<br/><br/></p>"
+          }
+        },
+        "collapsible_tab_HjeTwa": {
+          "type": "collapsible-tab",
+          "name": "Setup & Installation",
+          "settings": {
+            "collapsible_tab_heading": "Setup & Installation",
+            "collapsible_tab_text": "<p>Setup takes approximately 60 to 90 minutes. The Yarbo app guides you through boundary mapping using RTK GPS, no physical wire installation required. Compatible with iOS and Android.<br/><br/></p>"
+          }
+        },
+        "collapsible_tab_czbJiW": {
+          "type": "collapsible-tab",
+          "name": "Specifications",
+          "settings": {
+            "collapsible_tab_heading": "Specifications",
+            "collapsible_tab_text": "<h3>Lawn Mower Pro Module</h3><ul><li><strong>Motors:</strong> Dual 300W, 2,500W peak power</li><li><strong>Cutting height:</strong> 0.8 to 4.0 inches</li><li><strong>Max mowing size:</strong> Up to 6 acres (25,000 m²)</li><li><strong>Mowing area per day:</strong> Up to 1.7 acres (6,880 m²)</li><li><strong>Grass compatibility:</strong> Bermuda, Zoysia, St. Augustine, Buffalo Grass, Kikuyu</li><li><strong>Blade options:</strong> Standard reinforced cutting discs (5 reinforced razor blades each) or SK85 high-carbon steel straight blades</li><li><strong>Obstacle detection:</strong> Binocular camera + ultrasonic radar + bumper sensor</li></ul><h3>Yarbo Core (required, sold separately)</h3><ul><li><strong>Navigation:</strong> RTK + Vision + IMU + ODOM</li><li><strong>Climbing ability:</strong> 70% (35°)</li><li><strong>Battery capacity:</strong> 36V 38.4Ah</li><li><strong>Mowing time per charge:</strong> Up to 120 minutes</li><li><strong>Charging time (20%–80%):</strong> 90 minutes</li><li><strong>Connectivity:</strong> 4G, Wi-Fi, Bluetooth, Wi-Fi HaLow</li></ul><h3>Warranty &amp; Shipping</h3><ul><li><strong>Warranty:</strong> Yarbo's standard 2-year manufacturer warranty on defective parts, excluding consumables, from activation date</li><li><strong>Delivery:</strong> approximately 10 to 14 days after payment</li></ul><h3>What's in the Box</h3><ul><li>Lawn Mower Pro Module</li><li>Mounting hardware &amp; install guide</li><li>Quick-start card</li></ul><p>Requires a Yarbo Core, sold separately or as part of a bundle.</p>"
+          }
+        },
+        "complementary_products_8bK493": {
+          "type": "complementary_products",
+          "settings": {
+            "heading": "Pairs well with",
+            "product_recommendation_limit": 5,
+            "products_per_slide": 2
+          }
+        },
+        "collapsible_tab_mkEKLQ": {
+          "type": "collapsible-tab",
+          "name": "manuals",
+          "disabled": true,
+          "settings": {
+            "collapsible_tab_heading": "Manuals & Downloads",
+            "collapsible_tab_text": "<p>Use this text to share information about your product.</p>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_4NycBz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor_aA8jQd",
+        "2e128dd1-7dbd-45da-966d-745faa090a0f",
+        "price",
+        "text_WDrzrJ",
+        "12214949-0a99-47d0-875d-57cf008e67f8",
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956",
+        "custom_liquid_visibleDesc",
+        "custom_liquid_yR4UPX",
+        "collapsible_tab_UWQ8gk",
+        "collapsible_tab_Uf69Wz",
+        "collapsible_tab_X7L37G",
+        "collapsible_tab_HjeTwa",
+        "collapsible_tab_czbJiW",
+        "complementary_products_8bK493",
+        "collapsible_tab_mkEKLQ",
+        "description",
+        "judge_me_reviews_preview_badge_4NycBz"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": true,
+        "gallery_thumbnail_position": "below",
+        "gallery_thumbnail_layout": "carousel",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "dynamic_rich_text_dRmmY4": {
+      "type": "dynamic-rich-text",
+      "blocks": {
+        "heading_ylmIntro": {
+          "type": "heading",
+          "settings": {
+            "title": "A Mower Built for the Lawns Standard Robots Give Up On",
+            "heading_size": "medium"
+          }
+        },
+        "text_ylmIntro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Most robotic mowers are built for small, flat, forgiving yards. The Lawn Mower Pro Module isn't. Dual motors, reinforced blades, and the Core's all-terrain chassis are built for the acreage, slopes, and stubborn grass that stop a standard mower cold, then it comes back the next week and does it again.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ylmIntro",
+        "text_ylmIntro"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "content_alignment": "center"
+      }
+    },
+    "1770171007f1eebbc5": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "dynamic_image_with_text_7Fk6dY": {
+      "type": "dynamic-image-with-text",
+      "blocks": {
+        "heading_ylmCut": {
+          "type": "heading",
+          "settings": {
+            "text": "Cuts Through What It's Actually Facing",
+            "heading_size": "medium"
+          }
+        },
+        "text_ylmCut": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Tall, thick, overgrown, the kind of grass that bogs down a standard mower barely slows this one. The added motor power carries straight through without losing cut quality, so a missed week doesn't turn into a problem.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ylmCut",
+        "text_ylmCut"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "background_color": "",
+        "image": "shopify://shop_images/Frame_2036457946.webp",
+        "image_alt": "Yarbo Lawn Mower Pro Module cutting through tall grass with clippings flying, houses visible in the background",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_width": 50,
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "text_alignment": "center"
+      }
+    },
+    "video_hero_ylm": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .ylm-vhero { max-width: 1200px; margin: 0 auto; padding: 64px 24px; } @media screen and (max-width: 749px) { .ylm-vhero { padding: 40px 20px; } }\n  .ylm-vhero__videos { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }\n  @media screen and (max-width: 819px) { .ylm-vhero__videos { grid-template-columns: 1fr; } }\n  .ylm-vhero__frame { border-radius: 14px; overflow: hidden; box-shadow: 0 8px 28px rgba(35,39,57,.14); background: #0d0f14; }\n  .ylm-vhero__frame video { display: block; width: 100%; height: 100%; object-fit: cover; aspect-ratio: 16/9; }\n  .ylm-vhero__text { max-width: 640px; margin: 32px auto 0; text-align: center; }\n  .ylm-vhero__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c9a84c; margin: 0 0 14px; padding-bottom: 8px; border-bottom: 2px solid #c9a84c; }\n  .ylm-vhero__heading { font-size: clamp(26px, 3.5vw, 38px); font-weight: 700; color: #233923; margin: 0 0 14px; line-height: 1.2; }\n  .ylm-vhero__body { font-size: 16px; line-height: 1.6; color: #233923; margin: 0; }\n  .ylm-vhero__cta { margin-top: 26px; }\n  .ylm-vhero__btn { display: inline-block; padding: 15px 36px; background: #233923; color: #F2F4F1; border: none; border-radius: 8px; font-size: 15px; font-weight: 700; letter-spacing: .4px; text-align: center; cursor: pointer; transition: background .2s ease, transform .15s ease; }\n  .ylm-vhero__btn:hover { background: #c9a84c; color: #233923; transform: translateY(-1px); }\n</style>\n<div class=\"ylm-vhero\">\n  <div class=\"ylm-vhero__videos\">\n    <div class=\"ylm-vhero__frame\">\n      <video src=\"https://cdn.shopify.com/videos/c/vp/c48f8bd794e04db4ae5b866bac530bcc/c48f8bd794e04db4ae5b866bac530bcc.SD-480p-1.5Mbps-94646656.mp4\" autoplay muted loop playsinline aria-label=\"Yarbo Lawn Mower Pro Module cutting a continuous path across a lawn\"></video>\n    </div>\n    <div class=\"ylm-vhero__frame\">\n      <video src=\"https://cdn.shopify.com/videos/c/vp/69ee00d1247841848eb93db6275bcb1a/69ee00d1247841848eb93db6275bcb1a.HD-720p-4.5Mbps-94646657.mp4\" autoplay muted loop playsinline aria-label=\"Yarbo Lawn Mower Pro Module navigating around trees and a stone path\"></video>\n    </div>\n  </div>\n  <div class=\"ylm-vhero__text\">\n    <span class=\"ylm-vhero__kicker\">Real Footage, Not a Render</span>\n    <h1 class=\"ylm-vhero__heading\">Watch the Lawn Mower Pro Module Actually Work</h1>\n    <p class=\"ylm-vhero__body\">Continuous cutting across open lawn on the left, real-time navigation around trees and a stone path on the right. No boundary wires, no supervision, no stopping to think about it.</p>\n    <div class=\"ylm-vhero__cta\">\n      <button type=\"button\" class=\"ylm-vhero__btn\" onclick=\"var f=document.querySelector('form[action*=\'/cart/add\']'); if(f){f.scrollIntoView({behavior:'smooth', block:'center'});}\">Shop Now</button>\n    </div>\n  </div>\n</div>"
+      }
+    },
+    "dynamic_custom_liquid_ylmGolf": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .ylm-bleed { position: relative; width: 100%; min-height: 480px; margin: 0; overflow: hidden; display: flex; align-items: center; justify-content: center; background-size: cover; background-position: center; }\n  .ylm-bleed__overlay { position: absolute; inset: 0; background: rgba(20,26,20,.42); }\n  .ylm-bleed__content { position: relative; z-index: 2; text-align: center; color: #F2F4F1; max-width: 660px; padding: 0 24px; }\n  .ylm-bleed__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c9a84c; margin: 0 0 14px; padding-bottom: 8px; border-bottom: 2px solid #c9a84c; }\n  .ylm-bleed__heading { font-size: clamp(28px, 4vw, 42px); font-weight: 700; margin: 0 0 14px; }\n  .ylm-bleed__text { font-size: 17px; line-height: 1.55; margin: 0; }\n  @media screen and (max-width: 749px) { .ylm-bleed { min-height: 380px; } }\n</style>\n<div class=\"ylm-bleed\" style=\"background-image: url('https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Yarbo_MPRO_8.png?v=1787779892');\">\n  <div class=\"ylm-bleed__overlay\"></div>\n  <div class=\"ylm-bleed__content\">\n    <span class=\"ylm-bleed__kicker\">Scaled for Real Acreage</span>\n    <h2 class=\"ylm-bleed__heading\">Built for Acres, Not Just a Yard</h2>\n    <p class=\"ylm-bleed__text\">Up to 6 acres of coverage means this isn't a machine sized for a small suburban lot. Large residential properties, estate grounds, and commercial-scale turf are within its actual operating range, not a stretch use case.</p>\n  </div>\n</div>"
+      }
+    },
+    "video_section_ylm11": {
+      "type": "video-section",
+      "blocks": {
+        "feature_row_ylm11": {
+          "type": "feature_row",
+          "settings": {
+            "video": "shopify://files/videos/Yarbo_MPRO_11.mp4",
+            "media_position": "left",
+            "heading": "Two Blade Systems, Engineered In",
+            "heading_color": "#233923",
+            "text": "<p>Dual cutting discs spin independently beneath the deck, standard reinforced blades for everyday mowing, straight blades when a finer finish matters. Neither is a compromise, they're two different tools built into the same module.</p>",
+            "text_color": "#233923"
+          }
+        }
+      },
+      "block_order": [
+        "feature_row_ylm11"
+      ],
+      "name": "Video Feature Rows",
+      "settings": {
+        "background_color": "#f2f4f1"
+      }
+    },
+    "dynamic_custom_liquid_ylmAssembled": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .ylm-callout { max-width: 1100px; margin: 0 auto; padding: 64px 24px; } @media screen and (max-width: 749px) { .ylm-callout { padding: 40px 20px; } }\n  .ylm-callout__panel { display: flex; gap: 40px; align-items: center; background: #f2f4f1; border: 1px solid #d7ddd4; border-left: 4px solid #c9a84c; border-radius: 12px; padding: 36px; }\n  @media screen and (max-width: 819px) { .ylm-callout__panel { flex-direction: column; text-align: center; } }\n  .ylm-callout__img-wrap { flex: 0 0 220px; }\n  .ylm-callout__img-wrap img { width: 100%; max-width: 220px; height: auto; border-radius: 10px; display: block; margin: 0 auto; background: #fff; }\n  .ylm-callout__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c9a84c; margin: 0 0 10px; }\n  h2.ylm-callout__quote { font-size: clamp(20px, 2.6vw, 26px); font-weight: 700; color: #233923; margin: 0 0 12px; line-height: 1.3; }\n  .ylm-callout__text { font-size: 15.5px; line-height: 1.6; color: #233923; margin: 0; }\n</style>\n<div class=\"ylm-callout\">\n  <div class=\"ylm-callout__panel\">\n    <div class=\"ylm-callout__img-wrap\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Yarbo_MPRO_3.png?v=1787779908\" alt=\"Yarbo Core with the Lawn Mower Pro Module fully assembled, three-quarter studio view\" loading=\"lazy\" width=\"1200\" height=\"1200\">\n    </div>\n    <div>\n      <span class=\"ylm-callout__kicker\">The Complete Cutting System</span>\n      <h2 class=\"ylm-callout__quote\">One machine, fully assembled.</h2>\n      <p class=\"ylm-callout__text\">Once mounted, the Core and the Lawn Mower Pro Module operate as a single autonomous mower, RTK navigation and terrain handling from the Core, cutting power from the module. Neither half does the job alone.</p>\n    </div>\n  </div>\n</div>"
+      }
+    },
+    "video_section_ylm12": {
+      "type": "video-section",
+      "blocks": {
+        "feature_row_ylm12": {
+          "type": "feature_row",
+          "settings": {
+            "video": "shopify://files/videos/Yarbo_MPRO_12.mp4",
+            "media_position": "left",
+            "heading": "A Finer Cut, When You Want One",
+            "heading_color": "#233923",
+            "text": "<p>Swap in the optional straight blades and the cut changes, finer clippings that break down faster and feed the lawn instead of sitting on top of it, sometimes labeled \"mulching blades\" in Yarbo's own materials. Same module, a different finish.</p>",
+            "text_color": "#233923"
+          }
+        }
+      },
+      "block_order": [
+        "feature_row_ylm12"
+      ],
+      "name": "Video Feature Rows",
+      "settings": {
+        "background_color": "#f2f4f1"
+      }
+    },
+    "dynamic_custom_liquid_ylmBackyard": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .ylm-split { max-width: 1200px; margin: 0 auto; padding: 64px 24px; } @media screen and (max-width: 749px) { .ylm-split { padding: 40px 20px; } }\n  .ylm-split__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }\n  .ylm-split--reverse .ylm-split__grid { direction: rtl; }\n  .ylm-split--reverse .ylm-split__grid > * { direction: ltr; }\n  @media screen and (max-width: 819px) { .ylm-split__grid { grid-template-columns: 1fr; gap: 24px; } .ylm-split--reverse .ylm-split__grid { direction: ltr; } }\n  .ylm-split__frame { position: relative; border-radius: 14px; overflow: hidden; border: 1px solid #e5e5e5; box-shadow: 0 8px 28px rgba(35,39,57,.10); }\n  .ylm-split__frame img { display: block; width: 100%; height: auto; }\n  .ylm-split__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c9a84c; margin: 0 0 14px; padding-bottom: 10px; border-bottom: 2px solid #c9a84c; }\n  .ylm-split__heading { font-size: clamp(24px, 3vw, 32px); font-weight: 700; color: #233923; margin: 0 0 16px; line-height: 1.2; }\n  .ylm-split__text { font-size: 16px; line-height: 1.6; color: #233923; margin: 0; }\n</style>\n<div class=\"ylm-split ylm-split--reverse\">\n  <div class=\"ylm-split__grid\">\n    <div class=\"ylm-split__frame\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Yarbo_MPRO_5.png?v=1787779927\" alt=\"Yarbo mower working a manicured backyard lawn beside a flowering hedge row\" loading=\"lazy\" width=\"1600\" height=\"900\">\n    </div>\n    <div>\n      <span class=\"ylm-split__kicker\">Close-Quarters Confidence</span>\n      <h2 class=\"ylm-split__heading\">Comfortable Close to the Garden</h2>\n      <p class=\"ylm-split__text\">Hedge rows, flower beds, tight edges along a fence line, the same sensor suite that spots a person also spots a shrub. It works right up to the border without trimming into it.</p>\n    </div>\n  </div>\n</div>"
+      }
+    },
+    "dynamic_custom_liquid_ylmAttach": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .ylm-stack { max-width: 760px; margin: 0 auto; padding: 64px 24px; text-align: center; } @media screen and (max-width: 749px) { .ylm-stack { padding: 40px 20px; } }\n  .ylm-stack__frame { border-radius: 14px; overflow: hidden; border: 1px solid #e5e5e5; box-shadow: 0 8px 28px rgba(35,39,57,.10); background: #fff; margin: 0 0 28px; }\n  .ylm-stack__frame img { display: block; width: 100%; height: auto; max-width: 420px; margin: 0 auto; }\n  .ylm-stack__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c9a84c; margin: 0 0 14px; padding-bottom: 8px; border-bottom: 2px solid #c9a84c; }\n  .ylm-stack__heading { font-size: clamp(24px, 3vw, 32px); font-weight: 700; color: #233923; margin: 0 0 16px; line-height: 1.2; }\n  .ylm-stack__text { font-size: 16px; line-height: 1.6; color: #233923; margin: 0 auto; max-width: 560px; }\n</style>\n<div class=\"ylm-stack\">\n  <div class=\"ylm-stack__frame\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Yarbo_MPRO_1.png?v=1787779908\" alt=\"Yarbo Core and Lawn Mower Pro Module shown separately, ready to attach\" loading=\"lazy\" width=\"1200\" height=\"1200\">\n  </div>\n  <span class=\"ylm-stack__kicker\">One Base, Modules That Swap</span>\n  <h2 class=\"ylm-stack__heading\">Attaches to the Core You Already Own</h2>\n  <p class=\"ylm-stack__text\">The Lawn Mower Pro Module is not its own robot, it's the mowing half of a modular system. It mounts to the Yarbo Core's tracked chassis, and when the season changes, it comes back off just as easily so a Snow Blower or Leaf Blower module can take its place.</p>\n</div>"
+      }
+    },
+    "dynamic_featured_collection_WbgkFp": {
+      "type": "dynamic-featured-collection",
+      "name": "t:sections.featured_collection.presets.featured_collection.name",
+      "settings": {
+        "title": "The Rest of Your System Is Waiting",
+        "layout": "grid",
+        "mobile_layout": "slideshow",
+        "collection": "yarbo",
+        "product_count": 5,
+        "cta_label": "SHOP COLLECTION",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_highlights_banner_AbhkkV": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_XLUzQE": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-store",
+            "title": "100% American Owned and Operated",
+            "text": "<p>We're a locally owned and operated business</p>",
+            "link": ""
+          }
+        },
+        "highlight_84JPfV": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-heart",
+            "title": "30-Day Satisfaction Promise",
+            "text": "<p>If you're not happy, We're not happy</p>",
+            "link": ""
+          }
+        },
+        "highlight_HbAL67": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-lock",
+            "title": "Secure Online Payment System",
+            "text": "<p>All our transactions are protected and secure</p>",
+            "link": ""
+          }
+        },
+        "highlight_9pebcb": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery",
+            "title": "Free Freight Shipping",
+            "text": "<p>Free shipping on all Yarbo robot systems</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_XLUzQE",
+        "highlight_84JPfV",
+        "highlight_HbAL67",
+        "highlight_9pebcb"
+      ],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#f2f4f1",
+        "icon_color": "#f2f4f1",
+        "background_color": "#233923",
+        "mobile_layout": "slider"
+      }
+    },
+    "dynamic_custom_liquid_ylmPatio": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .ylm-stack2 { max-width: 820px; margin: 0 auto; padding: 64px 24px; text-align: center; } @media screen and (max-width: 749px) { .ylm-stack2 { padding: 40px 20px; } }\n  .ylm-stack2__frame { border-radius: 14px; overflow: hidden; border: 1px solid #e5e5e5; box-shadow: 0 8px 28px rgba(35,39,57,.10); margin: 0 0 28px; }\n  .ylm-stack2__frame img { display: block; width: 100%; height: auto; }\n  .ylm-stack2__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #c9a84c; margin: 0 0 14px; padding-bottom: 8px; border-bottom: 2px solid #c9a84c; }\n  .ylm-stack2__heading { font-size: clamp(24px, 3vw, 32px); font-weight: 700; color: #233923; margin: 0 0 16px; line-height: 1.2; }\n  .ylm-stack2__text { font-size: 16px; line-height: 1.6; color: #233923; margin: 0 auto; max-width: 600px; }\n</style>\n<div class=\"ylm-stack2\">\n  <div class=\"ylm-stack2__frame\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0965/2056/9136/files/Yarbo_MPRO_6.png?v=1787779930\" alt=\"Overhead view of a Yarbo mower working a lawn edge next to a brick paver patio with outdoor furniture\" loading=\"lazy\" width=\"1600\" height=\"900\">\n  </div>\n  <span class=\"ylm-stack2__kicker\">Close to the Hardscape</span>\n  <h2 class=\"ylm-stack2__heading\">Works Right Up to the Edge</h2>\n  <p class=\"ylm-stack2__text\">Paver patios, outdoor furniture, the line where lawn meets hardscape, this is where a lot of mowers either stop short or clip something they shouldn't. Real-time obstacle detection lets it work the actual edge instead of leaving a buffer strip you have to trim by hand.</p>\n</div>"
+      }
+    },
+    "blocks_UQPdh3": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_7d61a93_9Yy7en": {
+          "type": "ai_gen_block_7d61a93",
+          "settings": {
+            "heading": "One Module, a Completely Different Lawn",
+            "description": "This isn't an upgrade you notice once. It's the difference every single time it runs.",
+            "heading_size": 36,
+            "description_size": 16,
+            "heading_color": "#233923",
+            "description_color": "#233923",
+            "column_1_image": "shopify://shop_images/Yarbo_M1_8.png",
+            "column_1_label": "The Grass Doesn't Get a Vote Anymore",
+            "column_1_text": "Dense, wet, three-weeks-overgrown, it used to decide when you'd deal with it. Now the dual 300W motors decide, and they never say not today.",
+            "column_2_image": "shopify://shop_images/Yarbo_M1_6_2590bbc0-bad0-47ce-883f-4bd2101db6bc.png",
+            "column_2_label": "Precision Is a Setting, Not a Skill",
+            "column_2_text": "Standard reinforced discs when you just want it handled. Straight blades when you want a finer cut that feeds the lawn instead of sitting on top of it. Either way, you didn't have to learn a thing.",
+            "column_3_image": "shopify://shop_images/Yarbo_MPRO_8_56754369-1c0b-49b8-8c64-c1c3a3c28248.png",
+            "column_3_label": "You'll Forget This Is Even Running",
+            "column_3_text": "RTK-GPS plans it, the sensors run it, the Core docks itself when it's done. The only proof it happened is a lawn that looks like it always does now, perfect.",
+            "label_size": 20,
+            "text_size": 14,
+            "label_color": "#233923",
+            "text_color": "#233923",
+            "desktop_width_percent": 100,
+            "section_padding": 50,
+            "header_spacing": 40,
+            "grid_gap": 30,
+            "image_spacing": 20,
+            "image_border_radius": 8,
+            "background_color": "#f2f4f1"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_7d61a93_9Yy7en"
+      ],
+      "name": "Image showcase grid",
+      "settings": {}
+    },
+    "blocks_zrBUGp": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_whyyap_LdkL9c": {
+          "type": "ai_gen_block_whyyap",
+          "settings": {
+            "heading": "Why Yard Automation Pros?",
+            "intro_text": "We don't just sell robots, we help you build the autonomous estate.",
+            "column_1_label": "Curated Selection",
+            "column_1_text": "Every product is hand-picked and tested against real residential and commercial use cases before we carry it.",
+            "column_2_label": "Expert Support",
+            "column_2_text": "US-based support from people who actually know the product, not a script.",
+            "column_3_label": "Ongoing Guidance",
+            "column_3_text": "Access to our growing library of automation tips and seasonal guides, before and after the sale.",
+            "closing_text": "This is the future of yard care. We're here to make sure it works for you.",
+            "max_width": 1100,
+            "section_padding": 56,
+            "header_spacing": 36,
+            "grid_gap": 40,
+            "panel_radius": 12,
+            "heading_size": 32,
+            "label_size": 18,
+            "body_size": 15,
+            "accent_color": "#233923",
+            "icon_color": "#81F200",
+            "panel_background": "#f2f4f1",
+            "border_color": "#233923",
+            "heading_color": "#233923",
+            "text_color": "#393939"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_whyyap_LdkL9c"
+      ],
+      "name": "Why YAP panel",
+      "settings": {}
+    },
+    "blocks_H8tBfT": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_bca8f42_nEMTYM": {
+          "type": "ai_gen_block_bca8f42",
+          "settings": {
+            "section_heading": "Built to Run Your Estate Without You",
+            "section_description": "",
+            "column_1_image": "shopify://shop_images/Frame_2036457958.webp",
+            "column_1_label": "Every Pass Does More Work",
+            "column_1_description": "A wider cutting path means fewer passes across the same ground. On a large property, that difference compounds, less time running, more of the yard finished before you've thought to check.",
+            "column_2_image": "shopify://shop_images/Frame_2036457959.webp",
+            "column_2_label": "Built to Outlast the Conditions",
+            "column_2_description": "Reinforced blades that hold up under repeated, demanding use. Fewer replacements, less maintenance, a machine that keeps performing the way it did on day one.",
+            "column_3_image": "shopify://shop_images/Frame_2036457957.webp",
+            "column_3_label": "A Finer Cut, By Design",
+            "column_3_description": "The straight blades cut grass into finer clippings, clippings that break down faster and return nutrients to the lawn instead of sitting on top of it. The result looks intentional, because it is.",
+            "column_4_image": "shopify://shop_images/Yarbo_Lawn_Mower_Pro_1.webp",
+            "column_4_label": "Power That Doesn't Announce Itself",
+            "column_4_description": "Balanced blade rotation keeps airflow consistent and vibration low. The strength is doing real work underneath, you just never hear it.",
+            "section_padding": 40,
+            "grid_gap": 30,
+            "image_border_radius": 8,
+            "desktop_width_percent": 100,
+            "background_color": "#f2f4f1",
+            "heading_color": "#232739",
+            "description_color": "#393939",
+            "label_color": "#232739",
+            "text_color": "#393939",
+            "heading_font_size": 36,
+            "description_font_size": 16,
+            "label_font_size": 20,
+            "text_font_size": 14
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_bca8f42_nEMTYM"
+      ],
+      "name": "4-column image showcase",
+      "settings": {}
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "178784317865f92603": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_reviews_grid_widget_gnCmHd": {
+          "type": "shopify://apps/judge-me-reviews/blocks/reviews_grid_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "review_selection": "all",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "show_media_only": false,
+            "display_order": "media_first",
+            "card_grouping": "per_media",
+            "columns_desktop": 3,
+            "rows_desktop": 3,
+            "columns_mobile": "2",
+            "rows_mobile": 6,
+            "show_stars": true,
+            "show_reviewer_name": true,
+            "show_review_title_on_hover_desktop": true,
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "card_spacing": "medium",
+            "header_text_color": "#000000",
+            "star_and_reviewer_name_color": "#f9f9f9",
+            "drop_shadow_color": "#000000",
+            "overlay_and_background_color": "#000000",
+            "content_color": "#f9f9f9",
+            "header_text": "From our customers",
+            "show_average_rating": true,
+            "rating_display": "default"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_reviews_grid_widget_gnCmHd"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "dynamic_faq_8AUh7M": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "question_nCTWbR": {
+          "type": "question",
+          "settings": {
+            "question": "Does the Lawn Mower Pro Module include the Core?",
+            "answer": "<p>No. This is the module itself, engineered to attach to a Yarbo Core you already own or purchase alongside it. Confirm your configuration before checkout.<br/><br/></p>",
+            "icon": "none"
+          }
+        },
+        "question_69jhiF": {
+          "type": "question",
+          "settings": {
+            "question": "What separates the Pro from the standard mower module?",
+            "answer": "<p>Power, and what that power makes possible. Dual 300W motors deliver up to 2,500 watts of peak output, roughly double the standard module, purpose-built for properties where grass doesn't always cooperate.<br/><br/></p>",
+            "icon": "none"
+          }
+        },
+        "question_8KCdGW": {
+          "type": "question",
+          "settings": {
+            "question": "Will it perform on thick or overgrown grass?",
+            "answer": "<p>Yes. That is precisely the condition the Pro was engineered to solve. Where standard mowers hesitate on dense turf or grass left too long, the added motor power carries through without loss of cut quality.</p>",
+            "icon": "none"
+          }
+        },
+        "question_EcA6Mx": {
+          "type": "question",
+          "settings": {
+            "question": "How much ground can it cover?",
+            "answer": "<p>Up to 6 acres, sized for large residential properties and commercial applications alike, not a scaled-up version of a small-yard machine.</p>",
+            "icon": "none"
+          }
+        },
+        "question_BQYmLz": {
+          "type": "question",
+          "settings": {
+            "question": "How does it handle slopes and uneven terrain?",
+            "answer": "<p>The Core's tracked drive system, to which the Pro module attaches, is rated for grades up to 70 percent, or 35 degrees. Uneven ground and rolling terrain are within its intended operating range.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JjXiyk": {
+          "type": "question",
+          "settings": {
+            "question": "What is the difference between the standard discs and the straight blades?",
+            "answer": "<p>The standard reinforced discs handle everyday mowing. The optional SK85 high-carbon steel straight blades, sometimes labeled \"mulching blades\" in Yarbo's own materials, are for a finer, more deliberate finish, cutting grass into smaller clippings that break down faster and return nutrients to the lawn, with less frequent maintenance required.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JxkamV": {
+          "type": "question",
+          "settings": {
+            "question": "What kind of support do I get after purchase?",
+            "answer": "<p>Ownership here means more than a warranty. Yard Automation Pros pairs Yarbo’s 2 year manufacturer warranty on defective parts with our own US based support team, on hand for mapping, setup, and the seasonal details that keep an estate running the way it should.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "question_nCTWbR",
+        "question_69jhiF",
+        "question_8KCdGW",
+        "question_EcA6Mx",
+        "question_BQYmLz",
+        "question_JjXiyk",
+        "question_JxkamV"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "heading": "Expert Q&A: The Foundation of Your Autonomous Estate",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "small",
+        "icon_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_rich_text_dRmmY4",
+    "1770171007f1eebbc5",
+    "dynamic_image_with_text_7Fk6dY",
+    "video_hero_ylm",
+    "dynamic_custom_liquid_ylmGolf",
+    "video_section_ylm11",
+    "dynamic_custom_liquid_ylmAssembled",
+    "video_section_ylm12",
+    "dynamic_custom_liquid_ylmBackyard",
+    "dynamic_custom_liquid_ylmAttach",
+    "dynamic_featured_collection_WbgkFp",
+    "dynamic_highlights_banner_AbhkkV",
+    "dynamic_custom_liquid_ylmPatio",
+    "blocks_UQPdh3",
+    "blocks_zrBUGp",
+    "blocks_H8tBfT",
+    "recommendations",
+    "recently-viewed",
+    "178784317865f92603",
+    "dynamic_faq_8AUh7M"
+  ]
+}

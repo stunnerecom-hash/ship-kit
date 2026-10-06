@@ -1,0 +1,433 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor_aA8jQd": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "2e128dd1-7dbd-45da-966d-745faa090a0f": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "text_WDrzrJ": {
+          "type": "text",
+          "name": "Unique Selling Points",
+          "settings": {
+            "text": "<p><a href=\"tel:4239273776\" title=\"tel:4239273776\"><em><strong>Buy Online Or Call Now To Order!</strong></em></a></p><p>✓ <strong>Complete System </strong>- Core + Leaf Blower Module, no separate purchase needed<br/>✓ <strong>Flexible Financing </strong>- Shop Pay Installments, 0-36% APR, Applicable at Checkout<br/>✓ <strong>Delivery </strong>- typically about 2 weeks<br/>✓ <strong>Questions? </strong>- Call <a href=\"tel:4239273776\" title=\"tel:4239273776\">(423)-927-3776</a></p>"
+          }
+        },
+        "12214949-0a99-47d0-875d-57cf008e67f8": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_display": "low_stock_threshold",
+            "inventory_transfer_notice": true
+          }
+        },
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": false,
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "custom_liquid_yR4UPX": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .yap-trust-bar { width: 100%; max-width: 620px; margin: 0 auto; font-family: inherit; }\n  .yap-trust-item { display: flex; align-items: center; min-height: 58px; padding: 10px 0; border-bottom: 1px solid #e5e5e5; box-sizing: border-box; }\n  .yap-trust-item:last-child { border-bottom: none; }\n  .yap-trust-icon { width: 28px; min-width: 28px; margin-right: 11px; display: flex; align-items: center; justify-content: center; color: #555; }\n  .yap-trust-icon svg { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }\n  .yap-trust-text { flex: 1; font-size: 15px; line-height: 1.3; font-weight: 500; letter-spacing: -0.15px; color: #111; }\n  @media screen and (max-width: 749px) { .yap-trust-bar { max-width: 100%; } .yap-trust-item { min-height: 54px; padding: 9px 2px; } .yap-trust-text { font-size: 14px; } .yap-trust-icon { width: 26px; min-width: 26px; margin-right: 9px; } }\n</style>\n<div class=\"yap-trust-bar\">\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3 19 6v5c0 4.8-2.9 8.2-7 10-4.1-1.8-7-5.2-7-10V6l7-3z\"/><path d=\"m9 12 2 2 4-4\"/></svg></div>\n    <div class=\"yap-trust-text\">2-Year Manufacturer Warranty, Extendable to 5 Years</div>\n  </div>\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 6h11v11H3z\"/><path d=\"M14 10h4l3 3v4h-7z\"/><circle cx=\"7\" cy=\"18\" r=\"2\"/><circle cx=\"18\" cy=\"18\" r=\"2\"/></svg></div>\n    <div class=\"yap-trust-text\">Typically Delivered in About 2 Weeks</div>\n  </div>\n  <div class=\"yap-trust-item\">\n    <div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M14.5 6.5a4 4 0 0 0-5.2 5.2L4 17l3 3 5.3-5.3a4 4 0 0 0 5.2-5.2l-2.2 2.2-2.8-2.8 2-2.4z\"/><path d=\"M16 4h4\"/><path d=\"M18 2v4\"/></svg></div>\n    <div class=\"yap-trust-text\">Expert Guidance Before and After Your Purchase</div>\n  </div>\n</div>"
+          }
+        },
+        "collapsible_tab_UWQ8gk": {
+          "type": "collapsible-tab",
+          "name": "Overview",
+          "settings": {
+            "collapsible_tab_heading": "Overview",
+            "collapsible_tab_text": "<p>Fall cleanup, fully automated. A complete system in one purchase: the Yarbo Core plus the Leaf Blower Module, ready to run. No separate Core needed.<br/><br/>🍂 Clears leaves and debris from lawns, paths, and hard surfaces on your schedule.<br/>📍 RTK navigation maps your property to centimeter accuracy.<br/>🔄 Add the Lawn Mower Pro or Snow Blower module later, same Core.<br/></p>"
+          }
+        },
+        "collapsible_tab_Uf69Wz": {
+          "type": "collapsible-tab",
+          "name": "Product Information",
+          "settings": {
+            "collapsible_tab_heading": "Product Information",
+            "collapsible_tab_text": "<p><strong>Fall Cleanup, Fully Automated</strong></p><p>A complete system in one purchase: the Yarbo Core plus the Leaf Blower Module, ready to run. No separate Core needed. It clears leaves and debris from lawns, paths, and hard surfaces on a schedule you set, keeping large properties tidy through fall without the manual work.</p><h3>Precision Navigation, No Boundary Wires</h3><p>RTK positioning, binocular vision, and multi-sensor fusion map your property to centimeter accuracy, holding precise lines even under tree cover. A tracked drive and 70% (35°) climbing ability take on real terrain.</p><h3>One Core, Every Season</h3><p>Add the Lawn Mower Pro or Snow Blower module later on the same Core, you're never buying a second machine.</p><h3>In the Box</h3><ul><li>Yarbo Core (autonomous tracked base)</li><li>Leaf Blower Module</li><li>Battery, Docking Station, and accessories</li></ul>"
+          }
+        },
+        "collapsible_tab_X7L37G": {
+          "type": "collapsible-tab",
+          "name": "Warranty & Support",
+          "settings": {
+            "collapsible_tab_heading": "Warranty & Support",
+            "collapsible_tab_text": "<p>2-year manufacturer warranty, extendable up to 5 years, with expert support behind it. Typically delivered in about two weeks after your order. This is a modular system that ships in multiple cartons; freight and delivery details are confirmed at checkout.<br/><br/></p>"
+          }
+        },
+        "collapsible_tab_HjeTwa": {
+          "type": "collapsible-tab",
+          "name": "Setup & Installation",
+          "settings": {
+            "collapsible_tab_heading": "Setup & Installation",
+            "collapsible_tab_text": "<p>No boundary wires. The Core maps your property on its first run, and you're supported through setup and beyond.<br/><br/></p>"
+          }
+        },
+        "collapsible_tab_czbJiW": {
+          "type": "collapsible-tab",
+          "name": "Specifications",
+          "settings": {
+            "collapsible_tab_heading": "Specifications",
+            "collapsible_tab_text": "<p>Navigation: RTK + Vision + IMU + ODOM<br/><br/>Obstacle avoidance: Binocular camera + ultrasonic radar + bumper<br/><br/>Climbing ability: 70% (35°)<br/><br/>Drive system: Tracked<br/><br/>Connectivity: 4G, Wi-Fi, Bluetooth, Wi-Fi HaLow<br/><br/>Includes: Core, Leaf Blower Module, Battery, Docking Station, accessories<br/><br/>Warranty: 2 years, extendable up to 5<br/><br/></p>"
+          }
+        },
+        "complementary_products_8bK493": {
+          "type": "complementary_products",
+          "settings": {
+            "heading": "Pairs well with",
+            "product_recommendation_limit": 5,
+            "products_per_slide": 2
+          }
+        },
+        "collapsible_tab_mkEKLQ": {
+          "type": "collapsible-tab",
+          "name": "manuals",
+          "disabled": true,
+          "settings": {
+            "collapsible_tab_heading": "Manuals & Downloads",
+            "collapsible_tab_text": "<p>Use this text to share information about your product.</p>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_4NycBz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor_aA8jQd",
+        "2e128dd1-7dbd-45da-966d-745faa090a0f",
+        "price",
+        "text_WDrzrJ",
+        "12214949-0a99-47d0-875d-57cf008e67f8",
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956",
+        "custom_liquid_yR4UPX",
+        "collapsible_tab_UWQ8gk",
+        "collapsible_tab_Uf69Wz",
+        "collapsible_tab_X7L37G",
+        "collapsible_tab_HjeTwa",
+        "collapsible_tab_czbJiW",
+        "complementary_products_8bK493",
+        "collapsible_tab_mkEKLQ",
+        "description",
+        "judge_me_reviews_preview_badge_4NycBz"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": true,
+        "gallery_thumbnail_position": "below",
+        "gallery_thumbnail_layout": "carousel",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "dynamic_rich_text_lbbIntro": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular"
+      }
+    },
+    "dynamic_image_with_text_lbbSchedule": {
+      "type": "dynamic-image-with-text",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/Frame_2036458135.webp",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_image_with_text_lbbNav": {
+      "type": "dynamic-image-with-text",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/Yarbo_B1_2_64c012ff-a447-40e7-8eb2-9031cf5a71fa.png",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_custom_liquid_lbbKit": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .kcg { max-width: 1200px; margin: 0 auto; padding: 48px 24px; }\n  .kcg__heading { font-size: clamp(26px, 3.5vw, 36px); font-weight: 700; color: #232739; text-align: center; margin: 0 0 8px; }\n  .kcg__subhead { font-size: 16px; color: #393939; text-align: center; margin: 0 0 36px; }\n  .kcg-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }\n  @media screen and (max-width: 749px) { .kcg-grid { grid-template-columns: 1fr; } }\n  .kcg-card { background: #fff; border: 1px solid #e5e5e5; border-radius: 10px; box-shadow: 0 1px 3px rgba(35,39,57,.08); transition: box-shadow .2s ease; overflow: hidden; text-align: center; }\n  .kcg-card:hover { box-shadow: 0 4px 14px rgba(35,39,57,.12); }\n  .kcg-card__well { position: relative; aspect-ratio: 1 / 1; background: #fff; display: flex; align-items: center; justify-content: center; padding: 28px; }\n  .kcg-card__photo { width: 100%; height: 100%; object-fit: contain; }\n  .kcg-card__placeholder { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; position: relative; }\n  .kcg-card__badge { width: 96px; height: 96px; border-radius: 50%; background: #f2f4f1; border: 1.5px solid #c9a84c; display: flex; align-items: center; justify-content: center; }\n  .kcg-card__badge svg { width: 48px; height: 48px; }\n  .kcg-card__tag { position: absolute; top: 10px; right: 10px; font-size: 10px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: #c9a84c; background: #fff; border: 1px solid #c9a84c; border-radius: 20px; padding: 4px 9px; }\n  .kcg-card__label { font-size: 17px; font-weight: 700; color: #232739; margin: 4px 0 4px; padding: 0 16px; }\n  .kcg-card__text { font-size: 13.5px; color: #393939; line-height: 1.4; margin: 0 0 20px; padding: 0 18px; }\n</style>\n<div class=\"kcg\">\n  <h2 class=\"kcg__heading\">What's in the Kit</h2>\n  <p class=\"kcg__subhead\">Everything you need to start clearing leaves, out of the box.</p>\n  <div class=\"kcg-grid\">\n    {% render 'kit-contents-card', file: 'Yarbo_B1_1_a06c6c30-71c0-40be-a6db-241816216790.png', icon: 'core', label: 'Yarbo Core', text: 'The autonomous tracked base at the center of the system.' %}\n    {% render 'kit-contents-card', file: 'Blower_Module2.webp', icon: 'leaf', label: 'Leaf Blower Module', text: 'Clears leaves and debris from lawns, paths, and hard surfaces on your schedule.' %}\n    {% render 'kit-contents-card', file: 'Frame_2036457866_c2ec0e67-77a9-489b-a47d-ec91a5a9bb86.png', icon: 'module', label: 'Battery & Docking Station', text: 'Smart Battery and docking hardware, ready to run from day one.' %}\n  </div>\n</div>"
+      }
+    },
+    "blocks_lbb3col": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_7d61a93_lbbcol": {
+          "type": "ai_gen_block_7d61a93",
+          "settings": {
+            "heading": "One Core, Every Season",
+            "description": "This is a starting point, not a dead end.",
+            "heading_size": 36,
+            "description_size": 16,
+            "heading_color": "#232739",
+            "description_color": "#393939",
+            "column_1_image": "shopify://shop_images/Yarbo_B1_1_a06c6c30-71c0-40be-a6db-241816216790.png",
+            "column_1_label": "Yarbo Core",
+            "column_1_text": "The autonomous tracked base included in this bundle, ready to run from day one.",
+            "column_2_image": "shopify://shop_images/Blower_Module2.webp",
+            "column_2_label": "Leaf Blower Module",
+            "column_2_text": "Included and ready, clears leaves and debris on the schedule you set.",
+            "column_3_image": "shopify://shop_images/Frame_2036458134.webp",
+            "column_3_label": "Add Modules Later",
+            "column_3_text": "Add the Lawn Mower Pro or Snow Blower module to this same Core whenever you're ready.",
+            "label_size": 20,
+            "text_size": 14,
+            "label_color": "#232739",
+            "text_color": "#393939",
+            "desktop_width_percent": 100,
+            "section_padding": 50,
+            "header_spacing": 40,
+            "grid_gap": 30,
+            "image_spacing": 20,
+            "image_border_radius": 8,
+            "background_color": "#f2f4f1"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_7d61a93_lbbcol"
+      ],
+      "name": "Image showcase grid",
+      "settings": {}
+    },
+    "dynamic_rich_text_lbbWhyYAP": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular"
+      }
+    },
+    "dynamic_highlights_banner_lbb": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_XLUzQE": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-store",
+            "title": "100% American Owned and Operated",
+            "text": "<p>We're a locally owned and operated business</p>",
+            "link": ""
+          }
+        },
+        "highlight_84JPfV": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-heart",
+            "title": "30-Day Satisfaction Promise",
+            "text": "<p>If you're not happy, We're not happy</p>",
+            "link": ""
+          }
+        },
+        "highlight_HbAL67": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-lock",
+            "title": "Secure Online Payment System",
+            "text": "<p>All our transactions are protected and secure</p>",
+            "link": ""
+          }
+        },
+        "highlight_9pebcb": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-truck",
+            "title": "Flexible Financing",
+            "text": "<p>Shop Pay Installments available at checkout</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_XLUzQE",
+        "highlight_84JPfV",
+        "highlight_HbAL67",
+        "highlight_9pebcb"
+      ],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#4d4d4d",
+        "icon_color": "#4d4d4d",
+        "background_color": "#f8f8f8",
+        "mobile_layout": "slider"
+      }
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "disabled": true,
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "178784317865f92603": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_reviews_grid_widget_gnCmHd": {
+          "type": "shopify://apps/judge-me-reviews/blocks/reviews_grid_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "review_selection": "all",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "show_media_only": false,
+            "display_order": "media_first",
+            "card_grouping": "per_media",
+            "columns_desktop": 3,
+            "rows_desktop": 3,
+            "columns_mobile": "2",
+            "rows_mobile": 6,
+            "show_stars": true,
+            "show_reviewer_name": true,
+            "show_review_title_on_hover_desktop": true,
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "card_spacing": "medium",
+            "header_text_color": "#000000",
+            "star_and_reviewer_name_color": "#f9f9f9",
+            "drop_shadow_color": "#000000",
+            "overlay_and_background_color": "#000000",
+            "content_color": "#f9f9f9",
+            "header_text": "From our customers",
+            "show_average_rating": true,
+            "rating_display": "default"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_reviews_grid_widget_gnCmHd"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "dynamic_faq_lbb": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "question_nCTWbR": {
+          "type": "question",
+          "settings": {
+            "question": "Does this include the Core, or do I need to buy that separately?",
+            "answer": "<p>This bundle includes both the Yarbo Core and the Leaf Blower Module together. No separate Core purchase required.</p>",
+            "icon": "none"
+          }
+        },
+        "question_69jhiF": {
+          "type": "question",
+          "settings": {
+            "question": "Can I add the Snow Blower or Lawn Mower Pro module later?",
+            "answer": "<p>Yes. This is a modular system, add either module to the same Core whenever you're ready to cover more seasons.</p>",
+            "icon": "none"
+          }
+        },
+        "question_8KCdGW": {
+          "type": "question",
+          "settings": {
+            "question": "Is setup complicated?",
+            "answer": "<p>No boundary wires. The Core maps your property on its first run, and you're supported through setup and beyond.</p>",
+            "icon": "none"
+          }
+        },
+        "question_EcA6Mx": {
+          "type": "question",
+          "settings": {
+            "question": "What if something goes wrong?",
+            "answer": "<p>A 2-year manufacturer warranty, extendable up to 5 years, with expert support behind it.</p>",
+            "icon": "none"
+          }
+        },
+        "question_BQYmLz": {
+          "type": "question",
+          "settings": {
+            "question": "Can I pay over time?",
+            "answer": "<p>Yes. Spread the cost over time with flexible financing at checkout through Shop Pay Installments.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "question_nCTWbR",
+        "question_69jhiF",
+        "question_8KCdGW",
+        "question_EcA6Mx",
+        "question_BQYmLz"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "heading": "Common Questions, Answered Up Front",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "small",
+        "icon_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_rich_text_lbbIntro",
+    "dynamic_image_with_text_lbbSchedule",
+    "dynamic_image_with_text_lbbNav",
+    "dynamic_custom_liquid_lbbKit",
+    "blocks_lbb3col",
+    "dynamic_rich_text_lbbWhyYAP",
+    "dynamic_highlights_banner_lbb",
+    "recommendations",
+    "recently-viewed",
+    "178784317865f92603",
+    "dynamic_faq_lbb"
+  ]
+}

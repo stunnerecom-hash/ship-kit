@@ -1,0 +1,760 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor_aA8jQd": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "2e128dd1-7dbd-45da-966d-745faa090a0f": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "custom_liquid_shopNowCta": {
+          "type": "custom-liquid",
+          "name": "Shop Now CTA",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "<style>\n  .yc-shopnow { margin: 18px 0 0; }\n  .yc-shopnow__btn { display: block; width: 100%; padding: 15px 0; background: #233923; color: #F2F4F1; border: none; border-radius: 8px; font-size: 15px; font-weight: 700; letter-spacing: .4px; text-align: center; cursor: pointer; transition: background .2s ease, transform .15s ease; }\n  .yc-shopnow__btn:hover { background: #152616; color: #F2F4F1; transform: translateY(-1px); }\n</style>\n<div class=\"yc-shopnow\">\n  <button type=\"button\" class=\"yc-shopnow__btn\" onclick=\"var f=document.querySelector('form[action*=\\'/cart/add\\']'); if(f){f.scrollIntoView({behavior:'smooth', block:'center'});}\">Shop Now</button>\n</div>"
+          }
+        },
+        "text_WDrzrJ": {
+          "type": "text",
+          "name": "Unique Selling Points",
+          "settings": {
+            "text": "<p><a href=\"tel:4239273776\" title=\"tel:4239273776\"><em><strong>Buy Online Or Call Now To Order!</strong></em></a></p><p>✓ <strong>Free Shipping </strong>- on most {{ product.vendor }} products<br/>✓ <strong>Flexible Financing </strong>- Shop Pay Installments, 0-36% APR, Applicable at Checkout<br/>✓ <strong>Ships Direct </strong>- orders ship in 10-14 business days<br/>✓ <strong>Questions? </strong>- Call <a href=\"tel:4239273776\" title=\"tel:4239273776\">(423)-927-3776</a></p>"
+          }
+        },
+        "12214949-0a99-47d0-875d-57cf008e67f8": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_display": "low_stock_threshold",
+            "inventory_transfer_notice": true
+          }
+        },
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": false,
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "custom_liquid_yR4UPX": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<style>\n  .yc-desc { margin: 28px 0 0; }\n  .yc-desc__heading { font-size: 22px; font-weight: 700; color: #233923; margin: 0 0 12px; line-height: 1.25; }\n  .yc-desc__text { font-size: 15.5px; line-height: 1.6; color: #233923; margin: 0; }\n  .yap-trust-bar { width: 100%; margin: 24px 0 0; font-family: inherit; }\n  .yap-trust-item { display: flex; align-items: center; min-height: 58px; padding: 10px 0; border-bottom: 1px solid #e5e5e5; box-sizing: border-box; }\n  .yap-trust-item:last-child { border-bottom: none; }\n  .yap-trust-icon { width: 28px; min-width: 28px; margin-right: 11px; display: flex; align-items: center; justify-content: center; color: #6b6b6b; }\n  .yap-trust-icon svg { width: 24px; height: 24px; stroke: currentColor; fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }\n  .yap-trust-text { flex: 1; font-size: 15px; line-height: 1.3; font-weight: 500; letter-spacing: -0.15px; color: #232739; }\n  @media screen and (max-width: 749px) { .yap-trust-item { min-height: 54px; padding: 9px 2px; } .yap-trust-text { font-size: 14px; } .yap-trust-icon { width: 26px; min-width: 26px; margin-right: 9px; } }\n</style>\n<div class=\"yc-desc\">\n  <h2 class=\"yc-desc__heading\">The Autonomous Base for Every Season</h2>\n  <p class=\"yc-desc__text\">The Yarbo Core is the autonomous, all-terrain base at the center of an entire yard care system, built to run your property without you standing over it. RTK positioning, binocular vision, and multi-sensor fusion map your land to centimeter accuracy and hold a precise line even under tree cover, where GPS-only robots lose their way. A tracked drive system and 70% (35°) climbing ability take on slopes and rough terrain that stop wheeled machines outright, and it can tow up to 500 lbs for daily tasks or 3,500 lbs of rolling weight. On its own, the Core is the foundation, add the Lawn Mower Pro, Snow Blower, or Leaf Blower module and it becomes a season-specific machine, then swaps back in minutes when the season changes. Every Core is covered by Yarbo's 2-year manufacturer warranty, backed by direct support from Yard Automation Pros before and after the sale.</p>\n</div>\n<div class=\"yap-trust-bar\">\n  <div class=\"yap-trust-item\"><div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3 19 6v5c0 4.8-2.9 8.2-7 10-4.1-1.8-7-5.2-7-10V6l7-3z\"/><path d=\"m9 12 2 2 4-4\"/></svg></div><div class=\"yap-trust-text\">Price Match Available on Request | Returns Per Manufacturer Policy</div></div>\n  <div class=\"yap-trust-item\"><div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M14.5 6.5a4 4 0 0 0-5.2 5.2L4 17l3 3 5.3-5.3a4 4 0 0 0 5.2-5.2l-2.2 2.2-2.8-2.8 2-2.4z\"/><path d=\"M16 4h4\"/><path d=\"M18 2v4\"/></svg></div><div class=\"yap-trust-text\">2-Year Manufacturer Warranty | US-Based Email Support</div></div>\n  <div class=\"yap-trust-item\"><div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M3 6h11v11H3z\"/><path d=\"M14 10h4l3 3v4h-7z\"/><circle cx=\"7\" cy=\"18\" r=\"2\"/><circle cx=\"18\" cy=\"18\" r=\"2\"/></svg></div><div class=\"yap-trust-text\">10–14 Business Day Estimated Delivery</div></div>\n  <div class=\"yap-trust-item\"><div class=\"yap-trust-icon\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"4\" y=\"10\" width=\"16\" height=\"10\" rx=\"2\"/><path d=\"M8 10V7a4 4 0 0 1 8 0v3\"/><path d=\"M12 14v3\"/><circle cx=\"12\" cy=\"14\" r=\"1\"/></svg></div><div class=\"yap-trust-text\">Secure Checkout | Protected Payment</div></div>\n</div>"
+          }
+        },
+        "collapsible_tab_UWQ8gk": {
+          "type": "collapsible-tab",
+          "name": "Overview",
+          "settings": {
+            "collapsible_tab_heading": "Overview",
+            "collapsible_tab_text": "<p>The Yarbo Core is a modular robotic yard automation platform designed for residential and commercial use. Powered by AI navigation and RTK GPS precision, it handles lawn mowing, snow blowing, and more, all from a single app. Quiet, efficient, and built to handle complex yard layouts with ease.<br/><br/>One machine. Every season. The Yarbo Core is the tracked, all-terrain base at the center of the entire Yarbo system. Add a module and it becomes a mower, a snow blower, or a leaf blower, then swaps back in minutes when the season changes.<br/><br/>🎯 No boundary wires. RTK GPS maps your property to centimeter accuracy.<br/>⛰️ Handles slopes up to 70% (35°), where wheeled robots fail.<br/>🔄 Modular by design. One base, multiple attachments, every season covered.<br/></p>"
+          }
+        },
+        "custom_liquid_ycProdInfo": {
+          "type": "custom-liquid",
+          "name": "Product Information",
+          "settings": {
+            "custom_liquid": "<details class=\"collapsible-tab\">\n  <summary class=\"collapsible-tab__heading\">\n    <span>Product Information</span>\n    {% render 'icon-chevron-down-small' %}\n  </summary>\n  <div class=\"collapsible-tab__text\">\n    <p><strong>The Autonomous Estate. By Yard Automation Pros.</strong></p><p><strong>One machine. Every season.</strong></p><p>The Yarbo Core is the tracked, all-terrain base at the center of the entire Yarbo system. On its own, it’s the foundation. Add a module, and it becomes a mower, a snow blower, or a leaf blower, then swaps back in minutes when the season changes.</p><p><strong>Requires a module to run.</strong> The Core alone doesn’t mow, blow, or clear anything. If you don’t already own modules, a bundle like the <a href=\"https://bz1drk-tc.myshopify.com/products/yarbo-lawn-mower-pro-core-lawn-mower-pro-module\">Lawn Mower Pro bundle</a> includes the Core and gets you running immediately.</p><h3>Precision navigation, no boundary wires</h3><p>RTK positioning, binocular vision, and multi-sensor fusion map your property to centimeter accuracy and hold precise lines even under tree cover, where GPS-only robots drift.</p><h3>Built for real terrain</h3><p>A tracked drive system and 70% (35°) climbing ability take on slopes and rough ground that stop wheeled robots. Tow up to 500 lbs for daily tasks, or up to 3,500 lbs of rolling weight.</p><h3>Ownership, handled</h3><ul><li><strong>Delivery.</strong> Typically 10 to 14 days after your order.</li><li><strong>Covered by Yarbo’s 2 year manufacturer warranty</strong> on defective parts, excluding consumables, from your activation date.</li><li><strong>Curated and supported by Yard Automation Pros,</strong> before and after the sale.</li></ul>\n    {% assign yc_related = collections['yarbo'].products %}\n    {% if yc_related.size > 0 %}\n      <style>\n        .yc-upsell { margin-top: 32px; }\n        .yc-upsell__heading { font-size: 15px; font-weight: 700; color: #233923; text-transform: uppercase; letter-spacing: .5px; margin: 0 0 16px; }\n        .yc-upsell__track { display: flex; gap: 24px; overflow-x: auto; scroll-snap-type: x proximity; padding: 4px 4px 16px; -webkit-overflow-scrolling: touch; }\n        .yc-upsell__card { flex: 0 0 220px; scroll-snap-align: start; border: 1px solid #d7ddd4; border-radius: 12px; overflow: hidden; background: #fff; transition: box-shadow .2s ease, transform .2s ease; }\n        .yc-upsell__card:hover { box-shadow: 0 6px 18px rgba(35,57,35,.14); transform: translateY(-2px); }\n        .yc-upsell__img-link { display: block; text-decoration: none; }\n        .yc-upsell__img-wrap { aspect-ratio: 1 / 1; background: #f2f4f1; display: flex; align-items: center; justify-content: center; }\n        .yc-upsell__img-wrap img { width: 100%; height: 100%; object-fit: contain; }\n        .yc-upsell__title-link { text-decoration: none; }\n        .yc-upsell__title { font-size: 14px; font-weight: 600; color: #233923; margin: 12px 14px 4px; line-height: 1.3; }\n        .yc-upsell__price { font-size: 13.5px; color: #233923; margin: 0 14px 12px; opacity: .8; }\n        .yc-upsell__add { display: block; width: calc(100% - 28px); margin: 0 14px 14px; padding: 9px 0; background: #233923; color: #fff; border: none; border-radius: 6px; font-size: 13px; font-weight: 600; letter-spacing: .3px; cursor: pointer; transition: background .2s ease; }\n        .yc-upsell__add:hover { background: #152616; }\n        .yc-upsell__add[disabled] { opacity: .6; cursor: default; }\n      </style>\n      <div class=\"yc-upsell\">\n        <p class=\"yc-upsell__heading\">Pairs Well With</p>\n        <div class=\"yc-upsell__track\">\n          {% for p in yc_related limit: 8 %}\n            {% unless p.id == product.id %}\n              {% assign yc_variant = p.selected_or_first_available_variant %}\n              <div class=\"yc-upsell__card\">\n                <a class=\"yc-upsell__img-link\" href=\"{{ p.url }}\">\n                  <div class=\"yc-upsell__img-wrap\">\n                    {% if p.featured_image %}\n                      <img src=\"{{ p.featured_image | image_url: width: 400 }}\" alt=\"{{ p.featured_image.alt | default: p.title | escape }}\" loading=\"lazy\" width=\"400\" height=\"400\">\n                    {% endif %}\n                  </div>\n                </a>\n                <a class=\"yc-upsell__title-link\" href=\"{{ p.url }}\"><p class=\"yc-upsell__title\">{{ p.title }}</p></a>\n                <p class=\"yc-upsell__price\">{{ p.price | money }}</p>\n                {% if yc_variant %}\n                  <button type=\"button\" class=\"yc-upsell__add\" data-variant-id=\"{{ yc_variant.id }}\">Add to Cart</button>\n                {% else %}\n                  <button type=\"button\" class=\"yc-upsell__add\" disabled>Sold Out</button>\n                {% endif %}\n              </div>\n            {% endunless %}\n          {% endfor %}\n        </div>\n      </div>\n      <script>\n        (function () {\n          document.querySelectorAll('.yc-upsell__add[data-variant-id]').forEach(function (btn) {\n            btn.addEventListener('click', function () {\n              var variantId = btn.getAttribute('data-variant-id');\n              btn.disabled = true;\n              var original = btn.textContent;\n              btn.textContent = 'Adding...';\n              fetch('/cart/add.js', {\n                method: 'POST',\n                headers: { 'Content-Type': 'application/json' },\n                body: JSON.stringify({ items: [{ id: variantId, quantity: 1 }] })\n              })\n                .then(function (res) { return res.ok ? res.json() : Promise.reject(res); })\n                .then(function () {\n                  btn.textContent = 'Added';\n                  document.dispatchEvent(new CustomEvent('cart:refresh'));\n                  setTimeout(function () { btn.textContent = original; btn.disabled = false; }, 1800);\n                })\n                .catch(function () {\n                  btn.textContent = 'Try Again';\n                  btn.disabled = false;\n                });\n            });\n          });\n        })();\n      </script>\n    {% endif %}\n  </div>\n</details>"
+          }
+        },
+        "collapsible_tab_X7L37G": {
+          "type": "collapsible-tab",
+          "name": "Warranty & Support",
+          "settings": {
+            "collapsible_tab_heading": "Warranty & Support:",
+            "collapsible_tab_text": "<p>Covered by Yarbo’s standard 2 year manufacturer warranty on defective parts, excluding consumables, beginning from the date your machine is activated. We reply to emails within 1 business day at <a href=\"mailto:support@yardautomationpros.com\">support@yardautomationpros.com</a>.</p>"
+          }
+        },
+        "collapsible_tab_HjeTwa": {
+          "type": "collapsible-tab",
+          "name": "Setup & Installation",
+          "settings": {
+            "collapsible_tab_heading": "Setup & Installation",
+            "collapsible_tab_text": "<p>Setup takes approximately 60 to 90 minutes. The Yarbo app guides you through boundary mapping using RTK GPS, no physical wire installation required. Compatible with iOS and Android.<br/><br/></p>"
+          }
+        },
+        "collapsible_tab_czbJiW": {
+          "type": "collapsible-tab",
+          "name": "Specifications",
+          "settings": {
+            "collapsible_tab_heading": "Specifications",
+            "collapsible_tab_text": "<h3>Navigation & Sensing</h3><ul><li><strong>Navigation:</strong> RTK + Vision + IMU + ODOM</li><li><strong>Obstacle avoidance:</strong> Binocular camera + ultrasonic radar + bumper</li></ul><h3>Terrain & Towing</h3><ul><li><strong>Climbing ability:</strong> 70% (35°)</li><li><strong>Towing capacity:</strong> 500 lbs daily, 3,500 lbs max rolling weight</li><li><strong>Water resistance:</strong> IPX5</li><li><strong>Operating temperature:</strong> -13°F to 113°F (-25°C to 45°C)</li></ul><h3>Connectivity & Compatibility</h3><ul><li><strong>Connectivity:</strong> 4G, Wi-Fi, Bluetooth, Wi-Fi HaLow</li><li><strong>Compatible modules:</strong> Lawn Mower Pro, Snow Blower, Blower, Trimmer</li></ul><h3>Warranty & Shipping</h3><ul><li><strong>Warranty:</strong> Yarbo's standard 2-year manufacturer warranty on defective parts, excluding consumables, from activation date</li><li><strong>Delivery:</strong> approximately 10 to 14 days after payment</li></ul><h3>What's in the Box</h3><ul><li>Yarbo Core (universal drive unit)</li><li>Data Center & Docking Station</li><li>Yarbo Battery</li></ul><p>Modules (Lawn Mower Pro, Snow Blower, Blower, Trimmer) are sold separately or as part of a bundle.</p>"
+          }
+        },
+        "collapsible_tab_mkEKLQ": {
+          "type": "collapsible-tab",
+          "name": "manuals",
+          "disabled": true,
+          "settings": {
+            "collapsible_tab_heading": "Manuals & Downloads",
+            "collapsible_tab_text": "<p>Use this text to share information about your product.</p>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_4NycBz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor_aA8jQd",
+        "2e128dd1-7dbd-45da-966d-745faa090a0f",
+        "price",
+        "custom_liquid_shopNowCta",
+        "text_WDrzrJ",
+        "12214949-0a99-47d0-875d-57cf008e67f8",
+        "470d7baa-1f3c-49c2-b147-9e4d935fa956",
+        "custom_liquid_yR4UPX",
+        "collapsible_tab_UWQ8gk",
+        "custom_liquid_ycProdInfo",
+        "collapsible_tab_X7L37G",
+        "collapsible_tab_HjeTwa",
+        "collapsible_tab_czbJiW",
+        "collapsible_tab_mkEKLQ",
+        "description",
+        "judge_me_reviews_preview_badge_4NycBz"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": true,
+        "gallery_thumbnail_position": "below",
+        "gallery_thumbnail_layout": "carousel",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "dynamic_custom_liquid_ycY40pCompare": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  [data-yc-reveal] { opacity: 0; transform: translateY(28px); transition: opacity .6s ease-out, transform .6s ease-out; }\n  [data-yc-reveal].is-visible { opacity: 1; transform: none; }\n  .yc-compare { max-width: 1100px; margin: 0 auto; padding: 56px 24px; }\n  .yc-compare__kicker { display: block; text-align: center; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #233923; margin: 0 0 10px; }\n  .yc-compare__heading { text-align: center; font-size: clamp(24px, 3vw, 32px); font-weight: 700; color: #232739; margin: 0 0 12px; line-height: 1.2; }\n  .yc-compare__sub { text-align: center; font-size: 16px; line-height: 1.6; color: #393939; max-width: 640px; margin: 0 auto 36px; }\n  .yc-compare__table { width: 100%; border-collapse: collapse; border: 1px solid #DDDDDD; border-radius: 12px; overflow: hidden; }\n  .yc-compare__table th, .yc-compare__table td { padding: 16px 20px; text-align: left; border-bottom: 1px solid #DDDDDD; font-size: 15px; }\n  .yc-compare__table tr:last-child th, .yc-compare__table tr:last-child td { border-bottom: none; }\n  .yc-compare__table thead th { background: #F2F4F1; color: #232739; font-weight: 700; font-size: 13px; text-transform: uppercase; letter-spacing: .4px; }\n  .yc-compare__table tbody th { color: #232739; font-weight: 600; width: 34%; }\n  .yc-compare__table td { color: #393939; }\n  .yc-compare__table td.yc-compare__highlight { color: #233923; font-weight: 700; }\n  .yc-compare__note { font-size: 13px; color: #6b6b6b; margin: 16px 4px 0; }\n  .yc-compare__cta { text-align: center; margin-top: 28px; }\n  .yc-compare__cta a { display: inline-block; padding: 14px 32px; background: #233923; color: #F2F4F1; border-radius: 4px; font-weight: 700; font-size: 14px; letter-spacing: .3px; text-decoration: none; transition: background .2s ease; }\n  .yc-compare__cta a:hover { background: #152616; }\n  @media screen and (max-width: 600px) { .yc-compare__table { font-size: 13px; } .yc-compare__table th, .yc-compare__table td { padding: 12px 10px; } .yc-compare__table tbody th { width: 40%; } }\n</style>\n<div class=\"yc-compare\" data-yc-reveal>\n  <span class=\"yc-compare__kicker\">Choosing a Core</span>\n  <h2 class=\"yc-compare__heading\">Yarbo Core vs. the New Y40P Core</h2>\n  <p class=\"yc-compare__sub\">Same modular platform, same 2-year manufacturer warranty. The Y40P moves to a gearbox-free dual hub motor drivetrain, a simpler mechanism that trades gears for direct drive.</p>\n  <table class=\"yc-compare__table\">\n    <thead>\n      <tr><th scope=\"col\">Spec</th><th scope=\"col\">Yarbo Core</th><th scope=\"col\">Yarbo Core Y40P</th></tr>\n    </thead>\n    <tbody>\n      <tr><th scope=\"row\">Drivetrain</th><td>Dual Drive Motors</td><td class=\"yc-compare__highlight\">Dual Hub Motors, gearbox-free</td></tr>\n      <tr><th scope=\"row\">Max drive speed</th><td>0.65 m/s</td><td class=\"yc-compare__highlight\">1.2 m/s</td></tr>\n      <tr><th scope=\"row\">Climbing ability</th><td>70% (35°)</td><td>70% (35°)</td></tr>\n      <tr><th scope=\"row\">Operating noise</th><td>~60 dB</td><td>~60 dB (shared)</td></tr>\n      <tr><th scope=\"row\">Overall efficiency</th><td>Baseline</td><td class=\"yc-compare__highlight\">+15% vs. original Core platform</td></tr>\n      <tr><th scope=\"row\">Maintenance</th><td>Standard</td><td class=\"yc-compare__highlight\">Lower, fewer moving parts</td></tr>\n      <tr><th scope=\"row\">Compatible modules</th><td>Lawn Mower Pro, Snow Blower, Leaf Blower</td><td>Lawn Mower Pro, Snow Blower, Leaf Blower, Trimmer</td></tr>\n    </tbody>\n  </table>\n  <p class=\"yc-compare__note\">Modules are sold separately for both platforms. Figures are Yarbo's published specifications; consult the Specifications tab below for the full spec sheet of the Core you're viewing.</p>\n  <div class=\"yc-compare__cta\"><a href=\"/collections/yarbo\">See All Yarbo Core Options</a></div>\n</div>\n{%- liquid\n  assign yc_show_mower = false\n  assign yc_show_snow = false\n  assign yc_show_leaf = false\n  if product.handle contains 'lawn-mower-pro'\n    assign yc_show_mower = true\n  endif\n  if product.handle contains 'snow-blower'\n    assign yc_show_snow = true\n  endif\n  if product.handle contains 'leaf-blower'\n    assign yc_show_leaf = true\n  endif\n-%}\n{% if yc_show_mower or yc_show_snow or yc_show_leaf %}\n<style>\n  .yc-vs { max-width: 1100px; margin: 0 auto; padding: 48px 24px; border-top: 1px solid #DDDDDD; }\n  .yc-vs:first-of-type { border-top: none; }\n  .yc-vs__table th, .yc-vs__table td { overflow-wrap: break-word; }\n  .yc-vs__heading { text-align: center; font-size: clamp(22px, 2.8vw, 30px); font-weight: 700; color: #232739; margin: 0 0 8px; text-transform: uppercase; }\n  .yc-vs__sub { text-align: center; font-size: 15px; color: #393939; max-width: 600px; margin: 0 auto 28px; }\n  .yc-vs__table { width: 100%; border-collapse: collapse; }\n  .yc-vs__table th, .yc-vs__table td { padding: 14px 16px; text-align: left; border-bottom: 1px solid #DDDDDD; font-size: 14px; }\n  .yc-vs__table thead th { color: #232739; font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: .3px; background: #F2F4F1; }\n  .yc-vs__table tbody th { color: #232739; font-weight: 600; }\n  .yc-vs__table td { color: #393939; }\n  .yc-vs__table td.yc-vs__ours { color: #233923; font-weight: 700; }\n  @media screen and (max-width: 600px) { .yc-vs__table { font-size: 12.5px; } .yc-vs__table th, .yc-vs__table td { padding: 10px 8px; } }\n</style>\n{% endif %}\n{% if yc_show_mower %}\n<div class=\"yc-vs\" data-yc-reveal>\n  <h2 class=\"yc-vs__heading\">Robotic Mower vs. Traditional Methods</h2>\n  <p class=\"yc-vs__sub\">Not sure if a robotic mower is the right fit? Here's how autonomous mowing compares to the alternatives.</p>\n  <table class=\"yc-vs__table\">\n    <thead><tr><th scope=\"col\">Feature</th><th scope=\"col\">Yarbo</th><th scope=\"col\">Traditional Mower</th><th scope=\"col\">Lawn Care Service</th></tr></thead>\n    <tbody>\n      <tr><th scope=\"row\">Operation</th><td class=\"yc-vs__ours\">Fully autonomous</td><td>Manual</td><td>Manual, scheduled by provider</td></tr>\n      <tr><th scope=\"row\">Your time required</th><td class=\"yc-vs__ours\">None</td><td>Full session</td><td>None, but on provider's schedule</td></tr>\n      <tr><th scope=\"row\">Mows on your schedule</th><td class=\"yc-vs__ours\">Yes, app-scheduled, any day</td><td>Only when you operate it</td><td>Set by provider, not always convenient</td></tr>\n      <tr><th scope=\"row\">Recurring cost</th><td class=\"yc-vs__ours\">One-time investment</td><td>Fuel, oil, tune-ups each season</td><td>Per-visit or seasonal contract fees</td></tr>\n      <tr><th scope=\"row\">Scheduling</th><td class=\"yc-vs__ours\">App-controlled</td><td>Manual, weather-dependent</td><td>Set by provider</td></tr>\n      <tr><th scope=\"row\">Year-round use</th><td class=\"yc-vs__ours\">Yes (modular)</td><td>Mowing season only</td><td>Mowing season only</td></tr>\n    </tbody>\n  </table>\n</div>\n{% endif %}\n{% if yc_show_snow %}\n<div class=\"yc-vs\" data-yc-reveal>\n  <h2 class=\"yc-vs__heading\">Robotic Snow Blower vs. Traditional Methods</h2>\n  <p class=\"yc-vs__sub\">Not sure if a robotic snow blower is the right fit? Here's how autonomous blowing compares to the alternatives.</p>\n  <table class=\"yc-vs__table\">\n    <thead><tr><th scope=\"col\">Feature</th><th scope=\"col\">Yarbo</th><th scope=\"col\">Traditional Snow Blower</th><th scope=\"col\">Snow Removal Service</th></tr></thead>\n    <tbody>\n      <tr><th scope=\"row\">Operation</th><td class=\"yc-vs__ours\">Fully autonomous</td><td>Manual</td><td>Manual</td></tr>\n      <tr><th scope=\"row\">Your time required</th><td class=\"yc-vs__ours\">None</td><td>Full session</td><td>None, but on provider's schedule</td></tr>\n      <tr><th scope=\"row\">Works during/after storms</th><td class=\"yc-vs__ours\">Yes, weather-triggered, 24/7</td><td>Only when you're outside operating it</td><td>Depends on crew availability</td></tr>\n      <tr><th scope=\"row\">Recurring cost</th><td class=\"yc-vs__ours\">One-time investment</td><td>Fuel, oil, tune-ups each season</td><td>Per-visit or seasonal contract fees</td></tr>\n      <tr><th scope=\"row\">Scheduling</th><td class=\"yc-vs__ours\">App-controlled</td><td>Manual, weather-dependent</td><td>Set by provider, not always immediate</td></tr>\n      <tr><th scope=\"row\">Year-round use</th><td class=\"yc-vs__ours\">Yes (modular)</td><td>Snow season only</td><td>Snow season only</td></tr>\n    </tbody>\n  </table>\n</div>\n{% endif %}\n{% if yc_show_leaf %}\n<div class=\"yc-vs\" data-yc-reveal>\n  <h2 class=\"yc-vs__heading\">Robotic Leaf Blower vs. Traditional Methods</h2>\n  <p class=\"yc-vs__sub\">Not sure if a robotic leaf blower is the right fit? Here's how autonomous clearing compares to the alternatives.</p>\n  <table class=\"yc-vs__table\">\n    <thead><tr><th scope=\"col\">Feature</th><th scope=\"col\">Yarbo</th><th scope=\"col\">Traditional Leaf Blower</th><th scope=\"col\">Lawn/Leaf Service</th></tr></thead>\n    <tbody>\n      <tr><th scope=\"row\">Operation</th><td class=\"yc-vs__ours\">Fully autonomous</td><td>Manual</td><td>Manual, scheduled by provider</td></tr>\n      <tr><th scope=\"row\">Your time required</th><td class=\"yc-vs__ours\">None</td><td>Full session</td><td>None, but on provider's schedule</td></tr>\n      <tr><th scope=\"row\">Clears on your schedule</th><td class=\"yc-vs__ours\">Yes, app-scheduled</td><td>Only when you operate it</td><td>Set by provider, not always convenient</td></tr>\n      <tr><th scope=\"row\">Recurring cost</th><td class=\"yc-vs__ours\">One-time investment</td><td>Fuel, oil, tune-ups each season</td><td>Per-visit or seasonal contract fees</td></tr>\n      <tr><th scope=\"row\">Scheduling</th><td class=\"yc-vs__ours\">App-controlled</td><td>Manual, weather-dependent</td><td>Set by provider</td></tr>\n      <tr><th scope=\"row\">Year-round use</th><td class=\"yc-vs__ours\">Yes (modular)</td><td>Fall season only</td><td>Fall season only</td></tr>\n    </tbody>\n  </table>\n</div>\n{% endif %}\n{%- liquid\n  assign yc_show_mower = false\n  assign yc_show_snow = false\n  assign yc_show_blower = false\n  if product.handle contains 'lawn-mower-pro'\n    assign yc_show_mower = true\n  endif\n  if product.handle contains 'snow-blower'\n    assign yc_show_snow = true\n  endif\n  if product.handle contains 'leaf-blower'\n    assign yc_show_blower = true\n  endif\n-%}\n<style>\n  .yc-specs { max-width: 1200px; margin: 0 auto; padding: 56px 24px; }\n  .yc-specs + .yc-specs { padding-top: 0; }\n  .yc-specs__grid { display: grid; grid-template-columns: 1fr 1.6fr; gap: 48px; align-items: start; }\n  .yc-specs__grid > * { min-width: 0; }\n  .yc-specs__heading, .yc-specs__tab { overflow-wrap: break-word; }\n  .yc-specs { border-top: 1px solid #DDDDDD; }\n  .yc-specs__heading { font-size: clamp(24px, 3vw, 34px); font-weight: 700; color: #232739; margin: 0 0 24px; text-transform: uppercase; letter-spacing: .3px; }\n  .yc-specs__tabs { display: flex; flex-direction: column; gap: 14px; }\n  .yc-specs__tab { background: none; border: none; text-align: left; padding: 0; font-size: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: .3px; color: #6b6b6b; cursor: pointer; position: relative; padding-left: 14px; }\n  .yc-specs__tab::before { content: ''; position: absolute; left: 0; top: 5px; width: 7px; height: 7px; background: #DDDDDD; }\n  .yc-specs__tab.is-active { color: #233923; }\n  .yc-specs__tab.is-active::before { background: #233923; }\n  .yc-specs__table { width: 100%; border-collapse: collapse; display: none; }\n  .yc-specs__table.is-active { display: table; }\n  .yc-specs__table th, .yc-specs__table td { padding: 14px 4px; text-align: left; border-bottom: 1px solid #DDDDDD; font-size: 14px; }\n  .yc-specs__table th { color: #232739; font-weight: 700; width: 45%; }\n  .yc-specs__table td { color: #393939; }\n  @media screen and (max-width: 820px) { .yc-specs__grid { grid-template-columns: 1fr; gap: 20px; } }\n</style>\n<div data-yc-specs-root data-yc-reveal>\n<div class=\"yc-specs\" data-yc-specs-group=\"core\">\n  <div class=\"yc-specs__grid\">\n    <div>\n      <h2 class=\"yc-specs__heading\">Core Specifications</h2>\n      <div class=\"yc-specs__tabs\" data-yc-spec-tabs=\"core\">\n        <button type=\"button\" class=\"yc-specs__tab is-active\" data-yc-spec-tab=\"core-highlights\">Key Highlights</button>\n        <button type=\"button\" class=\"yc-specs__tab\" data-yc-spec-tab=\"core-all\">All Specifications</button>\n      </div>\n    </div>\n    <div>\n      <table class=\"yc-specs__table is-active\" data-yc-spec-panel=\"core-highlights\">\n        <tbody>\n          <tr><th scope=\"row\">Drive System</th><td>Dual Hub Motors, gearbox-free</td></tr>\n          <tr><th scope=\"row\">Max Drive Speed</th><td>1.2 m/s</td></tr>\n          <tr><th scope=\"row\">Max Climbing Ability</th><td>70% (35°)</td></tr>\n          <tr><th scope=\"row\">Operating Noise</th><td>~60 dB</td></tr>\n          <tr><th scope=\"row\">Towing Capacity</th><td>500 lbs daily, 3,500 lbs max rolling weight</td></tr>\n          <tr><th scope=\"row\">Warranty</th><td>2-year manufacturer warranty</td></tr>\n        </tbody>\n      </table>\n      <table class=\"yc-specs__table\" data-yc-spec-panel=\"core-all\">\n        <tbody>\n          <tr><th scope=\"row\">Drive system</th><td>Dual Hub Motors, gearbox-free</td></tr>\n          <tr><th scope=\"row\">Max drive speed</th><td>1.2 m/s</td></tr>\n          <tr><th scope=\"row\">Navigation</th><td>RTK + Vision + IMU + ODOM</td></tr>\n          <tr><th scope=\"row\">Obstacle avoidance</th><td>Binocular camera + ultrasonic radar + bumper</td></tr>\n          <tr><th scope=\"row\">Climbing ability</th><td>70% (35°)</td></tr>\n          <tr><th scope=\"row\">Towing capacity</th><td>500 lbs daily, 3,500 lbs max rolling weight</td></tr>\n          <tr><th scope=\"row\">Water resistance</th><td>IPX5</td></tr>\n          <tr><th scope=\"row\">Operating temperature</th><td>-13°F to 113°F (-25°C to 45°C)</td></tr>\n          <tr><th scope=\"row\">Connectivity</th><td>4G, Wi-Fi, Bluetooth, Wi-Fi HaLow</td></tr>\n          <tr><th scope=\"row\">Compatible modules</th><td>Lawn Mower Pro, Snow Blower, Leaf Blower</td></tr>\n          <tr><th scope=\"row\">Warranty</th><td>Yarbo's standard 2-year manufacturer warranty on defective parts, excluding consumables, from activation date</td></tr>\n          <tr><th scope=\"row\">Delivery</th><td>Approximately 10 to 14 days after payment</td></tr>\n          <tr><th scope=\"row\">What's in the box</th><td>Yarbo Core, Data Center &amp; Docking Station, Yarbo Battery</td></tr>\n        </tbody>\n      </table>\n    </div>\n  </div>\n</div>\n{% if yc_show_mower %}\n<div class=\"yc-specs\" data-yc-specs-group=\"mower\">\n  <div class=\"yc-specs__grid\">\n    <div>\n      <h2 class=\"yc-specs__heading\">Lawn Mower Pro Module Specifications</h2>\n      <div class=\"yc-specs__tabs\" data-yc-spec-tabs=\"mower\">\n        <button type=\"button\" class=\"yc-specs__tab is-active\" data-yc-spec-tab=\"mower-highlights\">Key Highlights</button>\n        <button type=\"button\" class=\"yc-specs__tab\" data-yc-spec-tab=\"mower-all\">All Specifications</button>\n      </div>\n    </div>\n    <div>\n      <table class=\"yc-specs__table is-active\" data-yc-spec-panel=\"mower-highlights\">\n        <tbody>\n          <tr><th scope=\"row\">Mowing Area per Charge (20-80%)</th><td>0.3 acre (1,214 m²)</td></tr>\n          <tr><th scope=\"row\">Mowing Area per Day</th><td>2 acres (8,090 m²)</td></tr>\n          <tr><th scope=\"row\">Max Coverage (2x/Week)</th><td>7 acres (28,300 m²)</td></tr>\n          <tr><th scope=\"row\">Cutting Width</th><td>20 in (500 mm)</td></tr>\n          <tr><th scope=\"row\">Charging Time (20-80%)</th><td>90 min</td></tr>\n        </tbody>\n      </table>\n      <table class=\"yc-specs__table\" data-yc-spec-panel=\"mower-all\">\n        <tbody>\n          <tr><th scope=\"row\">Mowing area per charge (20-80%)</th><td>0.3 acre (1,214 m²)</td></tr>\n          <tr><th scope=\"row\">Mowing area per day</th><td>2 acres (8,090 m²)</td></tr>\n          <tr><th scope=\"row\">Max coverage (2x/week)</th><td>7 acres (28,300 m²)</td></tr>\n          <tr><th scope=\"row\">Cutting system</th><td>Dual straight-blade</td></tr>\n          <tr><th scope=\"row\">Cutting width</th><td>20 in (500 mm)</td></tr>\n          <tr><th scope=\"row\">Adjustable cutting height</th><td>0.8-4.0 in (20-102 mm)</td></tr>\n          <tr><th scope=\"row\">Mowing motor</th><td>300 W x 2</td></tr>\n          <tr><th scope=\"row\">Peak power</th><td>2,500 W</td></tr>\n          <tr><th scope=\"row\">Battery capacity</th><td>1.38 kWh</td></tr>\n          <tr><th scope=\"row\">Mowing time per charge (20-80%)</th><td>120 min</td></tr>\n          <tr><th scope=\"row\">Charging time (20-80%)</th><td>90 min</td></tr>\n          <tr><th scope=\"row\">Obstacle avoidance</th><td>Binocular cameras, ultrasonic sensors, bumper</td></tr>\n          <tr><th scope=\"row\">Positioning &amp; navigation</th><td>RTK, Vision, IMU, ODOM</td></tr>\n          <tr><th scope=\"row\">Max climbing ability</th><td>70% (35°)</td></tr>\n          <tr><th scope=\"row\">Vertical obstacle clearance</th><td>2 in (50 mm)</td></tr>\n          <tr><th scope=\"row\">IP rating</th><td>IPX6</td></tr>\n          <tr><th scope=\"row\">Noise level</th><td>&le; 60 dB</td></tr>\n          <tr><th scope=\"row\">Rain detection</th><td>Yes</td></tr>\n          <tr><th scope=\"row\">Connectivity</th><td>4G, Wi-Fi, Bluetooth, Wi-Fi HaLow</td></tr>\n          <tr><th scope=\"row\">Teleoperation / Auto-recharge</th><td>Yes / Yes</td></tr>\n        </tbody>\n      </table>\n    </div>\n  </div>\n</div>\n{% endif %}\n{% if yc_show_snow %}\n<div class=\"yc-specs\" data-yc-specs-group=\"snow\">\n  <div class=\"yc-specs__grid\">\n    <div>\n      <h2 class=\"yc-specs__heading\">Snow Blower Module Specifications</h2>\n      <div class=\"yc-specs__tabs\" data-yc-spec-tabs=\"snow\">\n        <button type=\"button\" class=\"yc-specs__tab is-active\" data-yc-spec-tab=\"snow-highlights\">Key Highlights</button>\n        <button type=\"button\" class=\"yc-specs__tab\" data-yc-spec-tab=\"snow-all\">All Specifications</button>\n      </div>\n    </div>\n    <div>\n      <table class=\"yc-specs__table is-active\" data-yc-spec-panel=\"snow-highlights\">\n        <tbody>\n          <tr><th scope=\"row\">Coverage per Charge (1 in snow)</th><td>7,000 ft² (650 m²)</td></tr>\n          <tr><th scope=\"row\">Cleaning Width</th><td>24 in (600 mm)</td></tr>\n          <tr><th scope=\"row\">Throwing Distance</th><td>6-40 ft (1.8-12 m)</td></tr>\n          <tr><th scope=\"row\">Charging Time (20-80%)</th><td>90 min</td></tr>\n        </tbody>\n      </table>\n      <table class=\"yc-specs__table\" data-yc-spec-panel=\"snow-all\">\n        <tbody>\n          <tr><th scope=\"row\">Coverage per charge (1 in snow)</th><td>7,000 ft² (650 m²)</td></tr>\n          <tr><th scope=\"row\">Stage type</th><td>2-stage</td></tr>\n          <tr><th scope=\"row\">Cleaning width</th><td>24 in (600 mm)</td></tr>\n          <tr><th scope=\"row\">Intake height</th><td>12 in (300 mm)</td></tr>\n          <tr><th scope=\"row\">Throwing distance</th><td>6-40 ft (1.8-12 m)</td></tr>\n          <tr><th scope=\"row\">Chute rotation / deflector angle</th><td>-10° to 190° / -5° to 50°</td></tr>\n          <tr><th scope=\"row\">Operation time per charge</th><td>90 min</td></tr>\n          <tr><th scope=\"row\">Charging time (20-80%)</th><td>90 min</td></tr>\n          <tr><th scope=\"row\">Applicable slope</th><td>36% (20°)</td></tr>\n          <tr><th scope=\"row\">Applicable snow types</th><td>Dry, wet, packed</td></tr>\n          <tr><th scope=\"row\">Applicable surfaces</th><td>Paved, concrete, gravel</td></tr>\n          <tr><th scope=\"row\">Obstacle detection</th><td>Binocular cameras, bumper</td></tr>\n          <tr><th scope=\"row\">Operating temperature</th><td>-13°F to 113°F (-25°C to 45°C)</td></tr>\n          <tr><th scope=\"row\">IP rating</th><td>IPX5</td></tr>\n          <tr><th scope=\"row\">Connectivity</th><td>4G, Wi-Fi, Bluetooth, Wi-Fi HaLow</td></tr>\n          <tr><th scope=\"row\">Teleoperation / Auto-recharge</th><td>Yes / Yes</td></tr>\n          <tr><th scope=\"row\">Module weight</th><td>80.0 lbs / 36.3 kg</td></tr>\n        </tbody>\n      </table>\n    </div>\n  </div>\n</div>\n{% endif %}\n{% if yc_show_blower %}\n<div class=\"yc-specs\" data-yc-specs-group=\"blower\">\n  <div class=\"yc-specs__grid\">\n    <div>\n      <h2 class=\"yc-specs__heading\">Leaf Blower Module Specifications</h2>\n      <div class=\"yc-specs__tabs\" data-yc-spec-tabs=\"blower\">\n        <button type=\"button\" class=\"yc-specs__tab is-active\" data-yc-spec-tab=\"blower-highlights\">Key Highlights</button>\n        <button type=\"button\" class=\"yc-specs__tab\" data-yc-spec-tab=\"blower-all\">All Specifications</button>\n      </div>\n    </div>\n    <div>\n      <table class=\"yc-specs__table is-active\" data-yc-spec-panel=\"blower-highlights\">\n        <tbody>\n          <tr><th scope=\"row\">Air Velocity</th><td>174 MPH</td></tr>\n          <tr><th scope=\"row\">Air Volume</th><td>607 CFM</td></tr>\n          <tr><th scope=\"row\">Operating Time per Charge</th><td>70 min</td></tr>\n          <tr><th scope=\"row\">Efficiency vs Y40</th><td>+15%</td></tr>\n        </tbody>\n      </table>\n      <table class=\"yc-specs__table\" data-yc-spec-panel=\"blower-all\">\n        <tbody>\n          <tr><th scope=\"row\">Efficiency vs Y40</th><td>+15%</td></tr>\n          <tr><th scope=\"row\">Air velocity</th><td>174 MPH</td></tr>\n          <tr><th scope=\"row\">Air volume</th><td>607 CFM</td></tr>\n          <tr><th scope=\"row\">Motor power</th><td>2,000 W</td></tr>\n          <tr><th scope=\"row\">Applicable slope</th><td>70% (35°)</td></tr>\n          <tr><th scope=\"row\">Operating time per charge</th><td>70 min</td></tr>\n          <tr><th scope=\"row\">Charging time (20-80%)</th><td>90 min</td></tr>\n          <tr><th scope=\"row\">IP rating</th><td>IPX5</td></tr>\n          <tr><th scope=\"row\">Connectivity</th><td>4G, Wi-Fi, Bluetooth, Wi-Fi HaLow</td></tr>\n          <tr><th scope=\"row\">Teleoperation / Auto-recharge</th><td>Yes / Yes</td></tr>\n        </tbody>\n      </table>\n    </div>\n  </div>\n</div>\n{% endif %}\n</div>\n<script>\n  (function () {\n    var root = document.currentScript.previousElementSibling;\n    var tabs = root.querySelectorAll('[data-yc-spec-tab]');\n    tabs.forEach(function (tab) {\n      tab.addEventListener('click', function () {\n        var group = tab.closest('[data-yc-specs-group]');\n        var target = tab.getAttribute('data-yc-spec-tab');\n        group.querySelectorAll('[data-yc-spec-tab]').forEach(function (t) { t.classList.remove('is-active'); });\n        group.querySelectorAll('[data-yc-spec-panel]').forEach(function (p) { p.classList.remove('is-active'); });\n        tab.classList.add('is-active');\n        group.querySelector('[data-yc-spec-panel=\"' + target + '\"]').classList.add('is-active');\n      });\n    });\n  })();\n</script>\n\n<style>\n  .yc-story__frame { position: relative; }\n  .yc-story__frame::before, .yc-story__frame::after,\n  .yc-eng__media::before, .yc-eng__media::after {\n    content: ''; position: absolute; width: 28px; height: 28px; border: 2px solid #233923; z-index: 2; pointer-events: none;\n  }\n  .yc-eng__media::before, .yc-eng__media::after { border-color: #F2F4F1; }\n  .yc-story__frame::before, .yc-eng__media::before { top: 10px; left: 10px; border-right: none; border-bottom: none; }\n  .yc-story__frame::after, .yc-eng__media::after { bottom: 10px; right: 10px; border-left: none; border-top: none; }\n  .yc-story__frame img, .yc-eng__media img { transition: transform .6s ease-out; }\n  .yc-story__frame:hover img, .yc-eng__media:hover img { transform: scale(1.04); }\n</style>\n<script>\n  (function () {\n    function initReveal() {\n      var items = document.querySelectorAll('[data-yc-reveal]');\n      if (!items.length) return;\n      var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;\n      if (reduceMotion) {\n        items.forEach(function (el) { el.classList.add('is-visible'); });\n        return;\n      }\n      var obs = new IntersectionObserver(function (entries) {\n        entries.forEach(function (entry) {\n          if (entry.isIntersecting) {\n            entry.target.classList.add('is-visible');\n            obs.unobserve(entry.target);\n          }\n        });\n      }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });\n      items.forEach(function (el) { obs.observe(el); });\n    }\n    if (document.readyState === 'loading') {\n      document.addEventListener('DOMContentLoaded', initReveal);\n    } else {\n      initReveal();\n    }\n  })();\n</script>"
+      }
+    },
+    "dynamic_custom_liquid_ycEngineered": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .yc-eng { background: #10140f; padding: 72px 24px; }\n  .yc-eng__inner { max-width: 1280px; margin: 0 auto; }\n  .yc-eng__heading { color: #F2F4F1; font-size: clamp(24px, 3.4vw, 38px); font-weight: 700; line-height: 1.15; margin: 0 0 48px; text-transform: uppercase; letter-spacing: .3px; }\n  .yc-eng__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: start; }\n  .yc-eng__media { position: sticky; top: 100px; border-radius: 16px; overflow: hidden; }\n  .yc-eng__media img { display: block; width: 100%; height: auto; }\n  .yc-eng__list { border-top: 1px solid rgba(242,244,241,.14); }\n  .yc-eng__item { position: relative; padding: 22px 0 22px 34px; border-bottom: 1px solid rgba(242,244,241,.14); cursor: pointer; }\n  .yc-eng__item::before { content: ''; position: absolute; left: 0; top: 26px; width: 14px; height: 14px; background: #233923; clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); transition: background .2s ease; }\n  .yc-eng__item.is-active::before { background: #F2F4F1; }\n  .yc-eng__item.is-active { position: relative; }\n  .yc-eng__item.is-active::after { content: ''; position: absolute; left: -1px; top: 0; bottom: 0; width: 2px; background: #233923; }\n  .yc-eng__title { color: rgba(242,244,241,.55); font-size: 17px; font-weight: 700; text-transform: uppercase; letter-spacing: .4px; margin: 0; transition: color .2s ease; }\n  .yc-eng__item.is-active .yc-eng__title { color: #F2F4F1; }\n  .yc-eng__text { color: rgba(242,244,241,.7); font-size: 15px; line-height: 1.6; max-height: 0; overflow: hidden; opacity: 0; transition: max-height .3s ease, opacity .3s ease, margin .3s ease; margin-top: 0; }\n  .yc-eng__item.is-active .yc-eng__text { max-height: 200px; opacity: 1; margin-top: 10px; }\n  @media screen and (max-width: 900px) { .yc-eng__grid { grid-template-columns: 1fr; gap: 28px; } .yc-eng__media { position: static; } }\n</style>\n<div class=\"yc-eng\" data-yc-reveal>\n  <div class=\"yc-eng__inner\">\n    <h2 class=\"yc-eng__heading\">Engineered for Every Season. Built to Outperform.</h2>\n    <div class=\"yc-eng__grid\">\n      <div class=\"yc-eng__media\">\n        <img src=\"{{ 'Yarbo_Core_7.jpg' | asset_url }}\" alt=\"Yarbo Core navigating a lawn with RTK GPS and vision sensors mapping the terrain\" loading=\"lazy\" width=\"1200\" height=\"1400\">\n      </div>\n      <div class=\"yc-eng__list\" data-yc-accordion>\n        <div class=\"yc-eng__item is-active\">\n          <h3 class=\"yc-eng__title\">One Core, Every Module</h3>\n          <div class=\"yc-eng__text\">One intelligent base powers every attachment: mower, snow blower, or leaf blower, swapped in minutes as the season changes. No second machine to buy or store.</div>\n        </div>\n        <div class=\"yc-eng__item\">\n          <h3 class=\"yc-eng__title\">RTK + Vision Fusion Navigation</h3>\n          <div class=\"yc-eng__text\">RTK positioning, binocular vision, and multi-sensor fusion hold a precise line to centimeter accuracy, even under tree cover where GPS-only robots drift.</div>\n        </div>\n        <div class=\"yc-eng__item\">\n          <h3 class=\"yc-eng__title\">All-Terrain Tracked Performance</h3>\n          <div class=\"yc-eng__text\">A tracked drive system and 70% (35°) climbing ability take on slopes and rough ground that stop wheeled robots outright.</div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n<script>\n  (function () {\n    var acc = document.currentScript.previousElementSibling.querySelector('[data-yc-accordion]');\n    if (!acc) return;\n    acc.querySelectorAll('.yc-eng__item').forEach(function (item) {\n      item.addEventListener('click', function () {\n        acc.querySelectorAll('.yc-eng__item').forEach(function (i) { i.classList.remove('is-active'); });\n        item.classList.add('is-active');\n      });\n    });\n  })();\n</script>"
+      }
+    },
+    "dynamic_custom_liquid_ycWhyShop": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .yc-whyshop { max-width: 1400px; margin: 0 auto; padding: 56px 24px; }\n  .yc-whyshop__head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 28px; }\n  .yc-whyshop__heading { font-size: clamp(24px, 3vw, 34px); font-weight: 700; color: #232739; margin: 0; text-transform: uppercase; letter-spacing: .3px; }\n  .yc-whyshop__nav { display: flex; gap: 10px; }\n  .yc-whyshop__nav button { width: 40px; height: 40px; border-radius: 999px; border: 1px solid #DDDDDD; background: #FFFFFF; color: #232739; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: border-color .2s ease; }\n  .yc-whyshop__nav button:hover { border-color: #233923; }\n  .yc-whyshop__track { display: flex; gap: 20px; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: none; padding-bottom: 4px; }\n  .yc-whyshop__track::-webkit-scrollbar { display: none; }\n  .yc-whyshop__card { flex: 0 0 260px; scroll-snap-align: start; background: #F2F4F1; border-radius: 12px; padding: 24px; }\n  .yc-whyshop__card-title { font-size: 16px; font-weight: 700; color: #232739; margin: 0 0 8px; text-transform: uppercase; letter-spacing: .3px; }\n  .yc-whyshop__card-text { font-size: 14px; line-height: 1.5; color: #393939; margin: 0; }\n  @media screen and (max-width: 600px) { .yc-whyshop__card { flex-basis: 220px; } }\n</style>\n<div class=\"yc-whyshop\" data-yc-reveal>\n  <div class=\"yc-whyshop__head\">\n    <h2 class=\"yc-whyshop__heading\">Why Shop With Us</h2>\n    <div class=\"yc-whyshop__nav\">\n      <button type=\"button\" aria-label=\"Scroll left\" data-yc-scroll=\"-1\">&#8592;</button>\n      <button type=\"button\" aria-label=\"Scroll right\" data-yc-scroll=\"1\">&#8594;</button>\n    </div>\n  </div>\n  <div class=\"yc-whyshop__track\" data-yc-track>\n    <div class=\"yc-whyshop__card\"><h3 class=\"yc-whyshop__card-title\">Authorized Dealer</h3><p class=\"yc-whyshop__card-text\">Every product sold through Yard Automation Pros is genuine, manufacturer-backed inventory.</p></div>\n    <div class=\"yc-whyshop__card\"><h3 class=\"yc-whyshop__card-title\">US-Based Expert Support</h3><p class=\"yc-whyshop__card-text\">Real support from people who know the product. We reply to emails within 1 business day.</p></div>\n    <div class=\"yc-whyshop__card\"><h3 class=\"yc-whyshop__card-title\">Flexible Payment Options</h3><p class=\"yc-whyshop__card-text\">Shop Pay Installments: pay in full or spread it over 3, 6, or 12 months.</p></div>\n    <div class=\"yc-whyshop__card\"><h3 class=\"yc-whyshop__card-title\">2-Year Manufacturer Warranty</h3><p class=\"yc-whyshop__card-text\">Every Yarbo unit is covered against defects from your activation date.</p></div>\n    <div class=\"yc-whyshop__card\"><h3 class=\"yc-whyshop__card-title\">Price Match Available</h3><p class=\"yc-whyshop__card-text\">Found it for less elsewhere? Ask, we'll review it on request.</p></div>\n    <div class=\"yc-whyshop__card\"><h3 class=\"yc-whyshop__card-title\">Secure Checkout</h3><p class=\"yc-whyshop__card-text\">Every order is protected with encrypted, PCI-compliant payment processing.</p></div>\n  </div>\n</div>\n<script>\n  (function () {\n    var root = document.currentScript.previousElementSibling;\n    var track = root.querySelector('[data-yc-track]');\n    if (!track) return;\n    root.querySelectorAll('[data-yc-scroll]').forEach(function (btn) {\n      btn.addEventListener('click', function () {\n        var dir = parseInt(btn.getAttribute('data-yc-scroll'), 10);\n        track.scrollBy({ left: dir * 280, behavior: 'smooth' });\n      });\n    });\n  })();\n</script>"
+      }
+    },
+    "dynamic_rich_text_6DzttH": {
+      "type": "dynamic-rich-text",
+      "blocks": {
+        "heading_BxBLX6": {
+          "type": "heading",
+          "settings": {
+            "title": "Runs the Job Without You There",
+            "heading_size": "medium"
+          }
+        },
+        "text_AbRryE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Set a schedule once and the Core takes it from there, mapping its route, working the property, and heading back to recharge on its own. You come home to a job already done, not a machine waiting for instructions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BxBLX6",
+        "text_AbRryE"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "content_alignment": "center"
+      }
+    },
+    "blocks_swipe_yc": {
+      "type": "_blocks",
+      "disabled": true,
+      "name": "Swipe product carousel",
+      "settings": {}
+    },
+    "dynamic_custom_liquid_ycNav": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .yc-story { max-width: 1200px; margin: 0 auto; padding: 56px 24px; }\n  .yc-story__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }\n  .yc-story--reverse .yc-story__grid { direction: rtl; }\n  .yc-story--reverse .yc-story__grid > * { direction: ltr; }\n  @media screen and (max-width: 819px) { .yc-story__grid { grid-template-columns: 1fr; gap: 24px; } .yc-story--reverse .yc-story__grid { direction: ltr; } }\n  .yc-story__frame { position: relative; border-radius: 14px; overflow: hidden; border: 1px solid #e5e5e5; box-shadow: 0 8px 28px rgba(35,39,57,.10); }\n  .yc-story__frame img { display: block; width: 100%; height: auto; }\n  .yc-story__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #233923; margin: 0 0 14px; padding-bottom: 10px; border-bottom: 2px solid #233923; }\n  .yc-story__heading { font-size: clamp(24px, 3vw, 32px); font-weight: 700; color: #233923; margin: 0 0 16px; line-height: 1.2; }\n  .yc-story__text { font-size: 16px; line-height: 1.6; color: #233923; margin: 0; }\n</style>\n<div class=\"yc-story\" data-yc-reveal>\n  <div class=\"yc-story__grid\">\n    <div class=\"yc-story__frame\">\n      <img src=\"{{ 'Yarbo_Core_7.jpg' | asset_url }}\" alt=\"Yarbo Core following a precise edge line between pavement and lawn\" loading=\"lazy\" width=\"1600\" height=\"900\">\n    </div>\n    <div>\n      <span class=\"yc-story__kicker\">Precision Navigation</span>\n      <h2 class=\"yc-story__heading\">Holds the Line, Even at the Edge</h2>\n      <p class=\"yc-story__text\">RTK positioning, binocular vision, and multi-sensor fusion map your property to centimeter accuracy, so the Core tracks a clean edge along paths, beds, and hardscape instead of drifting the way GPS-only robots do. No boundary wires to bury or repair, and no guesswork about where the line actually is.</p>\n    </div>\n  </div>\n</div>"
+      }
+    },
+    "1770171007f1eebbc5": {
+      "type": "_blocks",
+      "settings": {}
+    },
+    "dynamic_custom_liquid_ycTowing": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .yc-fade { position: relative; width: 100%; min-height: 520px; margin: 20px 0; overflow: hidden; display: flex; align-items: center; justify-content: center; }\n  .yc-fade__slide { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0; animation: yc-fade-cycle 14s ease-in-out infinite; }\n  .yc-fade__slide:nth-child(1) { animation-delay: 0s; }\n  .yc-fade__slide:nth-child(2) { animation-delay: 7s; }\n  .yc-fade__overlay { position: absolute; inset: 0; background: rgba(0,0,0,.38); }\n  .yc-fade__content { position: relative; z-index: 2; text-align: center; color: #F2F4F1; max-width: 640px; padding: 0 24px; }\n  .yc-fade__heading { font-size: clamp(28px, 4vw, 42px); font-weight: 700; margin: 0 0 14px; }\n  .yc-fade__text { font-size: 17px; line-height: 1.55; margin: 0; }\n  @keyframes yc-fade-cycle { 0% { opacity: 1; } 42% { opacity: 1; } 50% { opacity: 0; } 92% { opacity: 0; } 100% { opacity: 1; } }\n  @media screen and (max-width: 749px) { .yc-fade { min-height: 380px; } }\n</style>\n<div class=\"yc-fade\" data-yc-reveal>\n  <div class=\"yc-fade__slide\" role=\"img\" aria-label=\"Yarbo Core hitched to a truck for easy transport\" style=\"background-image: url('{{ 'yarbo-truck-towing.jpg' | asset_url }}');\"></div>\n  <div class=\"yc-fade__slide\" role=\"img\" aria-label=\"Yarbo Core towing a boat trailer on its hitch\" style=\"background-image: url('{{ 'Yarbo_Core_4.jpg' | asset_url }}');\"></div>\n  <div class=\"yc-fade__overlay\"></div>\n  <div class=\"yc-fade__content\">\n    <h2 class=\"yc-fade__heading\">Beyond the Lawn</h2>\n    <p class=\"yc-fade__text\">Tow up to 500 lbs for daily tasks, or up to 3,500 lbs of rolling weight, on the same tracked base that handles your lawn. Just as easily loaded onto a hitch when it's time to move between properties or in for service.</p>\n  </div>\n</div>\n<style>\n  .yc-fade { position: relative; width: 100%; min-height: 520px; margin: 20px 0; overflow: hidden; display: flex; align-items: center; justify-content: center; }\n  .yc-fade__slide { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 1; }\n  .yc-fade__overlay { position: absolute; inset: 0; background: rgba(0,0,0,.38); }\n  .yc-fade__content { position: relative; z-index: 2; text-align: center; color: #F2F4F1; max-width: 640px; padding: 0 24px; }\n  .yc-fade__heading { font-size: clamp(28px, 4vw, 42px); font-weight: 700; margin: 0 0 14px; }\n  .yc-fade__text { font-size: 17px; line-height: 1.55; margin: 0; }\n  @media screen and (max-width: 749px) { .yc-fade { min-height: 380px; } }\n</style>\n<div class=\"yc-fade\" data-yc-reveal>\n  <div class=\"yc-fade__slide\" role=\"img\" aria-label=\"Yarbo Core docked and charging on its snow-covered charging pad\" style=\"background-image: url('{{ 'yarbo-docking-snow.jpg' | asset_url }}');\"></div>\n  <div class=\"yc-fade__overlay\"></div>\n  <div class=\"yc-fade__content\">\n    <h2 class=\"yc-fade__heading\">Docks and Recharges Itself</h2>\n    <p class=\"yc-fade__text\">When the battery runs low or the job's done, the Core finds its own way back to the dock, recharges, and resumes automatically, through the coldest months included.</p>\n  </div>\n</div>"
+      }
+    },
+    "sticky_feature_NBwTCm": {
+      "type": "sticky-feature",
+      "blocks": {
+        "feature_U6HbhE": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/Edit_image_text_2K_202609031507.jpg",
+            "heading": "Centimeter-Accurate Mapping",
+            "text": "<p>RTK positioning, binocular vision, and IMU/ODOM sensor fusion map your property to centimeter accuracy on the first run, no boundary wires to bury or repair.</p>"
+          }
+        },
+        "feature_kWBfp7": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/yarbocore13_10972fae-35dd-4fcd-a058-2ae9aa7c9fde.webp",
+            "heading": "Climbs What Wheels Can't",
+            "text": "<p>A tracked drive system and 70% (35°) climbing ability take on slopes and rough ground that stop wheeled robots outright.</p>"
+          }
+        },
+        "feature_z6DYAG": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/Screenshot_2026-08-30_211844.png",
+            "heading": "Built to Keep Working",
+            "text": "<p>IPX5 water resistance and a -13°F to 113°F operating range mean weather is rarely the reason a job gets skipped.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "feature_U6HbhE",
+        "feature_kWBfp7",
+        "feature_z6DYAG"
+      ],
+      "name": "Sticky feature showcase",
+      "settings": {
+        "main_image": "shopify://shop_images/Yarbocore11_bc1e96f7-a15b-48bb-b14b-c7ec6dc0ee90.webp",
+        "background_color": "#f2f4f1",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "dynamic_image_with_text_A8Mdri": {
+      "type": "dynamic-image-with-text",
+      "blocks": {
+        "heading_Y8ALXt": {
+          "type": "heading",
+          "settings": {
+            "text": "Yard Work Through Every Season",
+            "heading_size": "medium"
+          }
+        },
+        "text_Ve4g3p": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Harvest, mulch, cuttings, decor, whatever the season brings, the Core hauls it across the property so you don't have to make the trip on foot. The same tracked base that mowed your lawn in July is just as at home moving a fall harvest in October.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y8ALXt",
+        "text_Ve4g3p"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "background_color": "",
+        "image": "shopify://shop_images/Yarbo_Core_8.png",
+        "image_alt": "Yarbo Core towing a wagon loaded with harvest produce down a garden path",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_width": 50,
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_custom_liquid_ycVideoOverride": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  /* Scoped to this page only (rendered inside a page-specific custom-liquid section): restyles the existing video-section markup to be full-width and stacked instead of the shared component's default boxed 55/45 split. */\n  .video-feature-wrapper { max-width: 1500px; }\n  .video-feature-row, .video-feature-row.reverse { flex-direction: column !important; align-items: center; gap: 32px; text-align: center; }\n  .video-feature-media, .video-feature-row.reverse .video-feature-media { flex: 1 1 100% !important; max-width: 100% !important; width: 100%; border-radius: 14px; overflow: hidden; }\n  .video-feature-media video, .video-feature-media img { border-radius: 14px; }\n  .video-feature-text { flex: 1 1 100%; display: flex; flex-direction: column; align-items: center; }\n  .video-feature-heading { font-size: clamp(32px, 4.5vw, 52px) !important; max-width: 780px; }\n  .video-feature-body { font-size: 19px !important; max-width: 560px !important; }\n  @media screen and (max-width: 749px) { .video-feature-heading { font-size: clamp(26px, 6vw, 34px) !important; } }\n</style>"
+      }
+    },
+    "video_section_qfhVzY": {
+      "type": "video-section",
+      "blocks": {
+        "feature_row_xiTHQr": {
+          "type": "feature_row",
+          "settings": {
+            "video": "shopify://files/videos/Yarbo_MPRO_9.mp4",
+            "media_position": "left",
+            "heading": "Tough Grass? No problem",
+            "heading_color": "#232739",
+            "text": "<p>Tough overgrown grass and stubborn weeds are no match.</p>",
+            "text_color": "#393939",
+            "restrict_to_handles": "yarbo-y40p-core, yarbo-y40p-lawn-mower-pro-module, yarbo-y40p-lawn-mower-pro-core-lawn-mower-pro-module, yarbo-y40p-lawn-mower-pro-snow-blower-core-lawn-mower-pro-snow-blower-modules, yarbo-y40p-lawn-mower-pro-leaf-blower-core-lawn-mower-pro-leaf-blower-modules"
+          }
+        }
+      },
+      "block_order": [
+        "feature_row_xiTHQr"
+      ],
+      "name": "Video Feature Rows",
+      "settings": {
+        "background_color": "#f0f4f5"
+      }
+    },
+    "dynamic_image_with_text_iDXtgW": {
+      "type": "dynamic-image-with-text",
+      "blocks": {
+        "heading_kNQ6JN": {
+          "type": "heading",
+          "settings": {
+            "text": "Your Hands Stay Free",
+            "heading_size": "medium"
+          }
+        },
+        "text_JGw6ad": {
+          "type": "text",
+          "settings": {
+            "richtext": "<p>Hitch a cart and let the Core carry your tools, mulch, or supplies from shed to job site. You walk over empty-handed and get straight to work, no separate trip back for the shovel or the bucket you forgot.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kNQ6JN",
+        "text_JGw6ad"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "background_color": "",
+        "image": "shopify://shop_images/Edit_image_text_2K_202608280625.jpg",
+        "image_alt": "Yarbo Core hitched to a utility cart carrying a shovel and bucket on a garden patio",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_width": 50,
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_custom_liquid_ycApp": {
+      "type": "dynamic-custom-liquid",
+      "settings": {
+        "custom_liquid": "<style>\n  .yc-story { max-width: 1200px; margin: 0 auto; padding: 56px 24px; }\n  .yc-story__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: center; }\n  @media screen and (max-width: 819px) { .yc-story__grid { grid-template-columns: 1fr; gap: 24px; } }\n  .yc-story__frame { position: relative; border-radius: 14px; overflow: hidden; border: 1px solid #e5e5e5; box-shadow: 0 8px 28px rgba(35,39,57,.10); background: #0d0f14; }\n  .yc-story__frame img { display: block; width: 100%; height: auto; }\n  .yc-story__kicker { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #233923; margin: 0 0 14px; padding-bottom: 10px; border-bottom: 2px solid #233923; }\n  .yc-story__heading { font-size: clamp(24px, 3vw, 32px); font-weight: 700; color: #233923; margin: 0 0 16px; line-height: 1.2; }\n  .yc-story__text { font-size: 16px; line-height: 1.6; color: #233923; margin: 0; }\n</style>\n<div class=\"yc-story\" data-yc-reveal>\n  <div class=\"yc-story__grid\">\n    <div>\n      <span class=\"yc-story__kicker\">The Yarbo App</span>\n      <h2 class=\"yc-story__heading\">Control It From Anywhere</h2>\n      <p class=\"yc-story__text\">Check battery, see remaining area, and watch the live mowing plan for your front and back yard from your phone, wherever you are. Pause, recharge, or end a session with one tap, no need to be standing in the yard to know what the Core is doing.</p>\n    </div>\n    <div class=\"yc-story__frame\">\n      <img src=\"{{ 'Yarbo_APP_1.jpg' | asset_url }}\" alt=\"Yarbo app showing live battery, mapped zones, and mowing progress\" loading=\"lazy\" width=\"1600\" height=\"1200\">\n    </div>\n  </div>\n</div>"
+      }
+    },
+    "dynamic_featured_collection_WbgkFp": {
+      "type": "dynamic-featured-collection",
+      "name": "t:sections.featured_collection.presets.featured_collection.name",
+      "settings": {
+        "title": "The Rest of Your System Is Waiting",
+        "layout": "grid",
+        "mobile_layout": "slideshow",
+        "collection": "yarbo",
+        "product_count": 5,
+        "cta_label": "SHOP COLLECTION",
+        "cta_button_style": "primary"
+      }
+    },
+    "blocks_UQPdh3": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_7d61a93_9Yy7en": {
+          "type": "ai_gen_block_7d61a93",
+          "settings": {
+            "heading": "One Machine You Never Have to Think About Twice",
+            "description": "Buy it once. It doesn't get replaced every season, it gets reassigned.",
+            "heading_size": 36,
+            "description_size": 16,
+            "heading_color": "#233923",
+            "description_color": "#233923",
+            "column_1_image": "shopify://shop_images/yarbocore12_c81fe674-2a76-4cf3-b880-5a6424848bd5.webp",
+            "column_1_label": "The Only Constant",
+            "column_1_text": "Spring, summer, fall, winter, the Core stays. Only the module on the front changes.",
+            "column_2_image": "shopify://shop_images/Frame_2147226132.webp",
+            "column_2_label": "Precision You Don't Have to Verify",
+            "column_2_text": "Centimeter level accuracy across the whole property, no base station, no signal dead zones, no second guessing where the line actually is.",
+            "column_3_image": "shopify://shop_images/Frame_2036458054.webp",
+            "column_3_label": "Command It From a Restaurant Table",
+            "column_3_text": "Open the app, glance at what it's doing, close the app. That's the entire relationship you need to have with your yard now.",
+            "label_size": 20,
+            "text_size": 14,
+            "label_color": "#233923",
+            "text_color": "#233923",
+            "desktop_width_percent": 100,
+            "section_padding": 50,
+            "header_spacing": 40,
+            "grid_gap": 30,
+            "image_spacing": 20,
+            "image_border_radius": 8,
+            "background_color": "#f2f4f1"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_7d61a93_9Yy7en"
+      ],
+      "name": "Image showcase grid",
+      "settings": {}
+    },
+    "blocks_whyyap": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_whyyap_yc": {
+          "type": "ai_gen_block_whyyap",
+          "settings": {
+            "heading": "Why Yard Automation Pros?",
+            "intro_text": "We don't just sell robots, we help you build the autonomous estate.",
+            "column_1_label": "Curated Selection",
+            "column_1_text": "Every product is hand-picked and tested against real residential and commercial use cases before we carry it.",
+            "column_2_label": "Expert Support",
+            "column_2_text": "US-based support from people who actually know the product, not a script.",
+            "column_3_label": "Ongoing Guidance",
+            "column_3_text": "When you buy a Yarbo Core from us, you get a curated setup guide tailored to your property and access to our growing library of automation tips.",
+            "closing_text": "This is the future of yard care. We're here to make sure it works for you.",
+            "max_width": 1100,
+            "section_padding": 56,
+            "header_spacing": 36,
+            "grid_gap": 40,
+            "panel_radius": 12,
+            "heading_size": 32,
+            "label_size": 18,
+            "body_size": 15,
+            "accent_color": "#233923",
+            "icon_color": "#233923",
+            "panel_background": "#f2f4f1",
+            "border_color": "#233923",
+            "heading_color": "#233923",
+            "text_color": "#233923"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_whyyap_yc"
+      ],
+      "name": "Why YAP panel",
+      "settings": {}
+    },
+    "1789586298bea2854f": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_3608a45_hCXXAV": {
+          "type": "ai_gen_block_3608a45",
+          "settings": {
+            "heading": "Recently viewed",
+            "empty_message": "Products you view will appear here.",
+            "product_limit": 5,
+            "desktop_width_percent": 90,
+            "card_width": 260,
+            "mobile_card_width": 190,
+            "image_height": 260,
+            "mobile_image_height": 210,
+            "image_fit": "cover",
+            "card_gap": 20,
+            "vertical_padding": 20,
+            "heading_size": 26,
+            "background_color": "#f2f4f1",
+            "heading_color": "#233923",
+            "text_color": "#233923",
+            "muted_color": "#536053",
+            "accent_color": "#233923",
+            "image_background": "#e5eae4"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_3608a45_hCXXAV"
+      ],
+      "settings": {}
+    },
+    "dynamic_highlights_banner_yc": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_modular": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-transfer",
+            "title": "One Core, Every Season",
+            "text": "<p>Swap modules in minutes, mow, blow leaves, clear snow, all on the same base</p>",
+            "link": ""
+          }
+        },
+        "highlight_XLUzQE": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-store",
+            "title": "100% American Owned and Operated",
+            "text": "<p>We're a locally owned and operated business</p>",
+            "link": ""
+          }
+        },
+        "highlight_84JPfV": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-heart",
+            "title": "30-Day Satisfaction Promise",
+            "text": "<p>If you're not happy, We're not happy</p>",
+            "link": ""
+          }
+        },
+        "highlight_9pebcb": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-discount",
+            "title": "Flexible Financing",
+            "text": "<p>Shop Pay Installments available at checkout</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_modular",
+        "highlight_XLUzQE",
+        "highlight_84JPfV",
+        "highlight_9pebcb"
+      ],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#f2f4f1",
+        "icon_color": "#f2f4f1",
+        "background_color": "#233923",
+        "mobile_layout": "slider"
+      }
+    },
+    "blocks_H8tBfT": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_bca8f42_nEMTYM": {
+          "type": "ai_gen_block_bca8f42",
+          "settings": {
+            "section_heading": "Built to Run Your Estate Without You",
+            "section_description": "",
+            "column_1_image": "shopify://shop_images/Frame_2036458055_d2a16c0a-8499-4474-91ed-15ea66517608.webp",
+            "column_1_label": "Powerful Towing & Hauling",
+            "column_1_description": "500 lbs towing capacity for daily jobs, hauling gear, trailers, or seasonal equipment around the property.",
+            "column_2_image": "shopify://shop_images/Yarbocore11_bc1e96f7-a15b-48bb-b14b-c7ec6dc0ee90.webp",
+            "column_2_label": "Long-Lasting Battery",
+            "column_2_description": "Up to 4 hours of continuous operation per charge, built for large properties with minimal interruption.",
+            "column_3_image": "shopify://shop_images/Frame_2036458057.webp",
+            "column_3_label": "High-Traction Track System",
+            "column_3_description": "A high-efficiency motor and tracked drive climb slopes up to 70% (35°), terrain that stops wheeled robots outright.",
+            "column_4_image": "shopify://shop_images/Frame_2036458059.webp",
+            "column_4_label": "Weather Was Never Going to Stop It",
+            "column_4_description": "Negative 13 to 113 degrees. IPX5 rated against rain. This runs in conditions that would send a landscaping crew home.",
+            "section_padding": 40,
+            "grid_gap": 30,
+            "image_border_radius": 8,
+            "desktop_width_percent": 100,
+            "background_color": "#f2f4f1",
+            "heading_color": "#233923",
+            "description_color": "#233923",
+            "label_color": "#233923",
+            "text_color": "#233923",
+            "heading_font_size": 36,
+            "description_font_size": 16,
+            "label_font_size": 20,
+            "text_font_size": 14
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_bca8f42_nEMTYM"
+      ],
+      "name": "4-column image showcase",
+      "settings": {}
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "{{ product.vendor }}"
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "disabled": true,
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "178784317865f92603": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_reviews_grid_widget_gnCmHd": {
+          "type": "shopify://apps/judge-me-reviews/blocks/reviews_grid_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": true,
+            "review_selection": "all",
+            "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
+            "show_media_only": false,
+            "display_order": "media_first",
+            "card_grouping": "per_media",
+            "columns_desktop": 3,
+            "rows_desktop": 3,
+            "columns_mobile": "2",
+            "rows_mobile": 6,
+            "show_stars": true,
+            "show_reviewer_name": true,
+            "show_review_title_on_hover_desktop": true,
+            "max_width": 1100,
+            "corner_styling": "soft",
+            "card_spacing": "medium",
+            "header_text_color": "#000000",
+            "star_and_reviewer_name_color": "#f9f9f9",
+            "drop_shadow_color": "#000000",
+            "overlay_and_background_color": "#000000",
+            "content_color": "#f9f9f9",
+            "header_text": "From our customers",
+            "show_average_rating": true,
+            "rating_display": "default"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_reviews_grid_widget_gnCmHd"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "dynamic_faq_8AUh7M": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "question_nCTWbR": {
+          "type": "question",
+          "settings": {
+            "question": "Does the Core work on its own, or do I need a module?",
+            "answer": "<p>The Core is the foundation of your estate’s automation, quiet, capable, always ready. On its own it manages navigation, charging, and connectivity with total precision. To put that intelligence to work, mowing, clearing snow, or handling fall cleanup, you’ll pair it with a module. A bundle like the <a href=\"https://bz1drk-tc.myshopify.com/products/yarbo-lawn-mower-pro-core-lawn-mower-pro-module\">Lawn Mower Pro bundle</a> brings both together, so your estate is working from day one.</p>",
+            "icon": "none"
+          }
+        },
+        "question_69jhiF": {
+          "type": "question",
+          "settings": {
+            "question": "How does the Core navigate without boundary wires?",
+            "answer": "<p>No trenches. No wires. The Core reads your property through RTK GPS positioning, binocular vision, and multi sensor fusion, holding a line to within centimeters even beneath dense tree cover, where lesser systems lose their way. Your boundaries exist entirely in software, mapped once and respected forever.</p>",
+            "icon": "none"
+          }
+        },
+        "question_8KCdGW": {
+          "type": "question",
+          "settings": {
+            "question": "What kind of terrain can the Core handle?",
+            "answer": "<p>Estates are rarely flat, and the Core was engineered accordingly. Its tracked, all-terrain chassis climbs grades up to 70% (35 degrees), ground that stops wheeled machines outright, and tows up to 3,500 lbs of rolling weight when the job calls for it. Slopes, transitions, difficult corners, all handled without hesitation.</p>",
+            "icon": "none"
+          }
+        },
+        "question_EcA6Mx": {
+          "type": "question",
+          "settings": {
+            "question": "How many modules can I run on one Core?",
+            "answer": "<p>One Core, every season. It supports the entire Yarbo lineup, Lawn Mower Pro, Snow Blower, and Leaf Blower, so your estate transitions from spring to winter without ever needing a second machine. Swap modules in minutes and let the Core carry the intelligence forward.</p>",
+            "icon": "none"
+          }
+        },
+        "question_BQYmLz": {
+          "type": "question",
+          "settings": {
+            "question": "What happens if the Core encounters an obstacle?",
+            "answer": "<p>Vision, RTK positioning, and real time obstacle detection work together continuously, identifying pets, toys, or furniture and routing around them before they’re ever a concern. Your property, and everyone on it, stays protected while the Core works.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JjXiyk": {
+          "type": "question",
+          "settings": {
+            "question": "How does the Core handle rain or bad weather?",
+            "answer": "<p>Weather never interrupts the standard. Intelligent rain sensors and industrial grade IPX waterproofing let the Core sense a storm approaching, return to its dock, and wait it out in shelter, then resume exactly where it left off the moment conditions allow.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JxkamV": {
+          "type": "question",
+          "settings": {
+            "question": "What kind of support do I get after purchase?",
+            "answer": "<p>Ownership here means more than a warranty. Yard Automation Pros pairs Yarbo’s 2 year manufacturer warranty on defective parts with our own US based support team, on hand for mapping, setup, and the seasonal details that keep an estate running the way it should.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "question_nCTWbR",
+        "question_69jhiF",
+        "question_8KCdGW",
+        "question_EcA6Mx",
+        "question_BQYmLz",
+        "question_JjXiyk",
+        "question_JxkamV"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "heading": "Expert Q&A: The Foundation of Your Autonomous Estate",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "small",
+        "icon_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_custom_liquid_ycY40pCompare",
+    "dynamic_rich_text_6DzttH",
+    "blocks_swipe_yc",
+    "dynamic_custom_liquid_ycNav",
+    "dynamic_custom_liquid_ycEngineered",
+    "1770171007f1eebbc5",
+    "dynamic_custom_liquid_ycTowing",
+    "sticky_feature_NBwTCm",
+    "dynamic_image_with_text_A8Mdri",
+    "dynamic_custom_liquid_ycVideoOverride",
+    "video_section_qfhVzY",
+    "dynamic_image_with_text_iDXtgW",
+    "dynamic_custom_liquid_ycApp",
+    "dynamic_featured_collection_WbgkFp",
+    "blocks_UQPdh3",
+    "blocks_whyyap",
+    "dynamic_custom_liquid_ycWhyShop",
+    "1789586298bea2854f",
+    "dynamic_highlights_banner_yc",
+    "blocks_H8tBfT",
+    "recommendations",
+    "recently-viewed",
+    "178784317865f92603",
+    "dynamic_faq_8AUh7M"
+  ]
+}
