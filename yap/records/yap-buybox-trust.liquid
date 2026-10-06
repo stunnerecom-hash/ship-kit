@@ -1,0 +1,82 @@
+{%- comment -%}
+  YAP standard buy box trust block (Oct 2026 site fixes).
+  Rendered by snippets/product.liquid in place of any legacy "text" block that still
+  carries the old "Call Now To Order" copy. Editing a block's text in the theme editor
+  so it no longer contains that phrase shows the editor text again.
+
+  Facts come from the Call Desk facts file (snippets/yd-facts.liquid):
+  delivery lines are the confirmed lead times; financing is the approved wording.
+  Beatbot and HOBOT have no confirmed delivery line, so none is shown.
+
+  Shipping line for Shopify Collective brands (WYBOT, Beatbot) is left blank on purpose
+  until the test order confirms what checkout charges. Set collective_ship_line then.
+  Non Collective products use the General shipping profile: $0, contiguous US only.
+{%- endcomment -%}
+{%- liquid
+  assign collective_ship_line = ''
+  assign v = product.vendor | downcase
+  assign suffix = product.template_suffix | default: ''
+
+  assign is_collective = false
+  if product.tags contains 'Shopify Collective'
+    assign is_collective = true
+  endif
+
+  assign ship_line = 'within the contiguous US'
+  if is_collective
+    assign ship_line = collective_ship_line
+  endif
+
+  assign delivery = ''
+  case v
+    when 'yarbo'
+      assign delivery = 'usually delivered in 10 to 14 days'
+    when 'mowrator'
+      assign delivery = 'usually delivered in 7 to 10 business days'
+    when 'aiper'
+      assign delivery = 'usually delivered in 10 to 14 business days'
+    when 'betta'
+      assign delivery = 'ships in 1 to 2 business days, then 1 to 6 days in transit'
+    when 'wybot'
+      assign delivery = 'processed within 2 business days, then 3 to 7 business days in transit'
+  endcase
+
+  assign warranty = ''
+  case v
+    when 'wybot'
+      assign warranty = 'WYBOT manufacturer warranty, 1 or 2 years by model'
+    when 'beatbot'
+      assign warranty = 'Beatbot manufacturer warranty, 2 or 3 years by model'
+    when 'betta'
+      assign warranty = '1 year Betta warranty'
+  endcase
+
+  assign kit_label = ''
+  assign kit_text = ''
+  case suffix
+    when 'yarbo-all-3-modules'
+      assign kit_label = 'Complete system'
+      assign kit_text = 'Core plus all 3 modules, nothing left to add'
+    when 'yarbo-leaf-blower-bundle'
+      assign kit_label = 'Complete system'
+      assign kit_text = 'Core plus Leaf Blower Module, no separate purchase needed'
+    when 'yarbo-snow-blower-bundle'
+      assign kit_label = 'Complete system'
+      assign kit_text = 'Core plus Snow Blower Module, no separate purchase needed'
+    when 'yarbo-snow-leaf-bundle'
+      assign kit_label = 'Complete system'
+      assign kit_text = 'Core plus Snow Blower and Leaf Blower Modules together'
+    when 'yarbo-leaf-module-standalone'
+      assign kit_label = 'Requires a Yarbo Core'
+      assign kit_text = 'this module attaches to a Core you already own'
+  endcase
+-%}
+<p><a href="tel:+14239273776"><em><strong>Buy online, or talk it through with our team first.</strong></em></a></p>
+<p>
+  {%- if kit_label != blank -%}✓ <strong>{{ kit_label }}</strong>: {{ kit_text }}<br/>{%- endif -%}
+  {%- if ship_line != blank -%}✓ <strong>Free shipping</strong>: {{ ship_line }}<br/>{%- endif -%}
+  {%- if delivery != blank -%}✓ <strong>Delivery</strong>: {{ delivery }}<br/>{%- endif -%}
+  {%- if warranty != blank -%}✓ <strong>Warranty</strong>: {{ warranty }}<br/>{%- endif -%}
+  ✓ <strong>Flexible financing</strong>: Shop Pay Installments at checkout, rates from 0 to 36% APR, subject to an eligibility check<br/>
+  ✓ <strong>Questions?</strong> Call <a href="tel:+14239273776">(423) 927-3776</a>, Monday to Friday, 9am to 5pm EST
+</p>
