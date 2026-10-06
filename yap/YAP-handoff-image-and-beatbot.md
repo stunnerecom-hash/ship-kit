@@ -6,6 +6,48 @@ Read this whole file before touching anything.
 
 ---
 
+## 0. Start here (updated 2026-10-06, second session)
+
+**Step 0:** test network access first: `curl -sS -o /dev/null -w "%{http_code}\n" https://<host>/` for yardautomationpros.com, cdn.shopify.com, beatbot.com, wybotpool.com, mowrator.com, aiper.com, yarbo.com. `000` with "CONNECT tunnel failed, response 403" means the environment's network policy still blocks it. Stop and tell Afo which hosts are blocked. In the second session all seven were blocked, and GitHub, raw.githubusercontent.com and storage.googleapis.com worked.
+
+**Afo's standing approval for the open work (given 2026-10-06):** do all of tasks 1 to 4 and 6 below in one run without stopping to ask. Stop only if a change would put something false on the site, break checkout or delete something. This replaces rule 2 in section 1 for this work. Save a before/after record of every live change in `yap/records/`.
+
+**Task 5 (text clean-up) is DONE.** It was verified still in place at the end of session 2. Do not redo it. See section 3b.
+
+### Open work, in order
+
+| # | Task | Where it is described |
+|---|---|---|
+| 1 | Wrong images: Yarbo T-shirt (cap file), Trimmer Line Spool (mount file). Then scan all 160 products for other mismatches. | 4.1 |
+| 2 | Bundle images: every Y40 and Y40P bundle, plus the Y40P Lawn Mower Pro Module, gets a main image showing what is included. Real Yarbo photos only, no AI images. **Also add the "Complete system" kit lines to the `yap-y40` and `yap-y40p` bundle templates in the draft** (pattern: the `kit_label` / `kit_text` cases in `snippets/yap-buybox-trust.liquid`). | 4.2 |
+| 3 | Thin galleries: 51 single-photo products, Wide Wheels Edition first. 3 to 4 images per machine and 2 or more per accessory where official images exist. List any that have none. | 4.3 |
+| 4 | Beatbot full rebuild (rules below) | 4.4 |
+| 6 | Full preview check, then GO or NO-GO | 0.2 |
+
+### 0.1 Beatbot rules added by Afo (on top of 4.4)
+- The `beatbot`, `bb-*` and `bt-*` files are off limits as reference. Study `yap-y40`, `yap-y40p`, `yarbo-all-3-modules`, `yap-mowrator`, `yap-aiper` and `hobot` and match that design system exactly.
+- **New Beatbot copy goes into metafields that only the new `yap-beatbot` template reads.** Do not overwrite the live Beatbot `descriptionHtml`, so live pages don't change until Afo publishes. Suggested namespace `yap_bb` (for example `yap_bb.hero`, `yap_bb.benefits`, `yap_bb.specs`, `yap_bb.faq`). Check that no current template reads the namespace you pick.
+- Include a choosing guide and FAQs. State the warranty exactly as Beatbot's official warranty page does.
+- Add the delivery line **only if Beatbot's official shipping page states it**. Otherwise leave it off.
+- Upgrade every Beatbot gallery with official Beatbot images. Look at each one and write alt text.
+- Build `/collections/beatbot` to match `/collections/wybot` and `/collections/aiper`, and add a Beatbot tile to the homepage "brands we carry" section in the draft.
+- **Assign `yap-beatbot` to the 10 Beatbot products only after the draft preview shows it working.** Template assignment is live. Write down the exact time you do it.
+- The 10 Beatbot SEO descriptions still say "continental US". When you change them, send title and description together.
+
+### 0.2 Task 6 preview check
+On `?preview_theme_id=188829761840`, load every in-use template (`betta`, `hobot`, `wybot`, `yap-aiper`, `yap-aiper-accessory`, `yap-mowrator`, `yap-mowrator-accessory`, `yap-y40`, `yap-y40p`, `yap-yarbo-accessory`, plus the new `yap-beatbot`). Also load all 10 Beatbot products, `/collections/beatbot`, the homepage, one collection page, `/cart`, `/pages/support` and `/pages/faqs`. Check each at desktop and mobile width (Playwright with Chromium is preinstalled, `executablePath: '/opt/pw-browsers/chromium'`).
+Look for: Liquid errors, broken images, missing buy buttons, "Call Now To Order!", restocking fee wording (known: `sections/yi-support.liquid` says "15% restocking fee"), any "warehouse" or "every inquiry" text, and mobile layout breaks. Fix what's broken in the draft, then report GO or NO-GO.
+
+### 0.3 Still on hold (do not do)
+Publishing the theme. The refund policy (Afo edits it by hand). The standard shipping line A/B/C and the Collective shipping profile (waiting on Afo's checkout test). Compare-at on the 6 Yarbo trimmer bundles.
+
+### 0.4 How to push theme files (learned in session 2)
+- `themeFilesUpsert` accepts `body: {type: URL, value: <url>}`. Commit the edited file to this repo (public), then pass the `raw.githubusercontent.com/stunnerecom-hash/ship-kit/<commit sha>/...` URL, pinned to the commit. The job is asynchronous: poll `job(id){done}`, then compare `checksumMd5` with your local `md5sum`. This avoids pasting large files into tool calls.
+- `bulkOperationRunMutation` is blocked by the connector. Large product edits have to go one `productUpdate` per product. Generate the payloads with a script, then verify by re-reading and comparing them in a script.
+- Staged uploads to `shopify-staged-uploads.storage.googleapis.com` work. That could carry image files if a supplier CDN stays blocked but you have the files some other way.
+
+---
+
 ## 1. Rules (unchanged from the original brief, plus what Afo added)
 
 1. **Read the brand files first** (Google Drive, owner wholesale@yardautomationpros.com):
@@ -50,6 +92,23 @@ Draft theme only:
 - New `snippets/yap-buybox-trust.liquid` and a hook in `snippets/product.liquid` replace the old "Buy Online Or Call Now To Order!" buy box copy on all 48 product templates.
 - "Shipping shown at checkout" text for Yarbo parts and HOBOT corrected in `snippets/yc-copy.liquid`, `sections/yi-support.liquid`, `templates/page.yap-faq.json`, `snippets/yd-facts.liquid`.
 - `yd-facts`: Yarbo lead time saved as confirmed ("Usually delivered in 10 to 14 days, from Yarbo's US warehouses after payment"). Note: `yd-facts.liquid` says it is generated by `build-calldesk.js` from `yd-src/`; that source is not in Shopify. Whoever owns `yd-src` must make the same change or the next build reverts it.
+
+## 3b. Done in session 2 (2026-10-06): Task 5 text clean-up
+
+Records for rollback are in `yap/records/`.
+
+Live:
+- 18 WYBOT SEO descriptions: "Free shipping in the contiguous US." became "Free shipping in the contiguous US, except Rhode Island." Titles were sent unchanged. Record: `wybot-seo-rhode-island-2026-10-06.json`.
+- `/pages/faqs` page body: the Affirm 0% APR financing question was removed. The slope answer now uses product data: Yarbo Y40/Y40P 70% (35°); Mowrator S1 4WD 75% (37°) standard, 85% (40°) Wide Wheels, 119% (50°) Grip Tread; S1 2WD 45% (24°). Record: `faqs-page-body-2026-10-06.json`.
+- Blog: "continental" became "contiguous" in `wybot-vs-aiper-vs-betta` and `what-is-a-pool-skimmer-basket-vs-robotic-solar-skimmer`. "from U.S. warehouses" was removed from 5 Yarbo articles. Record: `blog-articles-contiguous-warehouse-2026-10-06.json`.
+- 38 Yarbo and Mowrator products: warehouse wording was removed from `descriptionHtml`, `custom.shipping_information`, `custom.product_information`, `custom.key_features` and `custom.product_hero`. Record: `product-warehouse-wording-2026-10-06.json`.
+- A store-wide product search for warehouse, continental or "every inquiry" now returns nothing.
+
+Draft theme (44 files; copies in `records/draft-theme-188829761840/`; see its README):
+- "every inquiry within 1 business day" became "We reply to emails within 1 business day" in every template.
+- The FAQ tracking answer now says "after your order has shipped". The contact hint now says "once your order ships". All other customer-facing warehouse wording is gone. Legacy hidden buy box lines "Ships From Stock" and "In Stock" now say "Ships Direct".
+- `page.faq.json` (unused): the Affirm answer was removed and the slopes were fixed.
+- Kept on purpose: `sections/yp-supplier.liquid` asks suppliers about their own US warehouse, and the `source` note in `yd-facts`.
 
 ## 4. Open work for this session
 
@@ -121,6 +180,11 @@ Steps:
 - Return condition: FAQ, Support Center and `yd-facts` say returns must be "unopened and unused". Not in the policy summary Afo gave.
 - `snippets/yc-copy.liquid`: "Yarbo accessories and merchandise bought on their own, within 14 days" (policy says 30 days).
 - Mowrator copy describes a person driving the mower by remote. That is what the product is, but it conflicts with the no-visible-operator rule; Afo should decide how to phrase it.
-- `templates/product.yap-y40p.json` (assigned to all 19 Y40P products, so live) says support "responds to every inquiry within 1 business day". Not a confirmed fact; the Support Center comment says this kind of response-time promise was removed elsewhere as unverified.
+- ~~`templates/product.yap-y40p.json` "responds to every inquiry within 1 business day"~~: fixed in the draft (now "We reply to emails within 1 business day").
+- **Found in session 2, needs Afo or the image pass:**
+  - Blog `robot-mowers-large-properties-how-to-choose` has an inline image `4WD_RCLM_2.webp` with the alt text "Person relaxing controlling mower via remote". It likely breaks the no-operator rule. Look at it during Task 1 and swap it.
+  - Blog `yarbo-lawn-mower-pro-review` says YAP is "an authorized online dealer" for Yarbo. Section 1 rule 7 says no. Left for Afo to confirm. It also quotes "$5,999", which may be stale.
+  - Blog `what-is-the-yarbo-core-...` lists "Weight: 28 lbs" and a "Haul Module", and says "Ships within 3 to 5 business days". These look wrong next to the product data (10 to 14 days). Check them against Yarbo's site.
+  - `/pages/faqs` body still says "Free freight shipping is included on robot mowers, snow blowers, and pool cleaners". For WYBOT and Beatbot this depends on the checkout test.
 - About 30 older templates that **no product currently uses** carry a Judge.me grid with `show_sample_reviews: true`, "100% American Owned and Operated", "30-Day Satisfaction Promise" and the 1 business day promise. Harmless while unassigned; do not assign any of them to a product without cleaning them first. In-use templates: `beatbot`, `betta`, `hobot`, `wybot`, `yap-aiper`, `yap-aiper-accessory`, `yap-mowrator`, `yap-mowrator-accessory`, `yap-y40`, `yap-y40p`, `yap-yarbo-accessory`.
 - WYBOT bundle titles use "Bundle-" with a hyphen, and one has a double space ("Bundle-S2  & F1").
